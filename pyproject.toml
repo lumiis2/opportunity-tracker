@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opportunity-calendar"
+version = "0.1.0"
+description = "Convert academic opportunity CSV files into ICS calendar files."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "typer>=0.12",
+  "pandas>=2.0",
+  "ics>=0.7",
+  "pydantic>=2.0",
+]
+
+[project.scripts]
+opportunity-calendar = "src.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

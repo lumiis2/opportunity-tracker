@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260916
+DESCRIPTION:Mitacs\nCanada\nLink
+SUMMARY:🚨 Mitacs Globalink Research Internship Deadline
+UID:e6d694ed-1b80-4ac3-836b-5b8717a35413@e6d6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260901
+DESCRIPTION:Expected deadline month:\nOctober\n\nVerify official dates.
+SUMMARY:🔍 Check University of Alberta Research Experience (UARE)
+UID:6a05dd2a-b823-4761-b2e9-efbe4d368613@6a05.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261216
+DESCRIPTION:ETH Zurich\nSwitzerland\nLink
+SUMMARY:🚨 ETH Zurich Student Summer Research Fellowship (ETH SSRF) Deadline
+UID:e4169ede-b8c3-4be4-a438-a5c2fb586741@e416.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261129
+DESCRIPTION:EPFL\nSwitzerland\nLink
+SUMMARY:🚨 Summer@EPFL Fellowship Deadline
+UID:b0447e4a-94b1-4b75-94aa-b090ef46edac@b044.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261201
+DESCRIPTION:Expected deadline month:\nJanuary\n\nVerify official dates.
+SUMMARY:🔍 Check Mila Undergraduate Summer Research Internship
+UID:5fdfc6b0-dadd-46f0-87ba-0aceb497c910@5fdf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261201
+DESCRIPTION:Expected deadline month:\nJanuary\n\nVerify official dates.
+SUMMARY:🔍 Check CERN Openlab Summer Student Programme
+UID:a0c951f1-5f0b-40ca-9c9c-f1ae6a4bb4f9@a0c9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+DESCRIPTION:Expected deadline month:\nNovember\n\nVerify official dates.
+SUMMARY:🔍 Check DAAD RISE Germany
+UID:82b65fa2-396b-4733-a7c0-b57f099ecce8@82b6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260501
+DESCRIPTION:Expected deadline month:\nJune\n\nVerify official dates.
+SUMMARY:🔍 Check RIKEN International Program Associate
+UID:93b3b4f2-3c1c-4eaf-b739-95dc9b034559@93b3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270201
+DESCRIPTION:Expected deadline month:\nMarch\n\nVerify official dates.
+SUMMARY:🔍 Check NUS Summer Research Programme
+UID:c45dad20-0c71-47c2-b24a-b86d3c7853a8@c45d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270401
+DESCRIPTION:Expected deadline month:\nMay\n\nVerify official dates.
+SUMMARY:🔍 Check AULP Mobility Program
+UID:796a4a7c-626f-479b-a28b-f0e602544000@796a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260501
+DESCRIPTION:Expected deadline month:\nJune\n\nVerify official dates.
+SUMMARY:🔍 Check MEXT Scholarship (Research Students)
+UID:993bca47-23c3-4e1a-b143-ca70109f57d5@993b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+DESCRIPTION:Expected deadline month:\nNovember\n\nVerify official dates.
+SUMMARY:🔍 Check DAAD Study Scholarships
+UID:6c97abb5-ce7e-404f-9771-8d016ff150fb@6c97.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260701
+DESCRIPTION:Expected deadline month:\nAugust\n\nVerify official dates.
+SUMMARY:🔍 Check Fulbright
+UID:21800b11-9cd5-488d-bc48-95d125a8f9c9@2180.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+DESCRIPTION:Expected deadline month:\nNovember\n\nVerify official dates.
+SUMMARY:🔍 Check Chevening
+UID:b9a9af05-ba6c-40c0-b4b4-945222c53a81@b9a9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261101
+DESCRIPTION:Expected deadline month:\nDecember\n\nVerify official dates.
+SUMMARY:🔍 Check Google Research Internships
+UID:18af1026-cbb3-443d-8210-074eb22770a0@18af.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261001
+DESCRIPTION:Expected deadline month:\nNovember\n\nVerify official dates.
+SUMMARY:🔍 Check Google DeepMind Internships
+UID:37f63b07-79de-42b6-81be-58eae528b44f@37f6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261201
+DESCRIPTION:Expected deadline month:\nJanuary\n\nVerify official dates.
+SUMMARY:🔍 Check Microsoft Research Internships
+UID:2fe5bbe9-2ca1-42fc-ae43-97ae2c978a35@2fe5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261101
+DESCRIPTION:Expected deadline month:\nDecember\n\nVerify official dates.
+SUMMARY:🔍 Check Meta AI Research Internships
+UID:1956dc9c-6b25-4eca-aae4-d7e68051db1b@1956.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+DESCRIPTION:Expected deadline month:\nFebruary\n\nVerify official dates.
+SUMMARY:🔍 Check Amazon Science Internships
+UID:cc43bbae-e104-4692-9a0e-437aee03e097@cc43.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270201
+DESCRIPTION:Expected deadline month:\nMarch\n\nVerify official dates.
+SUMMARY:🔍 Check EEML (Eastern European Machine Learning Summer School)
+UID:798dac55-8e83-4885-9372-b5c026981530@798d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261101
+DESCRIPTION:Expected deadline month:\nDecember\n\nVerify official dates.
+SUMMARY:🔍 Check TUM Practical Research Experience Program (PREP)
+UID:d4f3494b-c6c4-4da2-bd68-3aaa0bb92709@d4f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:National University of Singapore\nSingapore\nLink
+SUMMARY:🚨 National University of Singapore Non-Grading Exchange Program Deadline
+UID:51ac18a9-1985-46bc-bb3d-ffd849ce3660@51ac.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270201
+DESCRIPTION:Expected deadline month:\nMarch\n\nVerify official dates.
+SUMMARY:🔍 Check University of Amsterdam Summer School in AI and Machine Learning
+UID:ef8afb95-2de9-4a75-b012-fa3c6c383537@ef8a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261201
+DESCRIPTION:Expected deadline month:\nJanuary\n\nVerify official dates.
+SUMMARY:🔍 Check University of Toronto Data Sciences Institute SUDS Program
+UID:00a0c93a-99a1-43ce-84c4-e295c5e41309@00a0.org
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,255 @@
+Metadata-Version: 2.4
+Name: opportunity-calendar
+Version: 0.1.0
+Summary: Convert academic opportunity CSV files into ICS calendar files.
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.12
+Requires-Dist: pandas>=2.0
+Requires-Dist: ics>=0.7
+Requires-Dist: pydantic>=2.0
+
+# opportunity-calendar
+
+A small Python CLI for turning a CSV file of academic opportunities into an ICS calendar file that can be imported into Google Calendar.
+
+
+
+# Opportunity Tracker
+
+Track academic and professional opportunities in one place.
+
+Opportunity Tracker is an open-source project designed to help students organize, monitor, and plan applications for:
+
+* Research internships
+* Scholarships
+* Academic exchange programs
+* Summer schools
+* Conferences
+* Master's programs
+* PhD opportunities
+* Industry internships
+
+The project is primarily focused on Computer Science and AI-related opportunities, but its structure is flexible enough to support virtually any academic field.
+
+---
+
+## Motivation
+
+Students often discover opportunities too late, miss deadlines, or struggle to keep track of recurring application cycles.
+
+Many opportunities only announce dates a few months in advance, making long-term planning difficult.
+
+Opportunity Tracker aims to solve this problem by transforming curated opportunity databases into actionable calendars and reminders.
+
+coloc tbm q sites com oportunidades as vezes soa poluidos cheios de propaganda enviesados ou tentam sempre te vender algo e pesquisar na mao eh mt exaaaaaaaaaaaaaaaaustivo
+
+---
+
+## Current Status
+
+🚧 Early development (MVP)
+
+The current goal is intentionally simple:
+
+1. Maintain a structured database of opportunities.
+2. Generate calendar events from that database.
+3. Export calendars that can be imported into Google Calendar and other calendar applications.
+
+Future versions will add automation, discovery tools, and recommendation systems.
+
+---
+
+## Opportunity Categories
+
+### Research
+
+Examples:
+
+* Mitacs Globalink Research Internship
+* ETH SSRF
+* Summer@EPFL
+* DAAD RISE
+* CERN Openlab
+* Mila Research Internship
+
+### Academic Exchange
+
+Examples:
+
+* Erasmus+
+* AULP Mobility Program
+* University exchange programs
+
+### Scholarships
+
+Examples:
+
+* MEXT
+* Fulbright
+* DAAD Scholarships
+* Chevening
+
+### Industry
+
+Examples:
+
+* Google Research
+* DeepMind
+* Microsoft Research
+* NVIDIA Research
+* Meta AI
+* Amazon Science
+
+### Summer Schools
+
+Examples:
+
+* MLSS
+* EEML
+* Research schools and workshops
+
+### Graduate Programs
+
+Examples:
+
+* MSc programs
+* PhD programs
+* Visiting graduate opportunities
+
+### Conferences
+
+Examples:
+
+* NeurIPS
+* ICML
+* ICLR
+* CVPR
+* ACL
+* ISMIR
+
+---
+
+## Project Structure
+
+The project is centered around curated datasets.
+
+```text
+data/
+├── graduation_opportunities.csv
+├── masters_programs.csv
+├── conferences.csv
+```
+
+These datasets act as the single source of truth.
+
+The application transforms them into calendars, reminders, and future recommendation systems.
+
+---
+
+## MVP Roadmap
+
+### Phase 1
+
+* Structured opportunity database
+* CSV support
+* Calendar generation
+* ICS export
+
+### Phase 2
+
+* Deadline reminders
+* Estimated deadline tracking
+* Automatic "check opportunity" events
+
+### Phase 3
+
+* Web dashboard
+* Opportunity filtering
+* Search and categorization
+
+### Phase 4
+
+* Automated opportunity discovery
+* Website monitoring
+* Deadline change detection
+
+### Phase 5
+
+* AI-assisted opportunity recommendations
+* Personalized ranking
+* Career-stage planning
+
+---
+
+## Example Workflow
+
+```text
+Opportunity Database
+        ↓
+Calendar Generator
+        ↓
+ICS Calendar
+        ↓
+Google Calendar
+```
+
+For opportunities with confirmed deadlines:
+
+```text
+ETH SSRF Deadline
+December 15, 2026
+```
+
+For opportunities without confirmed dates:
+
+```text
+Check Mitacs
+Expected application cycle: September
+Verify official dates
+```
+
+---
+
+## Long-Term Vision
+
+Opportunity Tracker aims to become a centralized platform for discovering and tracking academic opportunities worldwide.
+
+The goal is to help students plan their academic careers proactively instead of reacting to opportunities after deadlines have already passed.
+
+---
+
+## Contributing
+
+Contributions, suggestions, and opportunity submissions are welcome.
+
+This project is still in its early stages and will evolve over time.
+
+---
+
+
+
+## Project structure
+
+- `data/graduation_opportunities.csv`: input CSV sample
+- `src/models.py`: Pydantic models
+- `src/parser.py`: CSV parsing entry points
+- `src/calendar_generator.py`: ICS generation entry points
+- `src/cli.py`: Typer CLI
+- `output/`: generated calendar files
+
+## Setup with uv
+
+Install dependencies:
+
+```bash
+uv sync
+```
+
+## Run the CLI
+
+```bash
+uv run opportunity-calendar generate
+```
+
+The default output file is `output/graduation.ics`.

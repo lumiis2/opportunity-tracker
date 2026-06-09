@@ -1,6 +1,8 @@
-# Opportunity Tracker
+<p align="center">
+  <img src="banner.png" alt="Opportunity Tracker Banner" width="100%">
+</p>
 
-**Track opportunities. Plan ahead. Never miss a deadline.**
+---
 
 Opportunity Tracker is an open-source project designed to help students organize, monitor, and plan applications for academic and professional opportunities throughout their careers.
 

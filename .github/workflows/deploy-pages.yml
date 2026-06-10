@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
@@ -35,6 +35,12 @@ jobs:
 
       - name: Show public contents
         run: ls -la public || true
+
+      - name: Debug environment
+        run: |
+          python --version || true
+          which opportunity-calendar || true
+          opportunity-calendar --help || true
 
       - name: Deploy `public/` to GitHub Pages (gh-pages branch)
         uses: peaceiris/actions-gh-pages@v3

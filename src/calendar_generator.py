@@ -32,18 +32,22 @@ def build_calendar(
 def build_calendar_report(
     opportunities: Iterable[Opportunity],
     reference_date: Optional[date] = None,
+    lead_months: int = 1,
 ) -> CalendarGenerationReport:
     """Build an ICS calendar and count created event types."""
 
     if reference_date is None:
         reference_date = date.today()
 
+    if lead_months < 0:
+        raise ValueError("lead_months must be >= 0")
+
     events = []
     deadline_events = 0
     check_events = 0
     calendar = Calendar()
     for opportunity in opportunities:
-        event, event_type = _build_event(opportunity, reference_date)
+        event, event_type = _build_event(opportunity, reference_date, lead_months=lead_months)
         if event is not None:
             events.append(event)
             if event_type == "deadline":
@@ -82,15 +86,52 @@ def save_calendar(calendar: Calendar, output_path: Path) -> Path:
     return output_path
 
 
+def process_dataset(csv_path: Path, output_path: Path, lead_months: int = 1) -> tuple[int, int, int]:
+    """Parse a CSV file, build a calendar and save it.
+
+    Returns a tuple `(loaded_count, deadline_events, check_events)`.
+    The function is resilient: if the CSV is empty it still writes an empty calendar.
+    """
+
+    from .parser import parse_opportunities
+
+    opportunities = parse_opportunities(csv_path) if csv_path.exists() else []
+    report = build_calendar_report(opportunities, lead_months=lead_months)
+    save_calendar(report.calendar, output_path)
+    return len(opportunities), report.deadline_events, report.check_events
+
+
+def process_all(registry: dict[Path, Path], lead_months: int = 1) -> dict[Path, tuple[int, int, int]]:
+    """Process every dataset in `registry`.
+
+    Returns a mapping from output path -> stats tuple as returned by `process_dataset`.
+    Continues processing on errors and records zero counts for missing inputs.
+    """
+
+    results: dict[Path, tuple[int, int, int]] = {}
+    for csv_path, output_path in registry.items():
+        try:
+            loaded, dl, ch = process_dataset(csv_path, output_path, lead_months=lead_months)
+        except Exception:
+            # On any error, write an empty calendar so consumers have a file.
+            save_calendar(Calendar(), output_path)
+            results[output_path] = (0, 0, 0)
+        else:
+            results[output_path] = (loaded, dl, ch)
+
+    return results
+
+
 def _build_event(
     opportunity: Opportunity,
     reference_date: date,
+    lead_months: int = 1,
 ) -> tuple[Optional[Event], str]:
     if opportunity.application_deadline is not None:
         return _build_deadline_event(opportunity), "deadline"
 
     if opportunity.expected_deadline_month is not None:
-        return _build_expected_deadline_event(opportunity, reference_date), "check"
+        return _build_expected_deadline_event(opportunity, reference_date, lead_months=lead_months), "check"
 
     return None, "ignored"
 
@@ -110,9 +151,9 @@ def _build_deadline_event(opportunity: Opportunity) -> Event:
     return event
 
 
-def _build_expected_deadline_event(opportunity: Opportunity, reference_date: date) -> Event:
+def _build_expected_deadline_event(opportunity: Opportunity, reference_date: date, lead_months: int = 1) -> Event:
     reminder_date = _expected_deadline_reminder_date(
-        reference_date, opportunity.expected_deadline_month
+        reference_date, opportunity.expected_deadline_month, lead_months=lead_months
     )
     deadline_month_name = month_name[opportunity.expected_deadline_month]
     event = Event(f"🔍 Check {opportunity.program}")
@@ -129,12 +170,26 @@ def _build_expected_deadline_event(opportunity: Opportunity, reference_date: dat
     return event
 
 
-def _expected_deadline_reminder_date(reference_date: date, expected_deadline_month: int) -> date:
+def _expected_deadline_reminder_date(reference_date: date, expected_deadline_month: int, lead_months: int = 1) -> date:
+    """Return the date (first day) to remind the user before an expected deadline.
+
+    The reminder is placed on the first day of the month that is `lead_months`
+    before the expected deadline month. `lead_months=0` returns the first day
+    of the expected deadline month.
+    """
+
+    if lead_months < 0:
+        raise ValueError("lead_months must be >= 0")
+
+    # Determine the year for the expected deadline (could be next year)
     deadline_year = reference_date.year
     if expected_deadline_month < reference_date.month:
         deadline_year += 1
 
-    if expected_deadline_month == 1:
-        return date(deadline_year - 1, 12, 1)
+    # Convert to absolute month index (zero-based) to make arithmetic simple
+    abs_month = deadline_year * 12 + (expected_deadline_month - 1)
+    reminder_abs = abs_month - lead_months
+    reminder_year = reminder_abs // 12
+    reminder_month = (reminder_abs % 12) + 1
 
-    return date(deadline_year, expected_deadline_month - 1, 1)
+    return date(reminder_year, reminder_month, 1)

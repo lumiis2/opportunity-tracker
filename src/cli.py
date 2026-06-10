@@ -5,7 +5,8 @@ from pathlib import Path
 
 import typer
 
-from .calendar_generator import build_calendar_report, save_calendar
+from .calendar_generator import build_calendar_report, save_calendar, process_all, process_dataset
+from .datasets import get_registry
 from .parser import parse_opportunities
 
 app = typer.Typer(help="Convert academic opportunity CSV files into ICS calendar files.")
@@ -21,51 +22,66 @@ def cli() -> None:
 
 @app.command()
 def generate(
+    all: bool = typer.Option(
+        True,
+        "--all/--no-all",
+        help="Generate calendars for all registered datasets (default: --all).",
+    ),
+    lead_months: int = typer.Option(
+        1,
+        "--lead-months",
+        "-l",
+        help="Number of months before an expected deadline to create a check reminder (default: 1).",
+    ),
     input_path: Path = typer.Option(
-        Path("data/graduation_opportunities.csv"),
+        None,
         "--input",
         "-i",
-        help="Path to the input CSV file.",
-        exists=True,
+        help="Path to a single input CSV file to process (overrides --all).",
+        exists=False,
         dir_okay=False,
         readable=True,
         resolve_path=False,
     ),
     output_path: Path = typer.Option(
-        Path("output/graduation.ics"),
+        None,
         "--output",
         "-o",
-        help="Path to the output ICS file.",
+        help="Path to a single output ICS file to write when using --input.",
         exists=False,
         dir_okay=False,
         writable=True,
         resolve_path=False,
     ),
 ) -> None:
-    """Generate an ICS calendar from the input CSV file."""
+    """Generate ICS calendars.
+
+    By default (no flags) this generates calendars for every dataset in the
+    dataset registry. Use `--no-all --input <csv> --output <ics>` to process a
+    single file and preserve backward compatibility.
+    """
 
     try:
-        logger.info("Loading opportunities from %s", input_path)
-        opportunities = parse_opportunities(input_path)
-        logger.info("Loaded %s opportunities", len(opportunities))
+        if input_path and output_path:
+            # single-file mode
+            logger.info("Processing single dataset %s", input_path)
+            loaded, dl, ch = process_dataset(input_path, output_path, lead_months=lead_months)
+            typer.echo(f"Loaded {loaded} opportunities")
+            typer.echo(f"Generated {output_path.name}")
+            return
 
-        report = build_calendar_report(opportunities)
-        logger.info("Created %s deadline events", report.deadline_events)
-        logger.info("Created %s check events", report.check_events)
+        # default: process all registered datasets
+        registry = get_registry()
+        results = process_all(registry, lead_months=lead_months)
 
-        generated_path = save_calendar(report.calendar, output_path)
+        total_loaded = sum(loaded for (loaded, _, _) in results.values())
+        typer.echo(f"Loaded {total_loaded} opportunities")
 
-        typer.echo(f"Loaded {len(opportunities)} opportunities")
-        typer.echo(f"Created {report.deadline_events} deadline events")
-        typer.echo(f"Created {report.check_events} check events")
-        typer.echo("Saved:")
-        typer.echo(str(generated_path))
-    except FileNotFoundError as exc:
-        logger.exception("Input file could not be found")
-        typer.secho(f"Error: {exc}", err=True, fg=typer.colors.RED)
-        raise typer.Exit(code=1)
+        for output_path, stats in results.items():
+            typer.echo(f"Generated {output_path.name}")
+
     except Exception as exc:  # pragma: no cover - safety net for CLI errors
-        logger.exception("Unexpected error while generating the calendar")
+        logger.exception("Unexpected error while generating the calendar(s)")
         typer.secho(f"Error: {exc}", err=True, fg=typer.colors.RED)
         raise typer.Exit(code=1)
 

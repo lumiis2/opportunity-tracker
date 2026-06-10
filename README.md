@@ -268,18 +268,24 @@ Ultimately, the project aims to become a personal opportunity management system 
 opportunity-tracker/
 
 ├── data/
-│   └── graduation_opportunities.csv
+│   ├── graduation_opportunities.csv
+│   ├── master_programs.csv
+│   └── conferences.csv
+│
+├── public/
+│   └── index.html
 │
 ├── src/
+│   ├── cli.py
 │   ├── models.py
 │   ├── parser.py
 │   ├── calendar_generator.py
-│   └── cli.py
+│   └── ...
 │
 ├── output/
 │
+├── tests/
 ├── pyproject.toml
-│
 └── README.md
 ```
 
@@ -310,6 +316,40 @@ output/graduation.ics
 ```
 
 The generated calendar can be imported into Google Calendar, Apple Calendar, Outlook, and other calendar applications.
+
+Multiple datasets
+-----------------
+
+## Publishing
+
+This repository can automatically publish the contents of the `public/` directory to GitHub Pages.
+
+- Deploys only from the `main` branch (GitHub Actions triggers on `push` to `main`).
+- The site root is the contents of the repository's `public/` directory — files placed there are published as-is.
+- Generated `.ics` files and `index.html` are preserved and will be available at the Pages site URL.
+
+After a successful deployment the files will be reachable at your repository Pages URL, for example:
+
+```
+https://<your-github-username>.github.io/<your-repository>/graduation.ics
+https://<your-github-username>.github.io/<your-repository>/masters.ics
+https://<your-github-username>.github.io/<your-repository>/conferences.ics
+```
+
+Replace `<your-github-username>` and `<your-repository>` with your account and repo name.
+
+## Subscribe via Google Calendar
+
+You can subscribe to any of the generated calendar files using Google Calendar's "Add calendar by URL" feature:
+
+1. Locate the ICS file URL on your Pages site (see examples above).
+2. Open Google Calendar in a browser.
+3. On the left under "Other calendars" click the plus sign (+) and choose "From URL".
+4. Paste the ICS URL and click "Add calendar".
+
+The calendar will be added to your Google Calendar and will update when the ICS file changes on the deployed site.
+
+You can place additional datasets into `data/` (for example `master_programs.csv` or `conferences.csv`). The current CLI defaults remain backward compatible and will generate the graduation ICS by default. In the future we may add subcommands or flags to generate calendars per dataset.
 
 ---
 

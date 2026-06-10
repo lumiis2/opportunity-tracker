@@ -1,4 +1,4 @@
-name: Build and deploy public/ to GitHub Pages
+name: Build & Publish public/ to GitHub Pages (official)
 
 on:
   push:
@@ -6,12 +6,14 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
   pages: write
+  id-token: write
 
 jobs:
-  build-and-deploy:
+  build-and-publish:
     runs-on: ubuntu-latest
+    name: Build calendars and publish
 
     steps:
       - name: Checkout repository
@@ -20,34 +22,48 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install project
+      - name: Install project & dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -e .
 
       - name: Generate ICS calendars into public/
+        id: generate
         run: |
           mkdir -p public
-          # Generate all registered calendars into public/
           opportunity-calendar generate --lead-months 1
 
-      - name: Show public contents
-        run: ls -la public || true
-
-      - name: Debug environment
+      - name: Diagnostics - public/ listing
+        if: always()
         run: |
-          python --version || true
-          which opportunity-calendar || true
-          opportunity-calendar --help || true
+          echo "=== public/ listing ==="
+          ls -la public || true
+          echo "=== sizes ==="
+          du -sh public || true
+          echo "=== head of graduation.ics (if present) ==="
+          if [ -f public/graduation.ics ]; then head -n 40 public/graduation.ics; else echo "NO graduation.ics"; fi
 
-      - name: Deploy `public/` to GitHub Pages (gh-pages branch)
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Fail if public/ is empty
+        run: |
+          count=$(find public -type f | wc -l)
+          echo "files_in_public=$count"
+          if [ "$count" -eq "0" ]; then
+            echo "ERROR: 'public/' is empty. Aborting deployment."
+            exit 1
+          fi
+
+      - name: Upload pages artifact (official)
+        uses: actions/upload-pages-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          commit_message: "chore(pages): publish site from workflow"
-          allow_empty_commit: true
-          user_name: "github-actions[bot]"
-          user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          path: public
+
+      - name: Deploy to GitHub Pages (official)
+        id: deploy
+        uses: actions/deploy-pages@v1
+
+      - name: Deployment summary
+        if: always()
+        run: |
+          echo "Deployment finished; check Settings → Pages → Deployments and site URL."

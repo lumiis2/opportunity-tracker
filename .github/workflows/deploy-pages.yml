@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -55,13 +55,13 @@ jobs:
           fi
 
       - name: Upload pages artifact (official)
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages (official)
         id: deploy
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
 
       - name: Deployment summary
         if: always()

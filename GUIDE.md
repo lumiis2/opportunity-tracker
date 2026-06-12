@@ -26,8 +26,10 @@ Undergraduate research internships are structured, short-term positions where a 
 
 For undergraduates targeting competitive global spaces in AI/ML, an international research internship is often the single most influential component of their academic trajectory.
 
+```text
+
 ┌─────────────────────────────────────────────────────────┐
-│              Undergraduate Research Internship           │
+│              Undergraduate Research Internship          │
 └────────────────────────────┬────────────────────────────┘
 │ Yields
 ┌───────────────────────┼───────────────────────┐
@@ -36,6 +38,7 @@ For undergraduates targeting competitive global spaces in AI/ML, an internationa
 │ Letters of   │     │ Peer-Reviewed│      │ Direct Pipeline to │
 │ Rec (Top PIs)│     │ Publications │      │ Top MS/PhD Slots   │
 └──────────────┘     └──────────────┘      └────────────────────┘
+```
 
 ### Impact on Graduate School Admissions (MS/PhD)
 Top-tier graduate programs evaluate applicants on their proven capacity to execute independent research. An international internship provides objective validation that an elite global lab has already vetted your skills, trained you, and found your performance satisfactory. 
@@ -76,17 +79,19 @@ Admissions committees and principal investigators evaluate applicants across dis
 
 ## 4. Application Materials Checklist
 
+```text
+
 ┌────────────────────────────────────────────────────────────────────────┐
-│                      APPLICATION MATERIAL CHECKLIST                     │
+│                      APPLICATION MATERIAL CHECKLIST                    │
 ├────────────────────────────────────────────────────────────────────────┤
 │ [ ] Academic Research CV (Max 2 pages)                                 │
 │ [ ] Statement of Purpose / Cover Letter (Targeted to Lab Focus)        │
 │ [ ] Academic Transcripts (With certified English translation)          │
 │ [ ] 2 to 3 Letters of Recommendation (From research supervisors)       │
-│ [ ] Portfolio / GitHub Linkages (Showing clean, reproducible code)    │
-│ [ ] Passport (Valid for at least 6 months past internship end date)     │
+│ [ ] Portfolio / GitHub Linkages (Showing clean, reproducible code)     │
+│ [ ] Passport (Valid for at least 6 months past internship end date)    │
 └────────────────────────────────────────────────────────────────────────┘
-
+```
 
 ### Document-Specific Requirements
 
@@ -130,6 +135,8 @@ Secure **2 to 3 letters**. They should ideally come from:
 
 The evaluation process operates as a series of structural filters designed to reduce massive applicant pools into a small group of high-potential candidates.
 
+``` text
+
 [ Total Applicant Pool ]
 │
 ▼  Filter 1: Hard Cut-offs
@@ -144,6 +151,7 @@ The evaluation process operates as a series of structural filters designed to re
 ▼  Final Stage
 [ Supervisor Interview / Selection Committee Consensus ]
 
+```
 
 ### The Initial Filter
 Reviewers spend an average of 45 to 60 seconds on the first pass of an application. Profiles are filtered out instantly if:

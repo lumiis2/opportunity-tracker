@@ -80,15 +80,18 @@ class Opportunity(BaseModel):
 
     model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
 
-    category: str
-    subcategory: str
+    # Core fields - required for most datasets
     program: str
-    organization: str
     host_institution: str
     country: str
-    career_stage: str
-    funding_type: str
-    duration: str
+
+    # Optional metadata fields (different datasets may not have all of these)
+    category: Optional[str] = None
+    subcategory: Optional[str] = None
+    organization: Optional[str] = None
+    career_stage: Optional[str] = None
+    funding_type: Optional[str] = None
+    duration: Optional[str] = None
 
     application_open: Optional[date] = None
     application_deadline: Optional[date] = None
@@ -96,22 +99,16 @@ class Opportunity(BaseModel):
     expected_open_month: Optional[int] = None
     expected_deadline_month: Optional[int] = None
 
-    date_status: Literal["confirmed", "estimated", "historical", "unknown"]
-    deadline_confidence: Literal["high", "medium", "low"]
+    date_status: Literal["confirmed", "estimated", "historical", "unknown"] = "unknown"
+    deadline_confidence: Literal["high", "medium", "low"] = "low"
 
     official_website: Optional[str] = None
     notes: Optional[str] = None
 
     @field_validator(
-        "category",
-        "subcategory",
         "program",
-        "organization",
         "host_institution",
         "country",
-        "career_stage",
-        "funding_type",
-        "duration",
         mode="before",
     )
     @classmethod
@@ -123,9 +120,25 @@ class Opportunity(BaseModel):
             raise ValueError("field cannot be empty")
         return text
 
-    @field_validator("official_website", "notes", mode="before")
+    @field_validator(
+        "category",
+        "subcategory",
+        "organization",
+        "career_stage",
+        "funding_type",
+        "duration",
+        mode="before",
+    )
     @classmethod
     def normalize_optional_text(cls, value: Any) -> Optional[str]:
+        if value is None:
+            return None
+        text = str(value).strip()
+        return text or None
+
+    @field_validator("official_website", "notes", mode="before")
+    @classmethod
+    def normalize_optional_text_fields(cls, value: Any) -> Optional[str]:
         if value is None:
             return None
         text = str(value).strip()
@@ -165,7 +178,11 @@ class Opportunity(BaseModel):
                     return None
 
                 if field in {"application_open", "application_deadline"}:
-                    return date.fromisoformat(stripped)
+                    try:
+                        return date.fromisoformat(stripped)
+                    except ValueError:
+                        # If date parsing fails (e.g., "Estimated Dec-Jan"), return None
+                        return None
 
                 if field in {"expected_open_month", "expected_deadline_month"}:
                     month_value = stripped.lower()
@@ -173,13 +190,13 @@ class Opportunity(BaseModel):
                         return int(month_value)
                     if month_value in _MONTH_LOOKUP:
                         return _MONTH_LOOKUP[month_value]
-                    return stripped
+                    return None
 
                 if field == "date_status":
-                    return _DATE_STATUS_ALIASES.get(stripped.lower(), stripped.lower())
+                    return _DATE_STATUS_ALIASES.get(stripped.lower(), "unknown")
 
                 if field == "deadline_confidence":
-                    return _DEADLINE_CONFIDENCE_ALIASES.get(stripped.lower(), stripped.lower())
+                    return _DEADLINE_CONFIDENCE_ALIASES.get(stripped.lower(), "low")
 
                 return stripped
 

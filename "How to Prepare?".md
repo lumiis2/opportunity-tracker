@@ -10,6 +10,8 @@ This document serves as an actionable, step-by-step preparation manual for under
 
 To win a slot at a top-tier research lab or industry R&D division, you must understand how selection committees and Principal Investigators (PIs) grade applicants. They look for specific indicators across three core dimensions:
 
+```text
+
 ┌────────────────────────────────────────────────────────┐
 │               THE EVALUATION TRIANGLE                  │
 ├────────────────────────────────────────────────────────┤
@@ -22,7 +24,7 @@ To win a slot at a top-tier research lab or industry R&D division, you must unde
 │     [2] EXECUTION ◄─────────────► [3] ALIGNMENT        │
 │    (Research & Code)             (Letters & Fit)       │
 └────────────────────────────────────────────────────────┘
-
+```
 
 1. **Academics (The Gatekeeper):** Your GPA acts as an initial filter. Top-tier programs (e.g., ETH Zurich, University of Toronto, Max Planck Institutes) look for a GPA in the top 5% to 10% of your class cohort (typically **90+/100** or **3.8+/4.0**). Outstanding technical performance at a premier regional university carries massive institutional weight.
 2. **Execution (The Differentiator):** Proven ability to build and deliver. This includes multi-semester engagement with a local research lab, open-source code contributions, data engineering proficiency at scale (e.g., PySpark, distributed data architectures), and peer-reviewed workshop or conference papers.

@@ -1,0 +1,23 @@
+sheet_id: 1X9aMGn-l1KgrUDdIQ785psvy02tTyXfohgm9ydY9FGM
+timezone: UTC
+
+datasets:
+  graduation:
+    gid: 1015108866
+    output: graduation.ics
+    csv: graduation.csv
+
+  masters:
+    gid: 285761220
+    output: masters.ics
+    csv: masters.csv
+
+  industry:
+    gid: 821548725
+    output: industry.ics
+    csv: industry.csv
+
+  conferences:
+    gid: 1473405976
+    output: conferences.ics
+    csv: conferences.csv

@@ -31,9 +31,9 @@ For undergraduates targeting competitive global spaces in AI/ML, an internationa
 ┌─────────────────────────────────────────────────────────┐
 │              Undergraduate Research Internship          │
 └────────────────────────────┬────────────────────────────┘
-│ Yields
-┌───────────────────────┼───────────────────────┐
-▼                       ▼                       ▼
+                             │ Yields
+     ┌───────────────────────┼───────────────────────┐
+     ▼                       ▼                       ▼
 ┌──────────────┐     ┌──────────────┐      ┌────────────────────┐
 │ Letters of   │     │ Peer-Reviewed│      │ Direct Pipeline to │
 │ Rec (Top PIs)│     │ Publications │      │ Top MS/PhD Slots   │

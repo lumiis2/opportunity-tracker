@@ -1,1 +1,1 @@
-"""opportunity-calendar source package."""
+"""Source package for the opportunity calendar project."""

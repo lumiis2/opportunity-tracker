@@ -1,0 +1,4 @@
+pandas
+icalendar
+pyyaml
+requests

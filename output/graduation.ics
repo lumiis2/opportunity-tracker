@@ -1,0 +1,554 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Graduation Opportunities
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:5d34b783-aca3-d879-c936-1ee81b2f0f18@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Opens — Mitacs Globalink Research Internship
+DESCRIPTION:Program: Mitacs Globalink Research Internship\nOrganization: Mi
+ tacs\nHost Institution: Multiple Canadian Universities\nCountry: Canada\nT
+ arget Audience: Undergraduate\nFunding: Fully Funded\nFunding Details: Fli
+ ght\, visa\, housing\, food stipend\nSupervisor Match: No\nDuration: 12 we
+ eks\nApplication Effort: High\nTags: Link\nOfficial Website: Deep structur
+ al links with Brazil\; matches high GPA.
+DTSTART;VALUE=DATE:20260805
+URL:Deep structural links with Brazil\; matches high GPA.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:f049ace8-bb88-e527-0ef3-f8591dfe6c9e@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — Mitacs Globalink Research Internship
+DESCRIPTION:Program: Mitacs Globalink Research Internship\nOrganization: Mi
+ tacs\nHost Institution: Multiple Canadian Universities\nCountry: Canada\nT
+ arget Audience: Undergraduate\nFunding: Fully Funded\nFunding Details: Fli
+ ght\, visa\, housing\, food stipend\nSupervisor Match: No\nDuration: 12 we
+ eks\nApplication Effort: High\nTags: Link\nOfficial Website: Deep structur
+ al links with Brazil\; matches high GPA.
+DTSTART;VALUE=DATE:20260916
+URL:Deep structural links with Brazil\; matches high GPA.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:76681477-7c44-7b84-1be3-b9d081441dcf@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Mitacs Globalink Research Internship
+DESCRIPTION:Program: Mitacs Globalink Research Internship\nOrganization: Mi
+ tacs\nHost Institution: Multiple Canadian Universities\nCountry: Canada\nT
+ arget Audience: Undergraduate\nFunding: Fully Funded\nFunding Details: Fli
+ ght\, visa\, housing\, food stipend\nSupervisor Match: No\nDuration: 12 we
+ eks\nApplication Effort: High\nTags: Link\nOfficial Website: Deep structur
+ al links with Brazil\; matches high GPA.
+DTSTART;VALUE=DATE:20260801
+URL:Deep structural links with Brazil\; matches high GPA.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:141a934f-2dc3-95f0-cc43-7d7fe5173770@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — University of Alberta Research Exper
+ ience (UARE)
+DESCRIPTION:Program: University of Alberta Research Experience (UARE)\nOrga
+ nization: University of Alberta\nHost Institution: University of Alberta\n
+ Country: Canada\nTarget Audience: Undergraduate\nFunding: Mostly Funded\nF
+ unding Details: $6\,000 CAD award\nSupervisor Match: Helpful\nDuration: 12
+  weeks\nApplication Effort: Medium\nTags: Link\nOfficial Website: Formally
+  replaced WARI framework\; targets senior undergrads.
+DTSTART;VALUE=DATE:20260801
+URL:Formally replaced WARI framework\; targets senior undergrads.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7b1e99-88b2-2415-bf5f-cbeb7d65617d@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Opens — ETH Zurich Student Summer Research Fellowship
+  (ETH SSRF)
+DESCRIPTION:Program: ETH Zurich Student Summer Research Fellowship (ETH SSR
+ F)\nOrganization: ETH Zurich\nHost Institution: ETH Zurich\nCountry: Switz
+ erland\nTarget Audience: Undergraduate\, Graduate\nFunding: Fully Funded\n
+ Funding Details: CHF 4\,000 stipend + travel and visa reimbursement\nSuper
+ visor Match: No\nDuration: 2 months\nApplication Effort: High\nTags: Link\
+ nOfficial Website: Strict July-August timeline\; highly technical CV requi
+ red.
+DTSTART;VALUE=DATE:20261101
+URL:Strict July-August timeline\; highly technical CV required.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:abdf42b2-bcd0-28d3-1411-4e780e9b26d7@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — ETH Zurich Student Summer Research Fellows
+ hip (ETH SSRF)
+DESCRIPTION:Program: ETH Zurich Student Summer Research Fellowship (ETH SSR
+ F)\nOrganization: ETH Zurich\nHost Institution: ETH Zurich\nCountry: Switz
+ erland\nTarget Audience: Undergraduate\, Graduate\nFunding: Fully Funded\n
+ Funding Details: CHF 4\,000 stipend + travel and visa reimbursement\nSuper
+ visor Match: No\nDuration: 2 months\nApplication Effort: High\nTags: Link\
+ nOfficial Website: Strict July-August timeline\; highly technical CV requi
+ red.
+DTSTART;VALUE=DATE:20261216
+URL:Strict July-August timeline\; highly technical CV required.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1b63ce-4bb2-443d-e6ca-5df364fb97d5@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — ETH Zurich Student Summer Research F
+ ellowship (ETH SSRF)
+DESCRIPTION:Program: ETH Zurich Student Summer Research Fellowship (ETH SSR
+ F)\nOrganization: ETH Zurich\nHost Institution: ETH Zurich\nCountry: Switz
+ erland\nTarget Audience: Undergraduate\, Graduate\nFunding: Fully Funded\n
+ Funding Details: CHF 4\,000 stipend + travel and visa reimbursement\nSuper
+ visor Match: No\nDuration: 2 months\nApplication Effort: High\nTags: Link\
+ nOfficial Website: Strict July-August timeline\; highly technical CV requi
+ red.
+DTSTART;VALUE=DATE:20261101
+URL:Strict July-August timeline\; highly technical CV required.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:55d5f233-e663-ffaf-0309-14f325d4fea7@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — Summer@EPFL Fellowship
+DESCRIPTION:Program: Summer@EPFL Fellowship\nOrganization: EPFL\nHost Insti
+ tution: EPFL\nCountry: Switzerland\nTarget Audience: Undergraduate\, Gradu
+ ate\nFunding: Fully Funded\nFunding Details: CHF 1\,800/month stipend + ec
+ onomy round-trip airfare\nSupervisor Match: No\nDuration: 2-3 months\nAppl
+ ication Effort: High\nTags: Link\nOfficial Website: Focus areas perfectly 
+ align with multimodal learning.
+DTSTART;VALUE=DATE:20261129
+URL:Focus areas perfectly align with multimodal learning.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:79d970f7-8eec-e11f-c96d-240bd24b2636@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Summer@EPFL Fellowship
+DESCRIPTION:Program: Summer@EPFL Fellowship\nOrganization: EPFL\nHost Insti
+ tution: EPFL\nCountry: Switzerland\nTarget Audience: Undergraduate\, Gradu
+ ate\nFunding: Fully Funded\nFunding Details: CHF 1\,800/month stipend + ec
+ onomy round-trip airfare\nSupervisor Match: No\nDuration: 2-3 months\nAppl
+ ication Effort: High\nTags: Link\nOfficial Website: Focus areas perfectly 
+ align with multimodal learning.
+DTSTART;VALUE=DATE:20260901
+URL:Focus areas perfectly align with multimodal learning.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:526bce15-647e-c02c-2be4-9fed5baf2ef1@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Mila Undergraduate Summer Research I
+ nternship
+DESCRIPTION:Program: Mila Undergraduate Summer Research Internship\nOrganiz
+ ation: Mila\nHost Institution: Mila / UniversitÃ© de MontrÃ©al\nCountr
+ y: Canada\nTarget Audience: Undergraduate\nFunding: Mostly Funded\nFunding
+  Details: Competitive standard research stipend ($6k-$8k CAD)\nSupervisor 
+ Match: Helpful\nDuration: 12-16 weeks\nApplication Effort: High\nTags: Lin
+ k\nOfficial Website: Strategic option to combine via Mitacs GRI portal mat
+ ching.
+DTSTART;VALUE=DATE:20261001
+URL:Strategic option to combine via Mitacs GRI portal matching.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:5147cc25-2991-6b7a-064d-42bfeebe0d43@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — CERN Openlab Summer Student Programm
+ e
+DESCRIPTION:Program: CERN Openlab Summer Student Programme\nOrganization: C
+ ERN\nHost Institution: CERN\nCountry: Switzerland\nTarget Audience: Underg
+ raduate\, Graduate\nFunding: Fully Funded\nFunding Details: CHF 90 daily a
+ llowance + travel\, health insurance\nSupervisor Match: No\nDuration: 9 we
+ eks\nApplication Effort: High\nTags: Link\nOfficial Website: Brazil's asso
+ ciate state allows full student access.
+DTSTART;VALUE=DATE:20261101
+URL:Brazil's associate state allows full student access.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:38aa78d7-e689-7895-82e9-a302c1bd4171@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — DAAD RISE Germany
+DESCRIPTION:Program: DAAD RISE Germany\nOrganization: DAAD\nHost Institutio
+ n: Multiple German Universities\nCountry: Germany\nTarget Audience: Underg
+ raduate\nFunding: Fully Funded\nFunding Details: â¬934/month stipend +
+  health insurance + travel grant\nSupervisor Match: No\nDuration: 3 months
+ \nApplication Effort: High\nTags: Link\nOfficial Website: Direct mapping t
+ o German laboratory researchers.
+DTSTART;VALUE=DATE:20261001
+URL:Direct mapping to German laboratory researchers.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:6987c265-4dc9-e382-693f-5806cd61b665@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — RIKEN International Program Associat
+ e
+DESCRIPTION:Program: RIKEN International Program Associate\nOrganization: R
+ IKEN\nHost Institution: RIKEN\nCountry: Japan\nTarget Audience: Graduate\n
+ Funding: Fully Funded\nFunding Details: Daily allowance\, housing\, round-
+ trip airfare\nSupervisor Match: Helpful\nDuration: 1-3 years\nApplication 
+ Effort: High\nTags: Link\nOfficial Website: Skews graduate but senior unde
+ rgrads can apply if tied to PhD.
+DTSTART;VALUE=DATE:20260401
+URL:Skews graduate but senior undergrads can apply if tied to PhD.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:06e54787-5d67-51f9-7dd2-67a272f3d20d@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — NUS Summer Research Programme
+DESCRIPTION:Program: NUS Summer Research Programme\nOrganization: National 
+ University of Singapore\nHost Institution: National University of Singapor
+ e\nCountry: Singapore\nTarget Audience: Undergraduate\nFunding: Unfunded\n
+ Funding Details: Institutional fee waiver typically applied\; living out-o
+ f-pocket\nSupervisor Match: No\nDuration: 2 months\nApplication Effort: Me
+ dium\nTags: Link\nOfficial Website: Managed natively via the School of Com
+ puting faculty.
+DTSTART;VALUE=DATE:20260101
+URL:Managed natively via the School of Computing faculty.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:cc046edd-42ab-48c2-b0b7-2b4db6785dcb@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — AULP Mobility Program
+DESCRIPTION:Program: AULP Mobility Program\nOrganization: AULP\nHost Instit
+ ution: Multiple Lusophone Universities\nCountry: Portugal\, Macau\nTarget 
+ Audience: Undergraduate\nFunding: Partially Funded\nFunding Details: Tuiti
+ on waived\; housing/meals subject to campus availability\nSupervisor Match
+ : No\nDuration: 1 semester\nApplication Effort: Medium\nTags: Link\nOffici
+ al Website: Classroom-based\; low research value for AI tracking.
+DTSTART;VALUE=DATE:20260301
+URL:Classroom-based\; low research value for AI tracking.
+CATEGORIES:Exchange\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:665e7dbf-d556-1811-3740-d1691553b876@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — MEXT Scholarship (Research Students)
+DESCRIPTION:Program: MEXT Scholarship (Research Students)\nOrganization: ME
+ XT (Japan)\nHost Institution: Multiple Japanese Universities\nCountry: Jap
+ an\nTarget Audience: Undergraduate (Senior)\, Graduate\nFunding: Fully Fun
+ ded\nFunding Details: Full tuition\, monthly stipend\, round-trip airfare\
+ nSupervisor Match: Required\nDuration: 1.5 - 2 years\nApplication Effort: 
+ Very High\nTags: Link\nOfficial Website: Valid pathway for immediate post-
+ grad international MSc tracking.
+DTSTART;VALUE=DATE:20260401
+URL:Valid pathway for immediate post-grad international MSc tracking.
+CATEGORIES:Scholarship\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:d5cea43f-8516-1c7e-449e-1e41d740dd4e@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — DAAD Study Scholarships
+DESCRIPTION:Program: DAAD Study Scholarships\nOrganization: DAAD\nHost Inst
+ itution: Multiple German Universities\nCountry: Germany\nTarget Audience: 
+ Graduate\nFunding: Fully Funded\nFunding Details: â¬934/month + travel
+  + tuition coverage\nSupervisor Match: Helpful\nDuration: 1-2 years\nAppli
+ cation Effort: Very High\nTags: Link\nOfficial Website: Focuses on master'
+ s degree funding in Germany.
+DTSTART;VALUE=DATE:20260801
+URL:Focuses on master's degree funding in Germany.
+CATEGORIES:Scholarship\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:f808d48b-7357-b0c2-8a98-001aefbfb356@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Fulbright
+DESCRIPTION:Program: Fulbright\nOrganization: US Department of State\nHost 
+ Institution: Multiple US Universities\nCountry: United States\nTarget Audi
+ ence: Graduate\nFunding: Fully Funded\nFunding Details: Tuition\, stipend\
+ , airfare\, health insurance\nSupervisor Match: No\nDuration: 1-2 years\nA
+ pplication Effort: Very High\nTags: Link\nOfficial Website: Geared toward 
+ graduate study and research placements.
+DTSTART;VALUE=DATE:20260401
+URL:Geared toward graduate study and research placements.
+CATEGORIES:Scholarship\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:a174189e-47ac-b847-3ed4-daa4ebfce1a4@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Chevening
+DESCRIPTION:Program: Chevening\nOrganization: UK Foreign Office\nHost Insti
+ tution: Multiple UK Universities\nCountry: United Kingdom\nTarget Audience
+ : Graduate\nFunding: Fully Funded\nFunding Details: Full tuition\, living 
+ stipend\, flights\, visa fees\nSupervisor Match: No\nDuration: 1 year\nApp
+ lication Effort: Very High\nTags: Link\nOfficial Website: Strict master's 
+ focus\; requires subsequent return to home country.
+DTSTART;VALUE=DATE:20260801
+URL:Strict master's focus\; requires subsequent return to home country.
+CATEGORIES:Scholarship\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:8589c592-0c3a-96a6-fe15-08b34f065242@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Google Research Internships
+DESCRIPTION:Program: Google Research Internships\nOrganization: Google\nHos
+ t Institution: Google Research Labs\nCountry: Worldwide\nTarget Audience: 
+ Undergraduate\, Graduate\nFunding: Fully Funded\nFunding Details: Industry
+  salary\, housing assistance\, relocation benefits\nSupervisor Match: No\n
+ Duration: 12-16 weeks\nApplication Effort: High\nTags: Link\nOfficial Webs
+ ite: Peer-reviewed publications bypass graduate level filters.
+DTSTART;VALUE=DATE:20260901
+URL:Peer-reviewed publications bypass graduate level filters.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:1c54015a-dee0-469e-af11-dd334478e80b@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Google DeepMind Internships
+DESCRIPTION:Program: Google DeepMind Internships\nOrganization: Google Deep
+ Mind\nHost Institution: Google DeepMind Labs\nCountry: UK\, US\, Canada\nT
+ arget Audience: Undergraduate\, Graduate\nFunding: Fully Funded\nFunding D
+ etails: Top-tier industry compensation + full relocation\nSupervisor Match
+ : No\nDuration: 12-16 weeks\nApplication Effort: High\nTags: Link\nOfficia
+ l Website: Elite target for core generative and foundation model research.
+DTSTART;VALUE=DATE:20260901
+URL:Elite target for core generative and foundation model research.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:d00309b2-964a-e2c1-613c-4c8eb385630c@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Microsoft Research Internships
+DESCRIPTION:Program: Microsoft Research Internships\nOrganization: Microsof
+ t\nHost Institution: Microsoft Research Labs\nCountry: US\, UK\, Netherlan
+ ds\nTarget Audience: Undergraduate\, Graduate\nFunding: Fully Funded\nFund
+ ing Details: Highly competitive salary + housing allowance\nSupervisor Mat
+ ch: No\nDuration: 12 weeks\nApplication Effort: High\nTags: Link\nOfficial
+  Website: Evaluates candidates based on prior research impact.
+DTSTART;VALUE=DATE:20260901
+URL:Evaluates candidates based on prior research impact.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:293cba34-2448-c314-85c9-b8bdebb6d2ad@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — NVIDIA Research Internships
+DESCRIPTION:Program: NVIDIA Research Internships\nOrganization: NVIDIA\nHos
+ t Institution: NVIDIA Research\nCountry: US\, Worldwide\nTarget Audience: 
+ Undergraduate (Senior)\, Graduate\nFunding: Fully Funded\nFunding Details:
+  Competitive compensation + housing stipend\nSupervisor Match: No\nDuratio
+ n: 3-6 months\nApplication Effort: High\nTags: Link\nOfficial Website: Max
+ imum alignment with deep hardware-software AI execution.
+DTSTART;VALUE=DATE:20260801
+URL:Maximum alignment with deep hardware-software AI execution.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:88685bad-41c8-ca73-a70b-060457c54695@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Meta AI Research Internships
+DESCRIPTION:Program: Meta AI Research Internships\nOrganization: Meta\nHost
+  Institution: Meta AI (FAIR)\nCountry: US\, France\, UK\nTarget Audience: 
+ Undergraduate (Senior)\, Graduate\nFunding: Fully Funded\nFunding Details:
+  Corporate competitive compensation + relocation\nSupervisor Match: No\nDu
+ ration: 12-16 weeks\nApplication Effort: High\nTags: Link\nOfficial Websit
+ e: Heavily prefers students with top-tier conference track records.
+DTSTART;VALUE=DATE:20260901
+URL:Heavily prefers students with top-tier conference track records.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:6c421824-4b9d-7297-78e5-e6913ed13c3f@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — Amazon Science Internships
+DESCRIPTION:Program: Amazon Science Internships\nOrganization: Amazon\nHost
+  Institution: Amazon Science\nCountry: US\, Europe\nTarget Audience: Under
+ graduate\, Graduate\nFunding: Fully Funded\nFunding Details: Corporate sal
+ ary + monthly relocation housing allocation\nSupervisor Match: No\nDuratio
+ n: 12-16 weeks\nApplication Effort: Medium\nTags: Link\nOfficial Website: 
+ High volume of applied computer vision/data engineering work.
+DTSTART;VALUE=DATE:20260901
+URL:High volume of applied computer vision/data engineering work.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:88a107fa-fe7f-e6f1-6409-47f0e8d329e4@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — EEML (Eastern European Machine Learn
+ ing Summer School)
+DESCRIPTION:Program: EEML (Eastern European Machine Learning Summer School)
+ \nOrganization: EEML Consortium\nHost Institution: Rotates Annually\nCount
+ ry: Europe\nTarget Audience: Undergraduate (Senior)\, Graduate\nFunding: P
+ artially Funded\nFunding Details: Fee waivers and core travel grants avail
+ able upon request\nSupervisor Match: No\nDuration: 1 week\nApplication Eff
+ ort: Medium\nTags: Link\nOfficial Website: Deep focus on core reinforcemen
+ t learning and vision tracks.
+DTSTART;VALUE=DATE:20260101
+URL:Deep focus on core reinforcement learning and vision tracks.
+CATEGORIES:Summer School\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:1e79bd0f-a8f4-3662-0b6d-03b44a3758a3@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — TUM Practical Research Experience Pr
+ ogram (PREP)
+DESCRIPTION:Program: TUM Practical Research Experience Program (PREP)\nOrga
+ nization: TUM\nHost Institution: Technical University of Munich\nCountry: 
+ Germany\nTarget Audience: Undergraduate\, Graduate\nFunding: Partially Fun
+ ded\nFunding Details: â¬1\,000-â¬2\,000 total grant\; housing assi
+ stance\nSupervisor Match: Helpful\nDuration: 9-12 weeks\nApplication Effor
+ t: Medium\nTags: Link\nOfficial Website: Bypasses national portals\; match
+ es directly with TUM labs.
+DTSTART;VALUE=DATE:20261001
+URL:Bypasses national portals\; matches directly with TUM labs.
+CATEGORIES:Research\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:2ce1d2d6-9734-ecf8-7b3b-5ff3aa890ced@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — National University of Singapore Non-Gradi
+ ng Exchange Program
+DESCRIPTION:Program: National University of Singapore Non-Grading Exchange 
+ Program\nOrganization: National University of Singapore\nHost Institution:
+  National University of Singapore\nCountry: Singapore\nTarget Audience: Un
+ dergraduate\nFunding: Unfunded\nFunding Details: Tuition waived\; living c
+ osts out-of-pocket\nSupervisor Match: No\nDuration: 1-2 semesters\nApplica
+ tion Effort: Medium\nTags: Link\nOfficial Website: Can be negotiated purel
+ y as a lab-bound research semester.
+DTSTART;VALUE=DATE:20261015
+URL:Can be negotiated purely as a lab-bound research semester.
+CATEGORIES:Exchange\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:a56d2a27-b7c6-2234-3d72-963d20f4f137@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — National University of Singapore Non
+ -Grading Exchange Program
+DESCRIPTION:Program: National University of Singapore Non-Grading Exchange 
+ Program\nOrganization: National University of Singapore\nHost Institution:
+  National University of Singapore\nCountry: Singapore\nTarget Audience: Un
+ dergraduate\nFunding: Unfunded\nFunding Details: Tuition waived\; living c
+ osts out-of-pocket\nSupervisor Match: No\nDuration: 1-2 semesters\nApplica
+ tion Effort: Medium\nTags: Link\nOfficial Website: Can be negotiated purel
+ y as a lab-bound research semester.
+DTSTART;VALUE=DATE:20260801
+URL:Can be negotiated purely as a lab-bound research semester.
+CATEGORIES:Exchange\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:c7f8f5f6-d6dc-041e-f498-9b8e02b6ae94@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — University of Amsterdam Summer Schoo
+ l in AI and Machine Learning
+DESCRIPTION:Program: University of Amsterdam Summer School in AI and Machin
+ e Learning\nOrganization: University of Amsterdam\nHost Institution: Unive
+ rsity of Amsterdam\nCountry: Netherlands\nTarget Audience: Undergraduate\n
+ Funding: Unfunded\nFunding Details: Out-of-pocket fees required\; lodging 
+ blocked by UvA\nSupervisor Match: No\nDuration: 2-3 weeks\nApplication Eff
+ ort: Low\nTags: Link\nOfficial Website: High quality curriculum but lacks 
+ structural funding options.
+DTSTART;VALUE=DATE:20260101
+URL:High quality curriculum but lacks structural funding options.
+CATEGORIES:Summer School\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:c482574c-8ac5-2cc7-e1fb-1f0631437795@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — University of Toronto Data Sciences 
+ Institute SUDS Program
+DESCRIPTION:Program: University of Toronto Data Sciences Institute SUDS Pro
+ gram\nOrganization: University of Toronto\nHost Institution: University of
+  Toronto\nCountry: Canada\nTarget Audience: Undergraduate\nFunding: Mostly
+  Funded\nFunding Details: Fixed research award (~$6k-$8k CAD)\nSupervisor 
+ Match: Helpful\nDuration: 4 months\nApplication Effort: High\nTags: Link\n
+ Official Website: Excellent data engineering and applied ML lab infrastruc
+ ture.
+DTSTART;VALUE=DATE:20261101
+URL:Excellent data engineering and applied ML lab infrastructure.
+CATEGORIES:Industry\,Link
+END:VEVENT
+BEGIN:VEVENT
+UID:ed8fff77-c0a7-d011-c5c7-2d29ad237499@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — Vector Research Internship Program
+DESCRIPTION:Program: Vector Research Internship Program\nOrganization: Vect
+ or Institute\nHost Institution: Vector Faculty Member / Affiliated Canadia
+ n Universities\nCountry: Canada\nTarget Audience: Undergraduate\, Graduate
+ \nFunding: Fully Funded\nFunding Details: Paid research internship funded 
+ through Canada's Pan-Canadian AI Strategy\; supervision by Vector faculty\
+ ; stipend provided.\nSupervisor Match: Required\nDuration: Typically 4â
+ 8 months\nApplication Effort: High\nTags: https://vectorinstitute.ai\nOf
+ ficial Website: Excellent opportunity for students targeting AI research c
+ areers\, publications\, Canadian graduate school admission\, and networkin
+ g with leading ML researchers. Requires securing a Vector Faculty supervis
+ or.
+DTSTART;VALUE=DATE:20260622
+URL:Excellent opportunity for students targeting AI research careers\, publ
+ ications\, Canadian graduate school admission\, and networking with leadin
+ g ML researchers. Requires securing a Vector Faculty supervisor.
+CATEGORIES:Research\,https:\,vectorinstitute.ai
+END:VEVENT
+BEGIN:VEVENT
+UID:b354aa7d-b4d1-7dfe-976f-58b5b358d970@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Opens — CERN Technical Studentship (IT\, Mathematics 
+ & Robotics)
+DESCRIPTION:Program: CERN Technical Studentship (IT\, Mathematics & Robotic
+ s)\nOrganization: CERN\nHost Institution: CERN\nCountry: Switzerland\nTarg
+ et Audience: Undergraduate\, Graduate\nFunding: Fully Funded\nFunding Deta
+ ils: Monthly allowance (~3486 CHF)\, travel allowance\, health insurance\n
+ Supervisor Match: Partially Required\nDuration: 4-12 months\nApplication E
+ ffort: Medium\nTags: https://careers.cern/jobs/tsc-co/\nOfficial Website: 
+ Strong fit for Software Engineering\, Data Engineering\, Distributed Syste
+ ms\, AI infrastructure\, Robotics and Scientific Computing. Internationall
+ y prestigious research organization. Requires student status throughout th
+ e program. Excellent pathway to future MSc/PhD applications in Europe.
+DTSTART;VALUE=DATE:20260501
+URL:Strong fit for Software Engineering\, Data Engineering\, Distributed Sy
+ stems\, AI infrastructure\, Robotics and Scientific Computing. Internation
+ ally prestigious research organization. Requires student status throughout
+  the program. Excellent pathway to future MSc/PhD applications in Europe.
+CATEGORIES:Research\,https:\,careers.cern\,jobs\,tsc-co
+END:VEVENT
+BEGIN:VEVENT
+UID:bc3a2266-3501-c724-bb63-0f41483fa4d3@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Application Deadline — CERN Technical Studentship (IT\, Mathemati
+ cs & Robotics)
+DESCRIPTION:Program: CERN Technical Studentship (IT\, Mathematics & Robotic
+ s)\nOrganization: CERN\nHost Institution: CERN\nCountry: Switzerland\nTarg
+ et Audience: Undergraduate\, Graduate\nFunding: Fully Funded\nFunding Deta
+ ils: Monthly allowance (~3486 CHF)\, travel allowance\, health insurance\n
+ Supervisor Match: Partially Required\nDuration: 4-12 months\nApplication E
+ ffort: Medium\nTags: https://careers.cern/jobs/tsc-co/\nOfficial Website: 
+ Strong fit for Software Engineering\, Data Engineering\, Distributed Syste
+ ms\, AI infrastructure\, Robotics and Scientific Computing. Internationall
+ y prestigious research organization. Requires student status throughout th
+ e program. Excellent pathway to future MSc/PhD applications in Europe.
+DTSTART;VALUE=DATE:20260630
+URL:Strong fit for Software Engineering\, Data Engineering\, Distributed Sy
+ stems\, AI infrastructure\, Robotics and Scientific Computing. Internation
+ ally prestigious research organization. Requires student status throughout
+  the program. Excellent pathway to future MSc/PhD applications in Europe.
+CATEGORIES:Research\,https:\,careers.cern\,jobs\,tsc-co
+END:VEVENT
+BEGIN:VEVENT
+UID:02acea45-ffa1-bbde-c130-cf82fe107f24@opportunity-tracker
+DTSTAMP:20260703T193224Z
+SUMMARY:Expected Applications Open — CERN Technical Studentship (IT\, Mat
+ hematics & Robotics)
+DESCRIPTION:Program: CERN Technical Studentship (IT\, Mathematics & Robotic
+ s)\nOrganization: CERN\nHost Institution: CERN\nCountry: Switzerland\nTarg
+ et Audience: Undergraduate\, Graduate\nFunding: Fully Funded\nFunding Deta
+ ils: Monthly allowance (~3486 CHF)\, travel allowance\, health insurance\n
+ Supervisor Match: Partially Required\nDuration: 4-12 months\nApplication E
+ ffort: Medium\nTags: https://careers.cern/jobs/tsc-co/\nOfficial Website: 
+ Strong fit for Software Engineering\, Data Engineering\, Distributed Syste
+ ms\, AI infrastructure\, Robotics and Scientific Computing. Internationall
+ y prestigious research organization. Requires student status throughout th
+ e program. Excellent pathway to future MSc/PhD applications in Europe.
+DTSTART;VALUE=DATE:20260501
+URL:Strong fit for Software Engineering\, Data Engineering\, Distributed Sy
+ stems\, AI infrastructure\, Robotics and Scientific Computing. Internation
+ ally prestigious research organization. Requires student status throughout
+  the program. Excellent pathway to future MSc/PhD applications in Europe.
+CATEGORIES:Research\,https:\,careers.cern\,jobs\,tsc-co
+END:VEVENT
+END:VCALENDAR

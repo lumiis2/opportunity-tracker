@@ -1,8 +1,4 @@
-"""Preview parsed graduation opportunities.
-
-For now, this script reads `data/graduation.csv`, parses it into
-`CalendarEvent` objects, and prints a small summary.
-"""
+"""Build the graduation ICS calendar from the synced CSV."""
 
 from __future__ import annotations
 
@@ -14,16 +10,25 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
+from src.core import generate_calendar
 from src.parsers.graduation import parse
 
 
 def main() -> int:
     csv_path = ROOT_DIR / "data" / "graduation.csv"
+    output_path = ROOT_DIR / "output" / "graduation.ics"
+
     events = parse(csv_path)
-    print(f"number of events generated: {len(events)}")
-    print("first few CalendarEvent objects:")
-    for event in events[:5]:
-        print(event)
+    generate_calendar(events, output_path=output_path, calendar_name="Graduation Opportunities")
+
+    print("Downloaded CSV:")
+    print(csv_path.name)
+    print()
+    print("Events generated:")
+    print(len(events))
+    print()
+    print("ICS written to:")
+    print(f"output/{output_path.name}")
     return 0
 
 

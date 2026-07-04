@@ -3,8 +3,8 @@ from pathlib import Path
 from src.parsers.graduation import parse
 
 
-def test_graduation_parser_sample(tmp_path):
-    sample = Path("tests/data/graduation_sample.csv")
+def test_graduation_parser_sample():
+    sample = Path(__file__).resolve().parent / "data" / "graduation_sample.csv"
     events = parse(sample)
 
     # From the sample CSV we expect events for rows with dates:

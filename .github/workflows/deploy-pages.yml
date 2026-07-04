@@ -1,12 +1,12 @@
-name: Build & Publish public/ to GitHub Pages (official)
+name: Sync, Build & Publish calendars to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 6 * * *' # daily at 06:00 UTC
+  workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -18,22 +18,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Install project & dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -e .
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Generate ICS calendars into public/
-        id: generate
+      - name: Sync Google Sheets to data/
+        id: sync
         run: |
+          python3 scripts/sync_sheets.py || true
+
+      - name: Build ICS calendars into output/
+        id: build
+        run: |
+          python3 scripts/build.py
+
+      - name: Prepare public/ for Pages
+        run: |
+          rm -rf public || true
           mkdir -p public
-          opportunity-calendar generate --lead-months 1
+          # copy ICS files
+          cp -v output/*.ics public/ || true
+          # expose CSVs too for browsing
+          mkdir -p public/data
+          cp -v data/*.csv public/data/ || true
 
       - name: Diagnostics - public/ listing
         if: always()
@@ -42,16 +58,21 @@ jobs:
           ls -la public || true
           echo "=== sizes ==="
           du -sh public || true
-          echo "=== head of graduation.ics (if present) ==="
+          echo "=== head of public/graduation.ics (if present) ==="
           if [ -f public/graduation.ics ]; then head -n 40 public/graduation.ics; else echo "NO graduation.ics"; fi
 
-      - name: Fail if public/ is empty
+      - name: Commit updated CSVs and ICS (if any)
         run: |
-          count=$(find public -type f | wc -l)
-          echo "files_in_public=$count"
-          if [ "$count" -eq "0" ]; then
-            echo "ERROR: 'public/' is empty. Aborting deployment."
-            exit 1
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # check for changes
+          git add data/*.csv output/*.ics || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: automated sync and calendar build [ci skip]" || true
+            git push origin HEAD:${GITHUB_REF_NAME}
+            echo "Committed and pushed changes."
+          else
+            echo "No content changes to commit."
           fi
 
       - name: Upload pages artifact (official)

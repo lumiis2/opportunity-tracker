@@ -3,6 +3,9 @@ name: Sync, Build & Publish calendars to GitHub Pages
 on:
   schedule:
     - cron: '0 6 * * *' # daily at 06:00 UTC
+  push:
+    branches:
+      - main
   workflow_dispatch: {}
 
 permissions:

@@ -1,0 +1,1140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conferences
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:7659db80-08f9-4185-8ad9-82c81bec6189@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — NeurIPS (Conference on Neural Informa
+ tion Processing Systems)
+DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
+ essing Systems)\nArea: AI/ML\nTier: A*\nCountry: United States\nRegion: US
+ \nOrganizer / Association: Neural Information Processing Systems Foundatio
+ n\nFocus Areas: Machine Learning\; Deep Learning\; Reinforcement Learning\
+ ; Computer Vision\; NLP\nDate Status: Estimated\nLocation Type: In-person\
+ nResearch Tags: Machine Learning\; Deep Learning\; Neural Networks\nIndust
+ ry Relevance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPri
+ ority: P0\nNotes: Premier global machine learning venue.
+DTSTART;VALUE=DATE:20260501
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe1158b-1802-6625-309f-ff780bf0ce39@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — NeurIPS (Conference on Neural Informati
+ on Processing Systems)
+DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
+ essing Systems)\nArea: AI/ML\nTier: A*\nCountry: United States\nRegion: US
+ \nOrganizer / Association: Neural Information Processing Systems Foundatio
+ n\nFocus Areas: Machine Learning\; Deep Learning\; Reinforcement Learning\
+ ; Computer Vision\; NLP\nDate Status: Estimated\nLocation Type: In-person\
+ nResearch Tags: Machine Learning\; Deep Learning\; Neural Networks\nIndust
+ ry Relevance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPri
+ ority: P0\nNotes: Premier global machine learning venue.
+DTSTART;VALUE=DATE:20260930
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
+END:VEVENT
+BEGIN:VEVENT
+UID:db0a531d-9ddc-ef8c-007e-df3ae8bd699e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:NeurIPS (Conference on Neural Information Processing Systems) Confe
+ rence
+DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
+ essing Systems)\nArea: AI/ML\nTier: A*\nCountry: United States\nRegion: US
+ \nOrganizer / Association: Neural Information Processing Systems Foundatio
+ n\nFocus Areas: Machine Learning\; Deep Learning\; Reinforcement Learning\
+ ; Computer Vision\; NLP\nDate Status: Estimated\nLocation Type: In-person\
+ nResearch Tags: Machine Learning\; Deep Learning\; Neural Networks\nIndust
+ ry Relevance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPri
+ ority: P0\nNotes: Premier global machine learning venue.
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261212
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
+END:VEVENT
+BEGIN:VEVENT
+UID:bd00fac3-c94d-ee86-d7ba-0fb74686d250@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — ICML (International Conference on Mac
+ hine Learning)
+DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
+ ning)\nArea: AI/ML\nTier: A*\nCountry: Austria\nRegion: Europe\nOrganizer 
+ / Association: IMLS\nFocus Areas: Machine Learning Theory\; Optimization\;
+  Deep Learning\; Robotics\nDate Status: Estimated\nLocation Type: In-perso
+ n\nResearch Tags: Machine Learning\; Optimization\; AI Theory\nIndustry Re
+ levance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPriority
+ : P0\nNotes: Top-tier foundational machine learning conference.
+DTSTART;VALUE=DATE:20260101
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
+END:VEVENT
+BEGIN:VEVENT
+UID:7d6b014a-e18d-c67c-bdad-e190b5b67b62@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — ICML (International Conference on Machi
+ ne Learning)
+DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
+ ning)\nArea: AI/ML\nTier: A*\nCountry: Austria\nRegion: Europe\nOrganizer 
+ / Association: IMLS\nFocus Areas: Machine Learning Theory\; Optimization\;
+  Deep Learning\; Robotics\nDate Status: Estimated\nLocation Type: In-perso
+ n\nResearch Tags: Machine Learning\; Optimization\; AI Theory\nIndustry Re
+ levance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPriority
+ : P0\nNotes: Top-tier foundational machine learning conference.
+DTSTART;VALUE=DATE:20260508
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
+END:VEVENT
+BEGIN:VEVENT
+UID:24dd0967-246c-5a0d-4be6-d74c95f37bd8@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:ICML (International Conference on Machine Learning) Conference
+DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
+ ning)\nArea: AI/ML\nTier: A*\nCountry: Austria\nRegion: Europe\nOrganizer 
+ / Association: IMLS\nFocus Areas: Machine Learning Theory\; Optimization\;
+  Deep Learning\; Robotics\nDate Status: Estimated\nLocation Type: In-perso
+ n\nResearch Tags: Machine Learning\; Optimization\; AI Theory\nIndustry Re
+ levance Score: 10\nResearch Impact Score: 10\nPrestige Score: 10\nPriority
+ : P0\nNotes: Top-tier foundational machine learning conference.
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260718
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
+END:VEVENT
+BEGIN:VEVENT
+UID:ac78f55d-c243-01a9-bc82-335652d4e691@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — ICLR (International Conference on Lea
+ rning Representations)
+DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
+ resentations)\nArea: AI/ML\nTier: A*\nCountry: Singapore\nRegion: Other\nO
+ rganizer / Association: ICLR Foundation\nFocus Areas: Representation Learn
+ ing\; Deep Learning\; Generative Models\; LLMs\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Deep Learning\; Representation Lear
+ ning\; LLMs\nIndustry Relevance Score: 10\nResearch Impact Score: 10\nPres
+ tige Score: 10\nPriority: P0\nNotes: Primary venue for cutting-edge deep l
+ earning architectures.
+DTSTART;VALUE=DATE:20261001
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
+END:VEVENT
+BEGIN:VEVENT
+UID:2fa8ebd2-8530-eb0f-795d-302e5002b26a@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — ICLR (International Conference on Learn
+ ing Representations)
+DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
+ resentations)\nArea: AI/ML\nTier: A*\nCountry: Singapore\nRegion: Other\nO
+ rganizer / Association: ICLR Foundation\nFocus Areas: Representation Learn
+ ing\; Deep Learning\; Generative Models\; LLMs\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Deep Learning\; Representation Lear
+ ning\; LLMs\nIndustry Relevance Score: 10\nResearch Impact Score: 10\nPres
+ tige Score: 10\nPriority: P0\nNotes: Primary venue for cutting-edge deep l
+ earning architectures.
+DTSTART;VALUE=DATE:20260125
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
+END:VEVENT
+BEGIN:VEVENT
+UID:95dba616-9ea9-c20d-9763-9be20fbbc7e7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:ICLR (International Conference on Learning Representations) Confere
+ nce
+DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
+ resentations)\nArea: AI/ML\nTier: A*\nCountry: Singapore\nRegion: Other\nO
+ rganizer / Association: ICLR Foundation\nFocus Areas: Representation Learn
+ ing\; Deep Learning\; Generative Models\; LLMs\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Deep Learning\; Representation Lear
+ ning\; LLMs\nIndustry Relevance Score: 10\nResearch Impact Score: 10\nPres
+ tige Score: 10\nPriority: P0\nNotes: Primary venue for cutting-edge deep l
+ earning architectures.
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260508
+URL:https://openreview.net/
+CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
+END:VEVENT
+BEGIN:VEVENT
+UID:35d4c23a-bdd0-2572-cc04-bac4edb88c3e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — CVPR (IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition)
+DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
+ nd Pattern Recognition)\nArea: Computer Vision\nTier: A*\nCountry: United 
+ States\nRegion: US\nOrganizer / Association: IEEE / CVF\nFocus Areas: Comp
+ uter Vision\; Image Processing\; Object Detection\; Video Analysis\nDate S
+ tatus: Estimated\nLocation Type: In-person\nResearch Tags: Computer Vision
+ \; Image Processing\; Multimodal AI\nIndustry Relevance Score: 10\nResearc
+ h Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest impac
+ t publication venue across all engineering fields.
+DTSTART;VALUE=DATE:20261101
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
+ ing\,Multimodal AI
+END:VEVENT
+BEGIN:VEVENT
+UID:9cbe7eb7-7411-ab11-9641-bf35d2398baf@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — CVPR (IEEE/CVF Conference on Computer V
+ ision and Pattern Recognition)
+DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
+ nd Pattern Recognition)\nArea: Computer Vision\nTier: A*\nCountry: United 
+ States\nRegion: US\nOrganizer / Association: IEEE / CVF\nFocus Areas: Comp
+ uter Vision\; Image Processing\; Object Detection\; Video Analysis\nDate S
+ tatus: Estimated\nLocation Type: In-person\nResearch Tags: Computer Vision
+ \; Image Processing\; Multimodal AI\nIndustry Relevance Score: 10\nResearc
+ h Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest impac
+ t publication venue across all engineering fields.
+DTSTART;VALUE=DATE:20260228
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
+ ing\,Multimodal AI
+END:VEVENT
+BEGIN:VEVENT
+UID:6985aae4-3530-c113-d02e-c8fb0c983a4f@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognitio
+ n) Conference
+DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
+ nd Pattern Recognition)\nArea: Computer Vision\nTier: A*\nCountry: United 
+ States\nRegion: US\nOrganizer / Association: IEEE / CVF\nFocus Areas: Comp
+ uter Vision\; Image Processing\; Object Detection\; Video Analysis\nDate S
+ tatus: Estimated\nLocation Type: In-person\nResearch Tags: Computer Vision
+ \; Image Processing\; Multimodal AI\nIndustry Relevance Score: 10\nResearc
+ h Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest impac
+ t publication venue across all engineering fields.
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260620
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
+ ing\,Multimodal AI
+END:VEVENT
+BEGIN:VEVENT
+UID:68f448ec-4dba-ddca-8047-9596a4a41b0f@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — SIGCOMM (ACM Special Interest Group o
+ n Data Communication)
+DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
+ mmunication)\nArea: Systems/Networks\nTier: A*\nCountry: Greece\nRegion: E
+ urope\nOrganizer / Association: ACM SIGCOMM\nFocus Areas: Computer Network
+ s\; Distributed Systems\; Network Architecture\; Cloud Computing\nDate Sta
+ tus: Estimated\nLocation Type: In-person\nResearch Tags: Networking\; Clou
+ d Architecture\; Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 10\nPrestige Score: 10\nPriority: P0\nNotes: Ultra-selective flagship 
+ networking venue.
+DTSTART;VALUE=DATE:20260101
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
+ re\,Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:5e42aeef-d5ef-a4b3-5a38-43fc61103ad2@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — SIGCOMM (ACM Special Interest Group on 
+ Data Communication)
+DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
+ mmunication)\nArea: Systems/Networks\nTier: A*\nCountry: Greece\nRegion: E
+ urope\nOrganizer / Association: ACM SIGCOMM\nFocus Areas: Computer Network
+ s\; Distributed Systems\; Network Architecture\; Cloud Computing\nDate Sta
+ tus: Estimated\nLocation Type: In-person\nResearch Tags: Networking\; Clou
+ d Architecture\; Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 10\nPrestige Score: 10\nPriority: P0\nNotes: Ultra-selective flagship 
+ networking venue.
+DTSTART;VALUE=DATE:20260515
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
+ re\,Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:8dbed256-152a-f421-322f-4efac83f9de7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:SIGCOMM (ACM Special Interest Group on Data Communication) Conferen
+ ce
+DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
+ mmunication)\nArea: Systems/Networks\nTier: A*\nCountry: Greece\nRegion: E
+ urope\nOrganizer / Association: ACM SIGCOMM\nFocus Areas: Computer Network
+ s\; Distributed Systems\; Network Architecture\; Cloud Computing\nDate Sta
+ tus: Estimated\nLocation Type: In-person\nResearch Tags: Networking\; Clou
+ d Architecture\; Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 10\nPrestige Score: 10\nPriority: P0\nNotes: Ultra-selective flagship 
+ networking venue.
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260821
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
+ re\,Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:95abafba-3340-d420-c56d-abf6ce0584a6@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — SOSP (ACM Symposium on Operating Syst
+ ems Principles)
+DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
+ iples)\nArea: Systems\nTier: A*\nCountry: United States\nRegion: US\nOrgan
+ izer / Association: ACM SIGOPS\nFocus Areas: Operating Systems\; Distribut
+ ed Systems\; Storage\; File Systems\nDate Status: Estimated\nLocation Type
+ : In-person\nResearch Tags: Operating Systems\; Distributed Systems\; Infr
+ astructure\nIndustry Relevance Score: 9\nResearch Impact Score: 10\nPresti
+ ge Score: 10\nPriority: P0\nNotes: Highest prestige operating systems venu
+ e\, alternates annually with OSDI.
+DTSTART;VALUE=DATE:20260301
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
+ tructure
+END:VEVENT
+BEGIN:VEVENT
+UID:7adcdbae-e2ab-0ca1-402e-1ac4a0d9cc57@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — SOSP (ACM Symposium on Operating System
+ s Principles)
+DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
+ iples)\nArea: Systems\nTier: A*\nCountry: United States\nRegion: US\nOrgan
+ izer / Association: ACM SIGOPS\nFocus Areas: Operating Systems\; Distribut
+ ed Systems\; Storage\; File Systems\nDate Status: Estimated\nLocation Type
+ : In-person\nResearch Tags: Operating Systems\; Distributed Systems\; Infr
+ astructure\nIndustry Relevance Score: 9\nResearch Impact Score: 10\nPresti
+ ge Score: 10\nPriority: P0\nNotes: Highest prestige operating systems venu
+ e\, alternates annually with OSDI.
+DTSTART;VALUE=DATE:20260710
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
+ tructure
+END:VEVENT
+BEGIN:VEVENT
+UID:163ed615-0ebc-3bf1-9ae4-2aefe06488b8@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:SOSP (ACM Symposium on Operating Systems Principles) Conference
+DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
+ iples)\nArea: Systems\nTier: A*\nCountry: United States\nRegion: US\nOrgan
+ izer / Association: ACM SIGOPS\nFocus Areas: Operating Systems\; Distribut
+ ed Systems\; Storage\; File Systems\nDate Status: Estimated\nLocation Type
+ : In-person\nResearch Tags: Operating Systems\; Distributed Systems\; Infr
+ astructure\nIndustry Relevance Score: 9\nResearch Impact Score: 10\nPresti
+ ge Score: 10\nPriority: P0\nNotes: Highest prestige operating systems venu
+ e\, alternates annually with OSDI.
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261028
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
+ tructure
+END:VEVENT
+BEGIN:VEVENT
+UID:275e01c4-bb7f-9ee3-c22d-f18c9333563e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — ACL (Annual Meeting of the Associatio
+ n for Computational Linguistics)
+DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
+ putational Linguistics)\nArea: NLP/AI\nTier: A*\nCountry: Australia\nRegio
+ n: Other\nOrganizer / Association: ACL\nFocus Areas: Natural Language Proc
+ essing\; Computational Linguistics\; LLMs\; Speech\nDate Status: Estimated
+ \nLocation Type: In-person\nResearch Tags: NLP\; Computational Linguistics
+ \; Language Models\nIndustry Relevance Score: 10\nResearch Impact Score: 1
+ 0\nPrestige Score: 10\nPriority: P0\nNotes: Flagship computational linguis
+ tics and NLP domain venue.
+DTSTART;VALUE=DATE:20260101
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
+END:VEVENT
+BEGIN:VEVENT
+UID:fe0e6bcc-1cf9-630e-2f02-9c10a613a2d1@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — ACL (Annual Meeting of the Association 
+ for Computational Linguistics)
+DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
+ putational Linguistics)\nArea: NLP/AI\nTier: A*\nCountry: Australia\nRegio
+ n: Other\nOrganizer / Association: ACL\nFocus Areas: Natural Language Proc
+ essing\; Computational Linguistics\; LLMs\; Speech\nDate Status: Estimated
+ \nLocation Type: In-person\nResearch Tags: NLP\; Computational Linguistics
+ \; Language Models\nIndustry Relevance Score: 10\nResearch Impact Score: 1
+ 0\nPrestige Score: 10\nPriority: P0\nNotes: Flagship computational linguis
+ tics and NLP domain venue.
+DTSTART;VALUE=DATE:20260520
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
+END:VEVENT
+BEGIN:VEVENT
+UID:deb554a2-27bc-106e-9b36-4aa7951b0ecb@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:ACL (Annual Meeting of the Association for Computational Linguistic
+ s) Conference
+DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
+ putational Linguistics)\nArea: NLP/AI\nTier: A*\nCountry: Australia\nRegio
+ n: Other\nOrganizer / Association: ACL\nFocus Areas: Natural Language Proc
+ essing\; Computational Linguistics\; LLMs\; Speech\nDate Status: Estimated
+ \nLocation Type: In-person\nResearch Tags: NLP\; Computational Linguistics
+ \; Language Models\nIndustry Relevance Score: 10\nResearch Impact Score: 1
+ 0\nPrestige Score: 10\nPriority: P0\nNotes: Flagship computational linguis
+ tics and NLP domain venue.
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260814
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
+END:VEVENT
+BEGIN:VEVENT
+UID:20e5b652-a0a8-ab6d-c699-97325bf6b968@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — SBRC (SimpÃ³sio Brasileiro de Redes
+  de Computadores e Sistemas DistribuÃ­dos)
+DESCRIPTION:Conference Name: SBRC (SimpÃ³sio Brasileiro de Redes de Compu
+ tadores e Sistemas DistribuÃ­dos)\nArea: Systems/Networks\nTier: A\nCoun
+ try: Brazil\nRegion: Brazil\nOrganizer / Association: SBC (Sociedade Brasi
+ leira de ComputaÃ§Ã£o)\nFocus Areas: Computer Networks\; Distributed S
+ ystems\; Cyber Security\; Cloud Edge Computing\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Networks\; Distributed Systems\; Se
+ curity\nIndustry Relevance Score: 5\nResearch Impact Score: 7\nPrestige Sc
+ ore: 7\nPriority: P2\nNotes: Top national network/systems forum in Latin A
+ merica.
+DTSTART;VALUE=DATE:20260101
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
+ s\,Security
+END:VEVENT
+BEGIN:VEVENT
+UID:8446bb51-9ac9-6181-8da6-8bc1860263ae@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — SBRC (SimpÃ³sio Brasileiro de Redes d
+ e Computadores e Sistemas DistribuÃ­dos)
+DESCRIPTION:Conference Name: SBRC (SimpÃ³sio Brasileiro de Redes de Compu
+ tadores e Sistemas DistribuÃ­dos)\nArea: Systems/Networks\nTier: A\nCoun
+ try: Brazil\nRegion: Brazil\nOrganizer / Association: SBC (Sociedade Brasi
+ leira de ComputaÃ§Ã£o)\nFocus Areas: Computer Networks\; Distributed S
+ ystems\; Cyber Security\; Cloud Edge Computing\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Networks\; Distributed Systems\; Se
+ curity\nIndustry Relevance Score: 5\nResearch Impact Score: 7\nPrestige Sc
+ ore: 7\nPriority: P2\nNotes: Top national network/systems forum in Latin A
+ merica.
+DTSTART;VALUE=DATE:20260315
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
+ s\,Security
+END:VEVENT
+BEGIN:VEVENT
+UID:0a9047ea-a642-3c5b-c271-1694e182e0ad@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:SBRC (SimpÃ³sio Brasileiro de Redes de Computadores e Sistemas Di
+ stribuÃ­dos) Conference
+DESCRIPTION:Conference Name: SBRC (SimpÃ³sio Brasileiro de Redes de Compu
+ tadores e Sistemas DistribuÃ­dos)\nArea: Systems/Networks\nTier: A\nCoun
+ try: Brazil\nRegion: Brazil\nOrganizer / Association: SBC (Sociedade Brasi
+ leira de ComputaÃ§Ã£o)\nFocus Areas: Computer Networks\; Distributed S
+ ystems\; Cyber Security\; Cloud Edge Computing\nDate Status: Estimated\nLo
+ cation Type: In-person\nResearch Tags: Networks\; Distributed Systems\; Se
+ curity\nIndustry Relevance Score: 5\nResearch Impact Score: 7\nPrestige Sc
+ ore: 7\nPriority: P2\nNotes: Top national network/systems forum in Latin A
+ merica.
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260529
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
+ s\,Security
+END:VEVENT
+BEGIN:VEVENT
+UID:cd5a179a-5569-3eb5-00bb-400997394ecc@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — SBBD (SimpÃ³sio Brasileiro de Banco
+ s de Dados)
+DESCRIPTION:Conference Name: SBBD (SimpÃ³sio Brasileiro de Bancos de Dado
+ s)\nArea: Data\nTier: A\nCountry: Brazil\nRegion: Brazil\nOrganizer / Asso
+ ciation: SBC (Sociedade Brasileira de ComputaÃ§Ã£o)\nFocus Areas: Data
+ bases\; Data Engineering\; Big Data Analytics\; Data Management\nDate Stat
+ us: Estimated\nLocation Type: In-person\nResearch Tags: Databases\; Data M
+ anagement\; Big Data\nIndustry Relevance Score: 5\nResearch Impact Score: 
+ 7\nPrestige Score: 7\nPriority: P2\nNotes: Premier database research simpo
+ sium inside Brazil.
+DTSTART;VALUE=DATE:20260501
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
+END:VEVENT
+BEGIN:VEVENT
+UID:3463723e-503e-92eb-7538-136f96bef1ef@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — SBBD (SimpÃ³sio Brasileiro de Bancos 
+ de Dados)
+DESCRIPTION:Conference Name: SBBD (SimpÃ³sio Brasileiro de Bancos de Dado
+ s)\nArea: Data\nTier: A\nCountry: Brazil\nRegion: Brazil\nOrganizer / Asso
+ ciation: SBC (Sociedade Brasileira de ComputaÃ§Ã£o)\nFocus Areas: Data
+ bases\; Data Engineering\; Big Data Analytics\; Data Management\nDate Stat
+ us: Estimated\nLocation Type: In-person\nResearch Tags: Databases\; Data M
+ anagement\; Big Data\nIndustry Relevance Score: 5\nResearch Impact Score: 
+ 7\nPrestige Score: 7\nPriority: P2\nNotes: Premier database research simpo
+ sium inside Brazil.
+DTSTART;VALUE=DATE:20260710
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
+END:VEVENT
+BEGIN:VEVENT
+UID:781eb985-e56c-2b4f-2e46-279925a6b6ee@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:SBBD (SimpÃ³sio Brasileiro de Bancos de Dados) Conference
+DESCRIPTION:Conference Name: SBBD (SimpÃ³sio Brasileiro de Bancos de Dado
+ s)\nArea: Data\nTier: A\nCountry: Brazil\nRegion: Brazil\nOrganizer / Asso
+ ciation: SBC (Sociedade Brasileira de ComputaÃ§Ã£o)\nFocus Areas: Data
+ bases\; Data Engineering\; Big Data Analytics\; Data Management\nDate Stat
+ us: Estimated\nLocation Type: In-person\nResearch Tags: Databases\; Data M
+ anagement\; Big Data\nIndustry Relevance Score: 5\nResearch Impact Score: 
+ 7\nPrestige Score: 7\nPriority: P2\nNotes: Premier database research simpo
+ sium inside Brazil.
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261009
+URL:https://submissoes.sbc.org.br/
+CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
+END:VEVENT
+BEGIN:VEVENT
+UID:f66a92a7-e3be-72c5-e27a-a08d90640fd8@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — KDD (ACM SIGKDD Conference on Knowled
+ ge Discovery and Data Mining)
+DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
+ ery and Data Mining)\nArea: Data/AI\nTier: A*\nCountry: China\nRegion: Chi
+ na\nOrganizer / Association: ACM SIGKDD\nFocus Areas: Data Mining\; Knowle
+ dge Discovery\; Big Data\; Recommendation Systems\nDate Status: Estimated\
+ nLocation Type: In-person\nResearch Tags: Data Mining\; Analytics\; Recomm
+ ender Systems\nIndustry Relevance Score: 10\nResearch Impact Score: 9\nPre
+ stige Score: 10\nPriority: P0\nNotes: Elite standard for data mining and a
+ pplied industry AI pipelines.
+DTSTART;VALUE=DATE:20260201
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66911fa9-c03f-d534-5586-0c992074f772@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — KDD (ACM SIGKDD Conference on Knowledge
+  Discovery and Data Mining)
+DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
+ ery and Data Mining)\nArea: Data/AI\nTier: A*\nCountry: China\nRegion: Chi
+ na\nOrganizer / Association: ACM SIGKDD\nFocus Areas: Data Mining\; Knowle
+ dge Discovery\; Big Data\; Recommendation Systems\nDate Status: Estimated\
+ nLocation Type: In-person\nResearch Tags: Data Mining\; Analytics\; Recomm
+ ender Systems\nIndustry Relevance Score: 10\nResearch Impact Score: 9\nPre
+ stige Score: 10\nPriority: P0\nNotes: Elite standard for data mining and a
+ pplied industry AI pipelines.
+DTSTART;VALUE=DATE:20260518
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:f20bb921-c7b8-d542-e54a-cfe3aefec7bf@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) 
+ Conference
+DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
+ ery and Data Mining)\nArea: Data/AI\nTier: A*\nCountry: China\nRegion: Chi
+ na\nOrganizer / Association: ACM SIGKDD\nFocus Areas: Data Mining\; Knowle
+ dge Discovery\; Big Data\; Recommendation Systems\nDate Status: Estimated\
+ nLocation Type: In-person\nResearch Tags: Data Mining\; Analytics\; Recomm
+ ender Systems\nIndustry Relevance Score: 10\nResearch Impact Score: 9\nPre
+ stige Score: 10\nPriority: P0\nNotes: Elite standard for data mining and a
+ pplied industry AI pipelines.
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260827
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:50d5ff3d-f274-5393-a287-bfa47bd5f64c@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Paper Submission Deadline — VLDB (International Conference on Ver
+ y Large Data Bases)
+DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
+ ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
+ er / Association: VLDB Endowment\nFocus Areas: Database Architecture\; Que
+ ry Processing\; Distributed Databases\; Big Data Systems\nDate Status: Con
+ firmed\nLocation Type: In-person\nResearch Tags: Databases\; Data Engines\
+ ; Query Optimization\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest tiered data managemen
+ t engine conference\, 2026 edition in Rio.
+DTSTART;VALUE=DATE:20260301
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
+END:VEVENT
+BEGIN:VEVENT
+UID:5a5ec547-f90b-0186-4219-3fb1e1115997@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — VLDB (International Conference on Ver
+ y Large Data Bases)
+DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
+ ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
+ er / Association: VLDB Endowment\nFocus Areas: Database Architecture\; Que
+ ry Processing\; Distributed Databases\; Big Data Systems\nDate Status: Con
+ firmed\nLocation Type: In-person\nResearch Tags: Databases\; Data Engines\
+ ; Query Optimization\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest tiered data managemen
+ t engine conference\, 2026 edition in Rio.
+DTSTART;VALUE=DATE:20260301
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
+END:VEVENT
+BEGIN:VEVENT
+UID:b997b1ed-ee2c-0fb6-30b5-559f3f45abc3@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — VLDB (International Conference on Very 
+ Large Data Bases)
+DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
+ ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
+ er / Association: VLDB Endowment\nFocus Areas: Database Architecture\; Que
+ ry Processing\; Distributed Databases\; Big Data Systems\nDate Status: Con
+ firmed\nLocation Type: In-person\nResearch Tags: Databases\; Data Engines\
+ ; Query Optimization\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest tiered data managemen
+ t engine conference\, 2026 edition in Rio.
+DTSTART;VALUE=DATE:20260515
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
+END:VEVENT
+BEGIN:VEVENT
+UID:76e41d3f-4a37-0e5b-937b-e2e1ee94b781@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:VLDB (International Conference on Very Large Data Bases) Conference
+DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
+ ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
+ er / Association: VLDB Endowment\nFocus Areas: Database Architecture\; Que
+ ry Processing\; Distributed Databases\; Big Data Systems\nDate Status: Con
+ firmed\nLocation Type: In-person\nResearch Tags: Databases\; Data Engines\
+ ; Query Optimization\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest tiered data managemen
+ t engine conference\, 2026 edition in Rio.
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260904
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
+END:VEVENT
+BEGIN:VEVENT
+UID:addd14ca-fa3a-a9ae-7968-c0cf7cddd761@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — CHI (ACM CHI Conference on Human Fact
+ ors in Computing Systems)
+DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
+ mputing Systems)\nArea: HCI\nTier: A*\nCountry: Germany\nRegion: Europe\nO
+ rganizer / Association: ACM SIGCHI\nFocus Areas: Human-Computer Interactio
+ n\; User Interface Design\; Social Computing\nDate Status: Estimated\nLoca
+ tion Type: In-person\nResearch Tags: HCI\; UI Design\; User Experience\nIn
+ dustry Relevance Score: 8\nResearch Impact Score: 10\nPrestige Score: 10\n
+ Priority: P0\nNotes: Absolute premier human-computer interaction venue glo
+ bally.
+DTSTART;VALUE=DATE:20260901
+URL:https://new.precisionconference.com/
+CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8cbed6-f124-1f3f-e970-06f1cc3f1040@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — CHI (ACM CHI Conference on Human Factor
+ s in Computing Systems)
+DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
+ mputing Systems)\nArea: HCI\nTier: A*\nCountry: Germany\nRegion: Europe\nO
+ rganizer / Association: ACM SIGCHI\nFocus Areas: Human-Computer Interactio
+ n\; User Interface Design\; Social Computing\nDate Status: Estimated\nLoca
+ tion Type: In-person\nResearch Tags: HCI\; UI Design\; User Experience\nIn
+ dustry Relevance Score: 8\nResearch Impact Score: 10\nPrestige Score: 10\n
+ Priority: P0\nNotes: Absolute premier human-computer interaction venue glo
+ bally.
+DTSTART;VALUE=DATE:20260115
+URL:https://new.precisionconference.com/
+CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
+END:VEVENT
+BEGIN:VEVENT
+UID:3bb4aa5e-a9d2-6178-eae2-d8eab9fe435d@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:CHI (ACM CHI Conference on Human Factors in Computing Systems) Conf
+ erence
+DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
+ mputing Systems)\nArea: HCI\nTier: A*\nCountry: Germany\nRegion: Europe\nO
+ rganizer / Association: ACM SIGCHI\nFocus Areas: Human-Computer Interactio
+ n\; User Interface Design\; Social Computing\nDate Status: Estimated\nLoca
+ tion Type: In-person\nResearch Tags: HCI\; UI Design\; User Experience\nIn
+ dustry Relevance Score: 8\nResearch Impact Score: 10\nPrestige Score: 10\n
+ Priority: P0\nNotes: Absolute premier human-computer interaction venue glo
+ bally.
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260430
+URL:https://new.precisionconference.com/
+CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
+END:VEVENT
+BEGIN:VEVENT
+UID:b3c29882-d986-e59e-0bf0-ae4e367e7b05@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Paper Submission Deadline — POPL (ACM SIGPLAN Symposium on Princi
+ ples of Programming Languages)
+DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
+ rogramming Languages)\nArea: Theory/PL\nTier: A*\nCountry: United States\n
+ Region: US\nOrganizer / Association: ACM SIGPLAN\nFocus Areas: Programming
+  Language Theory\; Formal Verification\; Compilers\; Semantics\nDate Statu
+ s: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.24\nResearch Ta
+ gs: Programming Languages\; Compilers\; Formal Methods\nIndustry Relevance
+  Score: 6\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNo
+ tes: Pinnacle theory-focused programming languages venue.
+DTSTART;VALUE=DATE:20250708
+URL:https://hotcrp.com/
+CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
+ ethods
+END:VEVENT
+BEGIN:VEVENT
+UID:05712258-42f5-618e-005a-6fe14fcbcae5@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — POPL (ACM SIGPLAN Symposium on Princi
+ ples of Programming Languages)
+DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
+ rogramming Languages)\nArea: Theory/PL\nTier: A*\nCountry: United States\n
+ Region: US\nOrganizer / Association: ACM SIGPLAN\nFocus Areas: Programming
+  Language Theory\; Formal Verification\; Compilers\; Semantics\nDate Statu
+ s: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.24\nResearch Ta
+ gs: Programming Languages\; Compilers\; Formal Methods\nIndustry Relevance
+  Score: 6\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNo
+ tes: Pinnacle theory-focused programming languages venue.
+DTSTART;VALUE=DATE:20260701
+URL:https://hotcrp.com/
+CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
+ ethods
+END:VEVENT
+BEGIN:VEVENT
+UID:a37d4e67-bee0-0867-d222-a3148dfc211f@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — POPL (ACM SIGPLAN Symposium on Principl
+ es of Programming Languages)
+DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
+ rogramming Languages)\nArea: Theory/PL\nTier: A*\nCountry: United States\n
+ Region: US\nOrganizer / Association: ACM SIGPLAN\nFocus Areas: Programming
+  Language Theory\; Formal Verification\; Compilers\; Semantics\nDate Statu
+ s: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.24\nResearch Ta
+ gs: Programming Languages\; Compilers\; Formal Methods\nIndustry Relevance
+  Score: 6\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNo
+ tes: Pinnacle theory-focused programming languages venue.
+DTSTART;VALUE=DATE:20251022
+URL:https://hotcrp.com/
+CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
+ ethods
+END:VEVENT
+BEGIN:VEVENT
+UID:361b672f-b54f-b3f7-579c-d5b68afe54c9@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:POPL (ACM SIGPLAN Symposium on Principles of Programming Languages)
+  Conference
+DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
+ rogramming Languages)\nArea: Theory/PL\nTier: A*\nCountry: United States\n
+ Region: US\nOrganizer / Association: ACM SIGPLAN\nFocus Areas: Programming
+  Language Theory\; Formal Verification\; Compilers\; Semantics\nDate Statu
+ s: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.24\nResearch Ta
+ gs: Programming Languages\; Compilers\; Formal Methods\nIndustry Relevance
+  Score: 6\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNo
+ tes: Pinnacle theory-focused programming languages venue.
+DTSTART;VALUE=DATE:20260118
+DTEND;VALUE=DATE:20260124
+URL:https://hotcrp.com/
+CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
+ ethods
+END:VEVENT
+BEGIN:VEVENT
+UID:a2205c99-b063-63a2-d03d-80805c11ed8e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — PLDI (ACM SIGPLAN Conference on Progr
+ amming Language Design and Implementation)
+DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
+ nguage Design and Implementation)\nArea: Systems/PL\nTier: A*\nCountry: Un
+ ited Kingdom\nRegion: Europe\nOrganizer / Association: ACM SIGPLAN\nFocus 
+ Areas: Compiler Optimization\; Runtime Systems\; Static Analysis\; Program
+  Synthesis\nDate Status: Estimated\nLocation Type: In-person\nResearch Tag
+ s: Compilers\; Program Analysis\; Systems Software\nIndustry Relevance Sco
+ re: 8\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes:
+  Pinnacle applied programming systems and compiler venue.
+DTSTART;VALUE=DATE:20261101
+URL:https://hotcrp.com/
+CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
+ tware
+END:VEVENT
+BEGIN:VEVENT
+UID:23b61480-f23a-cfbb-97a2-9657ca85115f@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — PLDI (ACM SIGPLAN Conference on Program
+ ming Language Design and Implementation)
+DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
+ nguage Design and Implementation)\nArea: Systems/PL\nTier: A*\nCountry: Un
+ ited Kingdom\nRegion: Europe\nOrganizer / Association: ACM SIGPLAN\nFocus 
+ Areas: Compiler Optimization\; Runtime Systems\; Static Analysis\; Program
+  Synthesis\nDate Status: Estimated\nLocation Type: In-person\nResearch Tag
+ s: Compilers\; Program Analysis\; Systems Software\nIndustry Relevance Sco
+ re: 8\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes:
+  Pinnacle applied programming systems and compiler venue.
+DTSTART;VALUE=DATE:20260305
+URL:https://hotcrp.com/
+CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
+ tware
+END:VEVENT
+BEGIN:VEVENT
+UID:e0467783-95d9-3d9d-91ef-b838218bc115@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:PLDI (ACM SIGPLAN Conference on Programming Language Design and Imp
+ lementation) Conference
+DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
+ nguage Design and Implementation)\nArea: Systems/PL\nTier: A*\nCountry: Un
+ ited Kingdom\nRegion: Europe\nOrganizer / Association: ACM SIGPLAN\nFocus 
+ Areas: Compiler Optimization\; Runtime Systems\; Static Analysis\; Program
+  Synthesis\nDate Status: Estimated\nLocation Type: In-person\nResearch Tag
+ s: Compilers\; Program Analysis\; Systems Software\nIndustry Relevance Sco
+ re: 8\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes:
+  Pinnacle applied programming systems and compiler venue.
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260618
+URL:https://hotcrp.com/
+CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
+ tware
+END:VEVENT
+BEGIN:VEVENT
+UID:a0fc81b8-00bd-6704-f2bb-452806f2619c@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — AAAI (AAAI Conference on Artificial I
+ ntelligence)
+DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
+ ce)\nArea: AI/ML\nTier: A\nCountry: United States\nRegion: US\nOrganizer /
+  Association: AAAI\nFocus Areas: General AI\; Heuristic Search\; Knowledge
+  Representation\; Multi-Agent Systems\nDate Status: Estimated\nLocation Ty
+ pe: In-person\nAcceptance Rate: 0.23\nResearch Tags: Artificial Intelligen
+ ce\; Multi-Agent Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 9\nPrestige Score: 9\nPriority: P1\nNotes: Prestigious broad-coverage 
+ global AI conference.
+DTSTART;VALUE=DATE:20260801
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:24fb4fc6-7eca-84f2-fb50-68338f833996@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — AAAI (AAAI Conference on Artificial Int
+ elligence)
+DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
+ ce)\nArea: AI/ML\nTier: A\nCountry: United States\nRegion: US\nOrganizer /
+  Association: AAAI\nFocus Areas: General AI\; Heuristic Search\; Knowledge
+  Representation\; Multi-Agent Systems\nDate Status: Estimated\nLocation Ty
+ pe: In-person\nAcceptance Rate: 0.23\nResearch Tags: Artificial Intelligen
+ ce\; Multi-Agent Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 9\nPrestige Score: 9\nPriority: P1\nNotes: Prestigious broad-coverage 
+ global AI conference.
+DTSTART;VALUE=DATE:20251205
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:352b456c-9dd0-f23c-84cf-680ea847b67d@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:AAAI (AAAI Conference on Artificial Intelligence) Conference
+DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
+ ce)\nArea: AI/ML\nTier: A\nCountry: United States\nRegion: US\nOrganizer /
+  Association: AAAI\nFocus Areas: General AI\; Heuristic Search\; Knowledge
+  Representation\; Multi-Agent Systems\nDate Status: Estimated\nLocation Ty
+ pe: In-person\nAcceptance Rate: 0.23\nResearch Tags: Artificial Intelligen
+ ce\; Multi-Agent Systems\nIndustry Relevance Score: 9\nResearch Impact Sco
+ re: 9\nPrestige Score: 9\nPriority: P1\nNotes: Prestigious broad-coverage 
+ global AI conference.
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260226
+URL:https://cmt3.research.microsoft.com/
+CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:86600bfc-ef0f-62c2-46ad-179be96ac32a@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Paper Submission Deadline — NSDI (USENIX Symposium on Networked S
+ ystems Design and Implementation)
+DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
+ sign and Implementation)\nArea: Systems/Networks\nTier: A*\nCountry: Unite
+ d States\nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Networ
+ ked Systems\; Cloud Infrastructures\; Data Center Networks\; P2P Systems\n
+ Date Status: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.19\nR
+ esearch Tags: Networked Systems\; Distributed Infrastructure\nIndustry Rel
+ evance Score: 9\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: 
+ P0\nNotes: High-prestige conference focused on full-stack web/cloud system
+ s.
+DTSTART;VALUE=DATE:20250904
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
+ ed Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b449c3-a1ad-97d6-af77-871737fba248@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — NSDI (USENIX Symposium on Networked S
+ ystems Design and Implementation)
+DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
+ sign and Implementation)\nArea: Systems/Networks\nTier: A*\nCountry: Unite
+ d States\nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Networ
+ ked Systems\; Cloud Infrastructures\; Data Center Networks\; P2P Systems\n
+ Date Status: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.19\nR
+ esearch Tags: Networked Systems\; Distributed Infrastructure\nIndustry Rel
+ evance Score: 9\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: 
+ P0\nNotes: High-prestige conference focused on full-stack web/cloud system
+ s.
+DTSTART;VALUE=DATE:20260901
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
+ ed Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:456dccf5-f663-bc55-fcdc-c19e438b3d8f@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — NSDI (USENIX Symposium on Networked Sys
+ tems Design and Implementation)
+DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
+ sign and Implementation)\nArea: Systems/Networks\nTier: A*\nCountry: Unite
+ d States\nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Networ
+ ked Systems\; Cloud Infrastructures\; Data Center Networks\; P2P Systems\n
+ Date Status: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.19\nR
+ esearch Tags: Networked Systems\; Distributed Infrastructure\nIndustry Rel
+ evance Score: 9\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: 
+ P0\nNotes: High-prestige conference focused on full-stack web/cloud system
+ s.
+DTSTART;VALUE=DATE:20251212
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
+ ed Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:185af237-c89d-f43a-3718-f806413b721e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:NSDI (USENIX Symposium on Networked Systems Design and Implementati
+ on) Conference
+DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
+ sign and Implementation)\nArea: Systems/Networks\nTier: A*\nCountry: Unite
+ d States\nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Networ
+ ked Systems\; Cloud Infrastructures\; Data Center Networks\; P2P Systems\n
+ Date Status: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.19\nR
+ esearch Tags: Networked Systems\; Distributed Infrastructure\nIndustry Rel
+ evance Score: 9\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: 
+ P0\nNotes: High-prestige conference focused on full-stack web/cloud system
+ s.
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260416
+URL:https://hotcrp.com/
+CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
+ ed Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:467f054f-c648-2011-dbb9-35a0fbcabe56@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — OSDI (USENIX Symposium on Operating S
+ ystems Design and Implementation)
+DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
+ sign and Implementation)\nArea: Systems\nTier: A*\nCountry: United States\
+ nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Operating Syste
+ ms\; Distributed Systems Infrastructure\; Large Scale Storage\nDate Status
+ : Estimated\nLocation Type: In-person\nResearch Tags: Operating Systems\; 
+ Cloud Infrastructure\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Elite systems design venue al
+ ternating cycles with SOSP.
+DTSTART;VALUE=DATE:20260501
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:5530f178-cfac-d106-3741-1680ed8fb60a@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — OSDI (USENIX Symposium on Operating Sys
+ tems Design and Implementation)
+DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
+ sign and Implementation)\nArea: Systems\nTier: A*\nCountry: United States\
+ nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Operating Syste
+ ms\; Distributed Systems Infrastructure\; Large Scale Storage\nDate Status
+ : Estimated\nLocation Type: In-person\nResearch Tags: Operating Systems\; 
+ Cloud Infrastructure\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Elite systems design venue al
+ ternating cycles with SOSP.
+DTSTART;VALUE=DATE:20260115
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:dfc95672-c515-c058-c7bd-54d787f7b3b7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:OSDI (USENIX Symposium on Operating Systems Design and Implementati
+ on) Conference
+DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
+ sign and Implementation)\nArea: Systems\nTier: A*\nCountry: United States\
+ nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Operating Syste
+ ms\; Distributed Systems Infrastructure\; Large Scale Storage\nDate Status
+ : Estimated\nLocation Type: In-person\nResearch Tags: Operating Systems\; 
+ Cloud Infrastructure\nIndustry Relevance Score: 9\nResearch Impact Score: 
+ 10\nPrestige Score: 10\nPriority: P0\nNotes: Elite systems design venue al
+ ternating cycles with SOSP.
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260716
+URL:https://hotcrp.com/
+CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
+END:VEVENT
+BEGIN:VEVENT
+UID:000c537f-5e17-efc8-e970-4d310a07cae7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — EMNLP (Conference on Empirical Method
+ s in Natural Language Processing)
+DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
+ ral Language Processing)\nArea: NLP/AI\nTier: A*\nCountry: Qatar\nRegion: 
+ Other\nOrganizer / Association: ACL SIGDAT\nFocus Areas: Empirical NLP\; M
+ achine Translation\; Information Extraction\; LLM Evaluation\nDate Status:
+  Estimated\nLocation Type: In-person\nResearch Tags: NLP\; Text Mining\; M
+ achine Translation\nIndustry Relevance Score: 9\nResearch Impact Score: 10
+ \nPrestige Score: 9\nPriority: P0\nNotes: Ultra-high citation empirical NL
+ P conference.
+DTSTART;VALUE=DATE:20260501
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
+END:VEVENT
+BEGIN:VEVENT
+UID:78319d02-1186-66f8-86f0-3f3855495772@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — EMNLP (Conference on Empirical Methods 
+ in Natural Language Processing)
+DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
+ ral Language Processing)\nArea: NLP/AI\nTier: A*\nCountry: Qatar\nRegion: 
+ Other\nOrganizer / Association: ACL SIGDAT\nFocus Areas: Empirical NLP\; M
+ achine Translation\; Information Extraction\; LLM Evaluation\nDate Status:
+  Estimated\nLocation Type: In-person\nResearch Tags: NLP\; Text Mining\; M
+ achine Translation\nIndustry Relevance Score: 9\nResearch Impact Score: 10
+ \nPrestige Score: 9\nPriority: P0\nNotes: Ultra-high citation empirical NL
+ P conference.
+DTSTART;VALUE=DATE:20260815
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
+END:VEVENT
+BEGIN:VEVENT
+UID:713906a5-9594-f230-e09d-4ae767187781@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:EMNLP (Conference on Empirical Methods in Natural Language Processi
+ ng) Conference
+DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
+ ral Language Processing)\nArea: NLP/AI\nTier: A*\nCountry: Qatar\nRegion: 
+ Other\nOrganizer / Association: ACL SIGDAT\nFocus Areas: Empirical NLP\; M
+ achine Translation\; Information Extraction\; LLM Evaluation\nDate Status:
+  Estimated\nLocation Type: In-person\nResearch Tags: NLP\; Text Mining\; M
+ achine Translation\nIndustry Relevance Score: 9\nResearch Impact Score: 10
+ \nPrestige Score: 9\nPriority: P0\nNotes: Ultra-high citation empirical NL
+ P conference.
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+URL:https://openreview.net/
+CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
+END:VEVENT
+BEGIN:VEVENT
+UID:1ae25f57-cb23-981d-cfad-18bf88678516@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Paper Submission Deadline — WWW (The Web Conference)
+DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
+ : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
+ nFocus Areas: Web Mining\; Social Network Analysis\; Search Engines\; Web 
+ Security\nDate Status: Confirmed\nLocation Type: In-person\nAcceptance Rat
+ e: 0.2\nResearch Tags: Web Architecture\; Social Networks\; Information Re
+ trieval\nIndustry Relevance Score: 9\nResearch Impact Score: 9\nPrestige S
+ core: 10\nPriority: P0\nNotes: Top-tier venue for Web infrastructure\, alg
+ orithms and networks.
+DTSTART;VALUE=DATE:20251010
+URL:https://easychair.org/
+CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
+ on Retrieval
+END:VEVENT
+BEGIN:VEVENT
+UID:549a604c-7ace-ae2f-b4d0-4b7f2f9c242b@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — WWW (The Web Conference)
+DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
+ : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
+ nFocus Areas: Web Mining\; Social Network Analysis\; Search Engines\; Web 
+ Security\nDate Status: Confirmed\nLocation Type: In-person\nAcceptance Rat
+ e: 0.2\nResearch Tags: Web Architecture\; Social Networks\; Information Re
+ trieval\nIndustry Relevance Score: 9\nResearch Impact Score: 9\nPrestige S
+ core: 10\nPriority: P0\nNotes: Top-tier venue for Web infrastructure\, alg
+ orithms and networks.
+DTSTART;VALUE=DATE:20261001
+URL:https://easychair.org/
+CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
+ on Retrieval
+END:VEVENT
+BEGIN:VEVENT
+UID:ca23513a-b74d-332a-9a43-c897b81e13c3@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — WWW (The Web Conference)
+DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
+ : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
+ nFocus Areas: Web Mining\; Social Network Analysis\; Search Engines\; Web 
+ Security\nDate Status: Confirmed\nLocation Type: In-person\nAcceptance Rat
+ e: 0.2\nResearch Tags: Web Architecture\; Social Networks\; Information Re
+ trieval\nIndustry Relevance Score: 9\nResearch Impact Score: 9\nPrestige S
+ core: 10\nPriority: P0\nNotes: Top-tier venue for Web infrastructure\, alg
+ orithms and networks.
+DTSTART;VALUE=DATE:20260122
+URL:https://easychair.org/
+CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
+ on Retrieval
+END:VEVENT
+BEGIN:VEVENT
+UID:c3b02591-e716-9f5d-067d-0700a394aeb7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:WWW (The Web Conference) Conference
+DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
+ : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
+ nFocus Areas: Web Mining\; Social Network Analysis\; Search Engines\; Web 
+ Security\nDate Status: Confirmed\nLocation Type: In-person\nAcceptance Rat
+ e: 0.2\nResearch Tags: Web Architecture\; Social Networks\; Information Re
+ trieval\nIndustry Relevance Score: 9\nResearch Impact Score: 9\nPrestige S
+ core: 10\nPriority: P0\nNotes: Top-tier venue for Web infrastructure\, alg
+ orithms and networks.
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260424
+URL:https://easychair.org/
+CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
+ on Retrieval
+END:VEVENT
+BEGIN:VEVENT
+UID:60478a48-8919-3f79-93a2-1e3f33c2b409@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Paper Submission — ICSE (International Conference on Sof
+ tware Engineering)
+DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
+ ineering)\nArea: Software Eng.\nTier: A*\nCountry: Portugal\nRegion: Europ
+ e\nOrganizer / Association: ACM / IEEE\nFocus Areas: Software Engineering 
+ Methodologies\; Code Analysis\; Testing\; DevOps\nDate Status: Estimated\n
+ Location Type: In-person\nAcceptance Rate: 0.22\nResearch Tags: Software E
+ ngineering\; Testing\; Code Automation\nIndustry Relevance Score: 8\nResea
+ rch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Flagship in
+ ternational software engineering venue.
+DTSTART;VALUE=DATE:20260801
+URL:https://hotcrp.com/
+CATEGORIES:Software Eng.\,Software Eng.\,Software Engineering\,Testing\,Cod
+ e Automation
+END:VEVENT
+BEGIN:VEVENT
+UID:6914aee4-a48f-ab89-d9c7-0a7e4f5d8e5a@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Acceptance Notification — ICSE (International Conference on Softw
+ are Engineering)
+DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
+ ineering)\nArea: Software Eng.\nTier: A*\nCountry: Portugal\nRegion: Europ
+ e\nOrganizer / Association: ACM / IEEE\nFocus Areas: Software Engineering 
+ Methodologies\; Code Analysis\; Testing\; DevOps\nDate Status: Estimated\n
+ Location Type: In-person\nAcceptance Rate: 0.22\nResearch Tags: Software E
+ ngineering\; Testing\; Code Automation\nIndustry Relevance Score: 8\nResea
+ rch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Flagship in
+ ternational software engineering venue.
+DTSTART;VALUE=DATE:20251210
+URL:https://hotcrp.com/
+CATEGORIES:Software Eng.\,Software Eng.\,Software Engineering\,Testing\,Cod
+ e Automation
+END:VEVENT
+BEGIN:VEVENT
+UID:56047c08-496c-2d50-8d9c-a8a4b99077a9@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:ICSE (International Conference on Software Engineering) Conference
+DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
+ ineering)\nArea: Software Eng.\nTier: A*\nCountry: Portugal\nRegion: Europ
+ e\nOrganizer / Association: ACM / IEEE\nFocus Areas: Software Engineering 
+ Methodologies\; Code Analysis\; Testing\; DevOps\nDate Status: Estimated\n
+ Location Type: In-person\nAcceptance Rate: 0.22\nResearch Tags: Software E
+ ngineering\; Testing\; Code Automation\nIndustry Relevance Score: 8\nResea
+ rch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNotes: Flagship in
+ ternational software engineering venue.
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260530
+URL:https://hotcrp.com/
+CATEGORIES:Software Eng.\,Software Eng.\,Software Engineering\,Testing\,Cod
+ e Automation
+END:VEVENT
+END:VCALENDAR

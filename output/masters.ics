@@ -1,0 +1,447 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Masters Programs
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:74217f8d-3c8f-761c-3704-ad51402ae181@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — Stanford University Master of Scienc
+ e in Computer Science (MSCS)
+DESCRIPTION:University: Stanford University\nProgram: Master of Science in 
+ Computer Science (MSCS)\nDegree Type: Master of Science\nCountry: United S
+ tates\nCity: Stanford\nDepartment: Department of Computer Science\nDuratio
+ n: 1.5-2 years\nFunding: Partially Funded\nFunding Description: MSCS stude
+ nts are not automatically funded but can secure RA/TA positions after the 
+ first quarter to cover tuition and stipend.\nFully Funded: No\nTuition Per
+  Year (USD): 58000\nLiving Cost Per Month (USD): 2200\nMonthly Stipend (US
+ D): 3400\nAnnual Stipend (USD): 30600\nHousing Included: No\nResearch Assi
+ stantship Available: Yes\nTeaching Assistantship Available: Yes\nIndustry 
+ Thesis Available: No\nGRE Required: No\nEnglish Requirement: TOEFL\nMinimu
+ m GPA: 3.6\nResearch Experience Important: Yes\nPublications Important: Ye
+ s\nContact PI Before Applying: Recommended\nInterview Required: No\nRequir
+ ed Documents: CV\; Transcript\; Statement of Purpose\; 3 Recommendation Le
+ tters\; TOEFL\nResearch Tags: Computer Vision\; Multimodal AI\; Foundation
+  Models\; Scientific ML\; Reinforcement Learning\; Data Engineering Distri
+ buted Systems\nResearch Fit Score (1-10): 9\nFunding Score (1-10): 6\nPres
+ tige Score (1-10): 10\nIndustry Opportunity Score (1-10): 10\nAdmission Pr
+ obability Score (1-10): 4\nOverall Score (1-10): 7.8\nPriority Tier: B\nNo
+ tes: Excellent fit tailored for UFMG Computer Science track.
+DTSTART;VALUE=DATE:20260901
+URL:https://www.stanford.edu
+CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
+ \,Reinforcement Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:34093844-6169-7832-28aa-4a0972d9f6d7@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — Carnegie Mellon University Master of
+  Science in Computer Science (MSCS)
+DESCRIPTION:University: Carnegie Mellon University\nProgram: Master of Scie
+ nce in Computer Science (MSCS)\nDegree Type: Master of Science\nCountry: U
+ nited States\nCity: Pittsburgh\nDepartment: School of Computer Science\nDu
+ ration: 1.5-2 years\nFunding: Unfunded\nFunding Description: Financial aid
+  is generally not available for this professional terminal master's degree
+  upon admission. Partial TA roles available later.\nFully Funded: No\nTuit
+ ion Per Year (USD): 53000\nLiving Cost Per Month (USD): 1800\nMonthly Stip
+ end (USD): Unknown\nAnnual Stipend (USD): Unknown\nHousing Included: No\nR
+ esearch Assistantship Available: Yes\nTeaching Assistantship Available: Ye
+ s\nIndustry Thesis Available: No\nGRE Required: Yes\nEnglish Requirement: 
+ TOEFL / IELTS\nMinimum GPA: 3.6\nResearch Experience Important: Yes\nPubli
+ cations Important: Yes\nContact PI Before Applying: No\nInterview Required
+ : No\nRequired Documents: CV\; Transcript\; Statement of Purpose\; 3 Recom
+ mendation Letters\; GRE\; TOEFL/IELTS\nResearch Tags: Computer Vision\; Mu
+ ltimodal AI\; Foundation Models\; Scientific ML\; Reinforcement Learning\;
+  Data Engineering Distributed Systems\nResearch Fit Score (1-10): 9\nFundi
+ ng Score (1-10): 6\nPrestige Score (1-10): 10\nIndustry Opportunity Score 
+ (1-10): 10\nAdmission Probability Score (1-10): 4\nOverall Score (1-10): 7
+ .8\nPriority Tier: B\nNotes: Excellent fit tailored for UFMG Computer Scie
+ nce track.
+DTSTART;VALUE=DATE:20260901
+URL:https://www.cmu.edu
+CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
+ \,Reinforcement Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:90f3b961-ff53-4a95-bc27-ffadc182d058@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — University of California\, Berkeley 
+ Master of Science in Computer Science
+DESCRIPTION:University: University of California\, Berkeley\nProgram: Maste
+ r of Science in Computer Science\nDegree Type: Master of Science\nCountry:
+  United States\nCity: Berkeley\nDepartment: Department of Electrical Engin
+ eering and Computer Sciences\nDuration: 2 years\nFunding: Fully Funded\nFu
+ nding Description: Admitted research MS students are guaranteed funding vi
+ a Graduate Student Researcher (GSR) or Instructor (GSI) positions.\nFully 
+ Funded: Yes\nTuition Per Year (USD): 33000\nLiving Cost Per Month (USD): 2
+ 000\nMonthly Stipend (USD): 3200\nAnnual Stipend (USD): 28800\nHousing Inc
+ luded: No\nResearch Assistantship Available: Yes\nTeaching Assistantship A
+ vailable: Yes\nIndustry Thesis Available: Yes\nGRE Required: No\nEnglish R
+ equirement: TOEFL / IELTS\nMinimum GPA: 3.7\nResearch Experience Important
+ : Yes\nPublications Important: Yes\nContact PI Before Applying: Recommende
+ d\nInterview Required: No\nRequired Documents: CV\; Transcript\; Statement
+  of Purpose\; 3 Recommendation Letters\; TOEFL/IELTS\nResearch Tags: Compu
+ ter Vision\; Multimodal AI\; Foundation Models\; Scientific ML\; Reinforce
+ ment Learning\; Data Engineering Distributed Systems\nResearch Fit Score (
+ 1-10): 9\nFunding Score (1-10): 10\nPrestige Score (1-10): 10\nIndustry Op
+ portunity Score (1-10): 10\nAdmission Probability Score (1-10): 4\nOverall
+  Score (1-10): 8.6\nPriority Tier: A\nNotes: Excellent fit tailored for UF
+ MG Computer Science track.
+DTSTART;VALUE=DATE:20260901
+URL:https://www.berkeley.edu
+CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
+ \,Reinforcement Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:1bd0453c-f452-7c52-f9f6-01adb6c4747b@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — Georgia Institute of Technology Mast
+ er of Science in Computer Science
+DESCRIPTION:University: Georgia Institute of Technology\nProgram: Master of
+  Science in Computer Science\nDegree Type: Master of Science\nCountry: Uni
+ ted States\nCity: Atlanta\nDepartment: College of Computing\nDuration: 1.5
+ -2 years\nFunding: Partially Funded\nFunding Description: Students can com
+ pete for Graduate Teaching (GTA) and Research Assistantships (GRA) after a
+ rrival to waive tuition.\nFully Funded: No\nTuition Per Year (USD): 31000\
+ nLiving Cost Per Month (USD): 1500\nMonthly Stipend (USD): 1200\nAnnual St
+ ipend (USD): 10800\nHousing Included: No\nResearch Assistantship Available
+ : Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis Available: N
+ o\nGRE Required: No\nEnglish Requirement: TOEFL / IELTS\nMinimum GPA: 3.5\
+ nResearch Experience Important: Yes\nPublications Important: Yes\nContact 
+ PI Before Applying: No\nInterview Required: No\nRequired Documents: CV\; T
+ ranscript\; Statement of Purpose\; 3 Recommendation Letters\; TOEFL/IELTS\
+ nResearch Tags: Computer Vision\; Multimodal AI\; Scientific ML\; Data Eng
+ ineering Distributed Systems\nResearch Fit Score (1-10): 9\nFunding Score 
+ (1-10): 6\nPrestige Score (1-10): 9\nIndustry Opportunity Score (1-10): 10
+ \nAdmission Probability Score (1-10): 7\nOverall Score (1-10): 8.2\nPriori
+ ty Tier: B\nNotes: Excellent fit tailored for UFMG Computer Science track.
+DTSTART;VALUE=DATE:20260801
+URL:https://www.gatech.edu
+CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML\,Data Engineering 
+ Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:b5192e2f-2519-3030-ba0a-2dbba7f021e8@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — University of Toronto Master of Scie
+ nce in Computer Science
+DESCRIPTION:University: University of Toronto\nProgram: Master of Science i
+ n Computer Science\nDegree Type: Master of Science\nCountry: Canada\nCity:
+  Toronto\nDepartment: Department of Computer Science\nDuration: 2 years\nF
+ unding: Fully Funded\nFunding Description: All admitted research MSc stude
+ nts are guaranteed a funding package covering tuition and a base living st
+ ipend.\nFully Funded: Yes\nTuition Per Year (USD): 28000\nLiving Cost Per 
+ Month (USD): 1600\nMonthly Stipend (USD): 1800\nAnnual Stipend (USD): 2160
+ 0\nHousing Included: No\nResearch Assistantship Available: Yes\nTeaching A
+ ssistantship Available: Yes\nIndustry Thesis Available: No\nGRE Required: 
+ No\nEnglish Requirement: TOEFL / IELTS\nMinimum GPA: 3.6\nResearch Experie
+ nce Important: Yes\nPublications Important: Yes\nContact PI Before Applyin
+ g: No\nInterview Required: No\nRequired Documents: CV\; Transcript\; State
+ ment of Purpose\; 3 Recommendation Letters\; TOEFL/IELTS\nResearch Tags: C
+ omputer Vision\; Multimodal AI\; Scientific ML\nResearch Fit Score (1-10):
+  9\nFunding Score (1-10): 10\nPrestige Score (1-10): 9\nIndustry Opportuni
+ ty Score (1-10): 10\nAdmission Probability Score (1-10): 7\nOverall Score 
+ (1-10): 9.0\nPriority Tier: A\nNotes: Excellent fit tailored for UFMG Comp
+ uter Science track.
+DTSTART;VALUE=DATE:20261001
+URL:https://www.utoronto.ca
+CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML
+END:VEVENT
+BEGIN:VEVENT
+UID:ce4f63ac-d090-36e1-d19b-6af29c4c277b@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — UniversitÃ© de MontrÃ©al MSc in 
+ Computer Science / AI Specialized
+DESCRIPTION:University: UniversitÃ© de MontrÃ©al\nProgram: MSc in Compu
+ ter Science / AI Specialized\nDegree Type: Master of Science\nCountry: Can
+ ada\nCity: Montreal\nDepartment: Department of Computer Science and Operat
+ ions Research\nDuration: 1.5-2 years\nFunding: Fully Funded\nFunding Descr
+ iption: Students matched with a Mila faculty advisor receive a guaranteed 
+ research stipend from grants and fellowships.\nFully Funded: Yes\nTuition 
+ Per Year (USD): 18000\nLiving Cost Per Month (USD): 1300\nMonthly Stipend 
+ (USD): 2200\nAnnual Stipend (USD): 26400\nHousing Included: No\nResearch A
+ ssistantship Available: Yes\nTeaching Assistantship Available: Yes\nIndust
+ ry Thesis Available: Yes\nGRE Required: No\nEnglish Requirement: TOEFL / I
+ ELTS\nMinimum GPA: 3.5\nResearch Experience Important: Yes\nPublications I
+ mportant: Yes\nContact PI Before Applying: Recommended\nInterview Required
+ : No\nRequired Documents: CV\; Transcript\; Statement of Purpose\; 3 Recom
+ mendation Letters\; TOEFL/IELTS\nResearch Tags: Computer Vision\; Multimod
+ al AI\; Foundation Models\; Scientific ML\; Reinforcement Learning\; Data 
+ Engineering Distributed Systems\nResearch Fit Score (1-10): 9\nFunding Sco
+ re (1-10): 10\nPrestige Score (1-10): 9\nIndustry Opportunity Score (1-10)
+ : 10\nAdmission Probability Score (1-10): 7\nOverall Score (1-10): 9.0\nPr
+ iority Tier: A\nNotes: Excellent fit tailored for UFMG Computer Science tr
+ ack.
+DTSTART;VALUE=DATE:20260901
+URL:https://www.umontreal.ca
+CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
+ \,Reinforcement Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:32abb992-d35e-2c40-5733-bb216e953d5c@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — ETH Zurich Master of Science in Comp
+ uter Science
+DESCRIPTION:University: ETH Zurich\nProgram: Master of Science in Computer 
+ Science\nDegree Type: Master of Science\nCountry: Switzerland\nCity: Zuric
+ h\nDepartment: Department of Computer Science\nDuration: 2 years\nFunding:
+  Partially Funded\nFunding Description: Low tuition fees. Merit scholarshi
+ ps (ESOP) cover full living costs for top tier applicants\; others can sec
+ ure helper contracts.\nFully Funded: No\nTuition Per Year (USD): 1700\nLiv
+ ing Cost Per Month (USD): 1600\nMonthly Stipend (USD): Unknown\nAnnual Sti
+ pend (USD): Unknown\nHousing Included: No\nResearch Assistantship Availabl
+ e: Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis Available: 
+ Yes\nGRE Required: Yes\nEnglish Requirement: TOEFL / IELTS\nMinimum GPA: 3
+ .5\nResearch Experience Important: Yes\nPublications Important: Yes\nConta
+ ct PI Before Applying: Recommended\nInterview Required: No\nRequired Docum
+ ents: CV\; Transcript\; Statement of Purpose\; 2 Recommendation Letters\; 
+ GRE\; TOEFL/IELTS\nResearch Tags: Computer Vision\; Foundation Models\; Sc
+ ientific ML\; Data Centric AI\; Reinforcement Learning\; Data Engineering 
+ Distributed Systems\nResearch Fit Score (1-10): 9\nFunding Score (1-10): 6
+ \nPrestige Score (1-10): 10\nIndustry Opportunity Score (1-10): 10\nAdmiss
+ ion Probability Score (1-10): 7\nOverall Score (1-10): 8.4\nPriority Tier:
+  B\nNotes: Excellent fit tailored for UFMG Computer Science track.
+DTSTART;VALUE=DATE:20261101
+URL:https://ethz.ch
+CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Data Centric 
+ AI\,Reinforcement Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:efb62005-ab07-d328-254c-17861eebae8d@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — EPFL (Ãcole Polytechnique FÃ©d
+ Ã©rale de Lausanne) Master of Science in Computer Science / Data Science
+DESCRIPTION:University: EPFL (Ãcole Polytechnique FÃ©dÃ©rale de Laus
+ anne)\nProgram: Master of Science in Computer Science / Data Science\nDegr
+ ee Type: Master of Science\nCountry: Switzerland\nCity: Lausanne\nDepartme
+ nt: School of Computer and Communication Sciences\nDuration: 2 years\nFund
+ ing: Partially Funded\nFunding Description: Low tuition. Limited excellenc
+ e fellowships available. Paid student teaching assistant roles are widely 
+ available from semester 2.\nFully Funded: No\nTuition Per Year (USD): 1700
+ \nLiving Cost Per Month (USD): 1600\nMonthly Stipend (USD): Unknown\nAnnua
+ l Stipend (USD): Unknown\nHousing Included: No\nResearch Assistantship Ava
+ ilable: Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis Availa
+ ble: Yes\nGRE Required: Yes\nEnglish Requirement: TOEFL / IELTS\nMinimum G
+ PA: 3.5\nResearch Experience Important: Yes\nPublications Important: Yes\n
+ Contact PI Before Applying: No\nInterview Required: No\nRequired Documents
+ : CV\; Transcript\; Statement of Purpose\; 3 Recommendation Letters\; GRE\
+ ; TOEFL/IELTS\nResearch Tags: Computer Vision\; Foundation Models\; Scient
+ ific ML\; Reinforcement Learning\; Data Engineering Distributed Systems\nR
+ esearch Fit Score (1-10): 9\nFunding Score (1-10): 6\nPrestige Score (1-10
+ ): 9\nIndustry Opportunity Score (1-10): 10\nAdmission Probability Score (
+ 1-10): 7\nOverall Score (1-10): 8.2\nPriority Tier: B\nNotes: Excellent fi
+ t tailored for UFMG Computer Science track. (Note: City fixed to Lausanne)
+DTSTART;VALUE=DATE:20260901
+URL:https://www.epfl.ch
+CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Reinforcement
+  Learning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd0fa6e-bc5d-fbf2-a23f-e8721296e0d0@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — Technical University of Munich Maste
+ r of Science in Informatics
+DESCRIPTION:University: Technical University of Munich\nProgram: Master of 
+ Science in Informatics\nDegree Type: Master of Science\nCountry: Germany\n
+ City: Munich\nDepartment: TUM School of Computation\, Information and Tech
+ nology\nDuration: 2 years\nFunding: Unfunded\nFunding Description: TUM cha
+ rges international fees. Students cover living costs but frequently work a
+ s working students (Werkstudent) or assistants.\nFully Funded: No\nTuition
+  Per Year (USD): 11000\nLiving Cost Per Month (USD): 1200\nMonthly Stipend
+  (USD): Unknown\nAnnual Stipend (USD): Unknown\nHousing Included: No\nRese
+ arch Assistantship Available: Yes\nTeaching Assistantship Available: Yes\n
+ Industry Thesis Available: No\nGRE Required: Yes\nEnglish Requirement: TOE
+ FL / IELTS\nMinimum GPA: 3.2\nResearch Experience Important: Yes\nPublicat
+ ions Important: Yes\nContact PI Before Applying: No\nInterview Required: N
+ o\nRequired Documents: CV\; Transcript\; Statement of Purpose\; Analysis o
+ f Curriculum\; TOEFL/IELTS\nResearch Tags: Computer Vision\; Scientific ML
+ \; Data Engineering Distributed Systems\nResearch Fit Score (1-10): 9\nFun
+ ding Score (1-10): 6\nPrestige Score (1-10): 9\nIndustry Opportunity Score
+  (1-10): 10\nAdmission Probability Score (1-10): 7\nOverall Score (1-10): 
+ 8.2\nPriority Tier: B\nNotes: Excellent fit tailored for UFMG Computer Sci
+ ence track.
+DTSTART;VALUE=DATE:20260101
+URL:https://www.tum.de
+CATEGORIES:Computer Vision\,Scientific ML\,Data Engineering Distributed Sys
+ tems
+END:VEVENT
+BEGIN:VEVENT
+UID:aea25b5d-0132-1463-6993-69f1d99c5342@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — University of Cambridge Advanced Com
+ puter Science
+DESCRIPTION:University: University of Cambridge\nProgram: Advanced Computer
+  Science\nDegree Type: Master of Philosophy\nCountry: United Kingdom\nCity
+ : Cambridge\nDepartment: Department of Computer Science and Technology\nDu
+ ration: 1 year\nFunding: Partially Funded\nFunding Description: Highly com
+ petitive university scholarships (Gates\, Cambridge Trust) require concurr
+ ent application. Otherwise self-funded.\nFully Funded: No\nTuition Per Yea
+ r (USD): 55000\nLiving Cost Per Month (USD): 1700\nMonthly Stipend (USD): 
+ Unknown\nAnnual Stipend (USD): Unknown\nHousing Included: No\nResearch Ass
+ istantship Available: Yes\nTeaching Assistantship Available: Yes\nIndustry
+  Thesis Available: No\nGRE Required: No\nEnglish Requirement: TOEFL / IELT
+ S\nMinimum GPA: 3.8\nResearch Experience Important: Yes\nPublications Impo
+ rtant: Yes\nContact PI Before Applying: No\nInterview Required: No\nRequir
+ ed Documents: CV\; Transcript\; Statement of Purpose\; 2 Recommendation Le
+ tters\; TOEFL/IELTS\nResearch Tags: Advanced ML\; Foundation Models\; Scie
+ ntific ML\; Reinforcement Learning\; Data Engineering Distributed Systems\
+ nResearch Fit Score (1-10): 9\nFunding Score (1-10): 6\nPrestige Score (1-
+ 10): 10\nIndustry Opportunity Score (1-10): 10\nAdmission Probability Scor
+ e (1-10): 4\nOverall Score (1-10): 7.8\nPriority Tier: B\nNotes: Excellent
+  fit tailored for UFMG Computer Science track. (Note: Restructured overlap
+ ping row fields)
+DTSTART;VALUE=DATE:20260901
+URL:https://www.cam.ac.uk
+CATEGORIES:Advanced ML\,Foundation Models\,Scientific ML\,Reinforcement Lea
+ rning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:6348b9d3-ce12-6192-8bdb-628523a34171@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — University of Amsterdam Master of Sc
+ ience in Artificial Intelligence
+DESCRIPTION:University: University of Amsterdam\nProgram: Master of Science
+  in Artificial Intelligence\nDegree Type: Master of Science\nCountry: Neth
+ erlands\nCity: Amsterdam\nDepartment: Faculty of Science\nDuration: 2 year
+ s\nFunding: Partially Funded\nFunding Description: Non-EU fees apply. Exce
+ ptional applicants compete for Amsterdam Excellence or Merit Scholarships 
+ covering fees/stipends.\nFully Funded: No\nTuition Per Year (USD): 23000\n
+ Living Cost Per Month (USD): 1400\nMonthly Stipend (USD): Unknown\nAnnual 
+ Stipend (USD): Unknown\nHousing Included: No\nResearch Assistantship Avail
+ able: Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis Availabl
+ e: No\nGRE Required: No\nEnglish Requirement: TOEFL / IELTS\nMinimum GPA: 
+ 3.5\nResearch Experience Important: Yes\nPublications Important: Yes\nCont
+ act PI Before Applying: Recommended\nInterview Required: No\nRequired Docu
+ ments: CV\; Transcript\; Statement of Purpose\; 2 Recommendation Letters\;
+  TOEFL/IELTS\nResearch Tags: Computer Vision\; Scientific ML\; Data Centri
+ c AI\; Reinforcement Learning\; Data Engineering Distributed Systems\nRese
+ arch Fit Score (1-10): 9\nFunding Score (1-10): 6\nPrestige Score (1-10): 
+ 9\nIndustry Opportunity Score (1-10): 10\nAdmission Probability Score (1-1
+ 0): 7\nOverall Score (1-10): 8.2\nPriority Tier: B\nNotes: Excellent fit t
+ ailored for UFMG Computer Science track. (Note: City fixed to Amsterdam)
+DTSTART;VALUE=DATE:20261001
+URL:https://www.uva.nl
+CATEGORIES:Computer Vision\,Scientific ML\,Data Centric AI\,Reinforcement L
+ earning\,Data Engineering Distributed Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:bdcae1a0-f80c-891f-d44c-6a9c4db4e857@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — National University of Singapore Mas
+ ter of Computing (Artificial Intelligence Specialization)
+DESCRIPTION:University: National University of Singapore\nProgram: Master o
+ f Computing (Artificial Intelligence Specialization)\nDegree Type: Master 
+ of Computing\nCountry: Singapore\nCity: Singapore\nDepartment: NUS School 
+ of Computing\nDuration: 1.5-2 years\nFunding: Partially Funded\nFunding De
+ scription: Tuition subsidies available under service obligations. Research
+  scholarships exist but mostly target immediate PhD tracks.\nFully Funded:
+  No\nTuition Per Year (USD): 40000\nLiving Cost Per Month (USD): 1300\nMon
+ thly Stipend (USD): Unknown\nAnnual Stipend (USD): Unknown\nHousing Includ
+ ed: No\nResearch Assistantship Available: Yes\nTeaching Assistantship Avai
+ lable: Yes\nIndustry Thesis Available: Yes\nGRE Required: Yes\nEnglish Req
+ uirement: TOEFL / IELTS\nMinimum GPA: 3.5\nResearch Experience Important: 
+ Yes\nPublications Important: Yes\nContact PI Before Applying: Recommended\
+ nInterview Required: No\nRequired Documents: CV\; Transcript\; Statement o
+ f Purpose\; 2 Recommendation Letters\; GRE\; TOEFL/IELTS\nResearch Tags: C
+ omputer Vision\; Multimodal AI\; Foundation Models\; Scientific ML\; Data 
+ Centric AI\; Reinforcement Learning\; Data Engineering Distributed Systems
+ \nResearch Fit Score (1-10): 9\nFunding Score (1-10): 10\nPrestige Score (
+ 1-10): 9\nIndustry Opportunity Score (1-10): 10\nAdmission Probability Sco
+ re (1-10): 8\nOverall Score (1-10): 9.2\nPriority Tier: A\nNotes: Excellen
+ t fit tailored for UFMG Computer Science track. (Note: City fixed to Singa
+ pore)
+DTSTART;VALUE=DATE:20261201
+URL:https://nus.edu.sg
+CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
+ \,Data Centric AI\,Reinforcement Learning\,Data Engineering Distributed Sy
+ stems
+END:VEVENT
+BEGIN:VEVENT
+UID:92bab9c0-befd-00ff-b753-48ceceae1e0e@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — University of Hong Kong Master of Sc
+ ience in Computer Science
+DESCRIPTION:University: University of Hong Kong\nProgram: Master of Science
+  in Computer Science\nDegree Type: Master of Science\nCountry: Hong Kong\n
+ City: Hong Kong\nDepartment: Department of Computer Science\nDuration: 2 y
+ ears\nFunding: Partially Funded\nFunding Description: Mainly self-funded c
+ oursework track with competitive partial merit or fellowship awards availa
+ ble during entry cycles.\nFully Funded: No\nTuition Per Year (USD): 32000\
+ nLiving Cost Per Month (USD): 1200\nMonthly Stipend (USD): Unknown\nAnnual
+  Stipend (USD): Unknown\nHousing Included: No\nResearch Assistantship Avai
+ lable: Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis Availab
+ le: No\nGRE Required: No\nEnglish Requirement: TOEFL / IELTS\nMinimum GPA:
+  3.2\nResearch Experience Important: Yes\nPublications Important: Yes\nCon
+ tact PI Before Applying: No\nInterview Required: No\nRequired Documents: C
+ V\; Transcript\; Statement of Purpose\; 2 Recommendation Letters\; TOEFL/I
+ ELTS\nResearch Tags: Foundation Models\; Scientific ML\; Data Engineering 
+ Distributed Systems\nResearch Fit Score (1-10): 8\nFunding Score (1-10): 1
+ 0\nPrestige Score (1-10): 9\nIndustry Opportunity Score (1-10): 10\nAdmiss
+ ion Probability Score (1-10): 7\nOverall Score (1-10): 8.8\nPriority Tier:
+  A\nNotes: Excellent fit tailored for UFMG Computer Science track. (Note: 
+ Cleaned shifted columns)
+DTSTART;VALUE=DATE:20261201
+URL:https://www.hku.hk
+CATEGORIES:Foundation Models\,Scientific ML\,Data Engineering Distributed S
+ ystems
+END:VEVENT
+BEGIN:VEVENT
+UID:9055b788-2b79-b448-7af6-66c390e9e33c@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — Hong Kong Polytechnic University Mas
+ ter of Science in Information Technology / AI Tracks
+DESCRIPTION:University: Hong Kong Polytechnic University\nProgram: Master o
+ f Science in Information Technology / AI Tracks\nDegree Type: Master of Sc
+ ience\nCountry: Hong Kong\nCity: Hong Kong\nDepartment: Department of Comp
+ uting\nDuration: 2 years\nFunding: Partially Funded\nFunding Description: 
+ Self-funded professional track with local bursary setups or institutional 
+ merit frameworks available dynamically.\nFully Funded: No\nTuition Per Yea
+ r (USD): 26000\nLiving Cost Per Month (USD): 1200\nMonthly Stipend (USD): 
+ Unknown\nAnnual Stipend (USD): Unknown\nHousing Included: No\nResearch Ass
+ istantship Available: Yes\nTeaching Assistantship Available: Yes\nIndustry
+  Thesis Available: No\nGRE Required: No\nEnglish Requirement: TOEFL / IELT
+ S\nMinimum GPA: 3.0\nResearch Experience Important: Yes\nPublications Impo
+ rtant: Yes\nContact PI Before Applying: No\nInterview Required: No\nRequir
+ ed Documents: CV\; Transcript\; Statement of Purpose\; 2 Recommendation Le
+ tters\; TOEFL/IELTS\nResearch Tags: Computer Vision\; Data Centric AI\; Da
+ ta Engineering Distributed Systems\nResearch Fit Score (1-10): 9\nFunding 
+ Score (1-10): 10\nPrestige Score (1-10): 9\nIndustry Opportunity Score (1-
+ 10): 10\nAdmission Probability Score (1-10): 8\nOverall Score (1-10): 9.2\
+ nPriority Tier: A\nNotes: Excellent fit tailored for UFMG Computer Science
+  track. (Note: Cleaned shifted columns)
+DTSTART;VALUE=DATE:20261201
+URL:https://www.polyu.edu.hk
+CATEGORIES:Computer Vision\,Data Centric AI\,Data Engineering Distributed S
+ ystems
+END:VEVENT
+BEGIN:VEVENT
+UID:d387d472-bb4e-ea4e-5c9c-8fe896485ac9@opportunity-tracker
+DTSTAMP:20260704T002009Z
+SUMMARY:Expected Applications Open — City University of Hong Kong Master 
+ of Science in Computer Science
+DESCRIPTION:University: City University of Hong Kong\nProgram: Master of Sc
+ ience in Computer Science\nDegree Type: Master of Science\nCountry: Hong K
+ ong\nCity: Hong Kong\nDepartment: Department of Computer Science\nDuration
+ : 2 years\nFunding: Partially Funded\nFunding Description: Coursework-orie
+ nted profile. Funding limited to initial top-tier entrance waivers or rese
+ arch assistant hires on campus.\nFully Funded: No\nTuition Per Year (USD):
+  24000\nLiving Cost Per Month (USD): 1200\nMonthly Stipend (USD): Unknown\
+ nAnnual Stipend (USD): Unknown\nHousing Included: No\nResearch Assistantsh
+ ip Available: Yes\nTeaching Assistantship Available: Yes\nIndustry Thesis 
+ Available: No\nGRE Required: No\nEnglish Requirement: TOEFL / IELTS\nMinim
+ um GPA: 3.0\nResearch Experience Important: Yes\nPublications Important: Y
+ es\nContact PI Before Applying: No\nInterview Required: No\nRequired Docum
+ ents: CV\; Transcript\; Statement of Purpose\; 2 Recommendation Letters\; 
+ TOEFL/IELTS\nResearch Tags: Scientific ML\; Data Engineering Distributed S
+ ystems\nResearch Fit Score (1-10): 8\nFunding Score (1-10): 10\nPrestige S
+ core (1-10): 9\nIndustry Opportunity Score (1-10): 10\nAdmission Probabili
+ ty Score (1-10): 8\nOverall Score (1-10): 9.0\nPriority Tier: A\nNotes: Ex
+ cellent fit tailored for UFMG Computer Science track. (Note: Country fixed
+  to Hong Kong\, City fixed to Hong Kong)
+DTSTART;VALUE=DATE:20261201
+URL:https://www.cityu.edu.hk
+CATEGORIES:Scientific ML\,Data Engineering Distributed Systems
+END:VEVENT
+END:VCALENDAR

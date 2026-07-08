@@ -46,17 +46,19 @@ jobs:
 
       - name: Prepare public/ for Pages
         run: |
-          mkdir -p public
-          # copy landing page (preserve from source)
-          if [ -f public/index.html ]; then cp -v public/index.html public/index.html.bak; fi
-          # copy ICS files
-          cp -v output/*.ics public/ || true
-          # expose CSVs too for browsing
+          # Garante que a estrutura interna de dados exista
           mkdir -p public/data
+          
+          # Copia os arquivos gerados (.ics) para dentro de public/
+          cp -v output/*.ics public/ || true
+          
+          # Copia os arquivos gerados (.csv) para dentro de public/data/
           cp -v data/*.csv public/data/ || true
-          # ensure landing page exists
+          
+          # Verifica se o index.html realmente está no lugar certo
           if [ ! -f public/index.html ]; then
-            echo "WARNING: public/index.html not found!"
+            echo "ERROR: public/index.html not found! Verifique se o arquivo existe localmente na pasta public/."
+            exit 1
           fi
 
       - name: Diagnostics - public/ listing
@@ -70,14 +72,16 @@ jobs:
           if [ -f public/graduation.ics ]; then head -n 40 public/graduation.ics; else echo "NO graduation.ics"; fi
 
       - name: Commit updated CSVs and ICS (if any)
+        # Evita travar ou rodar em loop quando o gatilho for um push na main
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # check for changes
+          
           git add data/*.csv output/*.ics || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: automated sync and calendar build [ci skip]" || true
-            git push origin HEAD:${GITHUB_REF_NAME}
+            git push origin HEAD:main
             echo "Committed and pushed changes."
           else
             echo "No content changes to commit."

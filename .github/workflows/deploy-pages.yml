@@ -46,13 +46,18 @@ jobs:
 
       - name: Prepare public/ for Pages
         run: |
-          rm -rf public || true
           mkdir -p public
+          # copy landing page (preserve from source)
+          if [ -f public/index.html ]; then cp -v public/index.html public/index.html.bak; fi
           # copy ICS files
           cp -v output/*.ics public/ || true
           # expose CSVs too for browsing
           mkdir -p public/data
           cp -v data/*.csv public/data/ || true
+          # ensure landing page exists
+          if [ ! -f public/index.html ]; then
+            echo "WARNING: public/index.html not found!"
+          fi
 
       - name: Diagnostics - public/ listing
         if: always()

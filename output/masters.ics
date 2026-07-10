@@ -7,7 +7,7 @@ X-WR-CALNAME:Masters Programs
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:74217f8d-3c8f-761c-3704-ad51402ae181@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — Stanford University Master of Scienc
  e in Computer Science (MSCS)
 DESCRIPTION:University: Stanford University\nProgram: Master of Science in 
@@ -36,7 +36,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:34093844-6169-7832-28aa-4a0972d9f6d7@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — Carnegie Mellon University Master of
   Science in Computer Science (MSCS)
 DESCRIPTION:University: Carnegie Mellon University\nProgram: Master of Scie
@@ -66,7 +66,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:90f3b961-ff53-4a95-bc27-ffadc182d058@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — University of California\, Berkeley 
  Master of Science in Computer Science
 DESCRIPTION:University: University of California\, Berkeley\nProgram: Maste
@@ -96,7 +96,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:1bd0453c-f452-7c52-f9f6-01adb6c4747b@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — Georgia Institute of Technology Mast
  er of Science in Computer Science
 DESCRIPTION:University: Georgia Institute of Technology\nProgram: Master of
@@ -124,7 +124,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML\,Data Engineering
 END:VEVENT
 BEGIN:VEVENT
 UID:b5192e2f-2519-3030-ba0a-2dbba7f021e8@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — University of Toronto Master of Scie
  nce in Computer Science
 DESCRIPTION:University: University of Toronto\nProgram: Master of Science i
@@ -151,7 +151,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4f63ac-d090-36e1-d19b-6af29c4c277b@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — UniversitÃ© de MontrÃ©al MSc in 
  Computer Science / AI Specialized
 DESCRIPTION:University: UniversitÃ© de MontrÃ©al\nProgram: MSc in Compu
@@ -181,7 +181,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:32abb992-d35e-2c40-5733-bb216e953d5c@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — ETH Zurich Master of Science in Comp
  uter Science
 DESCRIPTION:University: ETH Zurich\nProgram: Master of Science in Computer 
@@ -210,7 +210,7 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Data Centric
 END:VEVENT
 BEGIN:VEVENT
 UID:efb62005-ab07-d328-254c-17861eebae8d@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — EPFL (Ãcole Polytechnique FÃ©d
  Ã©rale de Lausanne) Master of Science in Computer Science / Data Science
 DESCRIPTION:University: EPFL (Ãcole Polytechnique FÃ©dÃ©rale de Laus
@@ -240,7 +240,7 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Reinforcement
 END:VEVENT
 BEGIN:VEVENT
 UID:7bd0fa6e-bc5d-fbf2-a23f-e8721296e0d0@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — Technical University of Munich Maste
  r of Science in Informatics
 DESCRIPTION:University: Technical University of Munich\nProgram: Master of 
@@ -269,7 +269,7 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Engineering Distributed Sys
 END:VEVENT
 BEGIN:VEVENT
 UID:aea25b5d-0132-1463-6993-69f1d99c5342@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — University of Cambridge Advanced Com
  puter Science
 DESCRIPTION:University: University of Cambridge\nProgram: Advanced Computer
@@ -299,7 +299,7 @@ CATEGORIES:Advanced ML\,Foundation Models\,Scientific ML\,Reinforcement Lea
 END:VEVENT
 BEGIN:VEVENT
 UID:6348b9d3-ce12-6192-8bdb-628523a34171@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — University of Amsterdam Master of Sc
  ience in Artificial Intelligence
 DESCRIPTION:University: University of Amsterdam\nProgram: Master of Science
@@ -328,7 +328,7 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Centric AI\,Reinforcement L
 END:VEVENT
 BEGIN:VEVENT
 UID:bdcae1a0-f80c-891f-d44c-6a9c4db4e857@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — National University of Singapore Mas
  ter of Computing (Artificial Intelligence Specialization)
 DESCRIPTION:University: National University of Singapore\nProgram: Master o
@@ -360,7 +360,7 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
 UID:92bab9c0-befd-00ff-b753-48ceceae1e0e@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — University of Hong Kong Master of Sc
  ience in Computer Science
 DESCRIPTION:University: University of Hong Kong\nProgram: Master of Science
@@ -389,7 +389,7 @@ CATEGORIES:Foundation Models\,Scientific ML\,Data Engineering Distributed S
 END:VEVENT
 BEGIN:VEVENT
 UID:9055b788-2b79-b448-7af6-66c390e9e33c@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — Hong Kong Polytechnic University Mas
  ter of Science in Information Technology / AI Tracks
 DESCRIPTION:University: Hong Kong Polytechnic University\nProgram: Master o
@@ -418,7 +418,7 @@ CATEGORIES:Computer Vision\,Data Centric AI\,Data Engineering Distributed S
 END:VEVENT
 BEGIN:VEVENT
 UID:d387d472-bb4e-ea4e-5c9c-8fe896485ac9@opportunity-tracker
-DTSTAMP:20260709T093250Z
+DTSTAMP:20260710T092418Z
 SUMMARY:Expected Applications Open — City University of Hong Kong Master 
  of Science in Computer Science
 DESCRIPTION:University: City University of Hong Kong\nProgram: Master of Sc

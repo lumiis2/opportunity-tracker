@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Opportunity Tracker" width="100%">
-</p>
-
-<p align="center">
-  <strong>Organized opportunities. Deadlines in your calendar. A community to keep it all alive.</strong>
+  <img src="assets/banner.png" alt="Opportunity Tracker" width="100%">
 </p>
 
 <p align="center">
@@ -34,12 +30,14 @@ It gathers all available calendars, their subscription links, and the respective
 
 ## Available calendars
 
-| Category | Subscribe or download `.ics` | Download CSV |
-| --- | --- | --- |
-| 🎓 Undergraduate | [graduation.ics](https://lumiis2.github.io/opportunity-tracker/graduation.ics) | [graduation.csv](https://lumiis2.github.io/opportunity-tracker/data/graduation.csv) |
-| 🏫 Master's | [masters.ics](https://lumiis2.github.io/opportunity-tracker/masters.ics) | [masters.csv](https://lumiis2.github.io/opportunity-tracker/data/masters.csv) |
-| 💼 Industry | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
-| 📚 Conferences | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
+Copy the calendar URL and paste it into the **From URL** option in your calendar app.
+
+| Category | Calendar URL — copy and paste | Download `.ics` | Download CSV |
+| --- | --- | --- | --- |
+| 🎓 Undergraduate | `https://lumiis2.github.io/opportunity-tracker/graduation.ics` | [graduation.ics](https://lumiis2.github.io/opportunity-tracker/graduation.ics) | [graduation.csv](https://lumiis2.github.io/opportunity-tracker/data/graduation.csv) |
+| 🏫 Master's | `https://lumiis2.github.io/opportunity-tracker/masters.ics` | [masters.ics](https://lumiis2.github.io/opportunity-tracker/masters.ics) | [masters.csv](https://lumiis2.github.io/opportunity-tracker/data/masters.csv) |
+| 💼 Industry | `https://lumiis2.github.io/opportunity-tracker/industry.ics` | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
+| 📚 Conferences | `https://lumiis2.github.io/opportunity-tracker/conferences.ics` | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
 
 ## How to use
 
@@ -97,8 +95,6 @@ Perform the first subscription through Google Calendar in a computer browser:
 4. Choose **From URL**.
 5. Paste the link and click **Add calendar**.
 6. The new calendar will appear under **Other calendars**.
-
-🖼️ Screenshot placeholder: insert an image here showing “Other calendars → + → From URL” in Google Calendar.
 
 Google Calendar controls the update frequency of external calendars. A newly added calendar or a recent change may take a few minutes — and, in some cases, a few hours — to appear.
 

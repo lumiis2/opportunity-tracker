@@ -40,12 +40,14 @@ respectivos dados em CSV.
 
 ## Calendários disponíveis
 
-| Categoria | Assinar ou baixar `.ics` | Baixar CSV |
-| --- | --- | --- |
-| 🎓 Graduação | [graduation.ics](https://lumiis2.github.io/opportunity-tracker/graduation.ics) | [graduation.csv](https://lumiis2.github.io/opportunity-tracker/data/graduation.csv) |
-| 🏫 Mestrado | [masters.ics](https://lumiis2.github.io/opportunity-tracker/masters.ics) | [masters.csv](https://lumiis2.github.io/opportunity-tracker/data/masters.csv) |
-| 💼 Indústria | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
-| 📚 Conferências | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
+Copie a URL do calendário e cole na opção **Do URL** ou **Por URL** do seu aplicativo de calendário.
+
+| Categoria | URL do calendário — copie e cole | Baixar `.ics` | Baixar CSV |
+| --- | --- | --- | --- |
+| 🎓 Graduação | `https://lumiis2.github.io/opportunity-tracker/graduation.ics` | [graduation.ics](https://lumiis2.github.io/opportunity-tracker/graduation.ics) | [graduation.csv](https://lumiis2.github.io/opportunity-tracker/data/graduation.csv) |
+| 🏫 Mestrado | `https://lumiis2.github.io/opportunity-tracker/masters.ics` | [masters.ics](https://lumiis2.github.io/opportunity-tracker/masters.ics) | [masters.csv](https://lumiis2.github.io/opportunity-tracker/data/masters.csv) |
+| 💼 Indústria | `https://lumiis2.github.io/opportunity-tracker/industry.ics` | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
+| 📚 Conferências | `https://lumiis2.github.io/opportunity-tracker/conferences.ics` | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
 
 ## Como usar
 
@@ -111,9 +113,6 @@ Faça a primeira assinatura pelo Google Calendar no navegador de um computador:
 4. Escolha **Do URL** ou **From URL**, dependendo do idioma da sua conta.
 5. Cole o link e clique em **Adicionar calendário**.
 6. O novo calendário aparecerá em **Outros calendários**.
-
-> 🖼️ **Placeholder de screenshot:** inserir aqui uma imagem mostrando
-> “Outros calendários → + → Do URL” no Google Calendar.
 
 O Google Calendar controla a frequência de atualização de calendários externos.
 Um calendário recém-adicionado ou uma alteração recente pode levar alguns

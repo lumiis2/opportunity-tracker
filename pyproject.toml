@@ -15,6 +15,9 @@ dependencies = [
   "requests>=2.0",
 ]
 
+[project.scripts]
+opportunity-calendar = "src.cli:main"
+
 [tool.setuptools]
 include-package-data = true
 

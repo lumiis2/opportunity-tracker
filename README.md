@@ -1,366 +1,136 @@
 <p align="center">
-  <img src="banner.png" alt="Opportunity Tracker Banner" width="100%">
+  <img src="banner.png" alt="Opportunity Tracker" width="100%">
+</p>
+
+<p align="center">
+  <strong>Organized opportunities. Deadlines in your calendar. A community to keep it all alive.</strong>
+</p>
+
+<p align="center">
+  <a href="https://lumiis2.github.io/opportunity-tracker/">Access calendars</a>
+  ·
+  <a href="https://github.com/lumiis2/opportunity-tracker/issues">Suggest or correct</a>
+  ·
+  <a href="tutorials-and-info/%22How%20to%20Contribuite%3F%22.md">Contribution guide</a>
+  ·
+  <a href="README-pt.md">Português</a>
 </p>
 
 ---
 
-Opportunity Tracker is an open-source project designed to help students organize, monitor, and plan applications for academic and professional opportunities throughout their careers.
+## What is the Opportunity Tracker?
 
-The platform aims to centralize and track:
+Incredible academic and professional opportunities exist by the thousands, but they are scattered across the internet — and many people only find them after the deadline has passed.
 
-* Research internships
-* Scholarships
-* Academic exchange programs
-* Summer schools
-* Conferences
-* Master's programs
-* PhD opportunities
-* Industry internships
+The **Opportunity Tracker** gathers opportunities for undergraduate, master's, conferences, and industry in easy-to-follow calendars. The proposal is straightforward: choose a category, add the link to your calendar application, and have the deadlines available where you already organize your routine.
 
-While the project is primarily focused on Computer Science, AI, and research-oriented careers, its structure is flexible enough to support virtually any academic field.
+This is an open and collaborative project. You can use the ready-made calendars, customize them, or help make them more complete and useful for others.
 
----
+## Start here
 
-## Why?
+👉 **[Access the Opportunity Tracker page](https://lumiis2.github.io/opportunity-tracker/)**
 
-Finding high-quality opportunities is often harder than it should be.
+It gathers all available calendars, their subscription links, and the respective data in CSV format.
 
-Many scholarship databases, internship websites, and opportunity aggregators are cluttered with advertisements, affiliate links, sponsored content, or paid services. Others are incomplete, outdated, or heavily biased toward specific institutions and programs.
+## Available calendars
 
-As a result, students frequently:
+| Category | Subscribe or download `.ics` | Download CSV |
+| --- | --- | --- |
+| 🎓 Undergraduate | [graduation.ics](https://lumiis2.github.io/opportunity-tracker/graduation.ics) | [graduation.csv](https://lumiis2.github.io/opportunity-tracker/data/graduation.csv) |
+| 🏫 Master's | [masters.ics](https://lumiis2.github.io/opportunity-tracker/masters.ics) | [masters.csv](https://lumiis2.github.io/opportunity-tracker/data/masters.csv) |
+| 💼 Industry | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
+| 📚 Conferences | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
 
-* Discover opportunities too late
-* Miss application deadlines
-* Lose track of recurring annual programs
-* Spend countless hours manually searching websites
-* Repeatedly research the same opportunities every year
+## How to use
 
-For students interested in research, international experiences, and graduate studies, manually tracking dozens of programs quickly becomes exhausting.
+### 1. Subscribe via link — recommended
 
-Opportunity Tracker was created to solve this problem by transforming curated opportunity databases into actionable calendars, reminders, and eventually automated monitoring systems.
+Copy the address of the `.ics` file of the desired category and add it via the **By URL** option in your calendar application.
 
-Instead of constantly searching for opportunities, students can focus on preparing stronger applications.
+When subscribing, the application checks the same address periodically. This way, updates published to the calendar can appear for those already using the link, without the need to manually download a new file.
 
----
+### 2. Download the `.ics` file
 
-## Open Source First
+Open one of the `.ics` links in the table and save the file to import it into Google Calendar, Apple Calendar, Outlook, or another compatible application.
 
-Opportunity Tracker is built as a community-driven open-source project.
+> **Attention:** importing a downloaded file creates a one-time copy. To receive future updates, prefer subscribing via URL.
 
-The goal is not only to create a tool, but also to build a shared database of opportunities that anyone can benefit from.
+### 3. Download the data in CSV
 
-Everyone is encouraged to contribute:
+Use the **Download CSV** column to query, filter, or edit the data of a category. These files also serve as a template for creating a personalized calendar.
 
-* New opportunities
-* Missing deadlines
-* Updated application cycles
-* Scholarship information
-* Conference dates
-* Graduate programs
-* Corrections and improvements
+### 4. Generate a personalized calendar locally
 
-The more people contribute, the more useful the platform becomes for students worldwide.
-
----
-
-## Current Status
-
-🚧 **Early Development (MVP)**
-
-The first version intentionally focuses on solving a single problem well:
-
-1. Maintain a structured database of opportunities.
-2. Generate calendar events from that database.
-3. Export calendars that can be imported into Google Calendar and other calendar applications.
-
-Future versions will gradually add automation, monitoring, and recommendation features.
-
----
-
-## Opportunity Categories
-
-### Research
-
-Examples:
-
-* Mitacs Globalink Research Internship
-* ETH SSRF
-* Summer@EPFL
-* DAAD RISE
-* CERN Openlab
-* Mila Research Internship
-
-### Academic Exchange
-
-Examples:
-
-* Erasmus+
-* AULP Mobility Program
-* University exchange programs
-
-### Scholarships
-
-Examples:
-
-* MEXT
-* Fulbright
-* DAAD Scholarships
-* Chevening
-
-### Industry
-
-Examples:
-
-* Google Research
-* DeepMind
-* Microsoft Research
-* NVIDIA Research
-* Meta AI
-* Amazon Science
-
-### Summer Schools
-
-Examples:
-
-* MLSS
-* EEML
-* Research schools and workshops
-
-### Graduate Programs
-
-Examples:
-
-* MSc programs
-* PhD programs
-* Visiting graduate opportunities
-
-### Conferences
-
-Examples:
-
-* NeurIPS
-* ICML
-* ICLR
-* CVPR
-* ACL
-* ISMIR
-
----
-
-## How It Works
-
-The project is centered around curated datasets.
-
-```text
-data/
-├── graduation_opportunities.csv
-├── masters_programs.csv
-├── conferences.csv
-```
-
-These datasets act as the single source of truth.
-
-The application transforms them into calendars, reminders, and future recommendation systems.
-
-```text
-Opportunity Database
-        ↓
-Calendar Generator
-        ↓
-ICS Calendar
-        ↓
-Google Calendar
-```
-
-For opportunities with confirmed deadlines:
-
-```text
-ETH SSRF Deadline
-December 15, 2026
-```
-
-For opportunities without confirmed dates:
-
-```text
-Check Mitacs
-
-Expected application cycle:
-September
-
-Verify official dates
-```
-
----
-
-## MVP Roadmap
-
-### Phase 1 — Calendar Generation
-
-* Structured opportunity database
-* CSV support
-* Calendar generation
-* ICS export
-* Google Calendar integration
-
-### Phase 2 — Smart Reminders
-
-* Deadline reminders
-* Estimated deadline tracking
-* Automatic "check opportunity" events
-* Recurring cycle monitoring
-
-### Phase 3 — Dashboard
-
-* Web dashboard
-* Search and filtering
-* Opportunity categorization
-* Status tracking
-
-### Phase 4 — Automated Monitoring
-
-* Website monitoring
-* Deadline change detection
-* Opportunity updates
-* Automated notifications
-
-### Phase 5 — Intelligent Recommendations
-
-* AI-assisted opportunity discovery
-* Personalized ranking
-* Career-stage planning
-* Application strategy recommendations
-
----
-
-## Long-Term Vision
-
-Opportunity Tracker aims to become a centralized platform for discovering, tracking, and planning academic opportunities worldwide.
-
-The goal is to help students move from a reactive process:
-
-```text
-Find opportunity
-↓
-Realize deadline is next week
-↓
-Rush application
-```
-
-to a proactive one:
-
-```text
-Track opportunity
-↓
-Plan ahead
-↓
-Prepare application
-↓
-Apply strategically
-```
-
-Ultimately, the project aims to become a personal opportunity management system for students, researchers, and early-career professionals.
-
----
-
-## Project Structure
-
-```text
-opportunity-tracker/
-
-├── data/
-│   ├── graduation_opportunities.csv
-│   ├── master_programs.csv
-│   └── conferences.csv
-│
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── cli.py
-│   ├── models.py
-│   ├── parser.py
-│   ├── calendar_generator.py
-│   └── ...
-│
-├── output/
-│
-├── tests/
-├── pyproject.toml
-└── README.md
-```
-
----
-
-## Setup
-
-Install dependencies:
+Clone the repository and install the dependencies:
 
 ```bash
-uv sync
+git clone https://github.com/lumiis2/opportunity-tracker.git
+cd opportunity-tracker
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
----
-
-## Usage
-
-Generate a calendar from your opportunity database:
+Copy or download an official CSV, remove or edit the lines you wish, and run:
 
 ```bash
-uv run opportunity-calendar generate
+python -m src.cli generate-ics \
+  --track graduation \
+  --input opportunities.csv \
+  --output my_calendar.ics
 ```
 
-Output:
 
-```text
-output/graduation.ics
-```
+Accepted values for `--track`: `graduation`, `masters`, `industry`, and `conferences`.
 
-The generated calendar can be imported into Google Calendar, Apple Calendar, Outlook, and other calendar applications.
+This workflow works locally and does not depend on Google Sheets, credentials, GitHub Pages, or an internet connection.
+The CSV must maintain the same columns as the official file of the chosen category.
+To use a different column format, you will need to implement a new parser.
 
-Multiple datasets
------------------
+## Add to Google Calendar via URL
 
-## Publishing
+Perform the first subscription through Google Calendar in a computer browser:
 
-This repository can automatically publish the contents of the `public/` directory to GitHub Pages.
+1. Copy the `.ics` link of the desired category.
+2. Open [Google Calendar](https://calendar.google.com/).
+3. Next to **Other calendars**, click the **+** button.
+4. Choose **From URL**.
+5. Paste the link and click **Add calendar**.
+6. The new calendar will appear under **Other calendars**.
 
-- Deploys only from the `main` branch (GitHub Actions triggers on `push` to `main`).
-- The site root is the contents of the repository's `public/` directory — files placed there are published as-is.
-- Generated `.ics` files and `index.html` are preserved and will be available at the Pages site URL.
+🖼️ Screenshot placeholder: insert an image here showing “Other calendars → + → From URL” in Google Calendar.
 
-After a successful deployment the files will be reachable at your repository Pages URL, for example:
+Google Calendar controls the update frequency of external calendars. A newly added calendar or a recent change may take a few minutes — and, in some cases, a few hours — to appear.
 
-```
-https://<your-github-username>.github.io/<your-repository>/graduation.ics
-https://<your-github-username>.github.io/<your-repository>/masters.ics
-https://<your-github-username>.github.io/<your-repository>/conferences.ics
-```
+## How to contribute
 
-Replace `<your-github-username>` and `<your-repository>` with your account and repo name.
+This project does not intend to be a single person's calendar. The more people who share knowledge, the more students will be able to discover and prepare for good opportunities.
 
-## Subscribe via Google Calendar
+You can contribute by:
 
-You can subscribe to any of the generated calendar files using Google Calendar's "Add calendar by URL" feature:
+- adding new opportunities;
+- correcting dates or outdated information;
+- improving descriptions and links;
+- suggesting new categories;
+- writing guides and tutorials;
+- fixing bugs or improving the code;
+- creating a fork for calendars of a specific area or community.
 
-1. Locate the ICS file URL on your Pages site (see examples above).
-2. Open Google Calendar in a browser.
-3. On the left under "Other calendars" click the plus sign (+) and choose "From URL".
-4. Paste the ICS URL and click "Add calendar".
+For a direct change, fork the project, create a branch, and open a [Pull Request](https://github.com/lumiis2/opportunity-tracker/pulls). For a suggestion, question, or specific correction, open an [Issue](https://github.com/lumiis2/opportunity-tracker/issues).
 
-The calendar will be added to your Google Calendar and will update when the ICS file changes on the deployed site.
+When editing a CSV, preserve its headers and the column format so that the calendar continues to be generated correctly.
 
-You can place additional datasets into `data/` (for example `master_programs.csv` or `conferences.csv`). The current CLI defaults remain backward compatible and will generate the graduation ICS by default. In the future we may add subcommands or flags to generate calendars per dataset.
+## Future vision
 
----
+The calendars are just the first step. The long-term vision is to build a collaborative knowledge base about academic and professional opportunities.
 
-## Contributing
+In the future, each opportunity could have content explaining the program, who can participate, how the selection works, common documents, timelines, participant experiences, preparation tips, and useful links. The idea also includes space for recurring programs or those without a defined date yet.
 
-Contributions, suggestions, opportunity submissions, and feedback are welcome.
-
-Whether you want to add a scholarship, update a deadline, report outdated information, improve the codebase, or suggest new features, your contribution helps make the platform more useful for students everywhere.
-
----
+<p align="center">
+  <strong>Found an opportunity? Share it. See something wrong? Correct it.<br>
+  This project gets better whenever someone decides to help.</strong>
+</p>
 
 ## License
 
-MIT License
+Distributed under the [MIT license](LICENSE).

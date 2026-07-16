@@ -3,6 +3,24 @@ import yaml
 import scripts.sync_sheets as sync
 
 
+def test_new_calendar_sheet_link_is_configured():
+    cfg = sync.load_config(sync.CONFIG_PATH)
+
+    assert cfg["sheet_id"] == "1X9aMGn-l1KgrUDdIQ785psvy02tTyXfohgm9ydY9FGM"
+    assert cfg["datasets"]["ai_ml_research_fellowships"] == {
+        "gid": 1934629732,
+        "output": "ai_ml_research_fellowships.ics",
+        "csv": "ai_ml_research_fellowships.csv",
+    }
+    assert sync.build_export_url(
+        cfg["sheet_id"], cfg["datasets"]["ai_ml_research_fellowships"]["gid"]
+    ) == (
+        "https://docs.google.com/spreadsheets/d/"
+        "1X9aMGn-l1KgrUDdIQ785psvy02tTyXfohgm9ydY9FGM/"
+        "export?format=csv&gid=1934629732"
+    )
+
+
 def test_sync_download_and_save(tmp_path, monkeypatch):
     # Arrange: point DATA_DIR to a temp folder and create a small config
     monkeypatch.setattr(sync, "DATA_DIR", tmp_path)

@@ -15,6 +15,7 @@ from src.parsers.graduation import parse as parse_graduation
 from src.parsers.masters import parse as parse_masters
 from src.parsers.industry import parse as parse_industry
 from src.parsers.conferences import parse as parse_conferences
+from src.parsers.ai_ml_research_fellowships import parse as parse_ai_ml_research_fellowships
 
 
 def main() -> int:
@@ -66,9 +67,22 @@ def main() -> int:
     print(len(conferences_events))
     print("Conferences ICS written to:")
     print(f"output/{conferences_out.name}")
+
+    ai_ml_csv = ROOT_DIR / "data" / "ai_ml_research_fellowships.csv"
+    ai_ml_out = ROOT_DIR / "output" / "ai_ml_research_fellowships.ics"
+    ai_ml_events = parse_ai_ml_research_fellowships(ai_ml_csv)
+    generate_calendar(
+        ai_ml_events,
+        output_path=ai_ml_out,
+        calendar_name="AI/ML Research & Fellowships",
+    )
+    print()
+    print("AI/ML Research & Fellowships events generated:")
+    print(len(ai_ml_events))
+    print("AI/ML Research & Fellowships ICS written to:")
+    print(f"output/{ai_ml_out.name}")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

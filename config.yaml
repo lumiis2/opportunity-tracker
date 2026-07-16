@@ -21,3 +21,8 @@ datasets:
     gid: 1473405976
     output: conferences.ics
     csv: conferences.csv
+
+  ai_ml_research_fellowships:
+    gid: 1934629732
+    output: ai_ml_research_fellowships.ics
+    csv: ai_ml_research_fellowships.csv

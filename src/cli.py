@@ -8,6 +8,7 @@ from typing import Callable, Optional, Sequence, Union
 
 from src.core import CalendarEvent, generate_calendar
 from src.parsers import (
+    parse_ai_ml_research_fellowships,
     parse_conferences,
     parse_graduation,
     parse_industry,
@@ -18,6 +19,10 @@ from src.parsers import (
 Parser = Callable[[Union[str, Path]], list[CalendarEvent]]
 
 TRACKS: dict[str, tuple[Parser, str]] = {
+    "ai_ml_research_fellowships": (
+        parse_ai_ml_research_fellowships,
+        "AI/ML Research & Fellowships",
+    ),
     "graduation": (parse_graduation, "Graduation Opportunities"),
     "masters": (parse_masters, "Masters Programs"),
     "industry": (parse_industry, "Industry Opportunities"),

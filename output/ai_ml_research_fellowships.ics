@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI/ML Research & Fellowships
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:d37cea5d-4adf-235f-5bfa-cb8e91762380@opportunity-tracker
+DTSTAMP:20260715T145855Z
+SUMMARY:Applications Open Continuously — fast.ai
+DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: fast
+ .ai\nOrganization: fast.ai\nHost Institution: Online\nCountry: Worldwide\n
+ Target Audience: Developers & Students\nFunding: Free\nFunding Details: No
+ -cost educational resources\nSupervisor Match: No\nDuration: Self-paced\nD
+ ate Status: Confirmed\nDeadline Confidence: High\nApplication Effort: Low\
+ nPrestige Score (1-10): 8\nFunding Score (1-10): 1\nAI/ML Fit Score (1-10)
+ : 8\nNotes: Classic deep learning course
+DTSTART;VALUE=DATE:20260101
+URL:https://fast.ai
+CATEGORIES:Education\,Online Courses
+END:VEVENT
+BEGIN:VEVENT
+UID:3cbfabb3-be7f-4ac8-13ee-71081dbc8a2f@opportunity-tracker
+DTSTAMP:20260715T145855Z
+SUMMARY:Applications Open Continuously — Learn Mech Interp
+DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Lear
+ n Mech Interp\nOrganization: Neel Nanda\nHost Institution: Online\nCountry
+ : Worldwide\nTarget Audience: AI Researchers & Students\nFunding: Free\nFu
+ nding Details: No-cost educational resources\nSupervisor Match: No\nDurati
+ on: Self-paced\nDate Status: Confirmed\nDeadline Confidence: High\nApplica
+ tion Effort: Low\nPrestige Score (1-10): 9\nFunding Score (1-10): 1\nAI/ML
+  Fit Score (1-10): 10\nNotes: Mechanistic interpretability learning resour
+ ces
+DTSTART;VALUE=DATE:20260101
+URL:https://learnmechinterp.com/topics/
+CATEGORIES:Education\,Online Courses
+END:VEVENT
+END:VCALENDAR

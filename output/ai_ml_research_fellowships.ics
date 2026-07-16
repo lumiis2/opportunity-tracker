@@ -6,8 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:AI/ML Research & Fellowships
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:d37cea5d-4adf-235f-5bfa-cb8e91762380@opportunity-tracker
-DTSTAMP:20260715T145855Z
+UID:321132dd-2957-ecbb-6394-433f65e57f69@opportunity-tracker
+DTSTAMP:20260716T125651Z
 SUMMARY:Applications Open Continuously — fast.ai
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: fast
  .ai\nOrganization: fast.ai\nHost Institution: Online\nCountry: Worldwide\n
@@ -15,14 +15,14 @@ DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: fast
  -cost educational resources\nSupervisor Match: No\nDuration: Self-paced\nD
  ate Status: Confirmed\nDeadline Confidence: High\nApplication Effort: Low\
  nPrestige Score (1-10): 8\nFunding Score (1-10): 1\nAI/ML Fit Score (1-10)
- : 8\nNotes: Classic deep learning course
+ : 8\nNotes: Classic deep learning course. Always open.
 DTSTART;VALUE=DATE:20260101
 URL:https://fast.ai
 CATEGORIES:Education\,Online Courses
 END:VEVENT
 BEGIN:VEVENT
-UID:3cbfabb3-be7f-4ac8-13ee-71081dbc8a2f@opportunity-tracker
-DTSTAMP:20260715T145855Z
+UID:803a7c5d-a576-5476-c50b-6f85bf0393b6@opportunity-tracker
+DTSTAMP:20260716T125651Z
 SUMMARY:Applications Open Continuously — Learn Mech Interp
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Lear
  n Mech Interp\nOrganization: Neel Nanda\nHost Institution: Online\nCountry
@@ -30,10 +30,719 @@ DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Lear
  nding Details: No-cost educational resources\nSupervisor Match: No\nDurati
  on: Self-paced\nDate Status: Confirmed\nDeadline Confidence: High\nApplica
  tion Effort: Low\nPrestige Score (1-10): 9\nFunding Score (1-10): 1\nAI/ML
-  Fit Score (1-10): 10\nNotes: Mechanistic interpretability learning resour
- ces
+  Fit Score (1-10): 10\nNotes: The gold standard for learning Mechanistic I
+ nterpretability. Always open.
 DTSTART;VALUE=DATE:20260101
 URL:https://learnmechinterp.com/topics/
 CATEGORIES:Education\,Online Courses
+END:VEVENT
+BEGIN:VEVENT
+UID:9ddb189c-5557-0650-bab0-4189b175285c@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — BlueDot Courses
+DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Blue
+ Dot Courses\nOrganization: BlueDot Impact\nHost Institution: Online\nCount
+ ry: Worldwide\nTarget Audience: Students & Professionals\nFunding: Free\nF
+ unding Details: No-cost educational resources\nSupervisor Match: No\nDurat
+ ion: 10-12 weeks\nDate Status: Estimated (Varies by Cohort)\nDeadline Conf
+ idence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 7\nFund
+ ing Score (1-10): 1\nAI/ML Fit Score (1-10): 7\nNotes: Runs 3x a year. Typ
+ ically opens in Jan\, May\, and Sept.
+DTSTART;VALUE=DATE:20260901
+URL:https://bluedot.org/courses
+CATEGORIES:Education\,Online Courses
+END:VEVENT
+BEGIN:VEVENT
+UID:7c18ec15-84c2-4e18-067d-5fe8ee878c33@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — BlueDot Courses
+DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Blue
+ Dot Courses\nOrganization: BlueDot Impact\nHost Institution: Online\nCount
+ ry: Worldwide\nTarget Audience: Students & Professionals\nFunding: Free\nF
+ unding Details: No-cost educational resources\nSupervisor Match: No\nDurat
+ ion: 10-12 weeks\nDate Status: Estimated (Varies by Cohort)\nDeadline Conf
+ idence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 7\nFund
+ ing Score (1-10): 1\nAI/ML Fit Score (1-10): 7\nNotes: Runs 3x a year. Typ
+ ically opens in Jan\, May\, and Sept.
+DTSTART;VALUE=DATE:20261001
+URL:https://bluedot.org/courses
+CATEGORIES:Education\,Online Courses
+END:VEVENT
+BEGIN:VEVENT
+UID:473e6640-bf2b-716f-3fd6-84fce2800550@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — BlueDot Fellowships
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: BlueDot Fellowships\nOrganization: BlueDot Impact\nHost Institution: 
+ Online\nCountry: Worldwide\nTarget Audience: Students & Professionals\nFun
+ ding: Unfunded\nFunding Details: Educational fellowship with high networki
+ ng value\nSupervisor Match: No\nDuration: 10-12 weeks\nDate Status: Estima
+ ted (Varies by Cohort)\nDeadline Confidence: Medium\nApplication Effort: M
+ edium\nPrestige Score (1-10): 7\nFunding Score (1-10): 1\nAI/ML Fit Score 
+ (1-10): 6\nNotes: Runs in parallel with their courses. Multiple cohorts pe
+ r year.
+DTSTART;VALUE=DATE:20260901
+URL:https://bluedot.org/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:94ac12b4-9f5b-d1bb-21f4-bc0360077719@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — BlueDot Fellowships
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: BlueDot Fellowships\nOrganization: BlueDot Impact\nHost Institution: 
+ Online\nCountry: Worldwide\nTarget Audience: Students & Professionals\nFun
+ ding: Unfunded\nFunding Details: Educational fellowship with high networki
+ ng value\nSupervisor Match: No\nDuration: 10-12 weeks\nDate Status: Estima
+ ted (Varies by Cohort)\nDeadline Confidence: Medium\nApplication Effort: M
+ edium\nPrestige Score (1-10): 7\nFunding Score (1-10): 1\nAI/ML Fit Score 
+ (1-10): 6\nNotes: Runs in parallel with their courses. Multiple cohorts pe
+ r year.
+DTSTART;VALUE=DATE:20261001
+URL:https://bluedot.org/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:bba0c63a-18dd-81ac-df30-21e6420db3cc@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Talos Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Talos Fellowship\nOrganization: Talos Network\nHost Institution: Onli
+ ne\nCountry: Worldwide\nTarget Audience: AI Safety Beginners\nFunding: Ful
+ ly Funded\nFunding Details: Stipend provided for duration\nSupervisor Matc
+ h: Yes\nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadl
+ ine Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10):
+  6\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 5\nNotes: Usually ope
+ ns mid-year. Dates vary depending on mentor availability.
+DTSTART;VALUE=DATE:20260501
+URL:https://www.talosnetwork.org/talos-fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:b7c82712-bbee-0e5d-f2c4-479107332443@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Talos Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Talos Fellowship\nOrganization: Talos Network\nHost Institution: Onli
+ ne\nCountry: Worldwide\nTarget Audience: AI Safety Beginners\nFunding: Ful
+ ly Funded\nFunding Details: Stipend provided for duration\nSupervisor Matc
+ h: Yes\nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadl
+ ine Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10):
+  6\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 5\nNotes: Usually ope
+ ns mid-year. Dates vary depending on mentor availability.
+DTSTART;VALUE=DATE:20260601
+URL:https://www.talosnetwork.org/talos-fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:8e5a5d24-4d35-fb98-543a-928e3ba7819e@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Horizon Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Horizon Fellowship\nOrganization: Horizon\nHost Institution: In-Perso
+ n / Hybrid\nCountry: USA\nTarget Audience: US Citizens / Policy Enthusiast
+ s\nFunding: Fully Funded\nFunding Details: Competitive stipend and placeme
+ nt\nSupervisor Match: No\nDuration: 1-2 years\nDate Status: Estimated (Ann
+ ual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Scor
+ e (1-10): 8\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 3\nNotes: An
+ nual application cycle. Strictly for US citizens/permanent residents.
+DTSTART;VALUE=DATE:20260901
+URL:https://horizonpublicservice.org/programs/become-a-fellow/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:cedf807d-c3c2-fdae-93ff-eba549e4b64f@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Horizon Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Horizon Fellowship\nOrganization: Horizon\nHost Institution: In-Perso
+ n / Hybrid\nCountry: USA\nTarget Audience: US Citizens / Policy Enthusiast
+ s\nFunding: Fully Funded\nFunding Details: Competitive stipend and placeme
+ nt\nSupervisor Match: No\nDuration: 1-2 years\nDate Status: Estimated (Ann
+ ual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Scor
+ e (1-10): 8\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 3\nNotes: An
+ nual application cycle. Strictly for US citizens/permanent residents.
+DTSTART;VALUE=DATE:20261101
+URL:https://horizonpublicservice.org/programs/become-a-fellow/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:3daac393-55f5-4358-62d5-cddcc8e767d5@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — AI Policy Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: AI Policy Fellowship\nOrganization: IAPS\nHost Institution: Online\nC
+ ountry: Worldwide\nTarget Audience: Policy Researchers\nFunding: Fully Fun
+ ded\nFunding Details: Stipend provided\nSupervisor Match: No\nDuration: Va
+ ries\nDate Status: Estimated (Annual)\nDeadline Confidence: Medium\nApplic
+ ation Effort: High\nPrestige Score (1-10): 7\nFunding Score (1-10): 8\nAI/
+ ML Fit Score (1-10): 4\nNotes: Annual cycle. Highly dependent on policy re
+ search funding.
+DTSTART;VALUE=DATE:20260401
+URL:https://www.iaps.ai/fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:9f74c4c3-2ab8-cc6d-0e22-f7d64a67f5ce@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — AI Policy Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: AI Policy Fellowship\nOrganization: IAPS\nHost Institution: Online\nC
+ ountry: Worldwide\nTarget Audience: Policy Researchers\nFunding: Fully Fun
+ ded\nFunding Details: Stipend provided\nSupervisor Match: No\nDuration: Va
+ ries\nDate Status: Estimated (Annual)\nDeadline Confidence: Medium\nApplic
+ ation Effort: High\nPrestige Score (1-10): 7\nFunding Score (1-10): 8\nAI/
+ ML Fit Score (1-10): 4\nNotes: Annual cycle. Highly dependent on policy re
+ search funding.
+DTSTART;VALUE=DATE:20260501
+URL:https://www.iaps.ai/fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:7994606e-1230-d0c5-7e3c-4bde6ef755cd@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Tarbell Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Tarbell Fellowship\nOrganization: Tarbell Center\nHost Institution: O
+ nline / Hybrid\nCountry: Worldwide\nTarget Audience: Writers & Journalists
+ \nFunding: Fully Funded\nFunding Details: $50\,000 stipend plus travel/coa
+ ching\nSupervisor Match: No\nDuration: 1 year\nDate Status: Estimated (Ann
+ ual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Scor
+ e (1-10): 7\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 2\nNotes: An
+ nual cycle. Applications usually open in Q4 and close early Q1.
+DTSTART;VALUE=DATE:20261001
+URL:https://www.tarbellcenter.org/fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:30104552-1fc3-8d34-dbaa-aae68ed773f6@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Tarbell Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Tarbell Fellowship\nOrganization: Tarbell Center\nHost Institution: O
+ nline / Hybrid\nCountry: Worldwide\nTarget Audience: Writers & Journalists
+ \nFunding: Fully Funded\nFunding Details: $50\,000 stipend plus travel/coa
+ ching\nSupervisor Match: No\nDuration: 1 year\nDate Status: Estimated (Ann
+ ual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Scor
+ e (1-10): 7\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 2\nNotes: An
+ nual cycle. Applications usually open in Q4 and close early Q1.
+DTSTART;VALUE=DATE:20270101
+URL:https://www.tarbellcenter.org/fellowship
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:92cd9492-e127-f960-0b3e-3a4b10283f29@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Pathfinder Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Pathfinder Fellowship\nOrganization: Kairos Project\nHost Institution
+ : Online\nCountry: Worldwide\nTarget Audience: Youth / Students\nFunding: 
+ Unfunded\nFunding Details: Mentorship and community access\nSupervisor Mat
+ ch: No\nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadl
+ ine Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10):
+  5\nFunding Score (1-10): 1\nAI/ML Fit Score (1-10): 3\nNotes: Dates depen
+ d heavily on the organizing team's academic calendar.
+DTSTART;VALUE=DATE:20260401
+URL:https://pathfinder.kairos-project.org/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:d373f08d-9433-453a-a19b-816e72079491@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Pathfinder Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
+ ram: Pathfinder Fellowship\nOrganization: Kairos Project\nHost Institution
+ : Online\nCountry: Worldwide\nTarget Audience: Youth / Students\nFunding: 
+ Unfunded\nFunding Details: Mentorship and community access\nSupervisor Mat
+ ch: No\nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadl
+ ine Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10):
+  5\nFunding Score (1-10): 1\nAI/ML Fit Score (1-10): 3\nNotes: Dates depen
+ d heavily on the organizing team's academic calendar.
+DTSTART;VALUE=DATE:20260501
+URL:https://pathfinder.kairos-project.org/
+CATEGORIES:Research\,Non-Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:a39d28a5-2735-b4cd-83de-052bfb21453a@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Astra Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Astra Fellowship\nOrganization: Constellation\nHost Institution: Online /
+  Hybrid\nCountry: Worldwide\nTarget Audience: Early-career Researchers\nFu
+ nding: Fully Funded\nFunding Details: Stipend for research project\nSuperv
+ isor Match: Yes\nDuration: Varies\nDate Status: Estimated (Varies by Cohor
+ t)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Score 
+ (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: Ofte
+ n runs twice a year or on a rolling basis.
+DTSTART;VALUE=DATE:20260601
+URL:https://constellation.org/programs/astra
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:2a125009-0fff-7545-d3b9-1f9ad34e00c9@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Astra Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Astra Fellowship\nOrganization: Constellation\nHost Institution: Online /
+  Hybrid\nCountry: Worldwide\nTarget Audience: Early-career Researchers\nFu
+ nding: Fully Funded\nFunding Details: Stipend for research project\nSuperv
+ isor Match: Yes\nDuration: Varies\nDate Status: Estimated (Varies by Cohor
+ t)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Score 
+ (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: Ofte
+ n runs twice a year or on a rolling basis.
+DTSTART;VALUE=DATE:20260701
+URL:https://constellation.org/programs/astra
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:682f6a07-d11b-cc52-2cf8-3d1c35d7e1ec@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — SPAR
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  SPAR\nOrganization: SPAR AI\nHost Institution: Online\nCountry: Worldwide
+ \nTarget Audience: Students & Ind. Researchers\nFunding: Mostly Funded\nFu
+ nding Details: Project-based micro-grants available\nSupervisor Match: Yes
+ \nDuration: 1-3 months\nDate Status: Estimated (Varies by Cohort)\nDeadlin
+ e Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 8
+ \nFunding Score (1-10): 6\nAI/ML Fit Score (1-10): 9\nNotes: Runs 2-3x a y
+ ear (Fall and Winter/Spring cohorts).
+DTSTART;VALUE=DATE:20260801
+URL:https://sparai.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4f679e-faf6-53d2-861c-068c0d82b99e@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — SPAR
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  SPAR\nOrganization: SPAR AI\nHost Institution: Online\nCountry: Worldwide
+ \nTarget Audience: Students & Ind. Researchers\nFunding: Mostly Funded\nFu
+ nding Details: Project-based micro-grants available\nSupervisor Match: Yes
+ \nDuration: 1-3 months\nDate Status: Estimated (Varies by Cohort)\nDeadlin
+ e Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 8
+ \nFunding Score (1-10): 6\nAI/ML Fit Score (1-10): 9\nNotes: Runs 2-3x a y
+ ear (Fall and Winter/Spring cohorts).
+DTSTART;VALUE=DATE:20260901
+URL:https://sparai.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:99476784-c158-4e21-77b0-7bdf69025083@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — LASR Labs
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  LASR Labs\nOrganization: LASR\nHost Institution: Hybrid / In-Person\nCoun
+ try: UK / Worldwide\nTarget Audience: Researchers & Engineers\nFunding: Fu
+ lly Funded\nFunding Details: Stipend and computational resources\nSupervis
+ or Match: Yes\nDuration: Cohort-based\nDate Status: Estimated (Varies by C
+ ohort)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Sc
+ ore (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: 
+ Cohorts are planned around academic breaks and summer periods.
+DTSTART;VALUE=DATE:20260501
+URL:https://www.lasrlabs.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:843c00d1-dbb8-6041-a43b-909c047a949c@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — LASR Labs
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  LASR Labs\nOrganization: LASR\nHost Institution: Hybrid / In-Person\nCoun
+ try: UK / Worldwide\nTarget Audience: Researchers & Engineers\nFunding: Fu
+ lly Funded\nFunding Details: Stipend and computational resources\nSupervis
+ or Match: Yes\nDuration: Cohort-based\nDate Status: Estimated (Varies by C
+ ohort)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige Sc
+ ore (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: 
+ Cohorts are planned around academic breaks and summer periods.
+DTSTART;VALUE=DATE:20260601
+URL:https://www.lasrlabs.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:67b73faf-e241-29dd-99ee-422f32b0c010@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Cambridge ERA:AI
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Cambridge ERA:AI\nOrganization: ERA Fellowship\nHost Institution: Hybrid 
+ / In-Person\nCountry: UK (Cambridge)\nTarget Audience: Students & Research
+ ers\nFunding: Fully Funded\nFunding Details: Stipend\, travel\, and accomm
+ odation\nSupervisor Match: Yes\nDuration: 8 weeks\nDate Status: Estimated 
+ (Annual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige 
+ Score (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 8\nNotes
+ : Main summer cohort applications open early in the year.
+DTSTART;VALUE=DATE:20260101
+URL:https://erafellowship.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:6ce3239c-632b-acfe-c69f-0aa3f6acc84f@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Cambridge ERA:AI
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Cambridge ERA:AI\nOrganization: ERA Fellowship\nHost Institution: Hybrid 
+ / In-Person\nCountry: UK (Cambridge)\nTarget Audience: Students & Research
+ ers\nFunding: Fully Funded\nFunding Details: Stipend\, travel\, and accomm
+ odation\nSupervisor Match: Yes\nDuration: 8 weeks\nDate Status: Estimated 
+ (Annual)\nDeadline Confidence: Medium\nApplication Effort: High\nPrestige 
+ Score (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 8\nNotes
+ : Main summer cohort applications open early in the year.
+DTSTART;VALUE=DATE:20260301
+URL:https://erafellowship.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:81798f49-04d7-3d7a-c2a2-f279a6343a8c@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Algoverse AI Safety Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Algoverse AI Safety Fellowship\nOrganization: Algoverse\nHost Institution
+ : Online\nCountry: Worldwide\nTarget Audience: Undergrad & Ind. Researcher
+ s\nFunding: Fully Funded\nFunding Details: Stipend provided\nSupervisor Ma
+ tch: Yes\nDuration: 12 weeks\nDate Status: Estimated (Varies by Cohort)\nD
+ eadline Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-
+ 10): 7\nFunding Score (1-10): 7\nAI/ML Fit Score (1-10): 8\nNotes: Usually
+  runs two cohorts per year.
+DTSTART;VALUE=DATE:20260801
+URL:https://algoverseairesearch.org/ai-safety-fellowship
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:42d82c9b-eaf3-d6ce-f81f-ccf921690a82@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Algoverse AI Safety Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Algoverse AI Safety Fellowship\nOrganization: Algoverse\nHost Institution
+ : Online\nCountry: Worldwide\nTarget Audience: Undergrad & Ind. Researcher
+ s\nFunding: Fully Funded\nFunding Details: Stipend provided\nSupervisor Ma
+ tch: Yes\nDuration: 12 weeks\nDate Status: Estimated (Varies by Cohort)\nD
+ eadline Confidence: Medium\nApplication Effort: Medium\nPrestige Score (1-
+ 10): 7\nFunding Score (1-10): 7\nAI/ML Fit Score (1-10): 8\nNotes: Usually
+  runs two cohorts per year.
+DTSTART;VALUE=DATE:20260901
+URL:https://algoverseairesearch.org/ai-safety-fellowship
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:22636872-baa1-1eb5-d575-cdd86ef3f4af@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — PIBBSS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  PIBBSS\nOrganization: PIBBSS\nHost Institution: Online / Hybrid\nCountry:
+  Worldwide\nTarget Audience: Interdisciplinary Researchers\nFunding: Fully
+  Funded\nFunding Details: Stipend and travel support\nSupervisor Match: Ye
+ s\nDuration: Summer\nDate Status: Estimated (Annual)\nDeadline Confidence:
+  Medium\nApplication Effort: High\nPrestige Score (1-10): 8\nFunding Score
+  (1-10): 8\nAI/ML Fit Score (1-10): 6\nNotes: Annual cycle. Applications o
+ pen late in the year for the following summer.
+DTSTART;VALUE=DATE:20261101
+URL:https://princint.ai/programs/fellowship/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:c8be61aa-dc9c-3172-a997-d35b311f37ea@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — PIBBSS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  PIBBSS\nOrganization: PIBBSS\nHost Institution: Online / Hybrid\nCountry:
+  Worldwide\nTarget Audience: Interdisciplinary Researchers\nFunding: Fully
+  Funded\nFunding Details: Stipend and travel support\nSupervisor Match: Ye
+ s\nDuration: Summer\nDate Status: Estimated (Annual)\nDeadline Confidence:
+  Medium\nApplication Effort: High\nPrestige Score (1-10): 8\nFunding Score
+  (1-10): 8\nAI/ML Fit Score (1-10): 6\nNotes: Annual cycle. Applications o
+ pen late in the year for the following summer.
+DTSTART;VALUE=DATE:20270101
+URL:https://princint.ai/programs/fellowship/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:0bdcb57a-146a-631b-60cc-0cd3a0b0ba4f@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — MATS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  MATS\nOrganization: MATS Program\nHost Institution: Hybrid\nCountry: USA 
+ (Berkeley)\nTarget Audience: Aspiring AI Researchers\nFunding: Fully Funde
+ d\nFunding Details: Generous stipend\, travel\, and housing\nSupervisor Ma
+ tch: Yes\nDuration: 8-10 weeks\nDate Status: Estimated (Varies by Cohort)\
+ nDeadline Confidence: High\nApplication Effort: High\nPrestige Score (1-10
+ ): 10\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 10\nNotes: Runs tw
+ ice a year (Summer and Winter cohorts).
+DTSTART;VALUE=DATE:20260801
+URL:https://www.matsprogram.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:1eef91c1-a6a7-8a6e-13ee-91fbee0e5f66@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — MATS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  MATS\nOrganization: MATS Program\nHost Institution: Hybrid\nCountry: USA 
+ (Berkeley)\nTarget Audience: Aspiring AI Researchers\nFunding: Fully Funde
+ d\nFunding Details: Generous stipend\, travel\, and housing\nSupervisor Ma
+ tch: Yes\nDuration: 8-10 weeks\nDate Status: Estimated (Varies by Cohort)\
+ nDeadline Confidence: High\nApplication Effort: High\nPrestige Score (1-10
+ ): 10\nFunding Score (1-10): 9\nAI/ML Fit Score (1-10): 10\nNotes: Runs tw
+ ice a year (Summer and Winter cohorts).
+DTSTART;VALUE=DATE:20260901
+URL:https://www.matsprogram.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:ddb46cb7-7178-8ec6-7056-899095347a86@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — ML Collective
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  ML Collective\nOrganization: ML Collective\nHost Institution: Online\nCou
+ ntry: Worldwide\nTarget Audience: Independent Researchers\nFunding: Unfund
+ ed\nFunding Details: Access to community and GPU clusters\nSupervisor Matc
+ h: No\nDuration: Ongoing\nDate Status: Confirmed\nDeadline Confidence: Hig
+ h\nApplication Effort: Low\nPrestige Score (1-10): 8\nFunding Score (1-10)
+ : 3\nAI/ML Fit Score (1-10): 9\nNotes: Always open. Applications for membe
+ rship and research presentation are rolling.
+DTSTART;VALUE=DATE:20260101
+URL:https://mlcollective.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:80dbee97-9fbe-0751-12e8-b6ff61039b4c@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Mila AI Policy Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Mila AI Policy Fellowship\nOrganization: Mila\nHost Institution: Hybrid\n
+ Country: Canada (Montreal)\nTarget Audience: Grad Students & Researchers\n
+ Funding: Fully Funded\nFunding Details: Stipend provided\nSupervisor Match
+ : Yes\nDuration: Varies\nDate Status: Estimated (Annual)\nDeadline Confide
+ nce: Medium\nApplication Effort: High\nPrestige Score (1-10): 9\nFunding S
+ core (1-10): 8\nAI/ML Fit Score (1-10): 7\nNotes: Aligned with Canadian ac
+ ademic year timelines.
+DTSTART;VALUE=DATE:20260101
+URL:https://mila.quebec/en/ai4humanity/ai-governance-policy-and-inclusion/m
+ ila-ai-policy-fellowship
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:5a0664f7-4f35-cbbd-83c0-021a928c1178@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Mila AI Policy Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Mila AI Policy Fellowship\nOrganization: Mila\nHost Institution: Hybrid\n
+ Country: Canada (Montreal)\nTarget Audience: Grad Students & Researchers\n
+ Funding: Fully Funded\nFunding Details: Stipend provided\nSupervisor Match
+ : Yes\nDuration: Varies\nDate Status: Estimated (Annual)\nDeadline Confide
+ nce: Medium\nApplication Effort: High\nPrestige Score (1-10): 9\nFunding S
+ core (1-10): 8\nAI/ML Fit Score (1-10): 7\nNotes: Aligned with Canadian ac
+ ademic year timelines.
+DTSTART;VALUE=DATE:20260301
+URL:https://mila.quebec/en/ai4humanity/ai-governance-policy-and-inclusion/m
+ ila-ai-policy-fellowship
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:2006f5ef-0e48-7c97-d0a7-554df6d9cd59@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — INSAIT SURF
+DESCRIPTION:Category: Research\nSubcategory: Research Internship\nProgram: 
+ INSAIT SURF\nOrganization: INSAIT\nHost Institution: In-Person\nCountry: B
+ ulgaria (Sofia)\nTarget Audience: Undergrad & Grad Students\nFunding: Full
+ y Funded\nFunding Details: Monthly stipend\, accommodation\, and travel\nS
+ upervisor Match: Yes\nDuration: Summer (3 mos)\nDate Status: Estimated (An
+ nual)\nDeadline Confidence: High\nApplication Effort: High\nPrestige Score
+  (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: Fix
+ ed annual cycle. Applications open in late Autumn and close in Winter.
+DTSTART;VALUE=DATE:20261101
+URL:https://insait.ai/surf/
+CATEGORIES:Research\,Research Internship
+END:VEVENT
+BEGIN:VEVENT
+UID:b34bc7f6-9653-95e4-e150-deca592d309d@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — INSAIT SURF
+DESCRIPTION:Category: Research\nSubcategory: Research Internship\nProgram: 
+ INSAIT SURF\nOrganization: INSAIT\nHost Institution: In-Person\nCountry: B
+ ulgaria (Sofia)\nTarget Audience: Undergrad & Grad Students\nFunding: Full
+ y Funded\nFunding Details: Monthly stipend\, accommodation\, and travel\nS
+ upervisor Match: Yes\nDuration: Summer (3 mos)\nDate Status: Estimated (An
+ nual)\nDeadline Confidence: High\nApplication Effort: High\nPrestige Score
+  (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit Score (1-10): 9\nNotes: Fix
+ ed annual cycle. Applications open in late Autumn and close in Winter.
+DTSTART;VALUE=DATE:20270201
+URL:https://insait.ai/surf/
+CATEGORIES:Research\,Research Internship
+END:VEVENT
+BEGIN:VEVENT
+UID:4da05848-fd0e-d2f2-6050-a5c6c655c4f4@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — Redwood Research Remix
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Redwood Research Remix\nOrganization: Redwood Research\nHost Institution:
+  Hybrid / In-Person\nCountry: USA (Berkeley)\nTarget Audience: Technical E
+ ngineers\nFunding: Fully Funded\nFunding Details: Stipend and premium comp
+ ute access\nSupervisor Match: Yes\nDuration: Varies\nDate Status: Estimate
+ d (Varies by Cohort)\nDeadline Confidence: Medium\nApplication Effort: Hig
+ h\nPrestige Score (1-10): 9\nFunding Score (1-10): 9\nAI/ML Fit Score (1-1
+ 0): 10\nNotes: Subject to laboratory research cycles and external funding 
+ grants.
+DTSTART;VALUE=DATE:20260301
+URL:https://aisecurityandsafety.org/en/grants/redwood-research-remix/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:b5403b06-a165-eb74-d1e7-4d9c9aeb939e@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — Redwood Research Remix
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Redwood Research Remix\nOrganization: Redwood Research\nHost Institution:
+  Hybrid / In-Person\nCountry: USA (Berkeley)\nTarget Audience: Technical E
+ ngineers\nFunding: Fully Funded\nFunding Details: Stipend and premium comp
+ ute access\nSupervisor Match: Yes\nDuration: Varies\nDate Status: Estimate
+ d (Varies by Cohort)\nDeadline Confidence: Medium\nApplication Effort: Hig
+ h\nPrestige Score (1-10): 9\nFunding Score (1-10): 9\nAI/ML Fit Score (1-1
+ 0): 10\nNotes: Subject to laboratory research cycles and external funding 
+ grants.
+DTSTART;VALUE=DATE:20260401
+URL:https://aisecurityandsafety.org/en/grants/redwood-research-remix/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:9bfb6376-abc8-83a8-087d-cddd0d3ce9e7@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — Apart / Alignment Jams
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Apart / Alignment Jams\nOrganization: Apart Research\nHost Institution: O
+ nline\nCountry: Worldwide\nTarget Audience: Developers & Researchers\nFund
+ ing: Fully Funded\nFunding Details: Cash prizes for top projects\nSupervis
+ or Match: No\nDuration: Weekends\nDate Status: Confirmed\nDeadline Confide
+ nce: High\nApplication Effort: Low\nPrestige Score (1-10): 7\nFunding Scor
+ e (1-10): 5\nAI/ML Fit Score (1-10): 8\nNotes: Runs monthly. Different the
+ mes and hackathons happen constantly.
+DTSTART;VALUE=DATE:20260101
+URL:https://apartresearch.com/sprints
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:ec4fc633-db38-b15e-8a11-4bf9070e73fc@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — Cohere Labs
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Cohere Labs\nOrganization: Cohere\nHost Institution: Online / Hybrid\nCou
+ ntry: Worldwide\nTarget Audience: NLP Researchers\nFunding: Fully Funded\n
+ Funding Details: Industry standard research stipends\nSupervisor Match: Ye
+ s\nDuration: Varies\nDate Status: Confirmed\nDeadline Confidence: High\nAp
+ plication Effort: High\nPrestige Score (1-10): 9\nFunding Score (1-10): 9\
+ nAI/ML Fit Score (1-10): 10\nNotes: Rolling applications for research posi
+ tions and residency programs.
+DTSTART;VALUE=DATE:20260101
+URL:https://cohere.com/research
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:d35001c9-d309-d50d-9fcb-b7a49d761153@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — Encode
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  Encode\nOrganization: Encode Club\nHost Institution: Online\nCountry: Wor
+ ldwide\nTarget Audience: Developers & Founders\nFunding: Partially Funded\
+ nFunding Details: Grants and investor network matching\nSupervisor Match: 
+ No\nDuration: Varies\nDate Status: Confirmed\nDeadline Confidence: High\nA
+ pplication Effort: Medium\nPrestige Score (1-10): 6\nFunding Score (1-10):
+  6\nAI/ML Fit Score (1-10): 7\nNotes: Runs bootcamps and hackathons contin
+ uously throughout the year.
+DTSTART;VALUE=DATE:20260101
+URL:https://encode.pillar.vc/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:96a22d93-9e8a-7c58-5c33-703d33ac082c@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — PRISM Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  PRISM Fellowship\nOrganization: PRISM\nHost Institution: Online\nCountry:
+  Worldwide\nTarget Audience: Underrepresented Groups\nFunding: Fully Funde
+ d\nFunding Details: Mentorship and research stipend\nSupervisor Match: Yes
+ \nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadline Co
+ nfidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 8\nFu
+ nding Score (1-10): 8\nAI/ML Fit Score (1-10): 8\nNotes: Often opens along
+ side global AI conferences (NeurIPS\, ICML).
+DTSTART;VALUE=DATE:20260601
+URL:https://prism-research.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:573d28c7-66bf-9516-962b-da0f6667b99d@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — PRISM Fellowship
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  PRISM Fellowship\nOrganization: PRISM\nHost Institution: Online\nCountry:
+  Worldwide\nTarget Audience: Underrepresented Groups\nFunding: Fully Funde
+ d\nFunding Details: Mentorship and research stipend\nSupervisor Match: Yes
+ \nDuration: Varies\nDate Status: Estimated (Varies by Cohort)\nDeadline Co
+ nfidence: Medium\nApplication Effort: Medium\nPrestige Score (1-10): 8\nFu
+ nding Score (1-10): 8\nAI/ML Fit Score (1-10): 8\nNotes: Often opens along
+ side global AI conferences (NeurIPS\, ICML).
+DTSTART;VALUE=DATE:20260701
+URL:https://prism-research.org/
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:7999fac1-dcbc-1b5f-9cc4-2ae12ff465c2@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Applications Open — MARS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  MARS\nOrganization: CAISH\nHost Institution: Online / Hybrid\nCountry: Wo
+ rldwide\nTarget Audience: AI Scholars\nFunding: Fully Funded\nFunding Deta
+ ils: Stipend provided\nSupervisor Match: Yes\nDuration: Varies\nDate Statu
+ s: Estimated (Varies by Cohort)\nDeadline Confidence: Medium\nApplication 
+ Effort: High\nPrestige Score (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit
+  Score (1-10): 9\nNotes: Follows a cohort structure closely tied to the SP
+ AR and MATS cycles.
+DTSTART;VALUE=DATE:20260801
+URL:https://caish.org/mars
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:aefccd0f-e7a2-e62a-245e-222533c83c66@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Expected Application Deadline — MARS
+DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
+  MARS\nOrganization: CAISH\nHost Institution: Online / Hybrid\nCountry: Wo
+ rldwide\nTarget Audience: AI Scholars\nFunding: Fully Funded\nFunding Deta
+ ils: Stipend provided\nSupervisor Match: Yes\nDuration: Varies\nDate Statu
+ s: Estimated (Varies by Cohort)\nDeadline Confidence: Medium\nApplication 
+ Effort: High\nPrestige Score (1-10): 8\nFunding Score (1-10): 8\nAI/ML Fit
+  Score (1-10): 9\nNotes: Follows a cohort structure closely tied to the SP
+ AR and MATS cycles.
+DTSTART;VALUE=DATE:20260901
+URL:https://caish.org/mars
+CATEGORIES:Research\,Technical Fellowship
+END:VEVENT
+BEGIN:VEVENT
+UID:cadbc506-df2c-0c9a-da8f-9f0d3335cb47@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — LabsXIV
+DESCRIPTION:Category: Other Resources\nSubcategory: Aggregator\nProgram: La
+ bsXIV\nOrganization: LabsXIV\nHost Institution: Online\nCountry: Worldwide
+ \nTarget Audience: Job & Internship Seekers\nFunding: Free\nFunding Detail
+ s: Access to aggregated job listings\nSupervisor Match: No\nDuration: Cont
+ inuous\nDate Status: Confirmed\nDeadline Confidence: High\nApplication Eff
+ ort: Low\nPrestige Score (1-10): 7\nFunding Score (1-10): 1\nAI/ML Fit Sco
+ re (1-10): 8\nNotes: Job board aggregator. Constantly updated with new rol
+ es.
+DTSTART;VALUE=DATE:20260101
+URL:https://labsxiv.com/
+CATEGORIES:Other Resources\,Aggregator
+END:VEVENT
+BEGIN:VEVENT
+UID:0cc15392-e863-db10-1a8c-39bf599fd68f@opportunity-tracker
+DTSTAMP:20260716T125651Z
+SUMMARY:Applications Open Continuously — AI Safety Events
+DESCRIPTION:Category: Other Resources\nSubcategory: Calendar\nProgram: AI S
+ afety Events\nOrganization: AI Safety\nHost Institution: Online\nCountry: 
+ Worldwide\nTarget Audience: AI Community\nFunding: Free\nFunding Details: 
+ No-cost community tracking resource\nSupervisor Match: No\nDuration: Conti
+ nuous\nDate Status: Confirmed\nDeadline Confidence: High\nApplication Effo
+ rt: Low\nPrestige Score (1-10): 7\nFunding Score (1-10): 1\nAI/ML Fit Scor
+ e (1-10): 8\nNotes: Public calendar aggregator. Always active.
+DTSTART;VALUE=DATE:20260101
+URL:https://aisafety.com/events-and-training
+CATEGORIES:Other Resources\,Calendar
 END:VEVENT
 END:VCALENDAR

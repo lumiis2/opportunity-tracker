@@ -7,7 +7,7 @@ X-WR-CALNAME:Industry Opportunities
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:34587305-11d5-8e2b-094a-f96f1541666a@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Shopify
 DESCRIPTION:Company: Shopify\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Late Stage\nHeadquarters: Canada\nPrimary Focus: Backend + D
@@ -23,7 +23,7 @@ CATEGORIES:Internships\,Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
 UID:f847d20d-87c6-62ce-7b7e-4a24954e3483@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Databricks
 DESCRIPTION:Company: Databricks\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: D
@@ -39,7 +39,7 @@ CATEGORIES:Internships\,Data + AI Infra\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
 UID:f5bc0a21-2ec1-80ae-73dd-e7d342df7c0b@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Cloudflare
 DESCRIPTION:Company: Cloudflare\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: I
@@ -55,7 +55,7 @@ CATEGORIES:Internships\,Infra + Security\,Networking\,Infra
 END:VEVENT
 BEGIN:VEVENT
 UID:a487e53e-0b7f-f44e-f2cd-d33c28b2e593@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Microsoft
 DESCRIPTION:Company: Microsoft\nCategory: Internships\nCompany Size: Big Te
  ch\nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Clo
@@ -71,7 +71,7 @@ CATEGORIES:Internships\,Cloud + AI\,Cloud\,AI
 END:VEVENT
 BEGIN:VEVENT
 UID:886fb8da-5102-8c69-af43-88605b092bee@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Amazon
 DESCRIPTION:Company: Amazon\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Cloud 
@@ -87,7 +87,7 @@ CATEGORIES:Internships\,Cloud + Backend\,Backend\,Cloud
 END:VEVENT
 BEGIN:VEVENT
 UID:0aace868-0577-b856-383a-e2bc9d2ff1cc@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Palantir Technologies
 DESCRIPTION:Company: Palantir Technologies\nCategory: Internships\nCompany 
  Size: Large\nCompany Stage: Public\nHeadquarters: United States\nPrimary F
@@ -104,7 +104,7 @@ CATEGORIES:Internships\,Data Platform + Defense Tech\,Data Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
 UID:d6019ac9-cce9-feaa-b9d5-82ac9355a7f2@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — NVIDIA
 DESCRIPTION:Company: NVIDIA\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: AI + G
@@ -121,7 +121,7 @@ CATEGORIES:Internships\,AI + GPU + Systems\,AI\,CUDA\,Systems
 END:VEVENT
 BEGIN:VEVENT
 UID:fafdf7e2-9375-e83f-ebc0-acfb8b4e6426@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — MongoDB
 DESCRIPTION:Company: MongoDB\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Database
@@ -137,7 +137,7 @@ CATEGORIES:Internships\,Databases + Backend\,Databases\,Infra
 END:VEVENT
 BEGIN:VEVENT
 UID:80cd993a-2244-66a1-d3ef-05d238e9e457@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Datadog
 DESCRIPTION:Company: Datadog\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Observab
@@ -153,7 +153,7 @@ CATEGORIES:Internships\,Observability + Infra\,Infra\,Monitoring
 END:VEVENT
 BEGIN:VEVENT
 UID:438e6071-3511-cf9b-f6e1-248c94428b44@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Plaid
 DESCRIPTION:Company: Plaid\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fintec
@@ -169,7 +169,7 @@ CATEGORIES:Internships\,Fintech APIs + Backend\,Backend\,APIs
 END:VEVENT
 BEGIN:VEVENT
 UID:49777406-3530-e631-3a1c-9769f82ba61b@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Ramp
 DESCRIPTION:Company: Ramp\nCategory: Internships\nCompany Size: Scale-up\nC
  ompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fint
@@ -185,7 +185,7 @@ CATEGORIES:Internships\,Fintech + Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
 UID:a866cc89-3327-cd53-265b-5920d9730759@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Coinbase
 DESCRIPTION:Company: Coinbase\nCategory: Internships\nCompany Size: Large\n
  Company Stage: Public\nHeadquarters: United States\nPrimary Focus: Crypto 
@@ -201,7 +201,7 @@ CATEGORIES:Internships\,Crypto Infra + Backend\,Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
 UID:e1bf9f36-228c-a872-1d62-a13fb0a1082a@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Figma
 DESCRIPTION:Company: Figma\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produc
@@ -217,7 +217,7 @@ CATEGORIES:Internships\,Product Engineering + Frontend\,Product Engineering
 END:VEVENT
 BEGIN:VEVENT
 UID:e74255df-1950-9a49-e7c2-362382404425@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Notion
 DESCRIPTION:Company: Notion\nCategory: Internships\nCompany Size: Large\nCo
  mpany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produ
@@ -233,7 +233,7 @@ CATEGORIES:Internships\,Product + Backend\,Product Systems
 END:VEVENT
 BEGIN:VEVENT
 UID:6232deda-e228-a8c5-8a6c-7ed4e8721bcb@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Roblox
 DESCRIPTION:Company: Roblox\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Game I
@@ -250,7 +250,7 @@ CATEGORIES:Internships\,Game Infra + Distributed Systems\,Distributed Syste
 END:VEVENT
 BEGIN:VEVENT
 UID:6696273c-0ec4-6f39-8c90-e29fa5a85ff9@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Confluent
 DESCRIPTION:Company: Confluent\nCategory: Internships\nCompany Size: Large\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Data S
@@ -266,7 +266,7 @@ CATEGORIES:Internships\,Data Streaming + Infra\,Kafka\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
 UID:c5ccea18-6a4e-293b-3b89-1768a066c448@opportunity-tracker
-DTSTAMP:20260716T130340Z
+DTSTAMP:20260717T075853Z
 SUMMARY:Expected Applications Open — Elastic
 DESCRIPTION:Company: Elastic\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: Netherlands\nPrimary Focus: Search + D

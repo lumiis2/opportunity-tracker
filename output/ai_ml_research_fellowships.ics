@@ -7,7 +7,7 @@ X-WR-CALNAME:AI/ML Research & Fellowships
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:321132dd-2957-ecbb-6394-433f65e57f69@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — fast.ai
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: fast
  .ai\nOrganization: fast.ai\nHost Institution: Online\nCountry: Worldwide\n
@@ -22,7 +22,7 @@ CATEGORIES:Education\,Online Courses
 END:VEVENT
 BEGIN:VEVENT
 UID:803a7c5d-a576-5476-c50b-6f85bf0393b6@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — Learn Mech Interp
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Lear
  n Mech Interp\nOrganization: Neel Nanda\nHost Institution: Online\nCountry
@@ -38,7 +38,7 @@ CATEGORIES:Education\,Online Courses
 END:VEVENT
 BEGIN:VEVENT
 UID:9ddb189c-5557-0650-bab0-4189b175285c@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — BlueDot Courses
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Blue
  Dot Courses\nOrganization: BlueDot Impact\nHost Institution: Online\nCount
@@ -54,7 +54,7 @@ CATEGORIES:Education\,Online Courses
 END:VEVENT
 BEGIN:VEVENT
 UID:7c18ec15-84c2-4e18-067d-5fe8ee878c33@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — BlueDot Courses
 DESCRIPTION:Category: Education\nSubcategory: Online Courses\nProgram: Blue
  Dot Courses\nOrganization: BlueDot Impact\nHost Institution: Online\nCount
@@ -70,7 +70,7 @@ CATEGORIES:Education\,Online Courses
 END:VEVENT
 BEGIN:VEVENT
 UID:9742e1ca-6657-5d80-4835-31ddaba6536e@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — SOAR
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   SOAR\nOrganization: EleutherAI\nHost Institution: Online\nCountry: Worldw
@@ -87,7 +87,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaed747-1399-eaf3-f84a-aca8c15d0014@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — SOAR
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   SOAR\nOrganization: EleutherAI\nHost Institution: Online\nCountry: Worldw
@@ -104,7 +104,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:473e6640-bf2b-716f-3fd6-84fce2800550@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — BlueDot Fellowships
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: BlueDot Fellowships\nOrganization: BlueDot Impact\nHost Institution: 
@@ -121,7 +121,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:94ac12b4-9f5b-d1bb-21f4-bc0360077719@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — BlueDot Fellowships
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: BlueDot Fellowships\nOrganization: BlueDot Impact\nHost Institution: 
@@ -138,7 +138,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:bba0c63a-18dd-81ac-df30-21e6420db3cc@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Talos Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Talos Fellowship\nOrganization: Talos Network\nHost Institution: Onli
@@ -154,7 +154,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c82712-bbee-0e5d-f2c4-479107332443@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Talos Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Talos Fellowship\nOrganization: Talos Network\nHost Institution: Onli
@@ -170,7 +170,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:8e5a5d24-4d35-fb98-543a-928e3ba7819e@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Horizon Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Horizon Fellowship\nOrganization: Horizon\nHost Institution: In-Perso
@@ -186,7 +186,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:cedf807d-c3c2-fdae-93ff-eba549e4b64f@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Horizon Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Horizon Fellowship\nOrganization: Horizon\nHost Institution: In-Perso
@@ -202,7 +202,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:3daac393-55f5-4358-62d5-cddcc8e767d5@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — AI Policy Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: AI Policy Fellowship\nOrganization: IAPS\nHost Institution: Online\nC
@@ -218,7 +218,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:9f74c4c3-2ab8-cc6d-0e22-f7d64a67f5ce@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — AI Policy Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: AI Policy Fellowship\nOrganization: IAPS\nHost Institution: Online\nC
@@ -234,7 +234,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:7994606e-1230-d0c5-7e3c-4bde6ef755cd@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Tarbell Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Tarbell Fellowship\nOrganization: Tarbell Center\nHost Institution: O
@@ -250,7 +250,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:30104552-1fc3-8d34-dbaa-aae68ed773f6@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Tarbell Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Tarbell Fellowship\nOrganization: Tarbell Center\nHost Institution: O
@@ -266,7 +266,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:92cd9492-e127-f960-0b3e-3a4b10283f29@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Pathfinder Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Pathfinder Fellowship\nOrganization: Kairos Project\nHost Institution
@@ -282,7 +282,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:d373f08d-9433-453a-a19b-816e72079491@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Pathfinder Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Non-Technical Fellowship\nProg
  ram: Pathfinder Fellowship\nOrganization: Kairos Project\nHost Institution
@@ -298,7 +298,7 @@ CATEGORIES:Research\,Non-Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:a39d28a5-2735-b4cd-83de-052bfb21453a@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Astra Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Astra Fellowship\nOrganization: Constellation\nHost Institution: Online /
@@ -314,7 +314,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:2a125009-0fff-7545-d3b9-1f9ad34e00c9@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Astra Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Astra Fellowship\nOrganization: Constellation\nHost Institution: Online /
@@ -330,7 +330,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:682f6a07-d11b-cc52-2cf8-3d1c35d7e1ec@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — SPAR
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   SPAR\nOrganization: SPAR AI\nHost Institution: Online\nCountry: Worldwide
@@ -346,7 +346,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:0e4f679e-faf6-53d2-861c-068c0d82b99e@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — SPAR
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   SPAR\nOrganization: SPAR AI\nHost Institution: Online\nCountry: Worldwide
@@ -362,7 +362,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:99476784-c158-4e21-77b0-7bdf69025083@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — LASR Labs
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   LASR Labs\nOrganization: LASR\nHost Institution: Hybrid / In-Person\nCoun
@@ -378,7 +378,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:843c00d1-dbb8-6041-a43b-909c047a949c@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — LASR Labs
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   LASR Labs\nOrganization: LASR\nHost Institution: Hybrid / In-Person\nCoun
@@ -394,7 +394,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:67b73faf-e241-29dd-99ee-422f32b0c010@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Cambridge ERA:AI
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Cambridge ERA:AI\nOrganization: ERA Fellowship\nHost Institution: Hybrid 
@@ -410,7 +410,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:6ce3239c-632b-acfe-c69f-0aa3f6acc84f@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Cambridge ERA:AI
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Cambridge ERA:AI\nOrganization: ERA Fellowship\nHost Institution: Hybrid 
@@ -426,7 +426,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:81798f49-04d7-3d7a-c2a2-f279a6343a8c@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Algoverse AI Safety Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Algoverse AI Safety Fellowship\nOrganization: Algoverse\nHost Institution
@@ -442,7 +442,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:42d82c9b-eaf3-d6ce-f81f-ccf921690a82@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Algoverse AI Safety Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Algoverse AI Safety Fellowship\nOrganization: Algoverse\nHost Institution
@@ -458,7 +458,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:22636872-baa1-1eb5-d575-cdd86ef3f4af@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — PIBBSS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   PIBBSS\nOrganization: PIBBSS\nHost Institution: Online / Hybrid\nCountry:
@@ -474,7 +474,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:c8be61aa-dc9c-3172-a997-d35b311f37ea@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — PIBBSS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   PIBBSS\nOrganization: PIBBSS\nHost Institution: Online / Hybrid\nCountry:
@@ -490,7 +490,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:0bdcb57a-146a-631b-60cc-0cd3a0b0ba4f@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — MATS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   MATS\nOrganization: MATS Program\nHost Institution: Hybrid\nCountry: USA 
@@ -506,7 +506,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:1eef91c1-a6a7-8a6e-13ee-91fbee0e5f66@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — MATS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   MATS\nOrganization: MATS Program\nHost Institution: Hybrid\nCountry: USA 
@@ -522,7 +522,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:ddb46cb7-7178-8ec6-7056-899095347a86@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — ML Collective
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   ML Collective\nOrganization: ML Collective\nHost Institution: Online\nCou
@@ -538,7 +538,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:80dbee97-9fbe-0751-12e8-b6ff61039b4c@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Mila AI Policy Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Mila AI Policy Fellowship\nOrganization: Mila\nHost Institution: Hybrid\n
@@ -555,7 +555,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:5a0664f7-4f35-cbbd-83c0-021a928c1178@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Mila AI Policy Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Mila AI Policy Fellowship\nOrganization: Mila\nHost Institution: Hybrid\n
@@ -572,7 +572,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:2006f5ef-0e48-7c97-d0a7-554df6d9cd59@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — INSAIT SURF
 DESCRIPTION:Category: Research\nSubcategory: Research Internship\nProgram: 
  INSAIT SURF\nOrganization: INSAIT\nHost Institution: In-Person\nCountry: B
@@ -588,7 +588,7 @@ CATEGORIES:Research\,Research Internship
 END:VEVENT
 BEGIN:VEVENT
 UID:b34bc7f6-9653-95e4-e150-deca592d309d@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — INSAIT SURF
 DESCRIPTION:Category: Research\nSubcategory: Research Internship\nProgram: 
  INSAIT SURF\nOrganization: INSAIT\nHost Institution: In-Person\nCountry: B
@@ -604,7 +604,7 @@ CATEGORIES:Research\,Research Internship
 END:VEVENT
 BEGIN:VEVENT
 UID:4da05848-fd0e-d2f2-6050-a5c6c655c4f4@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — Redwood Research Remix
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Redwood Research Remix\nOrganization: Redwood Research\nHost Institution:
@@ -621,7 +621,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:b5403b06-a165-eb74-d1e7-4d9c9aeb939e@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — Redwood Research Remix
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Redwood Research Remix\nOrganization: Redwood Research\nHost Institution:
@@ -638,7 +638,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:9bfb6376-abc8-83a8-087d-cddd0d3ce9e7@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — Apart / Alignment Jams
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Apart / Alignment Jams\nOrganization: Apart Research\nHost Institution: O
@@ -654,7 +654,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:ec4fc633-db38-b15e-8a11-4bf9070e73fc@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — Cohere Labs
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Cohere Labs\nOrganization: Cohere\nHost Institution: Online / Hybrid\nCou
@@ -670,7 +670,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:d35001c9-d309-d50d-9fcb-b7a49d761153@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — Encode
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   Encode\nOrganization: Encode Club\nHost Institution: Online\nCountry: Wor
@@ -686,7 +686,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:96a22d93-9e8a-7c58-5c33-703d33ac082c@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — PRISM Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   PRISM Fellowship\nOrganization: PRISM\nHost Institution: Online\nCountry:
@@ -702,7 +702,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:573d28c7-66bf-9516-962b-da0f6667b99d@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — PRISM Fellowship
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   PRISM Fellowship\nOrganization: PRISM\nHost Institution: Online\nCountry:
@@ -718,7 +718,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:7999fac1-dcbc-1b5f-9cc4-2ae12ff465c2@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Applications Open — MARS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   MARS\nOrganization: CAISH\nHost Institution: Online / Hybrid\nCountry: Wo
@@ -734,7 +734,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:aefccd0f-e7a2-e62a-245e-222533c83c66@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Expected Application Deadline — MARS
 DESCRIPTION:Category: Research\nSubcategory: Technical Fellowship\nProgram:
   MARS\nOrganization: CAISH\nHost Institution: Online / Hybrid\nCountry: Wo
@@ -750,7 +750,7 @@ CATEGORIES:Research\,Technical Fellowship
 END:VEVENT
 BEGIN:VEVENT
 UID:cadbc506-df2c-0c9a-da8f-9f0d3335cb47@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — LabsXIV
 DESCRIPTION:Category: Other Resources\nSubcategory: Aggregator\nProgram: La
  bsXIV\nOrganization: LabsXIV\nHost Institution: Online\nCountry: Worldwide
@@ -766,7 +766,7 @@ CATEGORIES:Other Resources\,Aggregator
 END:VEVENT
 BEGIN:VEVENT
 UID:0cc15392-e863-db10-1a8c-39bf599fd68f@opportunity-tracker
-DTSTAMP:20260722T081513Z
+DTSTAMP:20260723T081925Z
 SUMMARY:Applications Open Continuously — AI Safety Events
 DESCRIPTION:Category: Other Resources\nSubcategory: Calendar\nProgram: AI S
  afety Events\nOrganization: AI Safety\nHost Institution: Online\nCountry: 

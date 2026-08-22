@@ -26,3 +26,8 @@ datasets:
     gid: 1934629732
     output: ai_ml_research_fellowships.ics
     csv: ai_ml_research_fellowships.csv
+
+  personal:
+    gid: 1465743212
+    output: personal.ics
+    csv: personal.csv

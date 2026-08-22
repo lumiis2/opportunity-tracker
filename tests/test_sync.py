@@ -19,6 +19,11 @@ def test_new_calendar_sheet_link_is_configured():
         "1X9aMGn-l1KgrUDdIQ785psvy02tTyXfohgm9ydY9FGM/"
         "export?format=csv&gid=1934629732"
     )
+    assert cfg["datasets"]["personal"] == {
+        "gid": 1465743212,
+        "output": "personal.ics",
+        "csv": "personal.csv",
+    }
 
 
 def test_sync_download_and_save(tmp_path, monkeypatch):

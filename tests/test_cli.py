@@ -13,6 +13,7 @@ from src import cli
         ("industry", "Industry Opportunities"),
         ("conferences", "Conferences"),
         ("ai_ml_research_fellowships", "AI/ML Research & Fellowships"),
+        ("personal", "Personal Opportunities"),
     ],
 )
 def test_generate_ics_uses_official_track_parser(tmp_path, track, calendar_name):

@@ -39,6 +39,7 @@ Copy the calendar URL and paste it into the **From URL** option in your calendar
 | 💼 Industry | `https://lumiis2.github.io/opportunity-tracker/industry.ics` | [industry.ics](https://lumiis2.github.io/opportunity-tracker/industry.ics) | [industry.csv](https://lumiis2.github.io/opportunity-tracker/data/industry.csv) |
 | 📚 Conferences | `https://lumiis2.github.io/opportunity-tracker/conferences.ics` | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
 | 🤖 AI/ML Research & Fellowships | `https://lumiis2.github.io/opportunity-tracker/ai_ml_research_fellowships.ics` | [ai_ml_research_fellowships.ics](https://lumiis2.github.io/opportunity-tracker/ai_ml_research_fellowships.ics) | [ai_ml_research_fellowships.csv](https://lumiis2.github.io/opportunity-tracker/data/ai_ml_research_fellowships.csv) |
+| 🗂️ Personal calendar | `https://lumiis2.github.io/opportunity-tracker/personal.ics` | [personal.ics](https://lumiis2.github.io/opportunity-tracker/personal.ics) | [personal.csv](https://lumiis2.github.io/opportunity-tracker/data/personal.csv) |
 
 ## How to use
 
@@ -80,7 +81,11 @@ python -m src.cli generate-ics \
 ```
 
 
-Accepted values for `--track`: `graduation`, `masters`, `industry`, and `conferences`.
+Accepted values for `--track`: `graduation`, `masters`, `industry`,
+`conferences`, `ai_ml_research_fellowships`, and `personal`.
+
+See the [personal calendar tutorial](tutorials-and-info/COMO-CRIAR-SEU-CALENDARIO.md)
+to create your own spreadsheet and optionally publish an updateable URL.
 
 This workflow works locally and does not depend on Google Sheets, credentials, GitHub Pages, or an internet connection.
 The CSV must maintain the same columns as the official file of the chosen category.

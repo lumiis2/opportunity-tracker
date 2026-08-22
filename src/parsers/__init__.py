@@ -8,6 +8,7 @@ from src.parsers.ai_ml_research_fellowships import (
 from src.parsers.graduation import GraduationParser, parse as parse_graduation
 from src.parsers.industry import IndustryParser, parse as parse_industry
 from src.parsers.masters import MastersParser, parse as parse_masters
+from src.parsers.personal import PersonalParser, parse as parse_personal
 
 __all__ = [
 	"ConferenceParser",
@@ -20,4 +21,6 @@ __all__ = [
 	"parse_graduation",
 	"parse_industry",
 	"parse_masters",
+	"PersonalParser",
+	"parse_personal",
 ]

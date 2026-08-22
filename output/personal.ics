@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Personal Opportunities
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:6ddbc6c6-c670-22f9-bc59-c5f3d986af9b@opportunity-tracker
+DTSTAMP:20260822T192606Z
+SUMMARY:Application Deadline — UARE Winter
+DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
+ Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
+ oco: Pesquisa acadêmica\; AI/ML\, engineering\, energy\, health etc.\nLoc
+ al: Edmonton\, Canadá\nFormato: Presencial\nDuração: 12 semanas\nPerío
+ do / data do programa: Winter 2027\nElegível?: Sim\nRequisitos / elegibil
+ idade relevantes: Senior undergrad\; requisitos específicos dependem do p
+ rojeto\nFunding / benefícios: CAD 6\,000\nSeleção / docs relevantes: CV
+ \, transcript\, seleção de projetos\nPrioridade: Alta\nStatus / observa
+ ções: Edição Winter 2027 fechada
+DTSTART;VALUE=DATE:20260804
+URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
+ ernship-programs/research-internships/ualberta-research-experience/index.h
+ tml
+CATEGORIES:Research internship\,Undergrad\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:76e1feb2-dfbc-fe38-5927-69bcf292be85@opportunity-tracker
+DTSTAMP:20260822T192606Z
+SUMMARY:Expected Program Period — UARE Winter
+DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
+ Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
+ oco: Pesquisa acadêmica\; AI/ML\, engineering\, energy\, health etc.\nLoc
+ al: Edmonton\, Canadá\nFormato: Presencial\nDuração: 12 semanas\nPerío
+ do / data do programa: Winter 2027\nElegível?: Sim\nRequisitos / elegibil
+ idade relevantes: Senior undergrad\; requisitos específicos dependem do p
+ rojeto\nFunding / benefícios: CAD 6\,000\nSeleção / docs relevantes: CV
+ \, transcript\, seleção de projetos\nPrioridade: Alta\nStatus / observa
+ ções: Edição Winter 2027 fechada
+DTSTART;VALUE=DATE:20270101
+URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
+ ernship-programs/research-internships/ualberta-research-experience/index.h
+ tml
+CATEGORIES:Research internship\,Undergrad\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:b4045c28-2e82-eddc-b06a-bc2745adce91@opportunity-tracker
+DTSTAMP:20260822T192606Z
+SUMMARY:Expected Program Period — UARE Summer
+DESCRIPTION:Programa: UARE Summer\nCategoria: Research internship\nNível: 
+ Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
+ oco: Pesquisa acadêmica\; AI/ML e outras áreas\nLocal: Edmonton\, Canad
+ á\nFormato: Presencial\nDuração: ~12 semanas\nPeríodo / data do progra
+ ma: Summer 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: U
+ ndergrad\; requisitos específicos dependem do projeto\nFunding / benefíc
+ ios: ~CAD 6\,000 se mantido modelo UARE\nSeleção / docs relevantes: CV\,
+  transcript\, seleção de projetos\nPrioridade: Alta\nStatus / observaç
+ ões: Aguardar abertura da edição Summer
+DTSTART;VALUE=DATE:20270601
+URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
+ ernship-programs/research-internships/ualberta-research-experience/index.h
+ tml
+CATEGORIES:Research internship\,Undergrad\,Alta
+END:VEVENT
+END:VCALENDAR

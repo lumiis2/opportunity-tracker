@@ -16,6 +16,7 @@ from src.parsers.masters import parse as parse_masters
 from src.parsers.industry import parse as parse_industry
 from src.parsers.conferences import parse as parse_conferences
 from src.parsers.ai_ml_research_fellowships import parse as parse_ai_ml_research_fellowships
+from src.parsers.personal import parse as parse_personal
 
 
 def main() -> int:
@@ -81,6 +82,16 @@ def main() -> int:
     print(len(ai_ml_events))
     print("AI/ML Research & Fellowships ICS written to:")
     print(f"output/{ai_ml_out.name}")
+
+    personal_csv = ROOT_DIR / "data" / "personal.csv"
+    personal_out = ROOT_DIR / "output" / "personal.ics"
+    personal_events = parse_personal(personal_csv)
+    generate_calendar(personal_events, output_path=personal_out, calendar_name="Personal Opportunities")
+    print()
+    print("Personal events generated:")
+    print(len(personal_events))
+    print("Personal ICS written to:")
+    print(f"output/{personal_out.name}")
     return 0
 
 

@@ -13,6 +13,7 @@ from src.parsers import (
     parse_graduation,
     parse_industry,
     parse_masters,
+    parse_personal,
 )
 
 
@@ -27,6 +28,7 @@ TRACKS: dict[str, tuple[Parser, str]] = {
     "masters": (parse_masters, "Masters Programs"),
     "industry": (parse_industry, "Industry Opportunities"),
     "conferences": (parse_conferences, "Conferences"),
+    "personal": (parse_personal, "Personal Opportunities"),
 }
 
 

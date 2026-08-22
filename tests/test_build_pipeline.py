@@ -15,6 +15,7 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         "industry.csv",
         "conferences.csv",
         "ai_ml_research_fellowships.csv",
+        "personal.csv",
     ]:
         shutil.copy(root / "data" / name, tmp_path / "data" / name)
 
@@ -29,6 +30,7 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         "industry.ics",
         "conferences.ics",
         "ai_ml_research_fellowships.ics",
+        "personal.ics",
     ]:
         out = tmp_path / "output" / name
         assert out.exists()

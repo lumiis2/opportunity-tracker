@@ -7,7 +7,7 @@ X-WR-CALNAME:Personal Opportunities
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:6ddbc6c6-c670-22f9-bc59-c5f3d986af9b@opportunity-tracker
-DTSTAMP:20260822T192606Z
+DTSTAMP:20260823T062953Z
 SUMMARY:Application Deadline — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -26,7 +26,7 @@ CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:76e1feb2-dfbc-fe38-5927-69bcf292be85@opportunity-tracker
-DTSTAMP:20260822T192606Z
+DTSTAMP:20260823T062953Z
 SUMMARY:Expected Program Period — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -45,7 +45,7 @@ CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:b4045c28-2e82-eddc-b06a-bc2745adce91@opportunity-tracker
-DTSTAMP:20260822T192606Z
+DTSTAMP:20260823T062953Z
 SUMMARY:Expected Program Period — UARE Summer
 DESCRIPTION:Programa: UARE Summer\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -61,5 +61,851 @@ URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
  ernship-programs/research-internships/ualberta-research-experience/index.h
  tml
 CATEGORIES:Research internship\,Undergrad\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a14f4b-e309-28e3-6fd5-b94da78f0e63@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — CERN Short-Term Internship
+DESCRIPTION:Programa: CERN Short-Term Internship\nCategoria: Internship\nN
+ ível: Undergrad\nInstituição / organização: CERN\nÁrea / foco: Softw
+ are\, IT\, data science\, engineering e outras áreas técnicas\nLocal: Ge
+ nebra\, Suíça\nFormato: Presencial\nDuração: 1–6 meses\nPeríodo / d
+ ata do programa: Ao longo do ano\nElegível?: Sim\nRequisitos / elegibilid
+ ade relevantes: Estar matriculada em curso universitário/técnico\; condi
+ ções dependem da vaga\nFunding / benefícios: Allowance CERN\nSeleção 
+ / docs relevantes: CV e informações acadêmicas\nPrioridade: Média\nSta
+ tus / observações: Modalidade curta e flexível
+DTSTART;VALUE=DATE:20261101
+URL:https://careers.cern/jobs/short-term-internship/
+CATEGORIES:Internship\,Undergrad\,Média
+END:VEVENT
+BEGIN:VEVENT
+UID:ff9ddd75-28a4-a7cb-e0fc-afede083c430@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — CERN Technical Studentship – IT\, Mathem
+ atics & Robotics
+DESCRIPTION:Programa: CERN Technical Studentship – IT\, Mathematics & Rob
+ otics\nCategoria: Studentship\nNível: Undergrad\nInstituição / organiza
+ ção: CERN\nÁrea / foco: Computer Science\, Software\, Data Science\, Ma
+ thematics\, Robotics\nLocal: Genebra\, Suíça\nFormato: Presencial\nDura
+ ção: 4–12 meses\nPeríodo / data do programa: Início ideal 01/04/2027
+ \nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estudante de CS/
+ Math/Robotics/Engineering ou área relacionada\; precisa continuar vincula
+ da à universidade\nFunding / benefícios: CHF 3\,486 líquidos/mês\; 30 
+ dias de leave/ano\; health insurance\nSeleção / docs relevantes: CV e do
+ cumentação acadêmica\nPrioridade: Muito alta\nStatus / observações: 2
+ 027-1 aberto\; CERN mais alinhado a CS/ML
+DTSTART;VALUE=DATE:20261016
+URL:https://careers.cern/jobs/tsc-co/
+CATEGORIES:Studentship\,Undergrad\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:a8e3eb61-0f99-e485-7ed0-a2d8ee03170e@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — CERN Openlab Summer Student Programme
+DESCRIPTION:Programa: CERN Openlab Summer Student Programme\nCategoria: Sum
+ mer research\nNível: Undergrad / MSc\nInstituição / organização: CERN
+  openlab\nÁrea / foco: Computing\, software\, HPC\, data\, ML\nLocal: Gen
+ ebra\, Suíça\nFormato: Presencial\nDuração: ~9 semanas\nPeríodo / dat
+ a do programa: Summer 2027\nElegível?: Sim\nRequisitos / elegibilidade re
+ levantes: Normalmente Bachelor/Master em CS\, matemática\, engineering ou
+  área relacionada\nFunding / benefícios: Allowance + viagem/support\; va
+ lores 2027 N/A\nSeleção / docs relevantes: CV\, transcript\, referência
+ s/motivation conforme call\nPrioridade: Alta\nStatus / observações: Agua
+ rdar call 2027
+DTSTART;VALUE=DATE:20270601
+URL:https://openlab.cern/cern-openlab-summer-student-programme/
+CATEGORIES:Summer research\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:db2a8df6-ed2e-c5e7-1c7c-49f96b7fabaf@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — ETH Student Summer Research Fellowship – SS
+ RF
+DESCRIPTION:Programa: ETH Student Summer Research Fellowship – SSRF\nCate
+ goria: Summer research fellowship\nNível: Undergrad / MSc\nInstituição 
+ / organização: ETH Zürich – D-INFK\nÁrea / foco: ML\, AI\, security\
+ , systems\, visual computing\, theory etc.\nLocal: Zürich\, Suíça\nForm
+ ato: Presencial\nDuração: 2 meses\nPeríodo / data do programa: Jul–Au
+ g 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: CS ou áre
+ a próxima\; mínimo 2 anos completos\; graduação no ano seguinte ao fel
+ lowship ou depois\nFunding / benefícios: Fellowship\; valor 2027 N/A\nSel
+ eção / docs relevantes: Application online\; histórico acadêmico\; ing
+ lês suficiente\nPrioridade: Muito alta\nStatus / observações: Applicati
+ ons abrem beginning of November 2026
+DTSTART;VALUE=DATE:20261101
+URL:https://inf.ethz.ch/studies/summer-research-fellowship.html
+CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f68c1d-32a1-604a-f67c-68c4715e9614@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — Summer@EPFL
+DESCRIPTION:Programa: Summer@EPFL\nCategoria: Summer research fellowship\nN
+ ível: Undergrad / MSc\nInstituição / organização: EPFL – School of 
+ Computer and Communication Sciences\nÁrea / foco: AI/ML\, NLP\, CV\, syst
+ ems\, security\, theory\, data etc.\nLocal: Lausanne\, Suíça\nFormato: P
+ resencial\nDuração: 2–3 meses\nPeríodo / data do programa: ~May–Sep
+  2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estar no m
+ ínimo no 2º ano do Bachelor\; continuar matriculada durante o fellowship
+ \nFunding / benefícios: Fellowship mensal + travel contribution\; valor 2
+ 027 N/A\nSeleção / docs relevantes: CV\, transcripts\, motivation letter
+ \; até 3 research domains/professors\nPrioridade: Muito alta\nStatus / ob
+ servações: Um dos melhores summer programs para AI/ML
+DTSTART;VALUE=DATE:20261101
+URL:https://summer.epfl.ch/
+CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:22fc4d7d-f75b-cc44-1d06-bf77cfe70164@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — Summer@EPFL
+DESCRIPTION:Programa: Summer@EPFL\nCategoria: Summer research fellowship\nN
+ ível: Undergrad / MSc\nInstituição / organização: EPFL – School of 
+ Computer and Communication Sciences\nÁrea / foco: AI/ML\, NLP\, CV\, syst
+ ems\, security\, theory\, data etc.\nLocal: Lausanne\, Suíça\nFormato: P
+ resencial\nDuração: 2–3 meses\nPeríodo / data do programa: ~May–Sep
+  2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estar no m
+ ínimo no 2º ano do Bachelor\; continuar matriculada durante o fellowship
+ \nFunding / benefícios: Fellowship mensal + travel contribution\; valor 2
+ 027 N/A\nSeleção / docs relevantes: CV\, transcripts\, motivation letter
+ \; até 3 research domains/professors\nPrioridade: Muito alta\nStatus / ob
+ servações: Um dos melhores summer programs para AI/ML
+DTSTART;VALUE=DATE:20261201
+URL:https://summer.epfl.ch/
+CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:57b2b987-bddb-15c8-7e3f-62a684e1c3a9@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — EPFL E3 – Excellence in Engineering
+DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
+ earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
+ EPFL School of Engineering\nÁrea / foco: Engineering + Computer Science\n
+ Local: Lausanne / campuses EPFL\nFormato: Presencial\nDuração: ~8–12 s
+ emanas\nPeríodo / data do programa: Summer 2027\nElegível?: Sim\nRequisi
+ tos / elegibilidade relevantes: International BSc/MSc em engineering/techn
+ ology\; Computer Science incluído\nFunding / benefícios: Stipend/support
+ \; valores dependem do placement\nSeleção / docs relevantes: CV\, motiva
+ tion\, transcript\, referências\, escolha de labs\nPrioridade: Alta\nStat
+ us / observações: Programa distinto de Summer@EPFL
+DTSTART;VALUE=DATE:20261001
+URL:https://eee.epfl.ch/program-at-a-glance/
+CATEGORIES:Research internship\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:02d97117-6f2a-d94a-da18-78e72bc57bfa@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — EPFL E3 – Excellence in Engineering
+DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
+ earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
+ EPFL School of Engineering\nÁrea / foco: Engineering + Computer Science\n
+ Local: Lausanne / campuses EPFL\nFormato: Presencial\nDuração: ~8–12 s
+ emanas\nPeríodo / data do programa: Summer 2027\nElegível?: Sim\nRequisi
+ tos / elegibilidade relevantes: International BSc/MSc em engineering/techn
+ ology\; Computer Science incluído\nFunding / benefícios: Stipend/support
+ \; valores dependem do placement\nSeleção / docs relevantes: CV\, motiva
+ tion\, transcript\, referências\, escolha de labs\nPrioridade: Alta\nStat
+ us / observações: Programa distinto de Summer@EPFL
+DTSTART;VALUE=DATE:20261101
+URL:https://eee.epfl.ch/program-at-a-glance/
+CATEGORIES:Research internship\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:58503e21-903b-5a24-41b6-03dab86e98dc@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — EPFL E3 – Excellence in Engineering
+DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
+ earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
+ EPFL School of Engineering\nÁrea / foco: Engineering + Computer Science\n
+ Local: Lausanne / campuses EPFL\nFormato: Presencial\nDuração: ~8–12 s
+ emanas\nPeríodo / data do programa: Summer 2027\nElegível?: Sim\nRequisi
+ tos / elegibilidade relevantes: International BSc/MSc em engineering/techn
+ ology\; Computer Science incluído\nFunding / benefícios: Stipend/support
+ \; valores dependem do placement\nSeleção / docs relevantes: CV\, motiva
+ tion\, transcript\, referências\, escolha de labs\nPrioridade: Alta\nStat
+ us / observações: Programa distinto de Summer@EPFL
+DTSTART;VALUE=DATE:20270601
+URL:https://eee.epfl.ch/program-at-a-glance/
+CATEGORIES:Research internship\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:9a14bd05-5967-d696-5813-aae41973d88d@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — Max Planck CS Research Internship - summer
+DESCRIPTION:Programa: Max Planck CS Research Internship - summer\nCategoria
+ : Research internship\nNível: Undergrad / MSc\nInstituição / organizaç
+ ão: Max Planck / MPI-SWS / MPI-INF ecosystem\nÁrea / foco: CS research: 
+ ML\, systems\, security\, algorithms etc.\nLocal: Saarbrücken / Kaisersla
+ utern\, Alemanha\nFormato: Presencial\nDuração: ~12–14 semanas típico
+ \nPeríodo / data do programa: Summer 2027 / off-season possível\nElegív
+ el?: Sim\nRequisitos / elegibilidade relevantes: Strong undergraduate/mast
+ er background\; requisitos variam por lab/programa\nFunding / benefícios:
+  Normalmente stipend + suporte\nSeleção / docs relevantes: CV\, transcri
+ pt\, research interests\, eventualmente referências\nPrioridade: Muito al
+ ta\nStatus / observações: Aguardar call 2027 oficial
+DTSTART;VALUE=DATE:20261101
+URL:https://www.cis.mpg.de/internships/
+CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:ce2812d9-ac44-91d1-9bb7-f9fe04923eac@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — Max Planck CS Research Internship - sum
+ mer
+DESCRIPTION:Programa: Max Planck CS Research Internship - summer\nCategoria
+ : Research internship\nNível: Undergrad / MSc\nInstituição / organizaç
+ ão: Max Planck / MPI-SWS / MPI-INF ecosystem\nÁrea / foco: CS research: 
+ ML\, systems\, security\, algorithms etc.\nLocal: Saarbrücken / Kaisersla
+ utern\, Alemanha\nFormato: Presencial\nDuração: ~12–14 semanas típico
+ \nPeríodo / data do programa: Summer 2027 / off-season possível\nElegív
+ el?: Sim\nRequisitos / elegibilidade relevantes: Strong undergraduate/mast
+ er background\; requisitos variam por lab/programa\nFunding / benefícios:
+  Normalmente stipend + suporte\nSeleção / docs relevantes: CV\, transcri
+ pt\, research interests\, eventualmente referências\nPrioridade: Muito al
+ ta\nStatus / observações: Aguardar call 2027 oficial
+DTSTART;VALUE=DATE:20270601
+URL:https://www.cis.mpg.de/internships/
+CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:6af1e9b7-e0c3-dc69-3a0c-553db37cc67e@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — Max Planck CS Research Internship - all
+  year
+DESCRIPTION:Programa: Max Planck CS Research Internship - all year\nCategor
+ ia: Research internship\nNível: Undergrad / MSc\nInstituição / organiza
+ ção: Max Planck / MPI-SWS / MPI-INF ecosystem\nÁrea / foco: CS research
+ : ML\, systems\, security\, algorithms etc.\nLocal: Saarbrücken / Kaisers
+ lautern\, Alemanha\nFormato: Presencial\nDuração: ~12–14 semanas típi
+ co\nPeríodo / data do programa: Summer 2027 / off-season possível\nEleg
+ ível?: Sim\nRequisitos / elegibilidade relevantes: Strong undergraduate/m
+ aster background\; requisitos variam por lab/programa\nFunding / benefíci
+ os: Normalmente stipend + suporte\nSeleção / docs relevantes: CV\, trans
+ cript\, research interests\, eventualmente referências\nPrioridade: Muito
+  alta\nStatus / observações: Aguardar call 2027 oficial
+DTSTART;VALUE=DATE:20270601
+URL:https://www.cis.mpg.de/internships/
+CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:b53ad479-6d10-29d6-7511-b9ec5e4a4f64@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — AScI International Summer Research Programme
+DESCRIPTION:Programa: AScI International Summer Research Programme\nCategor
+ ia: Research internship\nNível: Undergrad / MSc\nInstituição / organiza
+ ção: Aalto University – Aalto Science Institute (AScI)\nÁrea / foco: 
+ Pesquisa acadêmica em CS\, AI/ML\, engineering\, applied physics e áreas
+  relacionadas\; projetos específicos por grupo\nLocal: Espoo / Helsinki\,
+  Finlândia\nFormato: Presencial\nDuração: 12 semanas\nPeríodo / data d
+ o programa: Junho–agosto 2026\nElegível?: Sim\nRequisitos / elegibilida
+ de relevantes: Aberto a estudantes de bachelor e master worldwide\; requis
+ itos específicos dependem do projeto\; inglês suficiente\nFunding / bene
+ fícios: Salário €2\,000+/mês + travel bonus (€400 Europa / €800 f
+ ora da Europa) + férias pagas + auxílio para encontrar housing\nSeleçã
+ o / docs relevantes: CV\, transcript\, motivation letter\, carta de recome
+ ndação\, comprovação de inglês\; escolha de até 3 projetos\; entrevi
+ stas\nPrioridade: Alta\nStatus / observações: Edição 2026 fechada\; ac
+ ompanhar Summer 2027
+DTSTART;VALUE=DATE:20260107
+URL:https://www.aalto.fi/en/aalto-science-institute-asci/aalto-science-inst
+ itute-international-summer-research-programme
+CATEGORIES:Research internship\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:320746c8-99bd-bbfe-7ece-743972a35421@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — AScI International Summer Research Program
+ me
+DESCRIPTION:Programa: AScI International Summer Research Programme\nCategor
+ ia: Research internship\nNível: Undergrad / MSc\nInstituição / organiza
+ ção: Aalto University – Aalto Science Institute (AScI)\nÁrea / foco: 
+ Pesquisa acadêmica em CS\, AI/ML\, engineering\, applied physics e áreas
+  relacionadas\; projetos específicos por grupo\nLocal: Espoo / Helsinki\,
+  Finlândia\nFormato: Presencial\nDuração: 12 semanas\nPeríodo / data d
+ o programa: Junho–agosto 2026\nElegível?: Sim\nRequisitos / elegibilida
+ de relevantes: Aberto a estudantes de bachelor e master worldwide\; requis
+ itos específicos dependem do projeto\; inglês suficiente\nFunding / bene
+ fícios: Salário €2\,000+/mês + travel bonus (€400 Europa / €800 f
+ ora da Europa) + férias pagas + auxílio para encontrar housing\nSeleçã
+ o / docs relevantes: CV\, transcript\, motivation letter\, carta de recome
+ ndação\, comprovação de inglês\; escolha de até 3 projetos\; entrevi
+ stas\nPrioridade: Alta\nStatus / observações: Edição 2026 fechada\; ac
+ ompanhar Summer 2027
+DTSTART;VALUE=DATE:20260131
+URL:https://www.aalto.fi/en/aalto-science-institute-asci/aalto-science-inst
+ itute-international-summer-research-programme
+CATEGORIES:Research internship\,Undergrad / MSc\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:856a0a38-c757-df94-1874-9990e143449f@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — CMMRS / MPI-SWS
+DESCRIPTION:Programa: CMMRS / MPI-SWS\nCategoria: Research school\nNível: 
+ Undergrad / grad\nInstituição / organização: MPI-SWS\nÁrea / foco: Co
+ mputer Science research\nLocal: Saarbrücken\, Alemanha\nFormato: Presenci
+ al\nDuração: ~1 semana\nPeríodo / data do programa: Próxima edição N
+ /A\nElegível?: Sim / seleção competitiva\nRequisitos / elegibilidade re
+ levantes: Muito seletivo\; formato pode envolver invitation/application\nF
+ unding / benefícios: Support depende da edição\nSeleção / docs releva
+ ntes: Application/nomination conforme edição\nPrioridade: Média\nStatus
+  / observações: Aguardar call futura
+DTSTART;VALUE=DATE:20270214
+URL:https://cmmrs.mpi-sws.org/
+CATEGORIES:Research school\,Undergrad / grad\,Média
+END:VEVENT
+BEGIN:VEVENT
+UID:4c457542-fb4a-0ff3-4c57-1cf0371eb49b@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — ETH Direct Doctorate in Computer Science
+DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
+ Graduate program\nNível: Direct Doctorate\nInstituição / organização:
+  ETH Zürich – D-INFK\nÁrea / foco: CS / ML / AI / systems / theory etc
+ .\nLocal: Zürich\, Suíça\nFormato: Presencial\nDuração: ~5–6 anos t
+ otal\nPeríodo / data do programa: Fall 2027\nElegível?: Sim em princípi
+ o\nRequisitos / elegibilidade relevantes: Bachelor excelente\; admissão e
+ xtremamente seletiva\nFunding / benefícios: Funding na fase inicial + dep
+ ois salário de PhD\nSeleção / docs relevantes: Transcript\, CV\, SoP\, 
+ recommendations\, requisitos ETH\nPrioridade: Muito alta\nStatus / observa
+ ções: Confirmar deadline final quando portal Fall 2027 abrir
+DTSTART;VALUE=DATE:20261101
+URL:https://inf.ethz.ch/doctorate/direct-doctorate-computer-science.html
+CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:371ac038-4303-e80d-9839-e5562027b91e@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — ETH Direct Doctorate in Computer Science
+DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
+ Graduate program\nNível: Direct Doctorate\nInstituição / organização:
+  ETH Zürich – D-INFK\nÁrea / foco: CS / ML / AI / systems / theory etc
+ .\nLocal: Zürich\, Suíça\nFormato: Presencial\nDuração: ~5–6 anos t
+ otal\nPeríodo / data do programa: Fall 2027\nElegível?: Sim em princípi
+ o\nRequisitos / elegibilidade relevantes: Bachelor excelente\; admissão e
+ xtremamente seletiva\nFunding / benefícios: Funding na fase inicial + dep
+ ois salário de PhD\nSeleção / docs relevantes: Transcript\, CV\, SoP\, 
+ recommendations\, requisitos ETH\nPrioridade: Muito alta\nStatus / observa
+ ções: Confirmar deadline final quando portal Fall 2027 abrir
+DTSTART;VALUE=DATE:20261130
+URL:https://inf.ethz.ch/doctorate/direct-doctorate-computer-science.html
+CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:b0e8ad08-996e-cf2e-1f60-9dc428ff80b8@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — ETH Direct Doctorate in Computer Scienc
+ e
+DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
+ Graduate program\nNível: Direct Doctorate\nInstituição / organização:
+  ETH Zürich – D-INFK\nÁrea / foco: CS / ML / AI / systems / theory etc
+ .\nLocal: Zürich\, Suíça\nFormato: Presencial\nDuração: ~5–6 anos t
+ otal\nPeríodo / data do programa: Fall 2027\nElegível?: Sim em princípi
+ o\nRequisitos / elegibilidade relevantes: Bachelor excelente\; admissão e
+ xtremamente seletiva\nFunding / benefícios: Funding na fase inicial + dep
+ ois salário de PhD\nSeleção / docs relevantes: Transcript\, CV\, SoP\, 
+ recommendations\, requisitos ETH\nPrioridade: Muito alta\nStatus / observa
+ ções: Confirmar deadline final quando portal Fall 2027 abrir
+DTSTART;VALUE=DATE:20270901
+URL:https://inf.ethz.ch/doctorate/direct-doctorate-computer-science.html
+CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:c61432f6-e2c5-338f-d3c0-1d34d0febaba@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — EPFL EDIC – Computer & Communication Scienc
+ es PhD
+DESCRIPTION:Programa: EPFL EDIC – Computer & Communication Sciences PhD\n
+ Categoria: Graduate program\nNível: PhD / possível entrada com Bachelor 
+ longo\nInstituição / organização: EPFL\nÁrea / foco: Computer Science
+ \, AI/ML\, systems\, theory\, security etc.\nLocal: Lausanne\, Suíça\nFo
+ rmato: Presencial\nDuração: ~4–5 anos\nPeríodo / data do programa: 20
+ 27 intake\nElegível?: Provavelmente\nRequisitos / elegibilidade relevante
+ s: Pode aceitar Bachelor equivalente forte\; equivalência precisa ser ava
+ liada\nFunding / benefícios: PhD salaried / funded\nSeleção / docs rele
+ vantes: Academic dossier\, research interests\, referees\nPrioridade: Muit
+ o alta\nStatus / observações: Não é formalmente chamado de Direct Doct
+ orate
+DTSTART;VALUE=DATE:20260901
+URL:https://www.epfl.ch/education/phd/edic-computer-and-communication-scien
+ ces/
+CATEGORIES:Graduate program\,PhD / possível entrada com Bachelor longo\,Mu
+ ito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:9cdca2db-241d-6767-fa72-c6a005b9e7fe@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — EPFL EDIC – Computer & Communication Sci
+ ences PhD
+DESCRIPTION:Programa: EPFL EDIC – Computer & Communication Sciences PhD\n
+ Categoria: Graduate program\nNível: PhD / possível entrada com Bachelor 
+ longo\nInstituição / organização: EPFL\nÁrea / foco: Computer Science
+ \, AI/ML\, systems\, theory\, security etc.\nLocal: Lausanne\, Suíça\nFo
+ rmato: Presencial\nDuração: ~4–5 anos\nPeríodo / data do programa: 20
+ 27 intake\nElegível?: Provavelmente\nRequisitos / elegibilidade relevante
+ s: Pode aceitar Bachelor equivalente forte\; equivalência precisa ser ava
+ liada\nFunding / benefícios: PhD salaried / funded\nSeleção / docs rele
+ vantes: Academic dossier\, research interests\, referees\nPrioridade: Muit
+ o alta\nStatus / observações: Não é formalmente chamado de Direct Doct
+ orate
+DTSTART;VALUE=DATE:20261201
+URL:https://www.epfl.ch/education/phd/edic-computer-and-communication-scien
+ ces/
+CATEGORIES:Graduate program\,PhD / possível entrada com Bachelor longo\,Mu
+ ito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:6892d39c-d21b-fd99-6f8c-f35ac28e161c@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — Saarbrücken Graduate School of Computer S
+ cience
+DESCRIPTION:Programa: Saarbrücken Graduate School of Computer Science\nCat
+ egoria: Graduate program\nNível: Direct PhD\nInstituição / organizaçã
+ o: Saarland University + MPI + CISPA ecosystem\nÁrea / foco: CS / ML / AI
+  / security / systems / theory\nLocal: Saarbrücken\, Alemanha\nFormato: P
+ resencial\nDuração: Preparatory phase + PhD\nPeríodo / data do programa
+ : 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Excellent 
+ Bachelor graduates aceitos\; forte histórico acadêmico\nFunding / benef
+ ícios: Funded preparatory phase + funded PhD\nSeleção / docs relevantes
+ : CV\, transcripts\, statement\, recommendations\nPrioridade: Muito alta\n
+ Status / observações: Boa rota Bachelor → PhD
+DTSTART;VALUE=DATE:20261031
+CATEGORIES:Graduate program\,Direct PhD\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:ccdab2d8-643f-fbbc-d45f-3ae6580b98a4@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — ETH MSc Computer Science
+DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
+ \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
+ : CS\; Machine Intelligence\, Secure & Reliable Systems etc.\nLocal: Züri
+ ch\, Suíça\nFormato: Presencial\nDuração: 2 anos / 120 ECTS\nPeríodo 
+ / data do programa: Fall 2027\nElegível?: Sim\nRequisitos / elegibilidade
+  relevantes: Bachelor relevante e excelente histórico\; requisitos curric
+ ulares\nFunding / benefícios: Possível ESOP\; caso contrário funding pr
+ óprio\nSeleção / docs relevantes: CV\, transcripts\, motivation\, refer
+ ences/requisitos específicos\nPrioridade: Alta\nStatus / observações: B
+ oa alternativa ao Direct Doctorate
+DTSTART;VALUE=DATE:20261101
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:3a137d1c-a626-0fb0-f341-a563d8778b1a@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — ETH MSc Computer Science
+DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
+ \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
+ : CS\; Machine Intelligence\, Secure & Reliable Systems etc.\nLocal: Züri
+ ch\, Suíça\nFormato: Presencial\nDuração: 2 anos / 120 ECTS\nPeríodo 
+ / data do programa: Fall 2027\nElegível?: Sim\nRequisitos / elegibilidade
+  relevantes: Bachelor relevante e excelente histórico\; requisitos curric
+ ulares\nFunding / benefícios: Possível ESOP\; caso contrário funding pr
+ óprio\nSeleção / docs relevantes: CV\, transcripts\, motivation\, refer
+ ences/requisitos específicos\nPrioridade: Alta\nStatus / observações: B
+ oa alternativa ao Direct Doctorate
+DTSTART;VALUE=DATE:20261130
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:2b354ee2-b8db-0c49-bb38-0407d656d7c7@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — ETH MSc Computer Science
+DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
+ \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
+ : CS\; Machine Intelligence\, Secure & Reliable Systems etc.\nLocal: Züri
+ ch\, Suíça\nFormato: Presencial\nDuração: 2 anos / 120 ECTS\nPeríodo 
+ / data do programa: Fall 2027\nElegível?: Sim\nRequisitos / elegibilidade
+  relevantes: Bachelor relevante e excelente histórico\; requisitos curric
+ ulares\nFunding / benefícios: Possível ESOP\; caso contrário funding pr
+ óprio\nSeleção / docs relevantes: CV\, transcripts\, motivation\, refer
+ ences/requisitos específicos\nPrioridade: Alta\nStatus / observações: B
+ oa alternativa ao Direct Doctorate
+DTSTART;VALUE=DATE:20270901
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:f3a8789d-f896-efd0-d78c-c1fa7d4b3ca2@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — EPFL MSc Computer Science
+DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
+ m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
+ uter Science / AI / data / systems etc.\nLocal: Lausanne\, Suíça\nFormat
+ o: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: Fall 2027\
+ nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relacion
+ ado\; seleção acadêmica competitiva\nFunding / benefícios: Excellence 
+ Fellowships possíveis\nSeleção / docs relevantes: CV\, transcripts\, So
+ P\, 3 referees\nPrioridade: Alta\nStatus / observações: Segunda janela c
+ ostuma existir até 31/03/2027
+DTSTART;VALUE=DATE:20261115
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:73c28aac-af6a-56f6-c47e-da85e202f355@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — EPFL MSc Computer Science
+DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
+ m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
+ uter Science / AI / data / systems etc.\nLocal: Lausanne\, Suíça\nFormat
+ o: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: Fall 2027\
+ nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relacion
+ ado\; seleção acadêmica competitiva\nFunding / benefícios: Excellence 
+ Fellowships possíveis\nSeleção / docs relevantes: CV\, transcripts\, So
+ P\, 3 referees\nPrioridade: Alta\nStatus / observações: Segunda janela c
+ ostuma existir até 31/03/2027
+DTSTART;VALUE=DATE:20261215
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c02ed5-072e-0020-10f3-c53af4d7d4da@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — EPFL MSc Computer Science
+DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
+ m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
+ uter Science / AI / data / systems etc.\nLocal: Lausanne\, Suíça\nFormat
+ o: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: Fall 2027\
+ nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relacion
+ ado\; seleção acadêmica competitiva\nFunding / benefícios: Excellence 
+ Fellowships possíveis\nSeleção / docs relevantes: CV\, transcripts\, So
+ P\, 3 referees\nPrioridade: Alta\nStatus / observações: Segunda janela c
+ ostuma existir até 31/03/2027
+DTSTART;VALUE=DATE:20270901
+CATEGORIES:Graduate program\,Master\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:326f3c5a-4a33-5e60-ac01-f6bec51e5240@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — SPAR – Fall 2026
+DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
+ gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
+ zação: SPAR\nÁrea / foco: AI Safety\, interpretability\, alignment\, go
+ vernance\, security\, societal risks\nLocal: Remoto\nFormato: Remoto / par
+ t-time\nDuração: 3 meses\nPeríodo / data do programa: 14/09/2026–14/1
+ 2/2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aberto a u
+ ndergrad\, grad/PhD e professionals\; requisitos variam por projeto\nFundi
+ ng / benefícios: Funding depende do projeto\nSeleção / docs relevantes:
+  Application específica por projeto\; possíveis entrevistas/assessments\
+ nPrioridade: Muito alta\nStatus / observações: Deadline geral passou
+DTSTART;VALUE=DATE:20260728
+CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
+ \,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:03178726-3eea-4d21-63e8-51f310bdc42c@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — SPAR – Fall 2026
+DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
+ gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
+ zação: SPAR\nÁrea / foco: AI Safety\, interpretability\, alignment\, go
+ vernance\, security\, societal risks\nLocal: Remoto\nFormato: Remoto / par
+ t-time\nDuração: 3 meses\nPeríodo / data do programa: 14/09/2026–14/1
+ 2/2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aberto a u
+ ndergrad\, grad/PhD e professionals\; requisitos variam por projeto\nFundi
+ ng / benefícios: Funding depende do projeto\nSeleção / docs relevantes:
+  Application específica por projeto\; possíveis entrevistas/assessments\
+ nPrioridade: Muito alta\nStatus / observações: Deadline geral passou
+DTSTART;VALUE=DATE:20260818
+CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
+ \,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb000f9-683a-9b39-e48d-b7b659fea664@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:SPAR – Fall 2026
+DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
+ gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
+ zação: SPAR\nÁrea / foco: AI Safety\, interpretability\, alignment\, go
+ vernance\, security\, societal risks\nLocal: Remoto\nFormato: Remoto / par
+ t-time\nDuração: 3 meses\nPeríodo / data do programa: 14/09/2026–14/1
+ 2/2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aberto a u
+ ndergrad\, grad/PhD e professionals\; requisitos variam por projeto\nFundi
+ ng / benefícios: Funding depende do projeto\nSeleção / docs relevantes:
+  Application específica por projeto\; possíveis entrevistas/assessments\
+ nPrioridade: Muito alta\nStatus / observações: Deadline geral passou
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20261215
+CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
+ \,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7a2040-70a3-fffb-e706-912691ed7281@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — SPAR – Spring 2027
+DESCRIPTION:Programa: SPAR – Spring 2027\nCategoria: AI Safety research p
+ rogram\nNível: Undergrad / MSc / PhD / professional\nInstituição / orga
+ nização: SPAR\nÁrea / foco: AI Safety\, interpretability\, policy etc.\
+ nLocal: Remoto\nFormato: Remoto / part-time\nDuração: ~3 meses\nPeríodo
+  / data do programa: Spring 2027\nElegível?: Sim\nRequisitos / elegibilid
+ ade relevantes: Projetos e requisitos mudam a cada rodada\nFunding / benef
+ ícios: Varia por projeto\nSeleção / docs relevantes: Project-specific a
+ pplication\nPrioridade: Muito alta\nStatus / observações: Applications d
+ evem abrir por volta de dezembro
+DTSTART;VALUE=DATE:20261201
+CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
+ \,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:20a21ace-1fde-3674-b856-9aa9f0b1a78c@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — SPAR – Spring 2027
+DESCRIPTION:Programa: SPAR – Spring 2027\nCategoria: AI Safety research p
+ rogram\nNível: Undergrad / MSc / PhD / professional\nInstituição / orga
+ nização: SPAR\nÁrea / foco: AI Safety\, interpretability\, policy etc.\
+ nLocal: Remoto\nFormato: Remoto / part-time\nDuração: ~3 meses\nPeríodo
+  / data do programa: Spring 2027\nElegível?: Sim\nRequisitos / elegibilid
+ ade relevantes: Projetos e requisitos mudam a cada rodada\nFunding / benef
+ ícios: Varia por projeto\nSeleção / docs relevantes: Project-specific a
+ pplication\nPrioridade: Muito alta\nStatus / observações: Applications d
+ evem abrir por volta de dezembro
+DTSTART;VALUE=DATE:20270301
+CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
+ \,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:9181a4b4-5a5e-95b9-c9ad-90ead1680e49@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — MATS Winter 2027 – Neel Nanda
+DESCRIPTION:Programa: MATS Winter 2027 – Neel Nanda\nCategoria: AI Safety
+  fellowship\nNível: Research fellowship\nInstituição / organização: M
+ ATS + Neel Nanda / Google DeepMind\nÁrea / foco: Empirical mechanistic in
+ terpretability / AI safety\nLocal: Berkeley\, EUA + remoto\nFormato: Híbr
+ ido → presencial\nDuração: Exploration ~5 semanas + research ~12 seman
+ as\nPeríodo / data do programa: Exploration 28/09/2026–30/10/2026\; Ber
+ keley 19/01/2027–10/04/2027\nElegível?: Sim\nRequisitos / elegibilidade
+  relevantes: Forte capacidade técnica\, research taste\, mech interp / ML
+ \nFunding / benefícios: Main phase: ~$19.2k stipend + compute + housing +
+  food + travel + visa support\nSeleção / docs relevantes: Application + 
+ exploration phase + avaliações\nPrioridade: Muito alta\nStatus / observa
+ ções: Um dos programas mais diretamente alinhados a mech interp
+DTSTART;VALUE=DATE:20260904
+CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:851bd0c3-90de-6518-6cf4-9e459b7a4b66@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:MATS Winter 2027 – Neel Nanda
+DESCRIPTION:Programa: MATS Winter 2027 – Neel Nanda\nCategoria: AI Safety
+  fellowship\nNível: Research fellowship\nInstituição / organização: M
+ ATS + Neel Nanda / Google DeepMind\nÁrea / foco: Empirical mechanistic in
+ terpretability / AI safety\nLocal: Berkeley\, EUA + remoto\nFormato: Híbr
+ ido → presencial\nDuração: Exploration ~5 semanas + research ~12 seman
+ as\nPeríodo / data do programa: Exploration 28/09/2026–30/10/2026\; Ber
+ keley 19/01/2027–10/04/2027\nElegível?: Sim\nRequisitos / elegibilidade
+  relevantes: Forte capacidade técnica\, research taste\, mech interp / ML
+ \nFunding / benefícios: Main phase: ~$19.2k stipend + compute + housing +
+  food + travel + visa support\nSeleção / docs relevantes: Application + 
+ exploration phase + avaliações\nPrioridade: Muito alta\nStatus / observa
+ ções: Um dos programas mais diretamente alinhados a mech interp
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261031
+CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:070017c4-3fc5-2419-2e18-e4ed8dc09e3e@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — MATS Winter 2027 – General
+DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
+ llowship\nNível: Research fellowship\nInstituição / organização: MATS
+ \nÁrea / foco: AI alignment/safety: empirical\, theory\, strategy\, polic
+ y\, security etc.\nLocal: Berkeley / stream dependent\nFormato: Majoritari
+ amente full-time\nDuração: 10–12 semanas\nPeríodo / data do programa:
+  Winter 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Back
+ ground varia por track\; seleção forte\nFunding / benefícios: ~$19.2k s
+ tipend + compute + housing + food + travel + visa support\nSeleção / doc
+ s relevantes: Stage 1\, evaluations\, mentor selection\nPrioridade: Muito 
+ alta\nStatus / observações: General applications
+DTSTART;VALUE=DATE:20260801
+CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:5ec147e3-e992-bab8-1068-5575bcc091a6@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — MATS Winter 2027 – General
+DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
+ llowship\nNível: Research fellowship\nInstituição / organização: MATS
+ \nÁrea / foco: AI alignment/safety: empirical\, theory\, strategy\, polic
+ y\, security etc.\nLocal: Berkeley / stream dependent\nFormato: Majoritari
+ amente full-time\nDuração: 10–12 semanas\nPeríodo / data do programa:
+  Winter 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Back
+ ground varia por track\; seleção forte\nFunding / benefícios: ~$19.2k s
+ tipend + compute + housing + food + travel + visa support\nSeleção / doc
+ s relevantes: Stage 1\, evaluations\, mentor selection\nPrioridade: Muito 
+ alta\nStatus / observações: General applications
+DTSTART;VALUE=DATE:20260906
+CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:4a03721c-9556-d432-052e-e5da3f4d69c6@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Expected Program Period — MATS Winter 2027 – General
+DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
+ llowship\nNível: Research fellowship\nInstituição / organização: MATS
+ \nÁrea / foco: AI alignment/safety: empirical\, theory\, strategy\, polic
+ y\, security etc.\nLocal: Berkeley / stream dependent\nFormato: Majoritari
+ amente full-time\nDuração: 10–12 semanas\nPeríodo / data do programa:
+  Winter 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Back
+ ground varia por track\; seleção forte\nFunding / benefícios: ~$19.2k s
+ tipend + compute + housing + food + travel + visa support\nSeleção / doc
+ s relevantes: Stage 1\, evaluations\, mentor selection\nPrioridade: Muito 
+ alta\nStatus / observações: General applications
+DTSTART;VALUE=DATE:20270101
+CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:288a0b2c-5053-4c8f-8110-7be1ba43027b@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Applications Open — KHIPU 2027
+DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
+ Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
+ rea / foco: Artificial Intelligence / Machine Learning\, lectures\, poster
+ s\, networking\nLocal: São Paulo\, Brasil\nFormato: Presencial\nDuração
+ : 5 dias\nPeríodo / data do programa: 05/04/2027–09/04/2027\nElegível?
+ : Sim\nRequisitos / elegibilidade relevantes: Application obrigatória\; s
+ eleção competitiva\nFunding / benefícios: Bolsas de hospedagem/transpor
+ te podem existir\nSeleção / docs relevantes: Application\; oportunidades
+  de poster conforme edição\nPrioridade: Alta\nStatus / observações: De
+ adline próximo
+DTSTART;VALUE=DATE:20260720
+CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:13f47d21-62cb-9675-6b21-0f1840fcff33@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — KHIPU 2027
+DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
+ Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
+ rea / foco: Artificial Intelligence / Machine Learning\, lectures\, poster
+ s\, networking\nLocal: São Paulo\, Brasil\nFormato: Presencial\nDuração
+ : 5 dias\nPeríodo / data do programa: 05/04/2027–09/04/2027\nElegível?
+ : Sim\nRequisitos / elegibilidade relevantes: Application obrigatória\; s
+ eleção competitiva\nFunding / benefícios: Bolsas de hospedagem/transpor
+ te podem existir\nSeleção / docs relevantes: Application\; oportunidades
+  de poster conforme edição\nPrioridade: Alta\nStatus / observações: De
+ adline próximo
+DTSTART;VALUE=DATE:20260831
+CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:54880d78-9616-5da4-41ac-347f346d6b66@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:KHIPU 2027
+DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
+ Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
+ rea / foco: Artificial Intelligence / Machine Learning\, lectures\, poster
+ s\, networking\nLocal: São Paulo\, Brasil\nFormato: Presencial\nDuração
+ : 5 dias\nPeríodo / data do programa: 05/04/2027–09/04/2027\nElegível?
+ : Sim\nRequisitos / elegibilidade relevantes: Application obrigatória\; s
+ eleção competitiva\nFunding / benefícios: Bolsas de hospedagem/transpor
+ te podem existir\nSeleção / docs relevantes: Application\; oportunidades
+  de poster conforme edição\nPrioridade: Alta\nStatus / observações: De
+ adline próximo
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270410
+CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
+END:VEVENT
+BEGIN:VEVENT
+UID:9e59e364-9a22-d49c-f326-6513a513508f@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — LAMIR 2026
+DESCRIPTION:Programa: LAMIR 2026\nCategoria: Workshop / school\nInstituiç
+ ão / organização: LAMIR / UFMG ecosystem\nÁrea / foco: Music Informati
+ on Retrieval\, Music AI\, ML\, signal processing\nLocal: Belo Horizonte\, 
+ Brasil\nFormato: Presencial\nPeríodo / data do programa: 15/12/2026–17/
+ 12/2026\nPrioridade: Média\nStatus / observações: Paper deadline\; MIR 
+ School em 14/12/2026
+DTSTART;VALUE=DATE:20260828
+CATEGORIES:Workshop / school\,Média
+END:VEVENT
+BEGIN:VEVENT
+UID:fb08d119-f279-bc79-0098-bce65c031a29@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:LAMIR 2026
+DESCRIPTION:Programa: LAMIR 2026\nCategoria: Workshop / school\nInstituiç
+ ão / organização: LAMIR / UFMG ecosystem\nÁrea / foco: Music Informati
+ on Retrieval\, Music AI\, ML\, signal processing\nLocal: Belo Horizonte\, 
+ Brasil\nFormato: Presencial\nPeríodo / data do programa: 15/12/2026–17/
+ 12/2026\nPrioridade: Média\nStatus / observações: Paper deadline\; MIR 
+ School em 14/12/2026
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261218
+CATEGORIES:Workshop / school\,Média
+END:VEVENT
+BEGIN:VEVENT
+UID:2653c88c-44fd-aa02-0910-f80ccfaef64a@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:NeurIPS 2026 – Main Conference
+DESCRIPTION:Programa: NeurIPS 2026 – Main Conference\nCategoria: Conferen
+ ce\nInstituição / organização: NeurIPS\nÁrea / foco: Machine Learning
+  geral\; deep learning\, representation learning\, safety\, interpretabili
+ ty\nLocal: Sydney\, Austrália + satellites\nFormato: Presencial\nPeríodo
+  / data do programa: 06/12/2026–12/12/2026\nPrioridade: Muito alta\nStat
+ us / observações: Main paper deadline já passou
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+CATEGORIES:Conference\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c4093c-3aae-9e20-7ee8-1aebd336adc0@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:NeurIPS 2026 Workshops
+DESCRIPTION:Programa: NeurIPS 2026 Workshops\nCategoria: Conference / Works
+ hop\nInstituição / organização: NeurIPS\nÁrea / foco: ML\; workshops 
+ específicos em AI safety\, interpretability\, alignment etc.\nLocal: Sydn
+ ey\, Austrália\nFormato: Presencial\nPeríodo / data do programa: 11/12/2
+ 026–12/12/2026\nPrioridade: Muito alta\nStatus / observações: Cada wor
+ kshop tem CFP independente
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261213
+CATEGORIES:Conference / Workshop\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:3be4f645-5f1e-cdd8-e106-b828aa65b2b9@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — ICLR 2027
+DESCRIPTION:Programa: ICLR 2027\nCategoria: Conference\nInstituição / org
+ anização: ICLR\nÁrea / foco: Deep Learning\, representation learning\, 
+ LLMs\, mechanistic interpretability\, alignment\nLocal: EUA\nFormato: Pres
+ encial\nPeríodo / data do programa: 26/04/2027–30/04/2027\nPrioridade: 
+ Muito alta\nStatus / observações: Abstract 18/09/2026\; paper 25/09/2026
+DTSTART;VALUE=DATE:20260918
+CATEGORIES:Conference\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:63469518-919d-fcf3-678e-8ddf716bc029@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:ICLR 2027
+DESCRIPTION:Programa: ICLR 2027\nCategoria: Conference\nInstituição / org
+ anização: ICLR\nÁrea / foco: Deep Learning\, representation learning\, 
+ LLMs\, mechanistic interpretability\, alignment\nLocal: EUA\nFormato: Pres
+ encial\nPeríodo / data do programa: 26/04/2027–30/04/2027\nPrioridade: 
+ Muito alta\nStatus / observações: Abstract 18/09/2026\; paper 25/09/2026
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+CATEGORIES:Conference\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a2dbb2-6aa8-8d1a-e589-e86580827289@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:Application Deadline — ACM FAccT 2027
+DESCRIPTION:Programa: ACM FAccT 2027\nCategoria: Conference\nInstituição 
+ / organização: ACM FAccT\nÁrea / foco: Responsible AI\, fairness\, acco
+ untability\, transparency\, bias\, harms\, sociotechnical AI\nLocal: N/A\n
+ Formato: N/A\nPeríodo / data do programa: 21/06/2027–24/06/2027\nPriori
+ dade: Muito alta\nStatus / observações: Abstract 27/10/2026\; paper 03/1
+ 1/2026
+DTSTART;VALUE=DATE:20261027
+CATEGORIES:Conference\,Muito alta
+END:VEVENT
+BEGIN:VEVENT
+UID:4adfa960-f869-74c2-692b-6e9af4962459@opportunity-tracker
+DTSTAMP:20260823T062953Z
+SUMMARY:ACM FAccT 2027
+DESCRIPTION:Programa: ACM FAccT 2027\nCategoria: Conference\nInstituição 
+ / organização: ACM FAccT\nÁrea / foco: Responsible AI\, fairness\, acco
+ untability\, transparency\, bias\, harms\, sociotechnical AI\nLocal: N/A\n
+ Formato: N/A\nPeríodo / data do programa: 21/06/2027–24/06/2027\nPriori
+ dade: Muito alta\nStatus / observações: Abstract 27/10/2026\; paper 03/1
+ 1/2026
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
+CATEGORIES:Conference\,Muito alta
 END:VEVENT
 END:VCALENDAR

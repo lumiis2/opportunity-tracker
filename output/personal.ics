@@ -7,7 +7,7 @@ X-WR-CALNAME:Personal Opportunities
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:6ddbc6c6-c670-22f9-bc59-c5f3d986af9b@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -26,7 +26,7 @@ CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:76e1feb2-dfbc-fe38-5927-69bcf292be85@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -45,7 +45,7 @@ CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:b4045c28-2e82-eddc-b06a-bc2745adce91@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — UARE Summer
 DESCRIPTION:Programa: UARE Summer\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -64,7 +64,7 @@ CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a14f4b-e309-28e3-6fd5-b94da78f0e63@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — CERN Short-Term Internship
 DESCRIPTION:Programa: CERN Short-Term Internship\nCategoria: Internship\nN
  ível: Undergrad\nInstituição / organização: CERN\nÁrea / foco: Softw
@@ -81,7 +81,7 @@ CATEGORIES:Internship\,Undergrad\,Média
 END:VEVENT
 BEGIN:VEVENT
 UID:ff9ddd75-28a4-a7cb-e0fc-afede083c430@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — CERN Technical Studentship – IT\, Mathem
  atics & Robotics
 DESCRIPTION:Programa: CERN Technical Studentship – IT\, Mathematics & Rob
@@ -101,7 +101,7 @@ CATEGORIES:Studentship\,Undergrad\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:a8e3eb61-0f99-e485-7ed0-a2d8ee03170e@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — CERN Openlab Summer Student Programme
 DESCRIPTION:Programa: CERN Openlab Summer Student Programme\nCategoria: Sum
  mer research\nNível: Undergrad / MSc\nInstituição / organização: CERN
@@ -119,7 +119,7 @@ CATEGORIES:Summer research\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:db2a8df6-ed2e-c5e7-1c7c-49f96b7fabaf@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — ETH Student Summer Research Fellowship – SS
  RF
 DESCRIPTION:Programa: ETH Student Summer Research Fellowship – SSRF\nCate
@@ -139,7 +139,7 @@ CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:b7f68c1d-32a1-604a-f67c-68c4715e9614@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — Summer@EPFL
 DESCRIPTION:Programa: Summer@EPFL\nCategoria: Summer research fellowship\nN
  ível: Undergrad / MSc\nInstituição / organização: EPFL – School of 
@@ -158,7 +158,7 @@ CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:22fc4d7d-f75b-cc44-1d06-bf77cfe70164@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — Summer@EPFL
 DESCRIPTION:Programa: Summer@EPFL\nCategoria: Summer research fellowship\nN
  ível: Undergrad / MSc\nInstituição / organização: EPFL – School of 
@@ -177,7 +177,7 @@ CATEGORIES:Summer research fellowship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:57b2b987-bddb-15c8-7e3f-62a684e1c3a9@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — EPFL E3 – Excellence in Engineering
 DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
  earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
@@ -195,7 +195,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:02d97117-6f2a-d94a-da18-78e72bc57bfa@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — EPFL E3 – Excellence in Engineering
 DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
  earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
@@ -213,7 +213,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:58503e21-903b-5a24-41b6-03dab86e98dc@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — EPFL E3 – Excellence in Engineering
 DESCRIPTION:Programa: EPFL E3 – Excellence in Engineering\nCategoria: Res
  earch internship\nNível: Undergrad / MSc\nInstituição / organização: 
@@ -231,7 +231,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:9a14bd05-5967-d696-5813-aae41973d88d@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — Max Planck CS Research Internship - summer
 DESCRIPTION:Programa: Max Planck CS Research Internship - summer\nCategoria
  : Research internship\nNível: Undergrad / MSc\nInstituição / organizaç
@@ -250,7 +250,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:ce2812d9-ac44-91d1-9bb7-f9fe04923eac@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — Max Planck CS Research Internship - sum
  mer
 DESCRIPTION:Programa: Max Planck CS Research Internship - summer\nCategoria
@@ -270,7 +270,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:6af1e9b7-e0c3-dc69-3a0c-553db37cc67e@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — Max Planck CS Research Internship - all
   year
 DESCRIPTION:Programa: Max Planck CS Research Internship - all year\nCategor
@@ -290,7 +290,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:b53ad479-6d10-29d6-7511-b9ec5e4a4f64@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — AScI International Summer Research Programme
 DESCRIPTION:Programa: AScI International Summer Research Programme\nCategor
  ia: Research internship\nNível: Undergrad / MSc\nInstituição / organiza
@@ -314,7 +314,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:320746c8-99bd-bbfe-7ece-743972a35421@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — AScI International Summer Research Program
  me
 DESCRIPTION:Programa: AScI International Summer Research Programme\nCategor
@@ -339,7 +339,7 @@ CATEGORIES:Research internship\,Undergrad / MSc\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:856a0a38-c757-df94-1874-9990e143449f@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — CMMRS / MPI-SWS
 DESCRIPTION:Programa: CMMRS / MPI-SWS\nCategoria: Research school\nNível: 
  Undergrad / grad\nInstituição / organização: MPI-SWS\nÁrea / foco: Co
@@ -356,7 +356,7 @@ CATEGORIES:Research school\,Undergrad / grad\,Média
 END:VEVENT
 BEGIN:VEVENT
 UID:4c457542-fb4a-0ff3-4c57-1cf0371eb49b@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — ETH Direct Doctorate in Computer Science
 DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
  Graduate program\nNível: Direct Doctorate\nInstituição / organização:
@@ -374,7 +374,7 @@ CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:371ac038-4303-e80d-9839-e5562027b91e@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — ETH Direct Doctorate in Computer Science
 DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
  Graduate program\nNível: Direct Doctorate\nInstituição / organização:
@@ -392,7 +392,7 @@ CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:b0e8ad08-996e-cf2e-1f60-9dc428ff80b8@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — ETH Direct Doctorate in Computer Scienc
  e
 DESCRIPTION:Programa: ETH Direct Doctorate in Computer Science\nCategoria: 
@@ -411,7 +411,7 @@ CATEGORIES:Graduate program\,Direct Doctorate\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:c61432f6-e2c5-338f-d3c0-1d34d0febaba@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — EPFL EDIC – Computer & Communication Scienc
  es PhD
 DESCRIPTION:Programa: EPFL EDIC – Computer & Communication Sciences PhD\n
@@ -433,7 +433,7 @@ CATEGORIES:Graduate program\,PhD / possível entrada com Bachelor longo\,Mu
 END:VEVENT
 BEGIN:VEVENT
 UID:9cdca2db-241d-6767-fa72-c6a005b9e7fe@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — EPFL EDIC – Computer & Communication Sci
  ences PhD
 DESCRIPTION:Programa: EPFL EDIC – Computer & Communication Sciences PhD\n
@@ -455,7 +455,7 @@ CATEGORIES:Graduate program\,PhD / possível entrada com Bachelor longo\,Mu
 END:VEVENT
 BEGIN:VEVENT
 UID:6892d39c-d21b-fd99-6f8c-f35ac28e161c@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — Saarbrücken Graduate School of Computer S
  cience
 DESCRIPTION:Programa: Saarbrücken Graduate School of Computer Science\nCat
@@ -473,7 +473,7 @@ CATEGORIES:Graduate program\,Direct PhD\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:ccdab2d8-643f-fbbc-d45f-3ae6580b98a4@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — ETH MSc Computer Science
 DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
  \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
@@ -490,7 +490,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:3a137d1c-a626-0fb0-f341-a563d8778b1a@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — ETH MSc Computer Science
 DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
  \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
@@ -507,7 +507,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:2b354ee2-b8db-0c49-bb38-0407d656d7c7@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — ETH MSc Computer Science
 DESCRIPTION:Programa: ETH MSc Computer Science\nCategoria: Graduate program
  \nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco
@@ -524,7 +524,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:f3a8789d-f896-efd0-d78c-c1fa7d4b3ca2@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — EPFL MSc Computer Science
 DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
  m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
@@ -540,7 +540,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:73c28aac-af6a-56f6-c47e-da85e202f355@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — EPFL MSc Computer Science
 DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
  m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
@@ -556,7 +556,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:a0c02ed5-072e-0020-10f3-c53af4d7d4da@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — EPFL MSc Computer Science
 DESCRIPTION:Programa: EPFL MSc Computer Science\nCategoria: Graduate progra
  m\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Comp
@@ -572,7 +572,7 @@ CATEGORIES:Graduate program\,Master\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:326f3c5a-4a33-5e60-ac01-f6bec51e5240@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — SPAR – Fall 2026
 DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
  gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
@@ -590,7 +590,7 @@ CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
 END:VEVENT
 BEGIN:VEVENT
 UID:03178726-3eea-4d21-63e8-51f310bdc42c@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — SPAR – Fall 2026
 DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
  gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
@@ -608,7 +608,7 @@ CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
 END:VEVENT
 BEGIN:VEVENT
 UID:fbb000f9-683a-9b39-e48d-b7b659fea664@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:SPAR – Fall 2026
 DESCRIPTION:Programa: SPAR – Fall 2026\nCategoria: AI Safety research pro
  gram\nNível: Undergrad / MSc / PhD / professional\nInstituição / organi
@@ -627,7 +627,7 @@ CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
 END:VEVENT
 BEGIN:VEVENT
 UID:1c7a2040-70a3-fffb-e706-912691ed7281@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — SPAR – Spring 2027
 DESCRIPTION:Programa: SPAR – Spring 2027\nCategoria: AI Safety research p
  rogram\nNível: Undergrad / MSc / PhD / professional\nInstituição / orga
@@ -644,7 +644,7 @@ CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
 END:VEVENT
 BEGIN:VEVENT
 UID:20a21ace-1fde-3674-b856-9aa9f0b1a78c@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — SPAR – Spring 2027
 DESCRIPTION:Programa: SPAR – Spring 2027\nCategoria: AI Safety research p
  rogram\nNível: Undergrad / MSc / PhD / professional\nInstituição / orga
@@ -661,7 +661,7 @@ CATEGORIES:AI Safety research program\,Undergrad / MSc / PhD / professional
 END:VEVENT
 BEGIN:VEVENT
 UID:9181a4b4-5a5e-95b9-c9ad-90ead1680e49@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — MATS Winter 2027 – Neel Nanda
 DESCRIPTION:Programa: MATS Winter 2027 – Neel Nanda\nCategoria: AI Safety
   fellowship\nNível: Research fellowship\nInstituição / organização: M
@@ -680,7 +680,7 @@ CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:851bd0c3-90de-6518-6cf4-9e459b7a4b66@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:MATS Winter 2027 – Neel Nanda
 DESCRIPTION:Programa: MATS Winter 2027 – Neel Nanda\nCategoria: AI Safety
   fellowship\nNível: Research fellowship\nInstituição / organização: M
@@ -700,7 +700,7 @@ CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:070017c4-3fc5-2419-2e18-e4ed8dc09e3e@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — MATS Winter 2027 – General
 DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
  llowship\nNível: Research fellowship\nInstituição / organização: MATS
@@ -717,7 +717,7 @@ CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:5ec147e3-e992-bab8-1068-5575bcc091a6@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — MATS Winter 2027 – General
 DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
  llowship\nNível: Research fellowship\nInstituição / organização: MATS
@@ -734,7 +734,7 @@ CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:4a03721c-9556-d432-052e-e5da3f4d69c6@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Expected Program Period — MATS Winter 2027 – General
 DESCRIPTION:Programa: MATS Winter 2027 – General\nCategoria: AI Safety fe
  llowship\nNível: Research fellowship\nInstituição / organização: MATS
@@ -751,7 +751,7 @@ CATEGORIES:AI Safety fellowship\,Research fellowship\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:288a0b2c-5053-4c8f-8110-7be1ba43027b@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Applications Open — KHIPU 2027
 DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
  Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
@@ -768,7 +768,7 @@ CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:13f47d21-62cb-9675-6b21-0f1840fcff33@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — KHIPU 2027
 DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
  Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
@@ -785,7 +785,7 @@ CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:54880d78-9616-5da4-41ac-347f346d6b66@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:KHIPU 2027
 DESCRIPTION:Programa: KHIPU 2027\nCategoria: ML school / research meeting\n
  Nível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁ
@@ -803,7 +803,7 @@ CATEGORIES:ML school / research meeting\,Undergrad+ / researchers\,Alta
 END:VEVENT
 BEGIN:VEVENT
 UID:9e59e364-9a22-d49c-f326-6513a513508f@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — LAMIR 2026
 DESCRIPTION:Programa: LAMIR 2026\nCategoria: Workshop / school\nInstituiç
  ão / organização: LAMIR / UFMG ecosystem\nÁrea / foco: Music Informati
@@ -816,7 +816,7 @@ CATEGORIES:Workshop / school\,Média
 END:VEVENT
 BEGIN:VEVENT
 UID:fb08d119-f279-bc79-0098-bce65c031a29@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:LAMIR 2026
 DESCRIPTION:Programa: LAMIR 2026\nCategoria: Workshop / school\nInstituiç
  ão / organização: LAMIR / UFMG ecosystem\nÁrea / foco: Music Informati
@@ -830,7 +830,7 @@ CATEGORIES:Workshop / school\,Média
 END:VEVENT
 BEGIN:VEVENT
 UID:2653c88c-44fd-aa02-0910-f80ccfaef64a@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:NeurIPS 2026 – Main Conference
 DESCRIPTION:Programa: NeurIPS 2026 – Main Conference\nCategoria: Conferen
  ce\nInstituição / organização: NeurIPS\nÁrea / foco: Machine Learning
@@ -844,7 +844,7 @@ CATEGORIES:Conference\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:f5c4093c-3aae-9e20-7ee8-1aebd336adc0@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:NeurIPS 2026 Workshops
 DESCRIPTION:Programa: NeurIPS 2026 Workshops\nCategoria: Conference / Works
  hop\nInstituição / organização: NeurIPS\nÁrea / foco: ML\; workshops 
@@ -858,7 +858,7 @@ CATEGORIES:Conference / Workshop\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:3be4f645-5f1e-cdd8-e106-b828aa65b2b9@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — ICLR 2027
 DESCRIPTION:Programa: ICLR 2027\nCategoria: Conference\nInstituição / org
  anização: ICLR\nÁrea / foco: Deep Learning\, representation learning\, 
@@ -870,7 +870,7 @@ CATEGORIES:Conference\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:63469518-919d-fcf3-678e-8ddf716bc029@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:ICLR 2027
 DESCRIPTION:Programa: ICLR 2027\nCategoria: Conference\nInstituição / org
  anização: ICLR\nÁrea / foco: Deep Learning\, representation learning\, 
@@ -883,7 +883,7 @@ CATEGORIES:Conference\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:c4a2dbb2-6aa8-8d1a-e589-e86580827289@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:Application Deadline — ACM FAccT 2027
 DESCRIPTION:Programa: ACM FAccT 2027\nCategoria: Conference\nInstituição 
  / organização: ACM FAccT\nÁrea / foco: Responsible AI\, fairness\, acco
@@ -896,7 +896,7 @@ CATEGORIES:Conference\,Muito alta
 END:VEVENT
 BEGIN:VEVENT
 UID:4adfa960-f869-74c2-692b-6e9af4962459@opportunity-tracker
-DTSTAMP:20260826T063647Z
+DTSTAMP:20260827T171219Z
 SUMMARY:ACM FAccT 2027
 DESCRIPTION:Programa: ACM FAccT 2027\nCategoria: Conference\nInstituição 
  / organização: ACM FAccT\nÁrea / foco: Responsible AI\, fairness\, acco

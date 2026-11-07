@@ -1,4 +1,9 @@
-from src.utils.date_helpers import clean_text, is_blank, split_tags
+from src.utils.date_helpers import (
+    clean_text,
+    is_blank,
+    join_non_empty_lines,
+    split_tags,
+)
 import pytest
 
 def test_clean_text_removes_surrounding_whitespace():
@@ -55,3 +60,10 @@ def test_split_tags_returns_empty_list_for_missing_input(value):
     result = split_tags(value)
 
     assert result == []
+
+def test_join_non_empty_lines_preserves_order():
+    lines = ["", "Program: Example", "", "Funding: Free", ""]
+
+    result = join_non_empty_lines(lines)
+
+    assert result == "Program: Example\nFunding: Free"

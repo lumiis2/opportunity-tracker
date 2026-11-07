@@ -83,3 +83,10 @@ def test_parse_exact_date_accepts_supported_formats(value):
     result = parse_exact_date(value)
 
     assert result == date(2026, 11, 25)
+
+def test_parse_exact_date_extracts_iso_date_from_text():
+    value = "Deadline: 2026-11-06 (UTC)"
+
+    result = parse_exact_date(value)
+
+    assert result == date(2026, 11, 6)

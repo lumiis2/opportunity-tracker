@@ -49,3 +49,9 @@ def test_split_tags_discards_empty_parts():
     result = split_tags(value)
 
     assert result == ["AI", "ML"]
+
+@pytest.mark.parametrize("value", [None, "", "   ", "nan", "None"])
+def test_split_tags_returns_empty_list_for_missing_input(value):
+    result = split_tags(value)
+
+    assert result == []

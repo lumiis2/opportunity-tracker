@@ -42,3 +42,10 @@ def test_split_tags_accepts_mixed_separators():
     result = split_tags(value)
 
     assert result == ["AI", "ML", "Python", "Data Science", "Research"]
+
+def test_split_tags_discards_empty_parts():
+    value = ",  AI  ;; |  ML  , / "
+
+    result = split_tags(value)
+
+    assert result == ["AI", "ML"]

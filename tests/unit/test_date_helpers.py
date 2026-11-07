@@ -1,4 +1,4 @@
-from src.utils.date_helpers import clean_text, is_blank
+from src.utils.date_helpers import clean_text, is_blank, split_tags
 import pytest
 
 def test_clean_text_removes_surrounding_whitespace():
@@ -35,3 +35,10 @@ def test_is_blank_classifies_values(value, expected):
     result = is_blank(value)
 
     assert result is expected
+
+def test_split_tags_accepts_mixed_separators():
+    value = "AI,ML;Python/Data Science|Research"
+
+    result = split_tags(value)
+
+    assert result == ["AI", "ML", "Python", "Data Science", "Research"]

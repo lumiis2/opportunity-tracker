@@ -13,3 +13,10 @@ def test_clean_text_normalizes_null_like_values(value):
     result = clean_text(value)
 
     assert result == ""
+
+def test_clean_text_preserves_numeric_zero():
+    value = 0
+
+    result = clean_text(value)
+
+    assert result == "0"

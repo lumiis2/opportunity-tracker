@@ -24,9 +24,11 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         shutil.copy(root / "data" / name, tmp_path / "data" / name)
 
     monkeypatch.setattr(build, "ROOT_DIR", tmp_path)
+    original_index = (tmp_path / "public" / "index.html").read_text(encoding="utf-8")
 
     code = build.main()
     assert code == 0
+    assert (tmp_path / "public" / "index.html").read_text(encoding="utf-8") == original_index
 
     for name in [
         "graduation.ics",
@@ -52,8 +54,6 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         ]
     )
     assert combined.count("BEGIN:VEVENT") == individual_count
-    assert 'data-track="all"' in (tmp_path / "public" / "index.html").read_text(encoding="utf-8")
-
     opportunities = json.loads(
         (tmp_path / "output" / "opportunities.json").read_text(encoding="utf-8")
     )

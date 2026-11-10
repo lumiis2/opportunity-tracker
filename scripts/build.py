@@ -6,7 +6,6 @@ from dataclasses import asdict
 from datetime import date
 import json
 from pathlib import Path
-import re
 import sys
 
 import yaml
@@ -34,21 +33,6 @@ def load_datasets() -> dict[str, dict]:
     if not isinstance(datasets, dict) or not datasets:
         raise ValueError("Invalid config: missing datasets")
     return datasets
-
-
-def update_public_stats(event_counts: dict[str, int]) -> None:
-    """Update event counters marked with data-track in the static page."""
-
-    path = ROOT_DIR / "public" / "index.html"
-    if not path.exists():
-        return
-    contents = path.read_text(encoding="utf-8")
-    for track, count in event_counts.items():
-        pattern = rf'(<div class="stats-number" data-track="{re.escape(track)}">)\d+(</div>)'
-        contents, replacements = re.subn(pattern, rf"\g<1>{count}\g<2>", contents)
-        if replacements != 1:
-            raise ValueError(f"Missing or duplicate public statistic for track: {track}")
-    path.write_text(contents, encoding="utf-8")
 
 
 def write_json(data: object, output_path: Path) -> None:
@@ -137,7 +121,6 @@ def main() -> int:
         }
     )
     write_json(calendars, ROOT_DIR / "output" / "calendars.json")
-    update_public_stats(counts)
     print(f"all: {len(all_events)} events -> output/all.ics")
     print(f"opportunities: {len(all_opportunities)} -> output/opportunities.json")
     print(f"calendars: {len(calendars)} -> output/calendars.json")

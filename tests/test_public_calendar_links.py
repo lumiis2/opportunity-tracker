@@ -20,6 +20,13 @@ def test_ai_ml_calendar_is_visible_on_public_index():
     assert 'href="data/ai_ml_research_fellowships.csv"' in contents
 
 
+def test_public_index_loads_calendar_statistics():
+    contents = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+
+    assert 'fetch("calendars.json")' in contents
+    assert "calendar.event_count" in contents
+
+
 def test_ai_ml_calendar_is_listed_in_readmes():
     english = (ROOT / "README.md").read_text(encoding="utf-8")
     portuguese = (ROOT / "README-pt.md").read_text(encoding="utf-8")

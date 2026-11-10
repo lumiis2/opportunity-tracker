@@ -49,7 +49,9 @@ def test_public_index_loads_calendar_statistics():
     assert 'src="app.js"' in index
     assert 'id="calendar-list"' in index
     assert 'fetch("calendars.json")' in script
-    assert "renderCalendars(calendars)" in script
+    assert 'fetch("opportunities.json")' in script
+    assert "renderCalendars(calendars, opportunities)" in script
+    assert "getHighlights(opportunities, track)" in script
     assert "calendar.event_count" in script
 
 

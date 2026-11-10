@@ -90,6 +90,37 @@ main {
     flex-grow: 1;
 }
 
+.card h3 {
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+
+.highlights {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.highlights li {
+    border-top: 1px solid #e5e7eb;
+    padding: 8px 0;
+}
+
+.highlights strong,
+.highlights span {
+    display: block;
+}
+
+.highlights span,
+.no-highlights {
+    color: #666;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.no-highlights {
+    margin-bottom: 20px;
+}
+
 .card-links {
     display: flex;
     gap: 10px;

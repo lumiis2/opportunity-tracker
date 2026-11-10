@@ -8,7 +8,38 @@ const details = {
     all: ["🌐", "Every published opportunity in one combined calendar."],
 };
 
-function renderCalendars(calendars) {
+function getHighlights(opportunities, track) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    return opportunities
+        .filter(opportunity => track === "all" || opportunity.track === track)
+        .map(opportunity => ({
+            opportunity,
+            milestone: opportunity.milestones
+                .filter(item => new Date(`${item.start_date}T00:00:00`) >= today)
+                .sort((a, b) => a.start_date.localeCompare(b.start_date))[0],
+        }))
+        .filter(highlight => highlight.milestone)
+        .sort((a, b) => a.milestone.start_date.localeCompare(b.milestone.start_date))
+        .slice(0, 3);
+}
+
+function renderHighlights(opportunities, track) {
+    const highlights = getHighlights(opportunities, track);
+    if (!highlights.length) return '<p class="no-highlights">No upcoming dates.</p>';
+
+    return `<ul class="highlights">${highlights.map(({ opportunity, milestone }) => {
+        const date = new Date(`${milestone.start_date}T00:00:00`).toLocaleDateString(
+            "en-US",
+            { day: "numeric", month: "short", year: "numeric" },
+        );
+        const label = milestone.kind.replaceAll("-", " ");
+        return `<li><strong>${opportunity.title}</strong><span>${date} · ${label}</span></li>`;
+    }).join("")}</ul>`;
+}
+
+function renderCalendars(calendars, opportunities) {
     const list = document.querySelector("#calendar-list");
     list.innerHTML = calendars.map(calendar => {
         const [icon, description] = details[calendar.id];
@@ -21,6 +52,8 @@ function renderCalendars(calendars) {
             <article class="card">
                 <div class="card-header"><h2>${icon} ${calendar.name}</h2></div>
                 <p class="card-description">${description}</p>
+                <h3>Upcoming highlights</h3>
+                ${renderHighlights(opportunities, calendar.id)}
                 <div class="subscription-url">
                     Calendar URL: <a href="${calendarUrl}">${calendarUrl}</a>
                 </div>
@@ -33,10 +66,12 @@ function renderCalendars(calendars) {
     }).join("");
 }
 
-fetch("calendars.json")
-    .then(response => response.json())
-    .then(calendars => {
-        renderCalendars(calendars);
+Promise.all([
+    fetch("calendars.json").then(response => response.json()),
+    fetch("opportunities.json").then(response => response.json()),
+])
+    .then(([calendars, opportunities]) => {
+        renderCalendars(calendars, opportunities);
         calendars.forEach(calendar => {
             const counter = document.querySelector(`[data-track="${calendar.id}"]`);
             if (counter) counter.textContent = calendar.event_count;

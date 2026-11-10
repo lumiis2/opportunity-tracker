@@ -6,7 +6,12 @@ import argparse
 from pathlib import Path
 from typing import Callable, Optional, Sequence, Union
 
-from src.core import Opportunity, create_calendar_events, generate_calendar
+from src.core import (
+    Opportunity,
+    create_calendar_events,
+    generate_calendar,
+    validate_opportunities,
+)
 from src.parsers import (
     parse_ai_ml_research_fellowships,
     parse_conferences,
@@ -76,6 +81,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         track_parser, default_name = TRACKS[args.track]
         try:
             opportunities = track_parser(args.input)
+            validate_opportunities(opportunities)
             events = create_calendar_events(opportunities)
             generate_calendar(
                 events,

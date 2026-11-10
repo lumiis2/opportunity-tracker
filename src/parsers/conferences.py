@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 import csv
 import re
@@ -51,14 +51,20 @@ class ConferenceParser:
         path = Path(csv_path)
         with path.open("r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
-            # do not strictly require every possible header; validate minimal presence
-            if not reader.fieldnames:
-                raise ValueError("CSV file has no header row")
+            self._validate_columns(reader.fieldnames)
 
             events: list[CalendarEvent] = []
             for row in reader:
                 events.extend(self._parse_row(row))
             return events
+
+    @staticmethod
+    def _validate_columns(fieldnames: list[str] | None) -> None:
+        if not fieldnames:
+            raise ValueError("CSV file has no header row")
+        missing = [column for column in EXPECTED_COLUMNS if column not in fieldnames]
+        if missing:
+            raise ValueError(f"Missing required columns: {', '.join(missing)}")
 
     def _parse_row(self, row: dict[str, str]) -> list[CalendarEvent]:
         name = clean_text(row.get("Conference Name"))
@@ -131,7 +137,8 @@ class ConferenceParser:
                         ConferenceParser()._event(
                             title=f"{name} Conference",
                             start_date=start,
-                            end_date=end,
+                            # RFC 5545 uses an exclusive DTEND for all-day events.
+                            end_date=end + timedelta(days=1),
                             description=description,
                             url=url,
                             category=area or None,

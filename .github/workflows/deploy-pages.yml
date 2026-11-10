@@ -37,7 +37,12 @@ jobs:
       - name: Sync Google Sheets to data/
         id: sync
         run: |
-          python3 scripts/sync_sheets.py || true
+          python3 scripts/sync_sheets.py
+
+      - name: Run tests
+        run: |
+          python -m pip install pytest
+          python -m pytest -q
 
       - name: Build ICS calendars into output/
         id: build
@@ -50,10 +55,10 @@ jobs:
           mkdir -p public/data
           
           # Copia os arquivos gerados (.ics) para dentro de public/
-          cp -v output/*.ics public/ || true
+          cp -v output/*.ics public/
           
           # Copia os arquivos gerados (.csv) para dentro de public/data/
-          cp -v data/*.csv public/data/ || true
+          cp -v data/*.csv public/data/
           
           # Verifica se o index.html realmente está no lugar certo
           if [ ! -f public/index.html ]; then

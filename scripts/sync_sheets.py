@@ -44,14 +44,16 @@ def save_csv(text: str, dest: Path) -> None:
 		fh.write(text)
 
 
-def sync_all(config_path: Path = CONFIG_PATH) -> None:
+def sync_all(config_path: Path = CONFIG_PATH) -> int:
 	cfg = load_config(config_path)
 	sheet_id = cfg["sheet_id"]
 	datasets = cfg.get("datasets", {})
 
 	if not datasets:
 		print("No datasets configured in config.yaml")
-		return
+		return 0
+
+	failures = 0
 
 	for name, meta in datasets.items():
 		try:
@@ -60,12 +62,14 @@ def sync_all(config_path: Path = CONFIG_PATH) -> None:
 			csv_name = meta.get("csv")
 			if gid is None or not csv_name:
 				print(f"Skipping {name}: invalid dataset entry (missing gid or csv)")
+				failures += 1
 				continue
 
 			url = build_export_url(sheet_id, gid)
 			text = download_csv(url)
 			if not text or not text.strip():
 				print(f"Error: empty CSV for {name}")
+				failures += 1
 				continue
 
 			dest = DATA_DIR / csv_name
@@ -74,16 +78,19 @@ def sync_all(config_path: Path = CONFIG_PATH) -> None:
 
 		except requests.exceptions.RequestException as exc:
 			print(f"Network error downloading {name}: {exc}")
+			failures += 1
 		except Exception as exc:  # defensive: invalid config, IO errors
 			print(f"Error processing {name}: {exc}")
+			failures += 1
 
-	print("Done.")
+	print(f"Done with {failures} failure(s).")
+	return failures
 
 
 def main() -> int:
 	try:
-		sync_all()
-		return 0
+		failures = sync_all()
+		return 4 if failures else 0
 	except FileNotFoundError as exc:
 		print(f"{exc}")
 		return 2
@@ -94,4 +101,3 @@ def main() -> int:
 
 if __name__ == "__main__":
 	raise SystemExit(main())
-

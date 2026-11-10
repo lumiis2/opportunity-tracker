@@ -9,6 +9,9 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
 
     # Copy the current CSV inputs into a temporary workspace.
     (tmp_path / "data").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "public").mkdir(parents=True, exist_ok=True)
+    shutil.copy(root / "config.yaml", tmp_path / "config.yaml")
+    shutil.copy(root / "public" / "index.html", tmp_path / "public" / "index.html")
     for name in [
         "graduation.csv",
         "masters.csv",
@@ -31,9 +34,21 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         "conferences.ics",
         "ai_ml_research_fellowships.ics",
         "personal.ics",
+        "all.ics",
     ]:
         out = tmp_path / "output" / name
         assert out.exists()
         text = out.read_text(encoding="utf-8")
         assert "BEGIN:VCALENDAR" in text
         assert "BEGIN:VEVENT" in text
+
+    combined = (tmp_path / "output" / "all.ics").read_text(encoding="utf-8")
+    individual_count = sum(
+        (tmp_path / "output" / name).read_text(encoding="utf-8").count("BEGIN:VEVENT")
+        for name in [
+            "graduation.ics", "masters.ics", "industry.ics", "conferences.ics",
+            "ai_ml_research_fellowships.ics", "personal.ics",
+        ]
+    )
+    assert combined.count("BEGIN:VEVENT") == individual_count
+    assert 'data-track="all"' in (tmp_path / "public" / "index.html").read_text(encoding="utf-8")

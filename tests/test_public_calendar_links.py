@@ -27,3 +27,11 @@ def test_ai_ml_calendar_is_listed_in_readmes():
     for contents in (english, portuguese):
         assert CALENDAR_URL in contents
         assert CSV_URL in contents
+
+
+def test_combined_calendar_is_publicly_listed():
+    url = "https://lumiis2.github.io/opportunity-tracker/all.ics"
+    index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    assert index.count(f'href="{url}"') == 2
+    assert url in (ROOT / "README.md").read_text(encoding="utf-8")
+    assert url in (ROOT / "README-pt.md").read_text(encoding="utf-8")

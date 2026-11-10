@@ -5,6 +5,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 import hashlib
+import re
 import uuid
 
 from src.core.calendar_event import CalendarEvent
@@ -23,6 +24,7 @@ def generate_calendar(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc)
+    existing_stamps = read_existing_stamps(output_path)
 
     lines: list[str] = [
         "BEGIN:VCALENDAR",
@@ -35,7 +37,8 @@ def generate_calendar(
     ]
 
     for event in events:
-        lines.extend(build_event_lines(event, now))
+        uid = build_uid(event)
+        lines.extend(build_event_lines(event, existing_stamps.get(uid, now)))
 
     lines.append("END:VCALENDAR")
 
@@ -73,18 +76,36 @@ def build_event_lines(event: CalendarEvent, stamp: datetime) -> list[str]:
     return lines
 
 
+def read_existing_stamps(path: Path) -> dict[str, datetime]:
+    """Keep DTSTAMP stable for events whose UID already exists."""
+
+    if not path.exists():
+        return {}
+    contents = path.read_text(encoding="utf-8")
+    stamps: dict[str, datetime] = {}
+    for block in re.findall(r"BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT", contents, re.DOTALL):
+        uid_match = re.search(r"^UID:(.+)$", block, re.MULTILINE)
+        stamp_match = re.search(r"^DTSTAMP:(\d{8}T\d{6}Z)\r?$", block, re.MULTILINE)
+        if not uid_match or not stamp_match:
+            continue
+        try:
+            stamps[uid_match.group(1).rstrip("\r")] = datetime.strptime(
+                stamp_match.group(1), "%Y%m%dT%H%M%SZ"
+            ).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return stamps
+
+
 def build_uid(event: CalendarEvent) -> str:
     """Generate a stable, unique identifier for an event."""
 
     seed = "|".join(
         [
             event.title,
-            event.description,
             event.start_date.isoformat(),
             event.end_date.isoformat() if event.end_date else "",
             event.url or "",
-            event.category or "",
-            ",".join(event.tags),
         ]
     )
     digest = hashlib.sha1(seed.encode("utf-8")).hexdigest()

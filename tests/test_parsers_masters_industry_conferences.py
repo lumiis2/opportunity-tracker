@@ -30,3 +30,6 @@ def test_conferences_parser_reads_sample_csv():
     events = parse_conferences(ROOT / "data" / "conferences.csv")
     _assert_basic_event_shape(events)
     assert any(event.end_date is not None for event in events)
+    ranged = next(event for event in events if event.end_date is not None)
+    # CalendarEvent stores RFC 5545's exclusive end date.
+    assert ranged.end_date > ranged.start_date

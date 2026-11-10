@@ -106,12 +106,34 @@ class GraduationParser:
                 )
             )
 
-        expected_open = parse_month_start(row.get("Expected Open Month"))
+        expected_open = parse_month_start(row.get("Expected Open Month")) if not application_open else None
         if expected_open:
             events.append(
                 self._event(
                     title=f"Expected Applications Open — {program}",
                     start_date=expected_open,
+                    description=description,
+                    url=url,
+                    category=category,
+                    tags=tags,
+                )
+            )
+
+        expected_deadline = (
+            parse_month_start(
+                row.get("Expected Deadline Month"),
+                fallback_year=expected_open.year if expected_open else None,
+            )
+            if not application_deadline
+            else None
+        )
+        if expected_deadline:
+            if expected_open and expected_deadline < expected_open:
+                expected_deadline = expected_deadline.replace(year=expected_deadline.year + 1)
+            events.append(
+                self._event(
+                    title=f"Expected Application Deadline — {program}",
+                    start_date=expected_deadline,
                     description=description,
                     url=url,
                     category=category,

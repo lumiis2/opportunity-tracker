@@ -13,8 +13,7 @@ def _sample_lines():
 def test_continuously_open_program_becomes_calendar_event():
     events = parse("data/ai_ml_research_fellowships.csv")
 
-    assert len(events) == 2
-    event = events[0]
+    event = next(event for event in events if event.title == "Applications Open Continuously — fast.ai")
     assert event.title == "Applications Open Continuously — fast.ai"
     assert event.start_date == date(date.today().year, 1, 1)
     assert event.url == "https://fast.ai"
@@ -22,7 +21,7 @@ def test_continuously_open_program_becomes_calendar_event():
     assert event.tags == ["Online Courses"]
     assert "Funding: Free" in event.description
     assert "Notes: Classic deep learning course" in event.description
-    assert events[1].url == "https://learnmechinterp.com/topics/"
+    assert any(event.url == "https://learnmechinterp.com/topics/" for event in events)
 
 
 def test_exact_and_expected_dates_create_events(tmp_path):

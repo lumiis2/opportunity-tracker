@@ -1,97 +1,81 @@
-"""Build the graduation ICS calendar from the synced CSV."""
+"""Build every configured calendar and the combined calendar."""
 
 from __future__ import annotations
 
 from pathlib import Path
+import re
 import sys
+
+import yaml
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from src.core import generate_calendar
-from src.parsers.graduation import parse as parse_graduation
-from src.parsers.masters import parse as parse_masters
-from src.parsers.industry import parse as parse_industry
-from src.parsers.conferences import parse as parse_conferences
-from src.parsers.ai_ml_research_fellowships import parse as parse_ai_ml_research_fellowships
-from src.parsers.personal import parse as parse_personal
+from src.cli import TRACKS
+from src.core import CalendarEvent, generate_calendar
+
+
+def load_datasets() -> dict[str, dict]:
+    path = ROOT_DIR / "config.yaml"
+    with path.open("r", encoding="utf-8") as fh:
+        config = yaml.safe_load(fh)
+    datasets = config.get("datasets") if isinstance(config, dict) else None
+    if not isinstance(datasets, dict) or not datasets:
+        raise ValueError("Invalid config: missing datasets")
+    return datasets
+
+
+def update_public_stats(event_counts: dict[str, int]) -> None:
+    """Update event counters marked with data-track in the static page."""
+
+    path = ROOT_DIR / "public" / "index.html"
+    if not path.exists():
+        return
+    contents = path.read_text(encoding="utf-8")
+    for track, count in event_counts.items():
+        pattern = rf'(<div class="stats-number" data-track="{re.escape(track)}">)\d+(</div>)'
+        contents, replacements = re.subn(pattern, rf"\g<1>{count}\g<2>", contents)
+        if replacements != 1:
+            raise ValueError(f"Missing or duplicate public statistic for track: {track}")
+    path.write_text(contents, encoding="utf-8")
 
 
 def main() -> int:
-    # Graduation calendar
-    csv_path = ROOT_DIR / "data" / "graduation.csv"
-    output_path = ROOT_DIR / "output" / "graduation.ics"
+    datasets = load_datasets()
+    all_events: list[CalendarEvent] = []
+    counts: dict[str, int] = {}
 
-    events = parse_graduation(csv_path)
-    generate_calendar(events, output_path=output_path, calendar_name="Graduation Opportunities")
+    unknown = sorted(set(datasets) - set(TRACKS))
+    if unknown:
+        raise ValueError(f"No parser registered for: {', '.join(unknown)}")
 
-    print("Downloaded CSV:")
-    print(csv_path.name)
-    print()
-    print("Events generated:")
-    print(len(events))
-    print()
-    print("ICS written to:")
-    print(f"output/{output_path.name}")
+    for track, meta in datasets.items():
+        parser, default_name = TRACKS[track]
+        csv_name = meta.get("csv")
+        output_name = meta.get("output")
+        if not csv_name or not output_name:
+            raise ValueError(f"Dataset {track} must define csv and output")
 
-    # Masters calendar (temporary build target for testing)
-    masters_csv = ROOT_DIR / "data" / "masters.csv"
-    masters_out = ROOT_DIR / "output" / "masters.ics"
-    masters_events = parse_masters(masters_csv)
-    generate_calendar(masters_events, output_path=masters_out, calendar_name="Masters Programs")
-    print()
-    print("Masters events generated:")
-    print(len(masters_events))
-    print("Masters ICS written to:")
-    print(f"output/{masters_out.name}")
-    
-    # Industry calendar (temporary build target for testing)
-    industry_csv = ROOT_DIR / "data" / "industry.csv"
-    industry_out = ROOT_DIR / "output" / "industry.ics"
-    industry_events = parse_industry(industry_csv)
-    generate_calendar(industry_events, output_path=industry_out, calendar_name="Industry Opportunities")
-    print()
-    print("Industry events generated:")
-    print(len(industry_events))
-    print("Industry ICS written to:")
-    print(f"output/{industry_out.name}")
-    
-    # Conferences calendar (temporary build target for testing)
-    conferences_csv = ROOT_DIR / "data" / "conferences.csv"
-    conferences_out = ROOT_DIR / "output" / "conferences.ics"
-    conferences_events = parse_conferences(conferences_csv)
-    generate_calendar(conferences_events, output_path=conferences_out, calendar_name="Conferences")
-    print()
-    print("Conferences events generated:")
-    print(len(conferences_events))
-    print("Conferences ICS written to:")
-    print(f"output/{conferences_out.name}")
+        events = parser(ROOT_DIR / "data" / csv_name)
+        generate_calendar(
+            events,
+            output_path=ROOT_DIR / "output" / output_name,
+            calendar_name=meta.get("calendar_name") or default_name,
+        )
+        counts[track] = len(events)
+        all_events.extend(events)
+        print(f"{track}: {len(events)} events -> output/{output_name}")
 
-    ai_ml_csv = ROOT_DIR / "data" / "ai_ml_research_fellowships.csv"
-    ai_ml_out = ROOT_DIR / "output" / "ai_ml_research_fellowships.ics"
-    ai_ml_events = parse_ai_ml_research_fellowships(ai_ml_csv)
     generate_calendar(
-        ai_ml_events,
-        output_path=ai_ml_out,
-        calendar_name="AI/ML Research & Fellowships",
+        all_events,
+        output_path=ROOT_DIR / "output" / "all.ics",
+        calendar_name="All Opportunities",
     )
-    print()
-    print("AI/ML Research & Fellowships events generated:")
-    print(len(ai_ml_events))
-    print("AI/ML Research & Fellowships ICS written to:")
-    print(f"output/{ai_ml_out.name}")
-
-    personal_csv = ROOT_DIR / "data" / "personal.csv"
-    personal_out = ROOT_DIR / "output" / "personal.ics"
-    personal_events = parse_personal(personal_csv)
-    generate_calendar(personal_events, output_path=personal_out, calendar_name="Personal Opportunities")
-    print()
-    print("Personal events generated:")
-    print(len(personal_events))
-    print("Personal ICS written to:")
-    print(f"output/{personal_out.name}")
+    counts["all"] = len(all_events)
+    update_public_stats(counts)
+    print(f"all: {len(all_events)} events -> output/all.ics")
     return 0
 
 

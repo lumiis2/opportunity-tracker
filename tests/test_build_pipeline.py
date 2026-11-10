@@ -69,3 +69,31 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
         "milestones",
     }
     assert opportunities[0]["milestones"][0]["start_date"]
+
+    calendars = json.loads(
+        (tmp_path / "output" / "calendars.json").read_text(encoding="utf-8")
+    )
+    assert [calendar["id"] for calendar in calendars] == [
+        "graduation",
+        "masters",
+        "industry",
+        "conferences",
+        "ai_ml_research_fellowships",
+        "personal",
+        "all",
+    ]
+    assert {
+        key: calendars[0][key]
+        for key in ("id", "name", "ics_url", "csv_url")
+    } == {
+        "id": "graduation",
+        "name": "Graduation Opportunities",
+        "ics_url": "graduation.ics",
+        "csv_url": "data/graduation.csv",
+    }
+    assert calendars[0]["opportunity_count"] == sum(
+        opportunity["track"] == "graduation" for opportunity in opportunities
+    )
+    assert calendars[0]["event_count"] > 0
+    assert calendars[-1]["ics_url"] == "all.ics"
+    assert calendars[-1]["csv_url"] is None

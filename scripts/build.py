@@ -51,15 +51,13 @@ def update_public_stats(event_counts: dict[str, int]) -> None:
     path.write_text(contents, encoding="utf-8")
 
 
-def generate_opportunities_json(
-    opportunities: list[Opportunity], output_path: Path
-) -> None:
-    """Write normalized opportunities for the frontend."""
+def write_json(data: object, output_path: Path) -> None:
+    """Write frontend data as readable JSON."""
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(
-            [asdict(opportunity) for opportunity in opportunities],
+            data,
             default=date.isoformat,
             ensure_ascii=False,
             indent=2,
@@ -92,8 +90,9 @@ def main() -> int:
         opportunity for opportunities in parsed.values() for opportunity in opportunities
     ]
     validate_opportunities(all_opportunities)
-    generate_opportunities_json(
-        all_opportunities, ROOT_DIR / "output" / "opportunities.json"
+    write_json(
+        [asdict(opportunity) for opportunity in all_opportunities],
+        ROOT_DIR / "output" / "opportunities.json",
     )
 
     for track, meta in datasets.items():
@@ -116,9 +115,32 @@ def main() -> int:
         calendar_name="All Opportunities",
     )
     counts["all"] = len(all_events)
+    calendars = [
+        {
+            "id": track,
+            "name": meta.get("calendar_name") or TRACKS[track][1],
+            "ics_url": meta["output"],
+            "csv_url": f"data/{meta['csv']}",
+            "opportunity_count": len(parsed[track]),
+            "event_count": counts[track],
+        }
+        for track, meta in datasets.items()
+    ]
+    calendars.append(
+        {
+            "id": "all",
+            "name": "All Opportunities",
+            "ics_url": "all.ics",
+            "csv_url": None,
+            "opportunity_count": len(all_opportunities),
+            "event_count": len(all_events),
+        }
+    )
+    write_json(calendars, ROOT_DIR / "output" / "calendars.json")
     update_public_stats(counts)
     print(f"all: {len(all_events)} events -> output/all.ics")
     print(f"opportunities: {len(all_opportunities)} -> output/opportunities.json")
+    print(f"calendars: {len(calendars)} -> output/calendars.json")
     return 0
 
 

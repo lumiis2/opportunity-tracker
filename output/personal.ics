@@ -6,8 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Personal Opportunities
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:fd536fe1-3e5a-950b-61ff-917e744bb4a7@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:personal-uare-winter-university-of-alberta.application-deadline@opportu
+ nity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Application Deadline — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -25,8 +26,9 @@ URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
 CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
-UID:f990613d-a21f-f36d-1974-7a52f139e74d@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:personal-uare-winter-university-of-alberta.program-period@opportunity-t
+ racker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Program Period — UARE Winter
 DESCRIPTION:Programa: UARE Winter\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f
@@ -44,8 +46,9 @@ URL:https://www.ualberta.ca/en/admissions-programs/visiting-student-and-int
 CATEGORIES:Research internship\,Undergrad\,Alta
 END:VEVENT
 BEGIN:VEVENT
-UID:d40afa8b-2eb0-5180-ed69-96b65ac4148d@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:personal-uare-summer-university-of-alberta.program-period@opportunity-t
+ racker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Program Period — UARE Summer
 DESCRIPTION:Programa: UARE Summer\nCategoria: Research internship\nNível: 
  Undergrad\nInstituição / organização: University of Alberta\nÁrea / f

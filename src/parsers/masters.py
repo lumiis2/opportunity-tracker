@@ -14,6 +14,7 @@ from src.utils.date_helpers import (
     parse_month_start,
     split_tags,
 )
+from src.utils.identifiers import event_id, opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -93,6 +94,7 @@ class MastersParser:
         if not university and not program:
             # nothing meaningful to build titles from
             return []
+        source_id = opportunity_id("masters", university, program)
 
         title_base = f"{university} {program}".strip()
         description = self._build_description(row)
@@ -104,18 +106,19 @@ class MastersParser:
 
         # date fields to produce events for
         mapping = [
-            ("Application Opens", "Applications Open — {}"),
-            ("Priority Deadline", "Priority Deadline — {}"),
-            ("Scholarship Deadline", "Scholarship Deadline — {}"),
-            ("Funding Deadline", "Funding Deadline — {}"),
-            ("Final Application Deadline", "Application Deadline — {}"),
+            ("Application Opens", "Applications Open — {}", "application-open"),
+            ("Priority Deadline", "Priority Deadline — {}", "priority-deadline"),
+            ("Scholarship Deadline", "Scholarship Deadline — {}", "scholarship-deadline"),
+            ("Funding Deadline", "Funding Deadline — {}", "funding-deadline"),
+            ("Final Application Deadline", "Application Deadline — {}", "application-deadline"),
         ]
 
-        for col, title_tpl in mapping:
+        for col, title_tpl, kind in mapping:
             dt = parse_exact_date(row.get(col))
             if dt:
                 events.append(
                     self._event(
+                        id=event_id(source_id, kind),
                         title=title_tpl.format(title_base),
                         start_date=dt,
                         description=description,
@@ -131,6 +134,7 @@ class MastersParser:
         if expected_open:
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-open"),
                     title=f"Expected Applications Open — {title_base}",
                     start_date=expected_open,
                     description=description,
@@ -153,6 +157,7 @@ class MastersParser:
                 expected_deadline = expected_deadline.replace(year=expected_deadline.year + 1)
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-deadline"),
                     title=f"Expected Application Deadline — {title_base}",
                     start_date=expected_deadline,
                     description=description,
@@ -167,6 +172,7 @@ class MastersParser:
     def _event(
         self,
         *,
+        id: str,
         title: str,
         start_date: date,
         description: str,
@@ -175,6 +181,7 @@ class MastersParser:
         tags: list[str],
     ) -> CalendarEvent:
         return CalendarEvent(
+            id=id,
             title=title,
             description=description,
             start_date=start_date,

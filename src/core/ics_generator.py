@@ -2,11 +2,10 @@
 
 from __future__ import annotations
 
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-import hashlib
 import re
-import uuid
 
 from src.core.calendar_event import CalendarEvent
 
@@ -22,9 +21,15 @@ def generate_calendar(
 ) -> None:
     """Write a valid RFC5545 .ics calendar file for the provided events."""
 
+    duplicate_ids = sorted(
+        event_id for event_id, count in Counter(event.id for event in events).items() if count > 1
+    )
+    if duplicate_ids:
+        raise ValueError(f"Duplicate event IDs: {', '.join(duplicate_ids)}")
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc)
-    existing_stamps = read_existing_stamps(output_path)
+    existing_events = read_existing_events(output_path)
 
     lines: list[str] = [
         "BEGIN:VCALENDAR",
@@ -38,7 +43,10 @@ def generate_calendar(
 
     for event in events:
         uid = build_uid(event)
-        lines.extend(build_event_lines(event, existing_stamps.get(uid, now)))
+        candidate = build_event_lines(event, now)
+        existing = existing_events.get(uid)
+        stamp = existing[0] if existing and existing[1] == event_signature(candidate) else now
+        lines.extend(build_event_lines(event, stamp))
 
     lines.append("END:VCALENDAR")
 
@@ -76,40 +84,40 @@ def build_event_lines(event: CalendarEvent, stamp: datetime) -> list[str]:
     return lines
 
 
-def read_existing_stamps(path: Path) -> dict[str, datetime]:
-    """Keep DTSTAMP stable for events whose UID already exists."""
+def event_signature(lines: list[str]) -> tuple[str, ...]:
+    """Return the event content that determines whether it was revised."""
+
+    return tuple(line for line in lines if not line.startswith("DTSTAMP:"))
+
+
+def read_existing_events(path: Path) -> dict[str, tuple[datetime, tuple[str, ...]]]:
+    """Read timestamps and content for previously generated events."""
 
     if not path.exists():
         return {}
     contents = path.read_text(encoding="utf-8")
-    stamps: dict[str, datetime] = {}
+    contents = re.sub(r"\r?\n[ \t]", "", contents)
+    events: dict[str, tuple[datetime, tuple[str, ...]]] = {}
     for block in re.findall(r"BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT", contents, re.DOTALL):
         uid_match = re.search(r"^UID:(.+)$", block, re.MULTILINE)
         stamp_match = re.search(r"^DTSTAMP:(\d{8}T\d{6}Z)\r?$", block, re.MULTILINE)
         if not uid_match or not stamp_match:
             continue
         try:
-            stamps[uid_match.group(1).rstrip("\r")] = datetime.strptime(
+            stamp = datetime.strptime(
                 stamp_match.group(1), "%Y%m%dT%H%M%SZ"
             ).replace(tzinfo=timezone.utc)
+            lines = ["BEGIN:VEVENT", *block.replace("\r", "").splitlines(), "END:VEVENT"]
+            events[uid_match.group(1).rstrip("\r")] = (stamp, event_signature(lines))
         except ValueError:
             continue
-    return stamps
+    return events
 
 
 def build_uid(event: CalendarEvent) -> str:
-    """Generate a stable, unique identifier for an event."""
+    """Return the event's stable, human-readable calendar UID."""
 
-    seed = "|".join(
-        [
-            event.title,
-            event.start_date.isoformat(),
-            event.end_date.isoformat() if event.end_date else "",
-            event.url or "",
-        ]
-    )
-    digest = hashlib.sha1(seed.encode("utf-8")).hexdigest()
-    return f"{uuid.UUID(digest[:32])}@opportunity-tracker"
+    return f"{event.id}@opportunity-tracker"
 
 
 def format_utc_datetime(value: datetime) -> str:

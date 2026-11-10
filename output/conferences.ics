@@ -6,8 +6,10 @@ METHOD:PUBLISH
 X-WR-CALNAME:Conferences
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:9c41f24d-0db2-e7c5-3012-8a11db8ea2f8@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-neurips-conference-on-neural-information-processing-systems-
+ neural-information-processing-systems-foundation.submission-deadline@oppor
+ tunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — NeurIPS (Conference on Neural Informa
  tion Processing Systems)
 DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
@@ -23,8 +25,10 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
 END:VEVENT
 BEGIN:VEVENT
-UID:27aee3be-8b4d-4a94-c45e-9318137f254b@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-neurips-conference-on-neural-information-processing-systems-
+ neural-information-processing-systems-foundation.notification@opportunity-
+ tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — NeurIPS (Conference on Neural Informati
  on Processing Systems)
 DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
@@ -40,8 +44,10 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
 END:VEVENT
 BEGIN:VEVENT
-UID:b7284f1b-4ee7-7150-c17a-b694bc0ce905@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-neurips-conference-on-neural-information-processing-systems-
+ neural-information-processing-systems-foundation.conference-period@opportu
+ nity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:NeurIPS (Conference on Neural Information Processing Systems) Confe
  rence
 DESCRIPTION:Conference Name: NeurIPS (Conference on Neural Information Proc
@@ -58,8 +64,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Deep Learning\,Neural Networks
 END:VEVENT
 BEGIN:VEVENT
-UID:a156b305-4c00-5cb5-46e6-258affc84bec@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icml-international-conference-on-machine-learning-imls.submi
+ ssion-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — ICML (International Conference on Mac
  hine Learning)
 DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
@@ -74,8 +81,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
 END:VEVENT
 BEGIN:VEVENT
-UID:b9ddeb6d-3b17-2b1a-e9e7-7b6c0651b495@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icml-international-conference-on-machine-learning-imls.notif
+ ication@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — ICML (International Conference on Machi
  ne Learning)
 DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
@@ -90,8 +98,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
 END:VEVENT
 BEGIN:VEVENT
-UID:861606d1-6879-0dbf-4d09-7aa778afb37d@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icml-international-conference-on-machine-learning-imls.confe
+ rence-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:ICML (International Conference on Machine Learning) Conference
 DESCRIPTION:Conference Name: ICML (International Conference on Machine Lear
  ning)\nArea: AI/ML\nTier: A*\nCountry: Austria\nRegion: Europe\nOrganizer 
@@ -106,8 +115,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Machine Learning\,Optimization\,AI Theory
 END:VEVENT
 BEGIN:VEVENT
-UID:3f0fa022-0bbd-ed63-96d5-eb9547498ddc@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-iclr-international-conference-on-learning-representations-ic
+ lr-foundation.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — ICLR (International Conference on Lea
  rning Representations)
 DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
@@ -123,8 +133,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
 END:VEVENT
 BEGIN:VEVENT
-UID:fb64c2a6-b39a-589c-f521-3018a9fdbe88@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-iclr-international-conference-on-learning-representations-ic
+ lr-foundation.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — ICLR (International Conference on Learn
  ing Representations)
 DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
@@ -140,8 +151,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
 END:VEVENT
 BEGIN:VEVENT
-UID:12c0648b-646b-ab4d-d931-d2984c08a029@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-iclr-international-conference-on-learning-representations-ic
+ lr-foundation.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:ICLR (International Conference on Learning Representations) Confere
  nce
 DESCRIPTION:Conference Name: ICLR (International Conference on Learning Rep
@@ -158,8 +170,9 @@ URL:https://openreview.net/
 CATEGORIES:AI/ML\,AI/ML\,Deep Learning\,Representation Learning\,LLMs
 END:VEVENT
 BEGIN:VEVENT
-UID:d7a4498c-bd27-fbe4-cd32-144cb2a01f00@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-cvpr-ieee-cvf-conference-on-computer-vision-and-pattern-reco
+ gnition-ieee-cvf.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — CVPR (IEEE/CVF Conference on Computer
   Vision and Pattern Recognition)
 DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
@@ -176,8 +189,9 @@ CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
  ing\,Multimodal AI
 END:VEVENT
 BEGIN:VEVENT
-UID:335f60e2-06a3-5a7a-2887-c23b7f6de462@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-cvpr-ieee-cvf-conference-on-computer-vision-and-pattern-reco
+ gnition-ieee-cvf.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — CVPR (IEEE/CVF Conference on Computer V
  ision and Pattern Recognition)
 DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
@@ -194,8 +208,9 @@ CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
  ing\,Multimodal AI
 END:VEVENT
 BEGIN:VEVENT
-UID:dbd04e27-c31f-8d04-515c-7a5e802c33ef@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-cvpr-ieee-cvf-conference-on-computer-vision-and-pattern-reco
+ gnition-ieee-cvf.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognitio
  n) Conference
 DESCRIPTION:Conference Name: CVPR (IEEE/CVF Conference on Computer Vision a
@@ -213,8 +228,9 @@ CATEGORIES:Computer Vision\,Computer Vision\,Computer Vision\,Image Process
  ing\,Multimodal AI
 END:VEVENT
 BEGIN:VEVENT
-UID:38cd3bc4-e050-548f-b48f-823667a52087@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sigcomm-acm-special-interest-group-on-data-communication-acm
+ -sigcomm.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — SIGCOMM (ACM Special Interest Group o
  n Data Communication)
 DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
@@ -231,8 +247,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
  re\,Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:eabe6525-5440-6031-a265-eef847248a88@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sigcomm-acm-special-interest-group-on-data-communication-acm
+ -sigcomm.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — SIGCOMM (ACM Special Interest Group on 
  Data Communication)
 DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
@@ -249,8 +266,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
  re\,Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:edbd0dac-6941-72f8-eedb-299661d2ea5c@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sigcomm-acm-special-interest-group-on-data-communication-acm
+ -sigcomm.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:SIGCOMM (ACM Special Interest Group on Data Communication) Conferen
  ce
 DESCRIPTION:Conference Name: SIGCOMM (ACM Special Interest Group on Data Co
@@ -268,8 +286,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networking\,Cloud Architectu
  re\,Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:4b805950-e10e-a8c3-548e-37e494e7c0ab@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sosp-acm-symposium-on-operating-systems-principles-acm-sigop
+ s.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — SOSP (ACM Symposium on Operating Syst
  ems Principles)
 DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
@@ -286,8 +305,9 @@ CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
  tructure
 END:VEVENT
 BEGIN:VEVENT
-UID:cab2e3a0-3fb9-1690-fc61-b423e8a4a002@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sosp-acm-symposium-on-operating-systems-principles-acm-sigop
+ s.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — SOSP (ACM Symposium on Operating System
  s Principles)
 DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
@@ -304,8 +324,9 @@ CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
  tructure
 END:VEVENT
 BEGIN:VEVENT
-UID:baa7c003-7530-2631-201f-636b2e653107@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sosp-acm-symposium-on-operating-systems-principles-acm-sigop
+ s.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:SOSP (ACM Symposium on Operating Systems Principles) Conference
 DESCRIPTION:Conference Name: SOSP (ACM Symposium on Operating Systems Princ
  iples)\nArea: Systems\nTier: A*\nCountry: United States\nRegion: US\nOrgan
@@ -322,8 +343,9 @@ CATEGORIES:Systems\,Systems\,Operating Systems\,Distributed Systems\,Infras
  tructure
 END:VEVENT
 BEGIN:VEVENT
-UID:1f98dd41-1d27-4915-eb13-00d1d77f2eb5@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-acl-annual-meeting-of-the-association-for-computational-ling
+ uistics-acl.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — ACL (Annual Meeting of the Associatio
  n for Computational Linguistics)
 DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
@@ -339,8 +361,9 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
 END:VEVENT
 BEGIN:VEVENT
-UID:23b8fd8e-58bd-5266-df1d-ad248b18a6ff@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-acl-annual-meeting-of-the-association-for-computational-ling
+ uistics-acl.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — ACL (Annual Meeting of the Association 
  for Computational Linguistics)
 DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
@@ -356,8 +379,9 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
 END:VEVENT
 BEGIN:VEVENT
-UID:e7c05cf3-3b3a-825c-5adc-e1a25960e133@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-acl-annual-meeting-of-the-association-for-computational-ling
+ uistics-acl.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:ACL (Annual Meeting of the Association for Computational Linguistic
  s) Conference
 DESCRIPTION:Conference Name: ACL (Annual Meeting of the Association for Com
@@ -374,8 +398,10 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Computational Linguistics\,Language Models
 END:VEVENT
 BEGIN:VEVENT
-UID:7475b499-c0a1-51a5-d757-743aed8811e5@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbrc-simposio-brasileiro-de-redes-de-computadores-e-sistemas
+ -distribuidos-sbc-sociedade-brasileira-de-computacao.submission-deadline@o
+ pportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — SBRC (Simpósio Brasileiro de Redes d
  e Computadores e Sistemas Distribuídos)
 DESCRIPTION:Conference Name: SBRC (Simpósio Brasileiro de Redes de Computa
@@ -392,8 +418,10 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
  s\,Security
 END:VEVENT
 BEGIN:VEVENT
-UID:b50a8d6f-3cd4-a9df-548d-121b43404a4a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbrc-simposio-brasileiro-de-redes-de-computadores-e-sistemas
+ -distribuidos-sbc-sociedade-brasileira-de-computacao.notification@opportun
+ ity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — SBRC (Simpósio Brasileiro de Redes de 
  Computadores e Sistemas Distribuídos)
 DESCRIPTION:Conference Name: SBRC (Simpósio Brasileiro de Redes de Computa
@@ -410,8 +438,10 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
  s\,Security
 END:VEVENT
 BEGIN:VEVENT
-UID:05908958-5300-ebdb-0494-fd6d2b9b5893@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbrc-simposio-brasileiro-de-redes-de-computadores-e-sistemas
+ -distribuidos-sbc-sociedade-brasileira-de-computacao.conference-period@opp
+ ortunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:SBRC (Simpósio Brasileiro de Redes de Computadores e Sistemas Dist
  ribuídos) Conference
 DESCRIPTION:Conference Name: SBRC (Simpósio Brasileiro de Redes de Computa
@@ -429,8 +459,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networks\,Distributed System
  s\,Security
 END:VEVENT
 BEGIN:VEVENT
-UID:b20d23b3-fc8c-8032-dd0d-4fe1c5dab839@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbbd-simposio-brasileiro-de-bancos-de-dados-sbc-sociedade-br
+ asileira-de-computacao.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — SBBD (Simpósio Brasileiro de Bancos 
  de Dados)
 DESCRIPTION:Conference Name: SBBD (Simpósio Brasileiro de Bancos de Dados)
@@ -446,8 +477,9 @@ URL:https://submissoes.sbc.org.br/
 CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
 END:VEVENT
 BEGIN:VEVENT
-UID:55013795-2862-3f74-80e6-2ecdc9ba8dbd@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbbd-simposio-brasileiro-de-bancos-de-dados-sbc-sociedade-br
+ asileira-de-computacao.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — SBBD (Simpósio Brasileiro de Bancos de
   Dados)
 DESCRIPTION:Conference Name: SBBD (Simpósio Brasileiro de Bancos de Dados)
@@ -463,8 +495,9 @@ URL:https://submissoes.sbc.org.br/
 CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
 END:VEVENT
 BEGIN:VEVENT
-UID:13d469d4-97d0-7aaf-59d8-b24629fa7ebf@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-sbbd-simposio-brasileiro-de-bancos-de-dados-sbc-sociedade-br
+ asileira-de-computacao.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:SBBD (Simpósio Brasileiro de Bancos de Dados) Conference
 DESCRIPTION:Conference Name: SBBD (Simpósio Brasileiro de Bancos de Dados)
  \nArea: Data\nTier: A\nCountry: Brazil\nRegion: Brazil\nOrganizer / Associ
@@ -480,8 +513,9 @@ URL:https://submissoes.sbc.org.br/
 CATEGORIES:Data\,Data\,Databases\,Data Management\,Big Data
 END:VEVENT
 BEGIN:VEVENT
-UID:f83112a5-2c74-d741-9780-ec990251eed4@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-kdd-acm-sigkdd-conference-on-knowledge-discovery-and-data-mi
+ ning-acm-sigkdd.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — KDD (ACM SIGKDD Conference on Knowled
  ge Discovery and Data Mining)
 DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
@@ -497,8 +531,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:1a9af6a5-1de6-e920-4f9c-34cc13cf2128@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-kdd-acm-sigkdd-conference-on-knowledge-discovery-and-data-mi
+ ning-acm-sigkdd.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — KDD (ACM SIGKDD Conference on Knowledge
   Discovery and Data Mining)
 DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
@@ -514,8 +549,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:b844b601-4050-1f95-348b-ef89bd5bb1d0@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-kdd-acm-sigkdd-conference-on-knowledge-discovery-and-data-mi
+ ning-acm-sigkdd.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) 
  Conference
 DESCRIPTION:Conference Name: KDD (ACM SIGKDD Conference on Knowledge Discov
@@ -532,8 +568,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data/AI\,Data/AI\,Data Mining\,Analytics\,Recommender Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:50053dd0-b7d7-bfaf-9cc0-86eb4e604594@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-vldb-international-conference-on-very-large-data-bases-vldb-
+ endowment.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Paper Submission Deadline — VLDB (International Conference on Ver
  y Large Data Bases)
 DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
@@ -549,25 +586,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
 END:VEVENT
 BEGIN:VEVENT
-UID:79992538-4390-9cc5-3b89-a6b5c498ae74@opportunity-tracker
-DTSTAMP:20260822T194557Z
-SUMMARY:Expected Paper Submission — VLDB (International Conference on Ver
- y Large Data Bases)
-DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
- ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
- er / Association: VLDB Endowment\nFocus Areas: Database Architecture\; Que
- ry Processing\; Distributed Databases\; Big Data Systems\nDate Status: Con
- firmed\nLocation Type: In-person\nResearch Tags: Databases\; Data Engines\
- ; Query Optimization\nIndustry Relevance Score: 9\nResearch Impact Score: 
- 10\nPrestige Score: 10\nPriority: P0\nNotes: Highest tiered data managemen
- t engine conference\, 2026 edition in Rio.
-DTSTART;VALUE=DATE:20260301
-URL:https://cmt3.research.microsoft.com/
-CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
-END:VEVENT
-BEGIN:VEVENT
-UID:bc9a1ea7-65cc-17b6-c928-46d799d9b459@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-vldb-international-conference-on-very-large-data-bases-vldb-
+ endowment.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — VLDB (International Conference on Very 
  Large Data Bases)
 DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
@@ -583,8 +604,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
 END:VEVENT
 BEGIN:VEVENT
-UID:e16b6049-f17e-81ad-9171-c382e2ec4a99@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-vldb-international-conference-on-very-large-data-bases-vldb-
+ endowment.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:VLDB (International Conference on Very Large Data Bases) Conference
 DESCRIPTION:Conference Name: VLDB (International Conference on Very Large D
  ata Bases)\nArea: Data\nTier: A*\nCountry: Brazil\nRegion: Brazil\nOrganiz
@@ -600,8 +622,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:Data\,Data\,Databases\,Data Engines\,Query Optimization
 END:VEVENT
 BEGIN:VEVENT
-UID:434acdde-64dd-0e7b-dad6-932f982e963f@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-chi-acm-chi-conference-on-human-factors-in-computing-systems
+ -acm-sigchi.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — CHI (ACM CHI Conference on Human Fact
  ors in Computing Systems)
 DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
@@ -617,8 +640,9 @@ URL:https://new.precisionconference.com/
 CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
 END:VEVENT
 BEGIN:VEVENT
-UID:752238f8-b865-6444-2804-bf27b95ffcab@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-chi-acm-chi-conference-on-human-factors-in-computing-systems
+ -acm-sigchi.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — CHI (ACM CHI Conference on Human Factor
  s in Computing Systems)
 DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
@@ -634,8 +658,9 @@ URL:https://new.precisionconference.com/
 CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
 END:VEVENT
 BEGIN:VEVENT
-UID:84628289-45ac-4f80-81d4-2073646e475a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-chi-acm-chi-conference-on-human-factors-in-computing-systems
+ -acm-sigchi.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:CHI (ACM CHI Conference on Human Factors in Computing Systems) Conf
  erence
 DESCRIPTION:Conference Name: CHI (ACM CHI Conference on Human Factors in Co
@@ -652,8 +677,9 @@ URL:https://new.precisionconference.com/
 CATEGORIES:HCI\,HCI\,HCI\,UI Design\,User Experience
 END:VEVENT
 BEGIN:VEVENT
-UID:b98d098e-322e-40e6-59ff-2cccf7989368@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-popl-acm-sigplan-symposium-on-principles-of-programming-lang
+ uages-acm-sigplan.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Paper Submission Deadline — POPL (ACM SIGPLAN Symposium on Princi
  ples of Programming Languages)
 DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
@@ -670,26 +696,9 @@ CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
  ethods
 END:VEVENT
 BEGIN:VEVENT
-UID:c1f8c9a6-5ec0-1424-c973-a63421ea02f2@opportunity-tracker
-DTSTAMP:20260822T194557Z
-SUMMARY:Expected Paper Submission — POPL (ACM SIGPLAN Symposium on Princi
- ples of Programming Languages)
-DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
- rogramming Languages)\nArea: Theory/PL\nTier: A*\nCountry: United States\n
- Region: US\nOrganizer / Association: ACM SIGPLAN\nFocus Areas: Programming
-  Language Theory\; Formal Verification\; Compilers\; Semantics\nDate Statu
- s: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.24\nResearch Ta
- gs: Programming Languages\; Compilers\; Formal Methods\nIndustry Relevance
-  Score: 6\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: P0\nNo
- tes: Pinnacle theory-focused programming languages venue.
-DTSTART;VALUE=DATE:20260701
-URL:https://hotcrp.com/
-CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
- ethods
-END:VEVENT
-BEGIN:VEVENT
-UID:6cef8904-5f86-000e-b750-ee2be332d435@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-popl-acm-sigplan-symposium-on-principles-of-programming-lang
+ uages-acm-sigplan.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — POPL (ACM SIGPLAN Symposium on Principl
  es of Programming Languages)
 DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
@@ -706,8 +715,9 @@ CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
  ethods
 END:VEVENT
 BEGIN:VEVENT
-UID:ed86e83f-ce93-c66d-cedd-f5f311729708@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-popl-acm-sigplan-symposium-on-principles-of-programming-lang
+ uages-acm-sigplan.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:POPL (ACM SIGPLAN Symposium on Principles of Programming Languages)
   Conference
 DESCRIPTION:Conference Name: POPL (ACM SIGPLAN Symposium on Principles of P
@@ -725,8 +735,9 @@ CATEGORIES:Theory/PL\,Theory/PL\,Programming Languages\,Compilers\,Formal M
  ethods
 END:VEVENT
 BEGIN:VEVENT
-UID:aafbe608-3bda-9ca7-74ca-e442fe8e9ae6@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-pldi-acm-sigplan-conference-on-programming-language-design-a
+ nd-implementation-acm-sigplan.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — PLDI (ACM SIGPLAN Conference on Progr
  amming Language Design and Implementation)
 DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
@@ -743,8 +754,9 @@ CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
  tware
 END:VEVENT
 BEGIN:VEVENT
-UID:edc3b4ad-c6e0-a892-b602-3778cd07af7a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-pldi-acm-sigplan-conference-on-programming-language-design-a
+ nd-implementation-acm-sigplan.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — PLDI (ACM SIGPLAN Conference on Program
  ming Language Design and Implementation)
 DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
@@ -761,8 +773,9 @@ CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
  tware
 END:VEVENT
 BEGIN:VEVENT
-UID:6662412e-15ae-f121-2bbe-e025f964691a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-pldi-acm-sigplan-conference-on-programming-language-design-a
+ nd-implementation-acm-sigplan.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:PLDI (ACM SIGPLAN Conference on Programming Language Design and Imp
  lementation) Conference
 DESCRIPTION:Conference Name: PLDI (ACM SIGPLAN Conference on Programming La
@@ -780,8 +793,9 @@ CATEGORIES:Systems/PL\,Systems/PL\,Compilers\,Program Analysis\,Systems Sof
  tware
 END:VEVENT
 BEGIN:VEVENT
-UID:75c9deaf-fbf4-a64d-2f8c-9a9fa3ada466@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-aaai-aaai-conference-on-artificial-intelligence-aaai.submiss
+ ion-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — AAAI (AAAI Conference on Artificial I
  ntelligence)
 DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
@@ -797,8 +811,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:1ff2ae89-8d62-e02e-f266-d18ac55dfeca@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-aaai-aaai-conference-on-artificial-intelligence-aaai.notific
+ ation@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — AAAI (AAAI Conference on Artificial Int
  elligence)
 DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
@@ -814,8 +829,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:ab7580f1-b1ee-2d4c-7f24-57af1863f062@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-aaai-aaai-conference-on-artificial-intelligence-aaai.confere
+ nce-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:AAAI (AAAI Conference on Artificial Intelligence) Conference
 DESCRIPTION:Conference Name: AAAI (AAAI Conference on Artificial Intelligen
  ce)\nArea: AI/ML\nTier: A\nCountry: United States\nRegion: US\nOrganizer /
@@ -831,8 +847,9 @@ URL:https://cmt3.research.microsoft.com/
 CATEGORIES:AI/ML\,AI/ML\,Artificial Intelligence\,Multi-Agent Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:98d7ddce-dd29-6d1b-e474-36e02baa60f6@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-nsdi-usenix-symposium-on-networked-systems-design-and-implem
+ entation-usenix.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Paper Submission Deadline — NSDI (USENIX Symposium on Networked S
  ystems Design and Implementation)
 DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
@@ -850,27 +867,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
  ed Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:f2c3d597-8b59-5b86-0d34-dd0115a9adfd@opportunity-tracker
-DTSTAMP:20260822T194557Z
-SUMMARY:Expected Paper Submission — NSDI (USENIX Symposium on Networked S
- ystems Design and Implementation)
-DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
- sign and Implementation)\nArea: Systems/Networks\nTier: A*\nCountry: Unite
- d States\nRegion: US\nOrganizer / Association: USENIX\nFocus Areas: Networ
- ked Systems\; Cloud Infrastructures\; Data Center Networks\; P2P Systems\n
- Date Status: Confirmed\nLocation Type: In-person\nAcceptance Rate: 0.19\nR
- esearch Tags: Networked Systems\; Distributed Infrastructure\nIndustry Rel
- evance Score: 9\nResearch Impact Score: 10\nPrestige Score: 10\nPriority: 
- P0\nNotes: High-prestige conference focused on full-stack web/cloud system
- s.
-DTSTART;VALUE=DATE:20260901
-URL:https://hotcrp.com/
-CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
- ed Infrastructure
-END:VEVENT
-BEGIN:VEVENT
-UID:13c47d4b-5c93-6259-c061-7afa3a4521d5@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-nsdi-usenix-symposium-on-networked-systems-design-and-implem
+ entation-usenix.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — NSDI (USENIX Symposium on Networked Sys
  tems Design and Implementation)
 DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
@@ -888,8 +887,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
  ed Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:9971ce66-a309-b54b-faa4-e6041cd6a142@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-nsdi-usenix-symposium-on-networked-systems-design-and-implem
+ entation-usenix.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:NSDI (USENIX Symposium on Networked Systems Design and Implementati
  on) Conference
 DESCRIPTION:Conference Name: NSDI (USENIX Symposium on Networked Systems De
@@ -908,8 +908,9 @@ CATEGORIES:Systems/Networks\,Systems/Networks\,Networked Systems\,Distribut
  ed Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:34f326de-b129-f6c4-9100-44cd849eeacb@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-osdi-usenix-symposium-on-operating-systems-design-and-implem
+ entation-usenix.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — OSDI (USENIX Symposium on Operating S
  ystems Design and Implementation)
 DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
@@ -925,8 +926,9 @@ URL:https://hotcrp.com/
 CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:7d9f6e22-a962-3d23-1d7a-0a7139f458ef@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-osdi-usenix-symposium-on-operating-systems-design-and-implem
+ entation-usenix.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — OSDI (USENIX Symposium on Operating Sys
  tems Design and Implementation)
 DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
@@ -942,8 +944,9 @@ URL:https://hotcrp.com/
 CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:42a3cc0f-34e8-65d5-f8c8-a51f7a869cf9@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-osdi-usenix-symposium-on-operating-systems-design-and-implem
+ entation-usenix.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:OSDI (USENIX Symposium on Operating Systems Design and Implementati
  on) Conference
 DESCRIPTION:Conference Name: OSDI (USENIX Symposium on Operating Systems De
@@ -960,8 +963,9 @@ URL:https://hotcrp.com/
 CATEGORIES:Systems\,Systems\,Operating Systems\,Cloud Infrastructure
 END:VEVENT
 BEGIN:VEVENT
-UID:6f6ee7d8-3e3f-836a-9a8c-32be68bfe9d0@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-emnlp-conference-on-empirical-methods-in-natural-language-pr
+ ocessing-acl-sigdat.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — EMNLP (Conference on Empirical Method
  s in Natural Language Processing)
 DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
@@ -977,8 +981,9 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
 END:VEVENT
 BEGIN:VEVENT
-UID:cbffcead-9ad1-d379-d282-24744afc6b08@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-emnlp-conference-on-empirical-methods-in-natural-language-pr
+ ocessing-acl-sigdat.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — EMNLP (Conference on Empirical Methods 
  in Natural Language Processing)
 DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
@@ -994,8 +999,9 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
 END:VEVENT
 BEGIN:VEVENT
-UID:9884056c-ebeb-649f-7546-f9d82d9512e4@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-emnlp-conference-on-empirical-methods-in-natural-language-pr
+ ocessing-acl-sigdat.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:EMNLP (Conference on Empirical Methods in Natural Language Processi
  ng) Conference
 DESCRIPTION:Conference Name: EMNLP (Conference on Empirical Methods in Natu
@@ -1012,8 +1018,9 @@ URL:https://openreview.net/
 CATEGORIES:NLP/AI\,NLP/AI\,NLP\,Text Mining\,Machine Translation
 END:VEVENT
 BEGIN:VEVENT
-UID:c5673579-b417-8b10-93bb-535c46f3a6b8@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-www-the-web-conference-acm-iw3c2.submission-deadline@opportu
+ nity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Paper Submission Deadline — WWW (The Web Conference)
 DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
  : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
@@ -1029,25 +1036,9 @@ CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
  on Retrieval
 END:VEVENT
 BEGIN:VEVENT
-UID:7dc2022f-cd10-0173-6e63-c5991db29956@opportunity-tracker
-DTSTAMP:20260822T194557Z
-SUMMARY:Expected Paper Submission — WWW (The Web Conference)
-DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
- : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
- nFocus Areas: Web Mining\; Social Network Analysis\; Search Engines\; Web 
- Security\nDate Status: Confirmed\nLocation Type: In-person\nAcceptance Rat
- e: 0.2\nResearch Tags: Web Architecture\; Social Networks\; Information Re
- trieval\nIndustry Relevance Score: 9\nResearch Impact Score: 9\nPrestige S
- core: 10\nPriority: P0\nNotes: Top-tier venue for Web infrastructure\, alg
- orithms and networks.
-DTSTART;VALUE=DATE:20261001
-URL:https://easychair.org/
-CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
- on Retrieval
-END:VEVENT
-BEGIN:VEVENT
-UID:65cb949e-e4b4-a7ac-c02a-41c146e062fa@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-www-the-web-conference-acm-iw3c2.notification@opportunity-tr
+ acker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — WWW (The Web Conference)
 DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
  : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
@@ -1063,8 +1054,9 @@ CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
  on Retrieval
 END:VEVENT
 BEGIN:VEVENT
-UID:6ce9deb7-8b90-f1c0-c272-ab2fee8bb909@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-www-the-web-conference-acm-iw3c2.conference-period@opportuni
+ ty-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:WWW (The Web Conference) Conference
 DESCRIPTION:Conference Name: WWW (The Web Conference)\nArea: Data/Web\nTier
  : A*\nCountry: Brazil\nRegion: Brazil\nOrganizer / Association: ACM IW3C2\
@@ -1081,8 +1073,9 @@ CATEGORIES:Data/Web\,Data/Web\,Web Architecture\,Social Networks\,Informati
  on Retrieval
 END:VEVENT
 BEGIN:VEVENT
-UID:afdccb38-e4c4-0770-525d-fb785c1d7553@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icse-international-conference-on-software-engineering-acm-ie
+ ee.submission-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Paper Submission — ICSE (International Conference on Sof
  tware Engineering)
 DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
@@ -1099,8 +1092,9 @@ CATEGORIES:Software Eng.\,Software Eng.\,Software Engineering\,Testing\,Cod
  e Automation
 END:VEVENT
 BEGIN:VEVENT
-UID:6cd4e04d-21a5-7b8d-130b-bb4f31d549a3@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icse-international-conference-on-software-engineering-acm-ie
+ ee.notification@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Acceptance Notification — ICSE (International Conference on Softw
  are Engineering)
 DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
@@ -1117,8 +1111,9 @@ CATEGORIES:Software Eng.\,Software Eng.\,Software Engineering\,Testing\,Cod
  e Automation
 END:VEVENT
 BEGIN:VEVENT
-UID:08a7530e-ed06-a8c8-e852-80ad05d151ed@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:conference-icse-international-conference-on-software-engineering-acm-ie
+ ee.conference-period@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:ICSE (International Conference on Software Engineering) Conference
 DESCRIPTION:Conference Name: ICSE (International Conference on Software Eng
  ineering)\nArea: Software Eng.\nTier: A*\nCountry: Portugal\nRegion: Europ

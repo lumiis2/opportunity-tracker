@@ -15,6 +15,7 @@ from src.utils.date_helpers import (
     parse_month_start,
     split_tags,
 )
+from src.utils.identifiers import event_id, opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -70,6 +71,7 @@ class ConferenceParser:
         name = clean_text(row.get("Conference Name"))
         if not name:
             return []
+        source_id = opportunity_id("conference", name, row.get("Organizer / Association"))
 
         area = clean_text(row.get("Area"))
         research_tags = split_tags(row.get("Research Tags"))
@@ -88,6 +90,7 @@ class ConferenceParser:
         if sub_dead:
             events.append(
                 self._event(
+                    id=event_id(source_id, "submission-deadline"),
                     title=f"Paper Submission Deadline — {name}",
                     start_date=sub_dead,
                     description=description,
@@ -99,9 +102,10 @@ class ConferenceParser:
 
         # Expected submission month
         expected_sub = parse_month_start(row.get("Expected Submission Month"))
-        if expected_sub:
+        if expected_sub and not sub_dead:
             events.append(
                 self._event(
+                    id=event_id(source_id, "submission-deadline"),
                     title=f"Expected Paper Submission — {name}",
                     start_date=expected_sub,
                     description=description,
@@ -116,6 +120,7 @@ class ConferenceParser:
         if notif:
             events.append(
                 self._event(
+                    id=event_id(source_id, "notification"),
                     title=f"Acceptance Notification — {name}",
                     start_date=notif,
                     description=description,
@@ -135,6 +140,7 @@ class ConferenceParser:
                 if start and end:
                     events.append(
                         ConferenceParser()._event(
+                            id=event_id(source_id, "conference-period"),
                             title=f"{name} Conference",
                             start_date=start,
                             # RFC 5545 uses an exclusive DTEND for all-day events.
@@ -151,6 +157,7 @@ class ConferenceParser:
     def _event(
         self,
         *,
+        id: str,
         title: str,
         start_date: date,
         description: str,
@@ -160,6 +167,7 @@ class ConferenceParser:
         end_date: date | None = None,
     ) -> CalendarEvent:
         return CalendarEvent(
+            id=id,
             title=title,
             description=description,
             start_date=start_date,

@@ -9,6 +9,7 @@ import re
 
 from src.core.calendar_event import CalendarEvent
 from src.utils.date_helpers import clean_text, join_non_empty_lines, parse_exact_date, parse_month_start
+from src.utils.identifiers import event_id, opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -73,6 +74,7 @@ class AiMlResearchFellowshipsParser:
         program = _link_label(row.get("Program"))
         if not program:
             return []
+        source_id = opportunity_id("ai-ml", program, row.get("Organization"))
 
         category = clean_text(row.get("Category")) or None
         subcategory = clean_text(row.get("Subcategory"))
@@ -85,9 +87,9 @@ class AiMlResearchFellowshipsParser:
         deadline = parse_exact_date(row.get("Application Deadline"))
 
         if application_open:
-            events.append(self._event(f"Applications Open — {program}", application_open, description, url, category, tags))
+            events.append(self._event(event_id(source_id, "application-open"), f"Applications Open — {program}", application_open, description, url, category, tags))
         if deadline:
-            events.append(self._event(f"Application Deadline — {program}", deadline, description, url, category, tags))
+            events.append(self._event(event_id(source_id, "application-deadline"), f"Application Deadline — {program}", deadline, description, url, category, tags))
 
         expected_open = None
         if not application_open:
@@ -95,7 +97,7 @@ class AiMlResearchFellowshipsParser:
                 row.get("Expected Open Month")
             )
             if expected_open:
-                events.append(self._event(f"Expected Applications Open — {program}", expected_open, description, url, category, tags))
+                events.append(self._event(event_id(source_id, "application-open"), f"Expected Applications Open — {program}", expected_open, description, url, category, tags))
 
         if not deadline:
             fallback_year = expected_open.year if expected_open else None
@@ -107,11 +109,12 @@ class AiMlResearchFellowshipsParser:
             if expected_deadline:
                 if expected_open and expected_deadline < expected_open:
                     expected_deadline = expected_deadline.replace(year=expected_deadline.year + 1)
-                events.append(self._event(f"Expected Application Deadline — {program}", expected_deadline, description, url, category, tags))
+                events.append(self._event(event_id(source_id, "application-deadline"), f"Expected Application Deadline — {program}", expected_deadline, description, url, category, tags))
 
         if not events and self._is_continuous(row):
             events.append(
                 self._event(
+                    event_id(source_id, "continuous-applications"),
                     f"Applications Open Continuously — {program}",
                     date(date.today().year, 1, 1),
                     description,
@@ -138,6 +141,7 @@ class AiMlResearchFellowshipsParser:
 
     @staticmethod
     def _event(
+        id: str,
         title: str,
         start_date: date,
         description: str,
@@ -146,6 +150,7 @@ class AiMlResearchFellowshipsParser:
         tags: list[str],
     ) -> CalendarEvent:
         return CalendarEvent(
+            id=id,
             title=title,
             start_date=start_date,
             description=description,

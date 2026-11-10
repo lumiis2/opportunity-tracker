@@ -9,6 +9,7 @@ from pathlib import Path
 
 from src.core.calendar_event import CalendarEvent
 from src.utils.date_helpers import clean_text, join_non_empty_lines, parse_exact_date
+from src.utils.identifiers import event_id, opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -66,6 +67,7 @@ class PersonalParser:
         program = clean_text(row.get("Programa"))
         if not program:
             return []
+        source_id = opportunity_id("personal", program, row.get("Instituição / organização"))
         description = self._description(row)
         url = _url(row.get("Link"))
         category = clean_text(row.get("Categoria")) or None
@@ -75,9 +77,29 @@ class PersonalParser:
         opened = parse_exact_date(row.get("Applications open"))
         deadline = parse_exact_date(row.get("Deadline"))
         if opened:
-            events.append(CalendarEvent(f"Applications Open — {program}", description, opened, url=url, category=category, tags=tags))
+            events.append(
+                CalendarEvent(
+                    id=event_id(source_id, "application-open"),
+                    title=f"Applications Open — {program}",
+                    description=description,
+                    start_date=opened,
+                    url=url,
+                    category=category,
+                    tags=tags,
+                )
+            )
         if deadline:
-            events.append(CalendarEvent(f"Application Deadline — {program}", description, deadline, url=url, category=category, tags=tags))
+            events.append(
+                CalendarEvent(
+                    id=event_id(source_id, "application-deadline"),
+                    title=f"Application Deadline — {program}",
+                    description=description,
+                    start_date=deadline,
+                    url=url,
+                    category=category,
+                    tags=tags,
+                )
+            )
 
         period = clean_text(row.get("Período / data do programa"))
         match = _RANGE.search(period)
@@ -85,14 +107,45 @@ class PersonalParser:
             start, end = parse_exact_date(match.group(1)), parse_exact_date(match.group(2))
             if start and end:
                 # DTEND is exclusive for all-day events.
-                events.append(CalendarEvent(program, description, start, end + timedelta(days=1), url, category, tags))
+                events.append(
+                    CalendarEvent(
+                        id=event_id(source_id, "program-period"),
+                        title=program,
+                        description=description,
+                        start_date=start,
+                        end_date=end + timedelta(days=1),
+                        url=url,
+                        category=category,
+                        tags=tags,
+                    )
+                )
         else:
             exact = parse_exact_date(period)
             estimated = _estimated_period(period) if not exact else None
             if exact:
-                events.append(CalendarEvent(program, description, exact, url=url, category=category, tags=tags))
+                events.append(
+                    CalendarEvent(
+                        id=event_id(source_id, "program-period"),
+                        title=program,
+                        description=description,
+                        start_date=exact,
+                        url=url,
+                        category=category,
+                        tags=tags,
+                    )
+                )
             elif estimated:
-                events.append(CalendarEvent(f"Expected Program Period — {program}", description, estimated, url=url, category=category, tags=tags))
+                events.append(
+                    CalendarEvent(
+                        id=event_id(source_id, "program-period"),
+                        title=f"Expected Program Period — {program}",
+                        description=description,
+                        start_date=estimated,
+                        url=url,
+                        category=category,
+                        tags=tags,
+                    )
+                )
         return events
 
     @staticmethod

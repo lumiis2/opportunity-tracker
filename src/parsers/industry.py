@@ -14,6 +14,7 @@ from src.utils.date_helpers import (
     parse_month_start,
     split_tags,
 )
+from src.utils.identifiers import event_id, opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -74,6 +75,7 @@ class IndustryParser:
         program_name = company
         if not program_name:
             return []
+        source_id = opportunity_id("industry", company)
 
         title_base = f"{program_name}".strip()
         description = self._build_description(row)
@@ -89,6 +91,7 @@ class IndustryParser:
         if app_open:
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-open"),
                     title=f"Applications Open — {title_base}",
                     start_date=app_open,
                     description=description,
@@ -102,6 +105,7 @@ class IndustryParser:
         if app_deadline:
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-deadline"),
                     title=f"Application Deadline — {title_base}",
                     start_date=app_deadline,
                     description=description,
@@ -115,6 +119,7 @@ class IndustryParser:
         if expected_open:
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-open"),
                     title=f"Expected Applications Open — {title_base}",
                     start_date=expected_open,
                     description=description,
@@ -137,6 +142,7 @@ class IndustryParser:
                 expected_deadline = expected_deadline.replace(year=expected_deadline.year + 1)
             events.append(
                 self._event(
+                    id=event_id(source_id, "application-deadline"),
                     title=f"Expected Application Deadline — {title_base}",
                     start_date=expected_deadline,
                     description=description,
@@ -151,6 +157,7 @@ class IndustryParser:
     def _event(
         self,
         *,
+        id: str,
         title: str,
         start_date: date,
         description: str,
@@ -159,6 +166,7 @@ class IndustryParser:
         tags: list[str],
     ) -> CalendarEvent:
         return CalendarEvent(
+            id=id,
             title=title,
             description=description,
             start_date=start_date,

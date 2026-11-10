@@ -13,6 +13,7 @@ def test_personal_tracker_generates_deadline_and_estimated_periods():
     ]
     assert events[0].category == "Research internship"
     assert events[0].tags == ["Undergrad", "Alta"]
+    assert events[0].id == "personal-uare-winter-university-of-alberta.application-deadline"
     assert events[0].url.startswith("https://www.ualberta.ca/")
     assert "Já apliquei?" not in events[0].description
 

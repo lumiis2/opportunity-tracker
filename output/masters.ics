@@ -6,8 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Masters Programs
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:61aa2d9c-89b4-b8a7-89d8-6d0d7d0488a1@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-stanford-university-master-of-science-in-computer-science-mscs.
+ application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Stanford University Master of Scienc
  e in Computer Science (MSCS)
 DESCRIPTION:University: Stanford University\nProgram: Master of Science in 
@@ -35,8 +36,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:ebccc8b1-c6cb-31db-0abb-669d7c462c77@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-stanford-university-master-of-science-in-computer-science-mscs.
+ application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Stanford University Master of Sci
  ence in Computer Science (MSCS)
 DESCRIPTION:University: Stanford University\nProgram: Master of Science in 
@@ -64,8 +66,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:832b2393-48af-3233-acdb-f86afc76156c@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-carnegie-mellon-university-master-of-science-in-computer-scienc
+ e-mscs.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Carnegie Mellon University Master of
   Science in Computer Science (MSCS)
 DESCRIPTION:University: Carnegie Mellon University\nProgram: Master of Scie
@@ -94,8 +97,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:3bbafaa5-af75-e2bf-4340-e2f587301bb0@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-carnegie-mellon-university-master-of-science-in-computer-scienc
+ e-mscs.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Carnegie Mellon University Master
   of Science in Computer Science (MSCS)
 DESCRIPTION:University: Carnegie Mellon University\nProgram: Master of Scie
@@ -124,8 +128,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:30d85f36-68d7-9bb5-0e6f-ce182abe2e63@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-california-berkeley-master-of-science-in-computer
+ -science.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — University of California\, Berkeley 
  Master of Science in Computer Science
 DESCRIPTION:University: University of California\, Berkeley\nProgram: Maste
@@ -154,8 +159,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:1ad6b525-399e-0d8a-ccfe-887903a0b5d2@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-california-berkeley-master-of-science-in-computer
+ -science.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — University of California\, Berkel
  ey Master of Science in Computer Science
 DESCRIPTION:University: University of California\, Berkeley\nProgram: Maste
@@ -184,8 +190,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:eb70da17-4c4e-3d41-2bf3-8110b3c61eed@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-georgia-institute-of-technology-master-of-science-in-computer-s
+ cience.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Georgia Institute of Technology Mast
  er of Science in Computer Science
 DESCRIPTION:University: Georgia Institute of Technology\nProgram: Master of
@@ -212,8 +219,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML\,Data Engineering
  Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:84b71c41-2e22-aef4-d19e-70ae09036c92@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-georgia-institute-of-technology-master-of-science-in-computer-s
+ cience.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Georgia Institute of Technology M
  aster of Science in Computer Science
 DESCRIPTION:University: Georgia Institute of Technology\nProgram: Master of
@@ -240,8 +248,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML\,Data Engineering
  Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:ee48f791-0e0b-ad35-5b51-413fd47a63b1@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-toronto-master-of-science-in-computer-science.app
+ lication-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — University of Toronto Master of Scie
  nce in Computer Science
 DESCRIPTION:University: University of Toronto\nProgram: Master of Science i
@@ -267,8 +276,9 @@ URL:https://www.utoronto.ca
 CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
-UID:395966ad-e0e6-8ced-14c0-0df7eebdd55d@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-toronto-master-of-science-in-computer-science.app
+ lication-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — University of Toronto Master of S
  cience in Computer Science
 DESCRIPTION:University: University of Toronto\nProgram: Master of Science i
@@ -294,8 +304,9 @@ URL:https://www.utoronto.ca
 CATEGORIES:Computer Vision\,Multimodal AI\,Scientific ML
 END:VEVENT
 BEGIN:VEVENT
-UID:7c333c34-6d2f-8cbc-99fb-e53d8fe51184@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-universite-de-montreal-msc-in-computer-science-ai-specialized.a
+ pplication-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Université de Montréal MSc in Comp
  uter Science / AI Specialized
 DESCRIPTION:University: Université de Montréal\nProgram: MSc in Computer 
@@ -323,8 +334,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:bb7c3e1c-2589-6b2b-c49f-44804e02461e@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-universite-de-montreal-msc-in-computer-science-ai-specialized.a
+ pplication-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Université de Montréal MSc in C
  omputer Science / AI Specialized
 DESCRIPTION:University: Université de Montréal\nProgram: MSc in Computer 
@@ -352,8 +364,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  \,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:22b5821a-a87f-a904-1d4d-a6dc4774c43a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-eth-zurich-master-of-science-in-computer-science.application-op
+ en@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — ETH Zurich Master of Science in Comp
  uter Science
 DESCRIPTION:University: ETH Zurich\nProgram: Master of Science in Computer 
@@ -381,8 +394,9 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Data Centric
  AI\,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:6f661fb4-7132-91c3-568e-a8af040e9655@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-eth-zurich-master-of-science-in-computer-science.application-de
+ adline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — ETH Zurich Master of Science in C
  omputer Science
 DESCRIPTION:University: ETH Zurich\nProgram: Master of Science in Computer 
@@ -410,8 +424,9 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Data Centric
  AI\,Reinforcement Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:8086a1be-024a-007e-e8e9-e61c1789693e@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-epfl-ecole-polytechnique-federale-de-lausanne-master-of-science
+ -in-computer-science-data-science.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — EPFL (École Polytechnique Fédéral
  e de Lausanne) Master of Science in Computer Science / Data Science
 DESCRIPTION:University: EPFL (École Polytechnique Fédérale de Lausanne)\
@@ -440,8 +455,9 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Reinforcement
   Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:0cb08224-cf97-f4a7-4a85-5a39553d3742@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-epfl-ecole-polytechnique-federale-de-lausanne-master-of-science
+ -in-computer-science-data-science.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — EPFL (École Polytechnique Fédé
  rale de Lausanne) Master of Science in Computer Science / Data Science
 DESCRIPTION:University: EPFL (École Polytechnique Fédérale de Lausanne)\
@@ -470,8 +486,9 @@ CATEGORIES:Computer Vision\,Foundation Models\,Scientific ML\,Reinforcement
   Learning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:67acb028-1afc-0ff1-2100-5001706e5210@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-technical-university-of-munich-master-of-science-in-informatics
+ .application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Technical University of Munich Maste
  r of Science in Informatics
 DESCRIPTION:University: Technical University of Munich\nProgram: Master of 
@@ -499,8 +516,9 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Engineering Distributed Sys
  tems
 END:VEVENT
 BEGIN:VEVENT
-UID:ba58ba0e-f97e-1df0-5ca8-1eb00e6937fd@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-technical-university-of-munich-master-of-science-in-informatics
+ .application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Technical University of Munich Ma
  ster of Science in Informatics
 DESCRIPTION:University: Technical University of Munich\nProgram: Master of 
@@ -528,8 +546,9 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Engineering Distributed Sys
  tems
 END:VEVENT
 BEGIN:VEVENT
-UID:0c16e05c-867d-625e-4184-fda16a802df8@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-cambridge-advanced-computer-science.application-o
+ pen@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — University of Cambridge Advanced Com
  puter Science
 DESCRIPTION:University: University of Cambridge\nProgram: Advanced Computer
@@ -558,8 +577,9 @@ CATEGORIES:Advanced ML\,Foundation Models\,Scientific ML\,Reinforcement Lea
  rning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:7f30d34e-29ec-fdc8-67c4-4edd81797e25@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-cambridge-advanced-computer-science.application-d
+ eadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — University of Cambridge Advanced 
  Computer Science
 DESCRIPTION:University: University of Cambridge\nProgram: Advanced Computer
@@ -588,8 +608,9 @@ CATEGORIES:Advanced ML\,Foundation Models\,Scientific ML\,Reinforcement Lea
  rning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:dfc324d4-862a-035f-aba5-ab7d5bccad78@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-amsterdam-master-of-science-in-artificial-intelli
+ gence.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — University of Amsterdam Master of Sc
  ience in Artificial Intelligence
 DESCRIPTION:University: University of Amsterdam\nProgram: Master of Science
@@ -617,8 +638,9 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Centric AI\,Reinforcement L
  earning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:090e499d-5824-0a8c-1845-d74a4b378b28@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-amsterdam-master-of-science-in-artificial-intelli
+ gence.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — University of Amsterdam Master of
   Science in Artificial Intelligence
 DESCRIPTION:University: University of Amsterdam\nProgram: Master of Science
@@ -646,8 +668,9 @@ CATEGORIES:Computer Vision\,Scientific ML\,Data Centric AI\,Reinforcement L
  earning\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:3ec353a2-3a62-a132-88c0-30485aa21b01@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-national-university-of-singapore-master-of-computing-artificial
+ -intelligence-specialization.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — National University of Singapore Mas
  ter of Computing (Artificial Intelligence Specialization)
 DESCRIPTION:University: National University of Singapore\nProgram: Master o
@@ -678,8 +701,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  stems
 END:VEVENT
 BEGIN:VEVENT
-UID:adf98cc3-2895-eab7-23df-6324979f09cc@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-national-university-of-singapore-master-of-computing-artificial
+ -intelligence-specialization.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — National University of Singapore 
  Master of Computing (Artificial Intelligence Specialization)
 DESCRIPTION:University: National University of Singapore\nProgram: Master o
@@ -710,8 +734,9 @@ CATEGORIES:Computer Vision\,Multimodal AI\,Foundation Models\,Scientific ML
  stems
 END:VEVENT
 BEGIN:VEVENT
-UID:13bf8eb8-7db9-422f-c50c-9d71e4f576c0@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-hong-kong-master-of-science-in-computer-science.a
+ pplication-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — University of Hong Kong Master of Sc
  ience in Computer Science
 DESCRIPTION:University: University of Hong Kong\nProgram: Master of Science
@@ -739,8 +764,9 @@ CATEGORIES:Foundation Models\,Scientific ML\,Data Engineering Distributed S
  ystems
 END:VEVENT
 BEGIN:VEVENT
-UID:b7fb43a1-4496-6345-ae92-7b9eb206ff49@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-university-of-hong-kong-master-of-science-in-computer-science.a
+ pplication-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — University of Hong Kong Master of
   Science in Computer Science
 DESCRIPTION:University: University of Hong Kong\nProgram: Master of Science
@@ -768,8 +794,9 @@ CATEGORIES:Foundation Models\,Scientific ML\,Data Engineering Distributed S
  ystems
 END:VEVENT
 BEGIN:VEVENT
-UID:e036142d-d83f-480a-12cb-3d9d5692e909@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-hong-kong-polytechnic-university-master-of-science-in-informati
+ on-technology-ai-tracks.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Hong Kong Polytechnic University Mas
  ter of Science in Information Technology / AI Tracks
 DESCRIPTION:University: Hong Kong Polytechnic University\nProgram: Master o
@@ -797,8 +824,9 @@ CATEGORIES:Computer Vision\,Data Centric AI\,Data Engineering Distributed S
  ystems
 END:VEVENT
 BEGIN:VEVENT
-UID:be14ed5b-7fa7-1640-9936-13f678ff9264@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-hong-kong-polytechnic-university-master-of-science-in-informati
+ on-technology-ai-tracks.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Hong Kong Polytechnic University 
  Master of Science in Information Technology / AI Tracks
 DESCRIPTION:University: Hong Kong Polytechnic University\nProgram: Master o
@@ -826,8 +854,9 @@ CATEGORIES:Computer Vision\,Data Centric AI\,Data Engineering Distributed S
  ystems
 END:VEVENT
 BEGIN:VEVENT
-UID:5d0bdbb9-4292-0c9b-8f7e-ffde06dfbe34@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-city-university-of-hong-kong-master-of-science-in-computer-scie
+ nce.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — City University of Hong Kong Master 
  of Science in Computer Science
 DESCRIPTION:University: City University of Hong Kong\nProgram: Master of Sc
@@ -854,8 +883,9 @@ URL:https://www.cityu.edu.hk
 CATEGORIES:Scientific ML\,Data Engineering Distributed Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:dc67ab99-c788-f7c0-1001-e2c5cb0a5321@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:masters-city-university-of-hong-kong-master-of-science-in-computer-scie
+ nce.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — City University of Hong Kong Mast
  er of Science in Computer Science
 DESCRIPTION:University: City University of Hong Kong\nProgram: Master of Sc

@@ -6,8 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Industry Opportunities
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:f57bbf20-c274-c07a-f2db-457a7acc8fe9@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-shopify.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Shopify
 DESCRIPTION:Company: Shopify\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Late Stage\nHeadquarters: Canada\nPrimary Focus: Backend + D
@@ -22,8 +22,8 @@ URL:https://www.shopify.com/careers
 CATEGORIES:Internships\,Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
-UID:2d0f2194-7dc3-c2ad-2612-c763d3b10741@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-shopify.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Shopify
 DESCRIPTION:Company: Shopify\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Late Stage\nHeadquarters: Canada\nPrimary Focus: Backend + D
@@ -38,8 +38,8 @@ URL:https://www.shopify.com/careers
 CATEGORIES:Internships\,Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
-UID:6a06c4bc-4ea0-25cc-ce2f-123cc8702d8d@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-databricks.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Databricks
 DESCRIPTION:Company: Databricks\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: D
@@ -54,8 +54,8 @@ URL:https://www.databricks.com/company/careers
 CATEGORIES:Internships\,Data + AI Infra\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:2cc74242-8387-59e8-fb4e-e023f3136adc@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-databricks.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Databricks
 DESCRIPTION:Company: Databricks\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: D
@@ -70,8 +70,8 @@ URL:https://www.databricks.com/company/careers
 CATEGORIES:Internships\,Data + AI Infra\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:2fe16034-8989-03ba-d648-7af658ff427a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-cloudflare.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Cloudflare
 DESCRIPTION:Company: Cloudflare\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: I
@@ -86,8 +86,8 @@ URL:https://www.cloudflare.com/careers/
 CATEGORIES:Internships\,Infra + Security\,Networking\,Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:70c34718-7d97-841e-80a7-28ab6f51b06e@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-cloudflare.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Cloudflare
 DESCRIPTION:Company: Cloudflare\nCategory: Internships\nCompany Size: Large
  \nCompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: I
@@ -102,8 +102,8 @@ URL:https://www.cloudflare.com/careers/
 CATEGORIES:Internships\,Infra + Security\,Networking\,Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:fac42668-3133-ac8a-fc0e-42c7c66242a1@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-microsoft.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Microsoft
 DESCRIPTION:Company: Microsoft\nCategory: Internships\nCompany Size: Big Te
  ch\nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Clo
@@ -118,8 +118,8 @@ URL:https://careers.microsoft.com/
 CATEGORIES:Internships\,Cloud + AI\,Cloud\,AI
 END:VEVENT
 BEGIN:VEVENT
-UID:4445122b-bb1d-92db-ff8c-db3cad97974e@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-microsoft.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Microsoft
 DESCRIPTION:Company: Microsoft\nCategory: Internships\nCompany Size: Big Te
  ch\nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Clo
@@ -134,8 +134,8 @@ URL:https://careers.microsoft.com/
 CATEGORIES:Internships\,Cloud + AI\,Cloud\,AI
 END:VEVENT
 BEGIN:VEVENT
-UID:6da4523e-4cfb-3a1a-23e8-6d795511b7cb@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-amazon.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Amazon
 DESCRIPTION:Company: Amazon\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Cloud 
@@ -150,8 +150,8 @@ URL:https://www.amazon.jobs/
 CATEGORIES:Internships\,Cloud + Backend\,Backend\,Cloud
 END:VEVENT
 BEGIN:VEVENT
-UID:0fd712fc-3714-dca3-9f23-d67f156bd815@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-amazon.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Amazon
 DESCRIPTION:Company: Amazon\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Cloud 
@@ -166,8 +166,8 @@ URL:https://www.amazon.jobs/
 CATEGORIES:Internships\,Cloud + Backend\,Backend\,Cloud
 END:VEVENT
 BEGIN:VEVENT
-UID:9089557f-9423-6512-0f2e-4301ef28aca7@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-palantir-technologies.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Palantir Technologies
 DESCRIPTION:Company: Palantir Technologies\nCategory: Internships\nCompany 
  Size: Large\nCompany Stage: Public\nHeadquarters: United States\nPrimary F
@@ -183,8 +183,8 @@ URL:https://www.palantir.com/careers/
 CATEGORIES:Internships\,Data Platform + Defense Tech\,Data Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
-UID:298e3298-66a9-b245-2fa9-6693275f2bb5@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-palantir-technologies.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Palantir Technologies
 DESCRIPTION:Company: Palantir Technologies\nCategory: Internships\nCompany 
  Size: Large\nCompany Stage: Public\nHeadquarters: United States\nPrimary F
@@ -200,8 +200,8 @@ URL:https://www.palantir.com/careers/
 CATEGORIES:Internships\,Data Platform + Defense Tech\,Data Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
-UID:32380396-f903-1c6a-89b8-71927e485294@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-nvidia.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — NVIDIA
 DESCRIPTION:Company: NVIDIA\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: AI + G
@@ -217,8 +217,8 @@ URL:https://www.nvidia.com/en-us/about-nvidia/careers/
 CATEGORIES:Internships\,AI + GPU + Systems\,AI\,CUDA\,Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:e94a1545-c41e-745c-5050-d4baf85eaf1a@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-nvidia.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — NVIDIA
 DESCRIPTION:Company: NVIDIA\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: AI + G
@@ -234,8 +234,8 @@ URL:https://www.nvidia.com/en-us/about-nvidia/careers/
 CATEGORIES:Internships\,AI + GPU + Systems\,AI\,CUDA\,Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:4a2aa1c6-5095-7a7c-8999-57dd942b059f@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-mongodb.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — MongoDB
 DESCRIPTION:Company: MongoDB\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Database
@@ -250,8 +250,8 @@ URL:https://www.mongodb.com/careers
 CATEGORIES:Internships\,Databases + Backend\,Databases\,Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:208f2474-6f1b-9613-766c-3ef4fc207d35@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-mongodb.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — MongoDB
 DESCRIPTION:Company: MongoDB\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Database
@@ -266,8 +266,8 @@ URL:https://www.mongodb.com/careers
 CATEGORIES:Internships\,Databases + Backend\,Databases\,Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:5b30ae86-187c-07db-88a7-06f0b169c898@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-datadog.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Datadog
 DESCRIPTION:Company: Datadog\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Observab
@@ -282,8 +282,8 @@ URL:https://www.datadoghq.com/careers/
 CATEGORIES:Internships\,Observability + Infra\,Infra\,Monitoring
 END:VEVENT
 BEGIN:VEVENT
-UID:ea7f3da1-f41a-7548-2460-7eada6953b76@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-datadog.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Datadog
 DESCRIPTION:Company: Datadog\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Observab
@@ -298,8 +298,8 @@ URL:https://www.datadoghq.com/careers/
 CATEGORIES:Internships\,Observability + Infra\,Infra\,Monitoring
 END:VEVENT
 BEGIN:VEVENT
-UID:5e99abcb-9650-699c-8657-923afb61dbdd@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-plaid.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Plaid
 DESCRIPTION:Company: Plaid\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fintec
@@ -314,8 +314,8 @@ URL:https://plaid.com/careers/
 CATEGORIES:Internships\,Fintech APIs + Backend\,Backend\,APIs
 END:VEVENT
 BEGIN:VEVENT
-UID:4b3a2e9d-fd9a-5d46-d475-f6746c382ee2@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-plaid.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Plaid
 DESCRIPTION:Company: Plaid\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fintec
@@ -330,8 +330,8 @@ URL:https://plaid.com/careers/
 CATEGORIES:Internships\,Fintech APIs + Backend\,Backend\,APIs
 END:VEVENT
 BEGIN:VEVENT
-UID:6f34a792-c1ef-92c0-c2bb-a7634cc48156@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-ramp.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Ramp
 DESCRIPTION:Company: Ramp\nCategory: Internships\nCompany Size: Scale-up\nC
  ompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fint
@@ -346,8 +346,8 @@ URL:https://ramp.com/careers
 CATEGORIES:Internships\,Fintech + Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
-UID:7f07e9eb-8160-3bd2-cb6f-177f8f963ba7@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-ramp.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Ramp
 DESCRIPTION:Company: Ramp\nCategory: Internships\nCompany Size: Scale-up\nC
  ompany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Fint
@@ -362,8 +362,8 @@ URL:https://ramp.com/careers
 CATEGORIES:Internships\,Fintech + Backend + Data\,Backend\,Data
 END:VEVENT
 BEGIN:VEVENT
-UID:f13938ac-a37f-c78c-a0ce-8df335b9ab7c@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-coinbase.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Coinbase
 DESCRIPTION:Company: Coinbase\nCategory: Internships\nCompany Size: Large\n
  Company Stage: Public\nHeadquarters: United States\nPrimary Focus: Crypto 
@@ -378,8 +378,8 @@ URL:https://www.coinbase.com/careers
 CATEGORIES:Internships\,Crypto Infra + Backend\,Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
-UID:f6fe6f94-fcea-ba20-bb3c-ecffe189d045@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-coinbase.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Coinbase
 DESCRIPTION:Company: Coinbase\nCategory: Internships\nCompany Size: Large\n
  Company Stage: Public\nHeadquarters: United States\nPrimary Focus: Crypto 
@@ -394,8 +394,8 @@ URL:https://www.coinbase.com/careers
 CATEGORIES:Internships\,Crypto Infra + Backend\,Infra\,Backend
 END:VEVENT
 BEGIN:VEVENT
-UID:697cdb12-6360-9f8a-4179-a9a05c6fa747@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-figma.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Figma
 DESCRIPTION:Company: Figma\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produc
@@ -410,8 +410,8 @@ URL:https://www.figma.com/careers/
 CATEGORIES:Internships\,Product Engineering + Frontend\,Product Engineering
 END:VEVENT
 BEGIN:VEVENT
-UID:915a1011-9ccd-c826-3a6d-e4fc320b3eea@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-figma.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Figma
 DESCRIPTION:Company: Figma\nCategory: Internships\nCompany Size: Large\nCom
  pany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produc
@@ -426,8 +426,8 @@ URL:https://www.figma.com/careers/
 CATEGORIES:Internships\,Product Engineering + Frontend\,Product Engineering
 END:VEVENT
 BEGIN:VEVENT
-UID:8e942dfe-10b8-c23e-61f8-5c50693a032b@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-notion.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Notion
 DESCRIPTION:Company: Notion\nCategory: Internships\nCompany Size: Large\nCo
  mpany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produ
@@ -442,8 +442,8 @@ URL:https://www.notion.com/careers
 CATEGORIES:Internships\,Product + Backend\,Product Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:44902a6a-a9c9-8f57-0611-ad267c205a74@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-notion.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Notion
 DESCRIPTION:Company: Notion\nCategory: Internships\nCompany Size: Large\nCo
  mpany Stage: Late Stage\nHeadquarters: United States\nPrimary Focus: Produ
@@ -458,8 +458,8 @@ URL:https://www.notion.com/careers
 CATEGORIES:Internships\,Product + Backend\,Product Systems
 END:VEVENT
 BEGIN:VEVENT
-UID:60fa1d62-979a-6eec-ed86-3795447cefa3@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-roblox.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Roblox
 DESCRIPTION:Company: Roblox\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Game I
@@ -475,8 +475,8 @@ CATEGORIES:Internships\,Game Infra + Distributed Systems\,Distributed Syste
  ms
 END:VEVENT
 BEGIN:VEVENT
-UID:0639cc80-840e-b864-b75e-36b2db7df1a1@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-roblox.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Roblox
 DESCRIPTION:Company: Roblox\nCategory: Internships\nCompany Size: Big Tech\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Game I
@@ -492,8 +492,8 @@ CATEGORIES:Internships\,Game Infra + Distributed Systems\,Distributed Syste
  ms
 END:VEVENT
 BEGIN:VEVENT
-UID:2a1c5d7f-8862-1f97-4e9e-ff60586e101b@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-confluent.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Confluent
 DESCRIPTION:Company: Confluent\nCategory: Internships\nCompany Size: Large\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Data S
@@ -508,8 +508,8 @@ URL:https://www.confluent.io/careers/
 CATEGORIES:Internships\,Data Streaming + Infra\,Kafka\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:1d7a92a2-cae6-b56a-0123-2db4d80e8dbb@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-confluent.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Confluent
 DESCRIPTION:Company: Confluent\nCategory: Internships\nCompany Size: Large\
  nCompany Stage: Public\nHeadquarters: United States\nPrimary Focus: Data S
@@ -524,8 +524,8 @@ URL:https://www.confluent.io/careers/
 CATEGORIES:Internships\,Data Streaming + Infra\,Kafka\,Data Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:a44ab4c8-1f4b-fd9c-1af5-922834845e06@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-elastic.application-open@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Applications Open — Elastic
 DESCRIPTION:Company: Elastic\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: Netherlands\nPrimary Focus: Search + D
@@ -540,8 +540,8 @@ URL:https://www.elastic.co/careers/
 CATEGORIES:Internships\,Search + Distributed Systems\,Search Infra
 END:VEVENT
 BEGIN:VEVENT
-UID:64d0593a-902d-0694-283f-7aa91a91cd69@opportunity-tracker
-DTSTAMP:20260822T194557Z
+UID:industry-elastic.application-deadline@opportunity-tracker
+DTSTAMP:20261110T224421Z
 SUMMARY:Expected Application Deadline — Elastic
 DESCRIPTION:Company: Elastic\nCategory: Internships\nCompany Size: Large\nC
  ompany Stage: Public\nHeadquarters: Netherlands\nPrimary Focus: Search + D

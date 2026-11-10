@@ -41,10 +41,6 @@ def clean_text(value: object) -> str:
     return "" if text in {"", "nan", "None"} else text
 
 
-def is_blank(value: object) -> bool:
-    return clean_text(value) == ""
-
-
 def split_tags(value: object) -> list[str]:
     """Split a tags field into a clean list of strings."""
 

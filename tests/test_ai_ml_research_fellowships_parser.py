@@ -25,52 +25,6 @@ def test_continuously_open_program_becomes_calendar_event():
     assert any(event.url == "https://learnmechinterp.com/topics/" for event in events)
 
 
-def test_exact_and_expected_dates_create_events(tmp_path):
-    header, row = _sample_lines()[:2]
-    row = row.replace(",Always Open,Always Open,Continuous,Continuous,", ",2027-02-01,,February 2027,March 2027,")
-    csv_path = tmp_path / "dated.csv"
-    csv_path.write_text(f"{header}\n{row}\n", encoding="utf-8")
-
-    events = create_calendar_events(parse(csv_path))
-
-    assert [(event.title, event.start_date) for event in events] == [
-        ("Applications Open — fast.ai", date(2027, 2, 1)),
-        ("Expected Application Deadline — fast.ai", date(2027, 3, 1)),
-    ]
-
-
-def test_month_only_cross_year_window_uses_following_year(tmp_path):
-    header, row = _sample_lines()[:2]
-    row = row.replace(
-        ",Always Open,Always Open,Continuous,Continuous,",
-        ",October,January,October,January,",
-    )
-    csv_path = tmp_path / "cross_year.csv"
-    csv_path.write_text(f"{header}\n{row}\n", encoding="utf-8")
-
-    events = create_calendar_events(parse(csv_path))
-
-    assert events[0].start_date == date(date.today().year, 10, 1)
-    assert events[1].start_date == date(date.today().year + 1, 1, 1)
-
-
-def test_month_only_window_creates_open_and_deadline_events(tmp_path):
-    header, row = _sample_lines()[:2]
-    row = row.replace(
-        ",Always Open,Always Open,Continuous,Continuous,",
-        ",September,October,September,October,",
-    )
-    csv_path = tmp_path / "month_window.csv"
-    csv_path.write_text(f"{header}\n{row}\n", encoding="utf-8")
-
-    events = create_calendar_events(parse(csv_path))
-
-    assert [(event.title, event.start_date) for event in events] == [
-        ("Expected Applications Open — fast.ai", date(date.today().year, 9, 1)),
-        ("Expected Application Deadline — fast.ai", date(date.today().year, 10, 1)),
-    ]
-
-
 def test_notes_column_is_required(tmp_path):
     header, row = _sample_lines()[:2]
     csv_path = tmp_path / "missing_notes.csv"

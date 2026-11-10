@@ -35,3 +35,15 @@ def test_combined_calendar_is_publicly_listed():
     assert index.count(f'href="{url}"') == 2
     assert url in (ROOT / "README.md").read_text(encoding="utf-8")
     assert url in (ROOT / "README-pt.md").read_text(encoding="utf-8")
+
+
+def test_personal_calendar_is_publicly_listed():
+    calendar_url = "https://lumiis2.github.io/opportunity-tracker/personal.ics"
+    index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    assert index.count(f'href="{calendar_url}"') == 2
+    assert 'href="data/personal.csv"' in index
+
+    for name in ("README.md", "README-pt.md"):
+        contents = (ROOT / name).read_text(encoding="utf-8")
+        assert calendar_url in contents
+        assert "data/personal.csv" in contents

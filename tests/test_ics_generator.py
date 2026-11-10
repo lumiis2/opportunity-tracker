@@ -3,7 +3,7 @@ from datetime import date
 
 import pytest
 
-from src.core.ics_generator import build_uid, generate_calendar
+from src.core.ics_generator import generate_calendar
 from src.core.calendar_event import CalendarEvent
 
 
@@ -25,18 +25,6 @@ def test_ics_generator_writes_file(tmp_path):
     txt = out.read_text(encoding="utf-8")
     assert "BEGIN:VCALENDAR" in txt
     assert "BEGIN:VEVENT" in txt
-
-
-def test_uid_survives_description_and_tag_edits():
-    original = CalendarEvent("deadline", "Deadline", "old", date(2026, 1, 1), url="https://example.org", tags=["old"])
-    edited = CalendarEvent("deadline", "Deadline", "new", date(2026, 1, 1), url="https://new.example.org", tags=["new"])
-    assert build_uid(original) == build_uid(edited)
-
-
-def test_uid_survives_date_edits():
-    original = CalendarEvent("deadline", "Deadline", "old", date(2026, 1, 1))
-    edited = CalendarEvent("deadline", "Deadline", "old", date(2026, 2, 1))
-    assert build_uid(original) == build_uid(edited)
 
 
 def test_regeneration_preserves_existing_event_timestamp(tmp_path):

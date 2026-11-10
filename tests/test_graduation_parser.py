@@ -7,19 +7,13 @@ from src.parsers.graduation import parse
 
 def test_graduation_parser_sample():
     sample = Path(__file__).resolve().parent / "data" / "graduation_sample.csv"
-    events = create_calendar_events(parse(sample))
+    opportunities = parse(sample)
 
-    # From the sample CSV we expect events for rows with dates:
-    # Row A: Application Open + Deadline + Expected Open => 3
-    # Row B: no explicit dates => 0
-    # Row C: Expected Open Month => 1
-    assert len(events) >= 4
-
-    # Verify required fields exist on at least one event
-    ev = events[0]
-    assert getattr(ev, "title")
-    assert getattr(ev, "start_date")
-    assert getattr(ev, "description")
+    assert len(opportunities) == 3
+    assert [milestone.kind for milestone in opportunities[0].milestones] == [
+        "application-open",
+        "application-deadline",
+    ]
 
 
 def test_expected_deadline_is_generated_without_duplicate_expected_open(tmp_path):

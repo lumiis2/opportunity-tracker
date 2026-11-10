@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from dataclasses import asdict
+from datetime import date
+import json
 from pathlib import Path
 import re
 import sys
@@ -48,6 +51,24 @@ def update_public_stats(event_counts: dict[str, int]) -> None:
     path.write_text(contents, encoding="utf-8")
 
 
+def generate_opportunities_json(
+    opportunities: list[Opportunity], output_path: Path
+) -> None:
+    """Write normalized opportunities for the frontend."""
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(
+        json.dumps(
+            [asdict(opportunity) for opportunity in opportunities],
+            default=date.isoformat,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> int:
     datasets = load_datasets()
     all_events: list[CalendarEvent] = []
@@ -67,8 +88,12 @@ def main() -> int:
 
         parsed[track] = parser(ROOT_DIR / "data" / csv_name)
 
-    validate_opportunities(
-        [opportunity for opportunities in parsed.values() for opportunity in opportunities]
+    all_opportunities = [
+        opportunity for opportunities in parsed.values() for opportunity in opportunities
+    ]
+    validate_opportunities(all_opportunities)
+    generate_opportunities_json(
+        all_opportunities, ROOT_DIR / "output" / "opportunities.json"
     )
 
     for track, meta in datasets.items():
@@ -93,6 +118,7 @@ def main() -> int:
     counts["all"] = len(all_events)
     update_public_stats(counts)
     print(f"all: {len(all_events)} events -> output/all.ics")
+    print(f"opportunities: {len(all_opportunities)} -> output/opportunities.json")
     return 0
 
 

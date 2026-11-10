@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import shutil
 
 import scripts.build as build
@@ -52,3 +53,19 @@ def test_build_pipeline_generates_ics(tmp_path, monkeypatch):
     )
     assert combined.count("BEGIN:VEVENT") == individual_count
     assert 'data-track="all"' in (tmp_path / "public" / "index.html").read_text(encoding="utf-8")
+
+    opportunities = json.loads(
+        (tmp_path / "output" / "opportunities.json").read_text(encoding="utf-8")
+    )
+    assert opportunities
+    assert set(opportunities[0]) == {
+        "id",
+        "track",
+        "title",
+        "description",
+        "url",
+        "category",
+        "tags",
+        "milestones",
+    }
+    assert opportunities[0]["milestones"][0]["start_date"]

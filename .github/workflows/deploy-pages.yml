@@ -56,6 +56,9 @@ jobs:
           
           # Copia os arquivos gerados (.ics) para dentro de public/
           cp -v output/*.ics public/
+
+          # Copia os dados normalizados usados pelo frontend
+          cp -v output/*.json public/
           
           # Copia os arquivos gerados (.csv) para dentro de public/data/
           cp -v data/*.csv public/data/

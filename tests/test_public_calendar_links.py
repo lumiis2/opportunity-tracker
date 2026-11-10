@@ -1,56 +1,61 @@
+import json
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CALENDAR_URL = (
-    "https://lumiis2.github.io/opportunity-tracker/"
-    "ai_ml_research_fellowships.ics"
-)
-CSV_URL = (
-    "https://lumiis2.github.io/opportunity-tracker/data/"
-    "ai_ml_research_fellowships.csv"
-)
+BASE_URL = "https://lumiis2.github.io/opportunity-tracker/"
+CALENDARS = {
+    "graduation": ("graduation.ics", "data/graduation.csv"),
+    "masters": ("masters.ics", "data/masters.csv"),
+    "industry": ("industry.ics", "data/industry.csv"),
+    "conferences": ("conferences.ics", "data/conferences.csv"),
+    "ai_ml_research_fellowships": (
+        "ai_ml_research_fellowships.ics",
+        "data/ai_ml_research_fellowships.csv",
+    ),
+    "personal": ("personal.ics", "data/personal.csv"),
+    "all": ("all.ics", None),
+}
 
 
-def test_ai_ml_calendar_is_visible_on_public_index():
-    contents = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+def test_public_urls_are_preserved():
+    index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    readmes = [
+        (ROOT / name).read_text(encoding="utf-8")
+        for name in ("README.md", "README-pt.md")
+    ]
+    metadata = {
+        calendar["id"]: calendar
+        for calendar in json.loads(
+            (ROOT / "output" / "calendars.json").read_text(encoding="utf-8")
+        )
+    }
 
-    assert "AI/ML Research &amp; Fellowships" in contents
-    assert contents.count(f'href="{CALENDAR_URL}"') == 2
-    assert 'href="data/ai_ml_research_fellowships.csv"' in contents
+    assert set(metadata) == set(CALENDARS)
+    for track, (ics_path, csv_path) in CALENDARS.items():
+        ics_url = BASE_URL + ics_path
+        assert index.count(f'href="{ics_url}"') == 2
+        assert all(ics_url in readme for readme in readmes)
+        assert metadata[track]["ics_url"] == ics_path
+        assert metadata[track]["csv_url"] == csv_path
+
+        if csv_path:
+            assert f'href="{csv_path}"' in index
+            assert all(BASE_URL + csv_path in readme for readme in readmes)
 
 
 def test_public_index_loads_calendar_statistics():
-    contents = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
-
-    assert 'fetch("calendars.json")' in contents
-    assert "calendar.event_count" in contents
-
-
-def test_ai_ml_calendar_is_listed_in_readmes():
-    english = (ROOT / "README.md").read_text(encoding="utf-8")
-    portuguese = (ROOT / "README-pt.md").read_text(encoding="utf-8")
-
-    for contents in (english, portuguese):
-        assert CALENDAR_URL in contents
-        assert CSV_URL in contents
-
-
-def test_combined_calendar_is_publicly_listed():
-    url = "https://lumiis2.github.io/opportunity-tracker/all.ics"
     index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
-    assert index.count(f'href="{url}"') == 2
-    assert url in (ROOT / "README.md").read_text(encoding="utf-8")
-    assert url in (ROOT / "README-pt.md").read_text(encoding="utf-8")
+
+    assert 'fetch("calendars.json")' in index
+    assert "calendar.event_count" in index
 
 
-def test_personal_calendar_is_publicly_listed():
-    calendar_url = "https://lumiis2.github.io/opportunity-tracker/personal.ics"
-    index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
-    assert index.count(f'href="{calendar_url}"') == 2
-    assert 'href="data/personal.csv"' in index
+def test_pages_workflow_publishes_generated_files():
+    workflow = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(
+        encoding="utf-8"
+    )
 
-    for name in ("README.md", "README-pt.md"):
-        contents = (ROOT / name).read_text(encoding="utf-8")
-        assert calendar_url in contents
-        assert "data/personal.csv" in contents
+    assert "cp -v output/*.ics public/" in workflow
+    assert "cp -v output/*.json public/" in workflow
+    assert "cp -v data/*.csv public/data/" in workflow

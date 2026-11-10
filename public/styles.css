@@ -58,6 +58,15 @@ main {
     margin-bottom: 40px;
 }
 
+.load-status {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.load-status.error {
+    color: #9b1c1c;
+}
+
 .card {
     background: white;
     border-radius: 8px;
@@ -175,6 +184,11 @@ main {
     background: #667eea;
     color: white;
     transform: scale(1.02);
+}
+
+a:focus-visible {
+    outline: 3px solid #1d4ed8;
+    outline-offset: 3px;
 }
 
 footer {

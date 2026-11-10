@@ -18,7 +18,7 @@
 
     <div class="container">
         <main>
-            <div class="stats">
+            <section class="stats" aria-label="Published event counts">
                 <div class="stats-item">
                     <div class="stats-number" data-track="graduation">58</div>
                     <div class="stats-label">Graduation Events</div>
@@ -47,16 +47,18 @@
                     <div class="stats-number" data-track="all">233</div>
                     <div class="stats-label">All Events</div>
                 </div>
-            </div>
+            </section>
 
-            <div class="datasets" id="calendar-list"></div>
+            <div class="datasets" id="calendar-list" aria-live="polite" aria-busy="true">
+                <p class="load-status">Loading calendars…</p>
+            </div>
         </main>
     </div>
 
     <footer>
         <div class="footer-content">
             <div class="footer-links">
-                <a href="https://github.com/lumiis2/opportunity-tracker" target="_blank">📖 View on GitHub</a>
+                <a href="https://github.com/lumiis2/opportunity-tracker" target="_blank" rel="noopener">📖 View on GitHub</a>
             </div>
             <div class="footer-star">
                 If you find this project helpful, please consider giving it a ⭐ on GitHub!

@@ -48,11 +48,13 @@ def test_public_index_loads_calendar_statistics():
     assert 'href="styles.css"' in index
     assert 'src="app.js"' in index
     assert 'id="calendar-list"' in index
-    assert 'fetch("calendars.json")' in script
-    assert 'fetch("opportunities.json")' in script
+    assert 'aria-live="polite"' in index
+    assert 'fetchJson("calendars.json")' in script
+    assert 'fetchJson("opportunities.json")' in script
     assert "renderCalendars(calendars, opportunities)" in script
     assert "getHighlights(opportunities, track)" in script
     assert "calendar.event_count" in script
+    assert "Calendars could not be loaded" in script
 
 
 def test_pages_workflow_publishes_generated_files():

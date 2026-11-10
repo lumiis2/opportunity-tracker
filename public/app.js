@@ -45,12 +45,12 @@ function renderCalendars(calendars, opportunities) {
         const [icon, description] = details[calendar.id];
         const calendarUrl = new URL(calendar.ics_url, window.location.href).href;
         const datasetLink = calendar.csv_url
-            ? `<a href="${calendar.csv_url}" class="btn btn-download">View Dataset</a>`
+            ? `<a href="${calendar.csv_url}" class="btn btn-download" aria-label="View ${calendar.name} dataset">View Dataset</a>`
             : "";
 
         return `
             <article class="card">
-                <div class="card-header"><h2>${icon} ${calendar.name}</h2></div>
+                <div class="card-header"><h2><span aria-hidden="true">${icon}</span> ${calendar.name}</h2></div>
                 <p class="card-description">${description}</p>
                 <h3>Upcoming highlights</h3>
                 ${renderHighlights(opportunities, calendar.id)}
@@ -58,17 +58,25 @@ function renderCalendars(calendars, opportunities) {
                     Calendar URL: <a href="${calendarUrl}">${calendarUrl}</a>
                 </div>
                 <div class="card-links">
-                    <a href="${calendarUrl}" class="btn btn-subscribe">Subscribe Calendar</a>
-                    <a href="${calendar.ics_url}" class="btn btn-download" download>Download .ics</a>
+                    <a href="${calendarUrl}" class="btn btn-subscribe" aria-label="Subscribe to ${calendar.name}">Subscribe Calendar</a>
+                    <a href="${calendar.ics_url}" class="btn btn-download" aria-label="Download ${calendar.name}" download>Download .ics</a>
                     ${datasetLink}
                 </div>
             </article>`;
     }).join("");
+    list.setAttribute("aria-busy", "false");
+}
+
+function fetchJson(path) {
+    return fetch(path).then(response => {
+        if (!response.ok) throw new Error(`Could not load ${path}`);
+        return response.json();
+    });
 }
 
 Promise.all([
-    fetch("calendars.json").then(response => response.json()),
-    fetch("opportunities.json").then(response => response.json()),
+    fetchJson("calendars.json"),
+    fetchJson("opportunities.json"),
 ])
     .then(([calendars, opportunities]) => {
         renderCalendars(calendars, opportunities);
@@ -77,4 +85,8 @@ Promise.all([
             if (counter) counter.textContent = calendar.event_count;
         });
     })
-    .catch(() => {});
+    .catch(() => {
+        const list = document.querySelector("#calendar-list");
+        list.setAttribute("aria-busy", "false");
+        list.innerHTML = '<p class="load-status error">Calendars could not be loaded. Please try again later.</p>';
+    });

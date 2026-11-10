@@ -46,9 +46,12 @@ def test_public_urls_are_preserved():
 
 def test_public_index_loads_calendar_statistics():
     index = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
 
-    assert 'fetch("calendars.json")' in index
-    assert "calendar.event_count" in index
+    assert 'href="styles.css"' in index
+    assert 'src="app.js"' in index
+    assert 'fetch("calendars.json")' in script
+    assert "calendar.event_count" in script
 
 
 def test_pages_workflow_publishes_generated_files():

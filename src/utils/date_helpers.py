@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from dataclasses import dataclass
 from datetime import date, datetime
 import re
 from typing import Iterable
@@ -21,6 +22,14 @@ _MONTHS = {
     "november": 11,
     "december": 12,
 }
+
+
+@dataclass(frozen=True, slots=True)
+class ResolvedDate:
+    """A parsed date and whether it came from an estimated month."""
+
+    value: date
+    estimated: bool
 
 
 def clean_text(value: object) -> str:
@@ -94,6 +103,46 @@ def parse_month_start(value: object, fallback_year: int | None = None) -> date |
         return None
 
     return date(year, month, 1)
+
+
+def resolve_date(
+    exact_value: object,
+    expected_value: object = None,
+    fallback_year: int | None = None,
+) -> ResolvedDate | None:
+    """Prefer an exact date and otherwise resolve an estimated month."""
+
+    exact = parse_exact_date(exact_value)
+    if exact:
+        return ResolvedDate(exact, estimated=False)
+
+    estimated = parse_month_start(exact_value, fallback_year) or parse_month_start(
+        expected_value, fallback_year
+    )
+    return ResolvedDate(estimated, estimated=True) if estimated else None
+
+
+def resolve_window(
+    *,
+    open_value: object,
+    deadline_value: object,
+    expected_open: object = None,
+    expected_deadline: object = None,
+    fallback_year: int | None = None,
+) -> tuple[ResolvedDate | None, ResolvedDate | None]:
+    """Resolve an opening and deadline, including estimated cross-year windows."""
+
+    opening = resolve_date(open_value, expected_open, fallback_year)
+    deadline_year = opening.value.year if opening else fallback_year
+    deadline = resolve_date(deadline_value, expected_deadline, deadline_year)
+
+    if opening and deadline and deadline.estimated and deadline.value < opening.value:
+        deadline = ResolvedDate(
+            deadline.value.replace(year=deadline.value.year + 1),
+            estimated=True,
+        )
+
+    return opening, deadline
 
 
 def join_non_empty_lines(lines: Iterable[str]) -> str:

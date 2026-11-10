@@ -38,7 +38,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-university-of-alberta-research-experience-uare-university-of
  -alberta.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — University of Alberta Research Exper
  ience (UARE)
 DESCRIPTION:Program: University of Alberta Research Experience (UARE)\nOrga
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-mila-undergraduate-summer-research-internship-mila.applicati
  on-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Mila Undergraduate Summer Research I
  nternship
 DESCRIPTION:Program: Mila Undergraduate Summer Research Internship\nOrganiz
@@ -311,7 +311,7 @@ CATEGORIES:Research\,CERN\,Openlab\,Advanced Computing\,High-Performance Co
 END:VEVENT
 BEGIN:VEVENT
 UID:graduation-daad-rise-germany-daad.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — DAAD RISE Germany
 DESCRIPTION:Program: DAAD RISE Germany\nOrganization: DAAD\nHost Institutio
  n: Multiple German Universities\nCountry: Germany\nTarget Audience: Underg
@@ -341,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-riken-international-program-associate-riken.application-open
  @opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — RIKEN International Program Associat
  e
 DESCRIPTION:Program: RIKEN International Program Associate\nOrganization: R
@@ -373,7 +373,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-nus-summer-research-programme-national-university-of-singapo
  re.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — NUS Summer Research Programme
 DESCRIPTION:Program: NUS Summer Research Programme\nOrganization: National 
  University of Singapore\nHost Institution: National University of Singapor
@@ -405,7 +405,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-aulp-mobility-program-aulp.application-open@opportunity-trac
  ker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — AULP Mobility Program
 DESCRIPTION:Program: AULP Mobility Program\nOrganization: AULP\nHost Instit
  ution: Multiple Lusophone Universities\nCountry: Portugal\, Macau\nTarget 
@@ -435,7 +435,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-mext-scholarship-research-students-mext-japan.application-op
  en@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — MEXT Scholarship (Research Students)
 DESCRIPTION:Program: MEXT Scholarship (Research Students)\nOrganization: ME
  XT (Japan)\nHost Institution: Multiple Japanese Universities\nCountry: Jap
@@ -468,7 +468,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-daad-study-scholarships-daad.application-open@opportunity-tr
  acker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — DAAD Study Scholarships
 DESCRIPTION:Program: DAAD Study Scholarships\nOrganization: DAAD\nHost Inst
  itution: Multiple German Universities\nCountry: Germany\nTarget Audience: 
@@ -498,7 +498,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-fulbright-us-department-of-state.application-open@opportunit
  y-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Fulbright
 DESCRIPTION:Program: Fulbright\nOrganization: US Department of State\nHost 
  Institution: Multiple US Universities\nCountry: United States\nTarget Audi
@@ -528,7 +528,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-chevening-uk-foreign-office.application-open@opportunity-tra
  cker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Chevening
 DESCRIPTION:Program: Chevening\nOrganization: UK Foreign Office\nHost Insti
  tution: Multiple UK Universities\nCountry: United Kingdom\nTarget Audience
@@ -558,7 +558,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-google-research-internships-google.application-open@opportun
  ity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Google Research Internships
 DESCRIPTION:Program: Google Research Internships\nOrganization: Google\nHos
  t Institution: Google Research Labs\nCountry: Worldwide\nTarget Audience: 
@@ -588,7 +588,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-google-deepmind-internships-google-deepmind.application-open
  @opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Google DeepMind Internships
 DESCRIPTION:Program: Google DeepMind Internships\nOrganization: Google Deep
  Mind\nHost Institution: Google DeepMind Labs\nCountry: UK\, US\, Canada\nT
@@ -620,7 +620,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-microsoft-research-internships-microsoft.application-open@op
  portunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Microsoft Research Internships
 DESCRIPTION:Program: Microsoft Research Internships\nOrganization: Microsof
  t\nHost Institution: Microsoft Research Labs\nCountry: US\, UK\, Netherlan
@@ -650,7 +650,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-nvidia-research-internships-nvidia.application-open@opportun
  ity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — NVIDIA Research Internships
 DESCRIPTION:Program: NVIDIA Research Internships\nOrganization: NVIDIA\nHos
  t Institution: NVIDIA Research\nCountry: US\, Worldwide\nTarget Audience: 
@@ -665,7 +665,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-meta-ai-research-internships-meta.application-open@opportuni
  ty-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Meta AI Research Internships
 DESCRIPTION:Program: Meta AI Research Internships\nOrganization: Meta\nHost
   Institution: Meta AI (FAIR)\nCountry: US\, France\, UK\nTarget Audience: 
@@ -695,7 +695,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-amazon-science-internships-amazon.application-open@opportuni
  ty-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — Amazon Science Internships
 DESCRIPTION:Program: Amazon Science Internships\nOrganization: Amazon\nHost
   Institution: Amazon Science\nCountry: US\, Europe\nTarget Audience: Under
@@ -725,7 +725,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-eeml-eastern-european-machine-learning-summer-school-eeml-co
  nsortium.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — EEML (Eastern European Machine Learn
  ing Summer School)
 DESCRIPTION:Program: EEML (Eastern European Machine Learning Summer School)
@@ -759,7 +759,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-tum-practical-research-experience-program-prep-tum.applicati
  on-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — TUM Practical Research Experience Pr
  ogram (PREP)
 DESCRIPTION:Program: TUM Practical Research Experience Program (PREP)\nOrga
@@ -792,6 +792,23 @@ CATEGORIES:Research
 END:VEVENT
 BEGIN:VEVENT
 UID:graduation-national-university-of-singapore-non-grading-exchange-progra
+ m-national-university-of-singapore.application-open@opportunity-tracker
+DTSTAMP:20261110T225629Z
+SUMMARY:Expected Applications Open — National University of Singapore Non
+ -Grading Exchange Program
+DESCRIPTION:Program: National University of Singapore Non-Grading Exchange 
+ Program\nOrganization: National University of Singapore\nHost Institution:
+  National University of Singapore\nCountry: Singapore\nTarget Audience: Un
+ dergraduate\nFunding: Unfunded\nFunding Details: Tuition waived\; living c
+ osts out-of-pocket\nSupervisor Match: No\nDuration: 1-2 semesters\nApplica
+ tion Effort: Medium\nOfficial Website: Link\nNotes: Can be negotiated pure
+ ly as a lab-bound research semester.
+DTSTART;VALUE=DATE:20260801
+URL:Link
+CATEGORIES:Exchange
+END:VEVENT
+BEGIN:VEVENT
+UID:graduation-national-university-of-singapore-non-grading-exchange-progra
  m-national-university-of-singapore.application-deadline@opportunity-tracke
  r
 DTSTAMP:20261110T224421Z
@@ -809,26 +826,9 @@ URL:Link
 CATEGORIES:Exchange
 END:VEVENT
 BEGIN:VEVENT
-UID:graduation-national-university-of-singapore-non-grading-exchange-progra
- m-national-university-of-singapore.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
-SUMMARY:Expected Applications Open — National University of Singapore Non
- -Grading Exchange Program
-DESCRIPTION:Program: National University of Singapore Non-Grading Exchange 
- Program\nOrganization: National University of Singapore\nHost Institution:
-  National University of Singapore\nCountry: Singapore\nTarget Audience: Un
- dergraduate\nFunding: Unfunded\nFunding Details: Tuition waived\; living c
- osts out-of-pocket\nSupervisor Match: No\nDuration: 1-2 semesters\nApplica
- tion Effort: Medium\nOfficial Website: Link\nNotes: Can be negotiated pure
- ly as a lab-bound research semester.
-DTSTART;VALUE=DATE:20260801
-URL:Link
-CATEGORIES:Exchange
-END:VEVENT
-BEGIN:VEVENT
 UID:graduation-university-of-amsterdam-summer-school-in-ai-and-machine-lear
  ning-university-of-amsterdam.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — University of Amsterdam Summer Schoo
  l in AI and Machine Learning
 DESCRIPTION:Program: University of Amsterdam Summer School in AI and Machin
@@ -862,7 +862,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:graduation-university-of-toronto-data-sciences-institute-suds-program-u
  niversity-of-toronto.application-open@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225629Z
 SUMMARY:Expected Applications Open — University of Toronto Data Sciences 
  Institute SUDS Program
 DESCRIPTION:Program: University of Toronto Data Sciences Institute SUDS Pro
@@ -1445,7 +1445,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:masters-epfl-ecole-polytechnique-federale-de-lausanne-master-of-science
  -in-computer-science-data-science.application-deadline@opportunity-tracker
-DTSTAMP:20261110T224421Z
+DTSTAMP:20261110T225701Z
 SUMMARY:Expected Application Deadline — EPFL (École Polytechnique Fédé
  rale de Lausanne) Master of Science in Computer Science / Data Science
 DESCRIPTION:University: EPFL (École Polytechnique Fédérale de Lausanne)\

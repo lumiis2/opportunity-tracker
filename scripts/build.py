@@ -14,7 +14,7 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 from src.cli import TRACKS
-from src.core import CalendarEvent, generate_calendar
+from src.core import CalendarEvent, create_calendar_events, generate_calendar
 
 
 def load_datasets() -> dict[str, dict]:
@@ -58,7 +58,8 @@ def main() -> int:
         if not csv_name or not output_name:
             raise ValueError(f"Dataset {track} must define csv and output")
 
-        events = parser(ROOT_DIR / "data" / csv_name)
+        opportunities = parser(ROOT_DIR / "data" / csv_name)
+        events = create_calendar_events(opportunities)
         generate_calendar(
             events,
             output_path=ROOT_DIR / "output" / output_name,

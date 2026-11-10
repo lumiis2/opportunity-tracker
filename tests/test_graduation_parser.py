@@ -1,12 +1,13 @@
 from pathlib import Path
 from datetime import date
 
+from src.core import create_calendar_events
 from src.parsers.graduation import parse
 
 
 def test_graduation_parser_sample():
     sample = Path(__file__).resolve().parent / "data" / "graduation_sample.csv"
-    events = parse(sample)
+    events = create_calendar_events(parse(sample))
 
     # From the sample CSV we expect events for rows with dates:
     # Row A: Application Open + Deadline + Expected Open => 3
@@ -33,7 +34,7 @@ def test_expected_deadline_is_generated_without_duplicate_expected_open(tmp_path
     path = tmp_path / "graduation.csv"
     path.write_text(header + "\n" + ",".join(values) + "\n", encoding="utf-8")
 
-    events = parse(path)
+    events = create_calendar_events(parse(path))
     assert [(event.title, event.start_date) for event in events] == [
         ("Application Opens — Example", date(2027, 8, 10)),
         ("Expected Application Deadline — Example", date(2027, 9, 1)),

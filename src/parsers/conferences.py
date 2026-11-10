@@ -2,12 +2,12 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import timedelta
 from pathlib import Path
 import csv
 import re
 
-from src.core.calendar_event import CalendarEvent
+from src.core import Milestone, Opportunity
 from src.utils.date_helpers import (
     clean_text,
     join_non_empty_lines,
@@ -15,7 +15,7 @@ from src.utils.date_helpers import (
     parse_month_start,
     split_tags,
 )
-from src.utils.identifiers import event_id, opportunity_id
+from src.utils.identifiers import opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -48,16 +48,13 @@ EXPECTED_COLUMNS = [
 class ConferenceParser:
     """Parse conference rows into calendar events."""
 
-    def parse(self, csv_path: str | Path) -> list[CalendarEvent]:
+    def parse(self, csv_path: str | Path) -> list[Opportunity]:
         path = Path(csv_path)
         with path.open("r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
             self._validate_columns(reader.fieldnames)
 
-            events: list[CalendarEvent] = []
-            for row in reader:
-                events.extend(self._parse_row(row))
-            return events
+            return [opportunity for row in reader if (opportunity := self._parse_row(row))]
 
     @staticmethod
     def _validate_columns(fieldnames: list[str] | None) -> None:
@@ -67,10 +64,10 @@ class ConferenceParser:
         if missing:
             raise ValueError(f"Missing required columns: {', '.join(missing)}")
 
-    def _parse_row(self, row: dict[str, str]) -> list[CalendarEvent]:
+    def _parse_row(self, row: dict[str, str]) -> Opportunity | None:
         name = clean_text(row.get("Conference Name"))
         if not name:
-            return []
+            return None
         source_id = opportunity_id("conference", name, row.get("Organizer / Association"))
 
         area = clean_text(row.get("Area"))
@@ -83,52 +80,22 @@ class ConferenceParser:
         description = self._build_description(row)
         url = clean_text(row.get("Submission Portal")) or clean_text(row.get("Website")) or None
 
-        events: list[CalendarEvent] = []
+        milestones: list[Milestone] = []
 
         # Submission deadline (exact)
         sub_dead = parse_exact_date(row.get("Submission Deadline (Exact or Empty if unknown)"))
         if sub_dead:
-            events.append(
-                self._event(
-                    id=event_id(source_id, "submission-deadline"),
-                    title=f"Paper Submission Deadline — {name}",
-                    start_date=sub_dead,
-                    description=description,
-                    url=url,
-                    category=area or None,
-                    tags=tags,
-                )
-            )
+            milestones.append(Milestone("submission-deadline", f"Paper Submission Deadline — {name}", sub_dead))
 
         # Expected submission month
         expected_sub = parse_month_start(row.get("Expected Submission Month"))
         if expected_sub and not sub_dead:
-            events.append(
-                self._event(
-                    id=event_id(source_id, "submission-deadline"),
-                    title=f"Expected Paper Submission — {name}",
-                    start_date=expected_sub,
-                    description=description,
-                    url=url,
-                    category=area or None,
-                    tags=tags,
-                )
-            )
+            milestones.append(Milestone("submission-deadline", f"Expected Paper Submission — {name}", expected_sub, estimated=True))
 
         # Notification date
         notif = parse_exact_date(row.get("Notification Date"))
         if notif:
-            events.append(
-                self._event(
-                    id=event_id(source_id, "notification"),
-                    title=f"Acceptance Notification — {name}",
-                    start_date=notif,
-                    description=description,
-                    url=url,
-                    category=area or None,
-                    tags=tags,
-                )
-            )
+            milestones.append(Milestone("notification", f"Acceptance Notification — {name}", notif))
 
         # Conference date range: format "YYYY-MM-DD to YYYY-MM-DD"
         rng = clean_text(row.get("Conference Date Range"))
@@ -138,44 +105,9 @@ class ConferenceParser:
                 start = parse_exact_date(m.group(1))
                 end = parse_exact_date(m.group(2))
                 if start and end:
-                    events.append(
-                        ConferenceParser()._event(
-                            id=event_id(source_id, "conference-period"),
-                            title=f"{name} Conference",
-                            start_date=start,
-                            # RFC 5545 uses an exclusive DTEND for all-day events.
-                            end_date=end + timedelta(days=1),
-                            description=description,
-                            url=url,
-                            category=area or None,
-                            tags=tags,
-                        )
-                    )
+                    milestones.append(Milestone("conference-period", f"{name} Conference", start, end + timedelta(days=1)))
 
-        return events
-
-    def _event(
-        self,
-        *,
-        id: str,
-        title: str,
-        start_date: date,
-        description: str,
-        url: str | None,
-        category: str | None,
-        tags: list[str],
-        end_date: date | None = None,
-    ) -> CalendarEvent:
-        return CalendarEvent(
-            id=id,
-            title=title,
-            description=description,
-            start_date=start_date,
-            end_date=end_date,
-            url=url,
-            category=category,
-            tags=tags,
-        )
+        return Opportunity(source_id, "conferences", name, description, url, area or None, tags, milestones)
 
     def _build_description(self, row: dict[str, str]) -> str:
         fields = [
@@ -206,5 +138,5 @@ class ConferenceParser:
         return join_non_empty_lines(lines)
 
 
-def parse(csv_path: str | Path) -> list[CalendarEvent]:
+def parse(csv_path: str | Path) -> list[Opportunity]:
     return ConferenceParser().parse(csv_path)

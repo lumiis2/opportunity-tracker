@@ -1,10 +1,11 @@
 from datetime import date
 
+from src.core import create_calendar_events
 from src.parsers.personal import parse
 
 
 def test_personal_tracker_generates_deadline_and_estimated_periods():
-    events = parse("data/personal.csv")
+    events = create_calendar_events(parse("data/personal.csv"))
 
     assert [(event.title, event.start_date) for event in events] == [
         ("Application Deadline — UARE Winter", date(2026, 8, 4)),
@@ -28,7 +29,7 @@ def test_personal_tracker_accepts_markdown_link_and_exact_range(tmp_path):
     path = tmp_path / "personal.csv"
     path.write_text(f"{header}\n{row}\n", encoding="utf-8")
 
-    event = parse(path)[0]
+    event = create_calendar_events(parse(path))[0]
     assert event.start_date == date(2027, 9, 10)
     assert event.end_date == date(2027, 9, 13)
     assert event.url == "https://example.org"

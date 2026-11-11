@@ -47,11 +47,14 @@ def test_public_index_loads_calendar_statistics():
 
     assert 'href="styles.css"' in index
     assert 'src="app.js"' in index
+    assert 'src="banner.png"' in index
+    assert (ROOT / "public" / "banner.png").exists()
     assert 'id="calendar-list"' in index
     assert 'aria-live="polite"' in index
     assert 'fetchJson("calendars.json")' in script
     assert 'fetchJson("opportunities.json")' in script
     assert "renderCalendars(calendars, opportunities)" in script
+    assert "renderSummary(calendars)" in script
     assert "getHighlights(opportunities, track)" in script
     assert "calendar.event_count" in script
     assert "Calendars could not be loaded" in script

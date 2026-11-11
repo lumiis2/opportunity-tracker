@@ -8,47 +8,47 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>🎯 Opportunity Tracker</h1>
-        <p>
-            Automatically updated calendars for academic and industry opportunities.
-            Subscribe to your interested categories and never miss a deadline.
-        </p>
+    <header class="site-header">
+        <div class="header-inner">
+            <h1 class="sr-only">Opportunity Tracker</h1>
+            <img class="banner" src="banner.png" alt="Opportunity Tracker — Track opportunities. Plan ahead.">
+            <div class="header-note">
+                <p>Academic and professional opportunity calendars, ready to subscribe.</p>
+                <span class="update-status"><span aria-hidden="true"></span> Automatically updated</span>
+            </div>
+        </div>
     </header>
 
     <div class="container">
         <main>
-            <section class="stats" aria-label="Published event counts">
-                <div class="stats-item">
-                    <div class="stats-number" data-track="graduation">58</div>
-                    <div class="stats-label">Graduation Events</div>
+            <section class="summary" aria-labelledby="summary-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Overview</p>
+                        <h2 id="summary-title">At a glance</h2>
+                    </div>
+                    <p>Live counts from the published calendars.</p>
                 </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="masters">30</div>
-                    <div class="stats-label">Master's Events</div>
+                <div class="summary-totals">
+                    <div>
+                        <strong id="total-opportunities">—</strong>
+                        <span>opportunities</span>
+                    </div>
+                    <div>
+                        <strong id="total-events">—</strong>
+                        <span>published events</span>
+                    </div>
                 </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="industry">34</div>
-                    <div class="stats-label">Industry Events</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="conferences">60</div>
-                    <div class="stats-label">Conference Events</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="ai_ml_research_fellowships">48</div>
-                    <div class="stats-label">AI/ML Events</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="personal">3</div>
-                    <div class="stats-label">Personal Events</div>
-                </div>
-                <div class="stats-item">
-                    <div class="stats-number" data-track="all">233</div>
-                    <div class="stats-label">All Events</div>
-                </div>
+                <div class="category-counts" id="category-counts" aria-label="Opportunities by category"></div>
             </section>
 
+            <div class="section-heading calendars-heading">
+                <div>
+                    <p class="eyebrow">Calendars</p>
+                    <h2>Choose what to follow</h2>
+                </div>
+                <p>Subscribe once and receive future updates automatically.</p>
+            </div>
             <div class="datasets" id="calendar-list" aria-live="polite" aria-busy="true">
                 <p class="load-status">Loading calendars…</p>
             </div>
@@ -57,12 +57,8 @@
 
     <footer>
         <div class="footer-content">
-            <div class="footer-links">
-                <a href="https://github.com/lumiis2/opportunity-tracker" target="_blank" rel="noopener">📖 View on GitHub</a>
-            </div>
-            <div class="footer-star">
-                If you find this project helpful, please consider giving it a ⭐ on GitHub!
-            </div>
+            <p>A small open-source project for keeping opportunities in sight.</p>
+            <a href="https://github.com/lumiis2/opportunity-tracker" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
         </div>
     </footer>
 </body>

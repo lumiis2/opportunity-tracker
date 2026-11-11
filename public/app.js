@@ -1,3 +1,5 @@
+const CALENDAR_BASE_URL = "https://lumiis2.github.io/opportunity-tracker/";
+
 const details = {
     graduation: ["UG", "Research internships and scholarships for undergraduate students."],
     masters: ["MA", "Graduate programs, funding opportunities, and admission deadlines."],
@@ -44,7 +46,8 @@ function renderCalendars(calendars, opportunities) {
     const list = document.querySelector("#calendar-list");
     list.innerHTML = calendars.map(calendar => {
         const [icon, description] = details[calendar.id];
-        const calendarUrl = new URL(calendar.ics_url, window.location.href).href;
+        const calendarPath = calendar.ics_url.replace(/^\/+/, "");
+        const calendarUrl = new URL(calendarPath, CALENDAR_BASE_URL).href;
         const datasetLink = calendar.csv_url
             ? `<a href="${calendar.csv_url}" class="btn btn-data" aria-label="View ${calendar.name} dataset">View data</a>`
             : "";
@@ -67,7 +70,7 @@ function renderCalendars(calendars, opportunities) {
                 </div>
                 <div class="card-links">
                     <a href="${calendarUrl}" class="btn btn-subscribe" aria-label="Subscribe to ${calendar.name}">Subscribe</a>
-                    <a href="${calendar.ics_url}" class="btn btn-download" aria-label="Download ${calendar.name}" download>Download .ics</a>
+                    <a href="${calendarUrl}" class="btn btn-download" aria-label="Download ${calendar.name}" download>Download .ics</a>
                     ${datasetLink}
                 </div>
             </article>`;

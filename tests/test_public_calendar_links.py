@@ -60,6 +60,16 @@ def test_public_index_loads_calendar_statistics():
     assert "Calendars could not be loaded" in script
 
 
+def test_calendar_actions_use_canonical_github_pages_urls():
+    script = (ROOT / "public" / "app.js").read_text(encoding="utf-8")
+
+    assert f'const CALENDAR_BASE_URL = "{BASE_URL}"' in script
+    assert 'calendar.ics_url.replace(/^\\/+/, "")' in script
+    assert "new URL(calendarPath, CALENDAR_BASE_URL).href" in script
+    assert "window.location" not in script
+    assert script.count('href="${calendarUrl}"') == 3
+
+
 def test_pages_workflow_publishes_generated_files():
     workflow = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(
         encoding="utf-8"

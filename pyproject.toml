@@ -22,3 +22,10 @@ include-package-data = true
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
+
+[tool.coverage.run]
+source = ["src", "scripts"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true

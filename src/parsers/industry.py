@@ -2,18 +2,17 @@
 
 from __future__ import annotations
 
-from datetime import date
 from pathlib import Path
 import csv
 
-from src.core.calendar_event import CalendarEvent
+from src.core import Milestone, Opportunity
 from src.utils.date_helpers import (
     clean_text,
     join_non_empty_lines,
-    parse_exact_date,
-    parse_month_start,
+    resolve_window,
     split_tags,
 )
+from src.utils.identifiers import opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -50,16 +49,13 @@ EXPECTED_COLUMNS = [
 class IndustryParser:
     """Parse industry opportunity rows into calendar events."""
 
-    def parse(self, csv_path: str | Path) -> list[CalendarEvent]:
+    def parse(self, csv_path: str | Path) -> list[Opportunity]:
         path = Path(csv_path)
         with path.open("r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
             self._validate_columns(reader.fieldnames)
 
-            events: list[CalendarEvent] = []
-            for row in reader:
-                events.extend(self._parse_row(row))
-            return events
+            return [opportunity for row in reader if (opportunity := self._parse_row(row))]
 
     def _validate_columns(self, fieldnames: list[str] | None) -> None:
         if not fieldnames:
@@ -68,12 +64,13 @@ class IndustryParser:
         if missing:
             raise ValueError(f"Missing required columns: {', '.join(missing)}")
 
-    def _parse_row(self, row: dict[str, str]) -> list[CalendarEvent]:
+    def _parse_row(self, row: dict[str, str]) -> Opportunity | None:
         company = clean_text(row.get("Company"))
         category = clean_text(row.get("Category")) or None
         program_name = company
         if not program_name:
-            return []
+            return None
+        source_id = opportunity_id("industry", company)
 
         title_base = f"{program_name}".strip()
         description = self._build_description(row)
@@ -83,67 +80,19 @@ class IndustryParser:
         tags.extend(split_tags(row.get("Primary Focus")))
         tags.extend(split_tags(row.get("Main Domains")))
 
-        events: list[CalendarEvent] = []
-
-        app_open = parse_exact_date(row.get("Applications Open"))
-        if app_open:
-            events.append(
-                self._event(
-                    title=f"Applications Open — {title_base}",
-                    start_date=app_open,
-                    description=description,
-                    url=url,
-                    category=category,
-                    tags=tags,
-                )
-            )
-
-        app_deadline = parse_exact_date(row.get("Application Deadline"))
-        if app_deadline:
-            events.append(
-                self._event(
-                    title=f"Application Deadline — {title_base}",
-                    start_date=app_deadline,
-                    description=description,
-                    url=url,
-                    category=category,
-                    tags=tags,
-                )
-            )
-
-        expected_open = parse_month_start(row.get("Expected Open Month"))
-        if expected_open:
-            events.append(
-                self._event(
-                    title=f"Expected Applications Open — {title_base}",
-                    start_date=expected_open,
-                    description=description,
-                    url=url,
-                    category=category,
-                    tags=tags,
-                )
-            )
-
-        return events
-
-    def _event(
-        self,
-        *,
-        title: str,
-        start_date: date,
-        description: str,
-        url: str | None,
-        category: str | None,
-        tags: list[str],
-    ) -> CalendarEvent:
-        return CalendarEvent(
-            title=title,
-            description=description,
-            start_date=start_date,
-            url=url,
-            category=category,
-            tags=tags,
+        opening, deadline = resolve_window(
+            open_value=row.get("Applications Open"),
+            deadline_value=row.get("Application Deadline"),
+            expected_open=row.get("Expected Open Month"),
+            expected_deadline=row.get("Expected Deadline Month"),
         )
+        milestones = []
+        if opening:
+            milestones.append(Milestone("application-open", f"{'Expected ' if opening.estimated else ''}Applications Open — {title_base}", opening.value, estimated=opening.estimated))
+        if deadline:
+            milestones.append(Milestone("application-deadline", f"{'Expected ' if deadline.estimated else ''}Application Deadline — {title_base}", deadline.value, estimated=deadline.estimated))
+
+        return Opportunity(source_id, "industry", title_base, description, url, category, tags, milestones)
 
     def _build_description(self, row: dict[str, str]) -> str:
         lines = []
@@ -178,5 +127,5 @@ class IndustryParser:
         return join_non_empty_lines(lines)
 
 
-def parse(csv_path: str | Path) -> list[CalendarEvent]:
+def parse(csv_path: str | Path) -> list[Opportunity]:
     return IndustryParser().parse(csv_path)

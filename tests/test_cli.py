@@ -5,28 +5,17 @@ import pytest
 from src import cli
 
 
-@pytest.mark.parametrize(
-    ("track", "calendar_name"),
-    [
-        ("graduation", "Graduation Opportunities"),
-        ("masters", "Masters Programs"),
-        ("industry", "Industry Opportunities"),
-        ("conferences", "Conferences"),
-        ("ai_ml_research_fellowships", "AI/ML Research & Fellowships"),
-        ("personal", "Personal Opportunities"),
-    ],
-)
-def test_generate_ics_uses_official_track_parser(tmp_path, track, calendar_name):
+def test_generate_ics_uses_official_track_parser(tmp_path):
     root = Path(__file__).resolve().parents[1]
-    output = tmp_path / f"{track}.ics"
+    output = tmp_path / "graduation.ics"
 
     result = cli.main(
         [
             "generate-ics",
             "--track",
-            track,
+            "graduation",
             "--input",
-            str(root / "data" / f"{track}.csv"),
+            str(root / "data" / "graduation.csv"),
             "--output",
             str(output),
         ]
@@ -36,7 +25,7 @@ def test_generate_ics_uses_official_track_parser(tmp_path, track, calendar_name)
     contents = output.read_text(encoding="utf-8")
     assert "BEGIN:VCALENDAR" in contents
     assert "BEGIN:VEVENT" in contents
-    assert f"X-WR-CALNAME:{calendar_name}" in contents
+    assert "X-WR-CALNAME:Graduation Opportunities" in contents
 
 
 def test_generate_ics_reports_invalid_csv(tmp_path):

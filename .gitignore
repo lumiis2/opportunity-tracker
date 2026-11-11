@@ -30,6 +30,9 @@ build/
 dist/
 *.egg-info/
 .eggs/
+public/*.ics
+public/*.json
+public/data/*.csv
 
 # Misc
 *.log

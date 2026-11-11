@@ -10,6 +10,7 @@ from datetime import date
 class CalendarEvent:
     """Normalized event data shared by all dataset parsers."""
 
+    id: str
     title: str
     description: str
     start_date: date

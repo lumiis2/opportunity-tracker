@@ -1,0 +1,58 @@
+[
+  {
+    "id": "graduation",
+    "name": "Graduation Opportunities",
+    "ics_url": "graduation.ics",
+    "csv_url": "data/graduation.csv",
+    "opportunity_count": 35,
+    "event_count": 58
+  },
+  {
+    "id": "masters",
+    "name": "Masters Programs",
+    "ics_url": "masters.ics",
+    "csv_url": "data/masters.csv",
+    "opportunity_count": 15,
+    "event_count": 30
+  },
+  {
+    "id": "industry",
+    "name": "Industry Opportunities",
+    "ics_url": "industry.ics",
+    "csv_url": "data/industry.csv",
+    "opportunity_count": 21,
+    "event_count": 34
+  },
+  {
+    "id": "conferences",
+    "name": "Conferences",
+    "ics_url": "conferences.ics",
+    "csv_url": "data/conferences.csv",
+    "opportunity_count": 20,
+    "event_count": 60
+  },
+  {
+    "id": "ai_ml_research_fellowships",
+    "name": "AI/ML Research & Fellowships",
+    "ics_url": "ai_ml_research_fellowships.ics",
+    "csv_url": "data/ai_ml_research_fellowships.csv",
+    "opportunity_count": 28,
+    "event_count": 48
+  },
+  {
+    "id": "personal",
+    "name": "Personal Opportunities",
+    "ics_url": "personal.ics",
+    "csv_url": "data/personal.csv",
+    "opportunity_count": 54,
+    "event_count": 62
+  },
+  {
+    "id": "all",
+    "name": "All Opportunities",
+    "ics_url": "all.ics",
+    "csv_url": null,
+    "opportunity_count": 173,
+    "event_count": 292
+  }
+]

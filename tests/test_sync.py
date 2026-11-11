@@ -11,6 +11,7 @@ def test_new_calendar_sheet_link_is_configured():
         "gid": 1934629732,
         "output": "ai_ml_research_fellowships.ics",
         "csv": "ai_ml_research_fellowships.csv",
+        "calendar_name": "AI/ML Research & Fellowships",
     }
     assert sync.build_export_url(
         cfg["sheet_id"], cfg["datasets"]["ai_ml_research_fellowships"]["gid"]
@@ -23,6 +24,7 @@ def test_new_calendar_sheet_link_is_configured():
         "gid": 1465743212,
         "output": "personal.ics",
         "csv": "personal.csv",
+        "calendar_name": "Personal Opportunities",
     }
 
 
@@ -65,6 +67,7 @@ def test_sync_http_error_is_reported(tmp_path, monkeypatch, capsys):
 
     monkeypatch.setattr(sync.requests, "get", lambda url, timeout=30: ErrResp())
 
-    sync.sync_all(config_path=cfg_path)
+    failures = sync.sync_all(config_path=cfg_path)
     captured = capsys.readouterr()
+    assert failures == 1
     assert "Network error downloading" in captured.out

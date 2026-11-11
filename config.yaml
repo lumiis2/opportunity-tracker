@@ -6,28 +6,34 @@ datasets:
     gid: 1015108866
     output: graduation.ics
     csv: graduation.csv
+    calendar_name: Graduation Opportunities
 
   masters:
     gid: 285761220
     output: masters.ics
     csv: masters.csv
+    calendar_name: Masters Programs
 
   industry:
     gid: 821548725
     output: industry.ics
     csv: industry.csv
+    calendar_name: Industry Opportunities
 
   conferences:
     gid: 1473405976
     output: conferences.ics
     csv: conferences.csv
+    calendar_name: Conferences
 
   ai_ml_research_fellowships:
     gid: 1934629732
     output: ai_ml_research_fellowships.ics
     csv: ai_ml_research_fellowships.csv
+    calendar_name: AI/ML Research & Fellowships
 
   personal:
     gid: 1465743212
     output: personal.ics
     csv: personal.csv
+    calendar_name: Personal Opportunities

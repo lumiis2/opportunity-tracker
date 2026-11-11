@@ -7,8 +7,9 @@ from pathlib import Path
 import csv
 import re
 
-from src.core.calendar_event import CalendarEvent
-from src.utils.date_helpers import clean_text, join_non_empty_lines, parse_exact_date, parse_month_start
+from src.core import Milestone, Opportunity
+from src.utils.date_helpers import clean_text, join_non_empty_lines, resolve_window
+from src.utils.identifiers import opportunity_id
 
 
 EXPECTED_COLUMNS = [
@@ -55,11 +56,11 @@ def _link_url(value: object) -> str:
 class AiMlResearchFellowshipsParser:
     """Turn program application dates into normalized calendar events."""
 
-    def parse(self, csv_path: str | Path) -> list[CalendarEvent]:
+    def parse(self, csv_path: str | Path) -> list[Opportunity]:
         with Path(csv_path).open("r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
             self._validate_columns(reader.fieldnames)
-            return [event for row in reader for event in self._parse_row(row)]
+            return [opportunity for row in reader if (opportunity := self._parse_row(row))]
 
     @staticmethod
     def _validate_columns(fieldnames: list[str] | None) -> None:
@@ -69,59 +70,32 @@ class AiMlResearchFellowshipsParser:
         if missing:
             raise ValueError(f"Missing required columns: {', '.join(missing)}")
 
-    def _parse_row(self, row: dict[str, str]) -> list[CalendarEvent]:
+    def _parse_row(self, row: dict[str, str]) -> Opportunity | None:
         program = _link_label(row.get("Program"))
         if not program:
-            return []
+            return None
+        source_id = opportunity_id("ai-ml", program, row.get("Organization"))
 
         category = clean_text(row.get("Category")) or None
         subcategory = clean_text(row.get("Subcategory"))
         tags = [subcategory] if subcategory else []
         description = self._build_description(row)
         url = _link_url(row.get("Official Website")) or None
-        events: list[CalendarEvent] = []
-
-        application_open = parse_exact_date(row.get("Application Open"))
-        deadline = parse_exact_date(row.get("Application Deadline"))
-
-        if application_open:
-            events.append(self._event(f"Applications Open — {program}", application_open, description, url, category, tags))
+        opening, deadline = resolve_window(
+            open_value=row.get("Application Open"),
+            deadline_value=row.get("Application Deadline"),
+            expected_open=row.get("Expected Open Month"),
+            expected_deadline=row.get("Expected Deadline Month"),
+        )
+        milestones = []
+        if opening:
+            milestones.append(Milestone("application-open", f"{'Expected ' if opening.estimated else ''}Applications Open — {program}", opening.value, estimated=opening.estimated))
         if deadline:
-            events.append(self._event(f"Application Deadline — {program}", deadline, description, url, category, tags))
+            milestones.append(Milestone("application-deadline", f"{'Expected ' if deadline.estimated else ''}Application Deadline — {program}", deadline.value, estimated=deadline.estimated))
+        if not milestones and self._is_continuous(row):
+            milestones.append(Milestone("continuous-applications", f"Applications Open Continuously — {program}", date(date.today().year, 1, 1)))
 
-        expected_open = None
-        if not application_open:
-            expected_open = parse_month_start(row.get("Application Open")) or parse_month_start(
-                row.get("Expected Open Month")
-            )
-            if expected_open:
-                events.append(self._event(f"Expected Applications Open — {program}", expected_open, description, url, category, tags))
-
-        if not deadline:
-            fallback_year = expected_open.year if expected_open else None
-            expected_deadline = parse_month_start(
-                row.get("Application Deadline"), fallback_year=fallback_year
-            ) or parse_month_start(
-                row.get("Expected Deadline Month"), fallback_year=fallback_year
-            )
-            if expected_deadline:
-                if expected_open and expected_deadline < expected_open:
-                    expected_deadline = expected_deadline.replace(year=expected_deadline.year + 1)
-                events.append(self._event(f"Expected Application Deadline — {program}", expected_deadline, description, url, category, tags))
-
-        if not events and self._is_continuous(row):
-            events.append(
-                self._event(
-                    f"Applications Open Continuously — {program}",
-                    date(date.today().year, 1, 1),
-                    description,
-                    url,
-                    category,
-                    tags,
-                )
-            )
-
-        return events
+        return Opportunity(source_id, "ai_ml_research_fellowships", program, description, url, category, tags, milestones)
 
     @staticmethod
     def _is_continuous(row: dict[str, str]) -> bool:
@@ -134,24 +108,6 @@ class AiMlResearchFellowshipsParser:
         return any(
             clean_text(value).lower() in {"open", "always open", "continuous", "rolling"}
             for value in values
-        )
-
-    @staticmethod
-    def _event(
-        title: str,
-        start_date: date,
-        description: str,
-        url: str | None,
-        category: str | None,
-        tags: list[str],
-    ) -> CalendarEvent:
-        return CalendarEvent(
-            title=title,
-            start_date=start_date,
-            description=description,
-            url=url,
-            category=category,
-            tags=tags,
         )
 
     @staticmethod
@@ -173,5 +129,5 @@ class AiMlResearchFellowshipsParser:
         return join_non_empty_lines(lines)
 
 
-def parse(csv_path: str | Path) -> list[CalendarEvent]:
+def parse(csv_path: str | Path) -> list[Opportunity]:
     return AiMlResearchFellowshipsParser().parse(csv_path)

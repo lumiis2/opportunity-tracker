@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Opportunity Tracker" width="100%">
+  <img src="assets/banner.png" alt="Opportunity Tracker" width="100%">
 </p>
 
 <p align="center">
@@ -50,6 +50,7 @@ Copie a URL do calendário e cole na opção **Do URL** ou **Por URL** do seu ap
 | 📚 Conferências | `https://lumiis2.github.io/opportunity-tracker/conferences.ics` | [conferences.ics](https://lumiis2.github.io/opportunity-tracker/conferences.ics) | [conferences.csv](https://lumiis2.github.io/opportunity-tracker/data/conferences.csv) |
 | 🤖 Pesquisa e bolsas em IA/ML | `https://lumiis2.github.io/opportunity-tracker/ai_ml_research_fellowships.ics` | [ai_ml_research_fellowships.ics](https://lumiis2.github.io/opportunity-tracker/ai_ml_research_fellowships.ics) | [ai_ml_research_fellowships.csv](https://lumiis2.github.io/opportunity-tracker/data/ai_ml_research_fellowships.csv) |
 | 🗂️ Calendário pessoal | `https://lumiis2.github.io/opportunity-tracker/personal.ics` | [personal.ics](https://lumiis2.github.io/opportunity-tracker/personal.ics) | [personal.csv](https://lumiis2.github.io/opportunity-tracker/data/personal.csv) |
+| 🌐 Todas as oportunidades | `https://lumiis2.github.io/opportunity-tracker/all.ics` | [all.ics](https://lumiis2.github.io/opportunity-tracker/all.ics) | — |
 
 ## Como usar
 

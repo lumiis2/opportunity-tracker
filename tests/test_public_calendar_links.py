@@ -78,3 +78,5 @@ def test_pages_workflow_publishes_generated_files():
     assert "cp -v output/*.ics public/" in workflow
     assert "cp -v output/*.json public/" in workflow
     assert "cp -v data/*.csv public/data/" in workflow
+    assert "cron: '0 6 * * 1'" in workflow
+    assert "workflow_dispatch:" in workflow

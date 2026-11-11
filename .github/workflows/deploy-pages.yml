@@ -2,7 +2,7 @@ name: Sync, build and publish calendars
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * 1'
   push:
     branches:
       - main

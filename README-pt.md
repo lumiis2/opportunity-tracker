@@ -27,20 +27,27 @@ conferências e indústria em calendários simples de acompanhar. A proposta é
 direta: escolha uma categoria, adicione o link ao seu aplicativo de calendário
 e tenha os prazos disponíveis no lugar onde você já organiza sua rotina.
 
-Este é um projeto aberto e colaborativo. Você pode usar os calendários prontos,
-personalizá-los ou ajudar a torná-los mais completos e úteis para outras
-pessoas.
+Este é ao mesmo tempo um serviço público e uma base open source. Você pode:
+
+- usar os calendários já publicados;
+- fazer um fork e publicar calendários para sua área ou comunidade;
+- contribuir com dados, documentação, testes, parsers ou melhorias no frontend.
 
 ## Comece por aqui
 
 👉 **[Acesse a página do Opportunity Tracker](https://lumiis2.github.io/opportunity-tracker/)**
 
-Ela reúne todos os calendários disponíveis, seus links de assinatura e os
-respectivos dados em CSV.
+Ela apresenta contagens atualizadas, próximas oportunidades, links públicos de
+assinatura, downloads `.ics` e os CSVs de origem. Os cards são gerados a partir
+dos mesmos dados normalizados utilizados para construir os calendários.
 
 ## Calendários disponíveis
 
 Copie a URL do calendário e cole na opção **Do URL** ou **Por URL** do seu aplicativo de calendário.
+
+> Clicar em um link `.ics` pode baixar o arquivo. Para criar uma assinatura
+> recorrente, copie a URL exibida no site e use a opção **Por URL** do seu
+> aplicativo de calendário.
 
 | Categoria | URL do calendário — copie e cole | Baixar `.ics` | Baixar CSV |
 | --- | --- | --- | --- |
@@ -104,10 +111,74 @@ Valores aceitos em `--track`: `graduation`, `masters`, `industry`,
 Para montar sua própria planilha pessoal e, opcionalmente, publicar uma URL
 atualizável, consulte o [tutorial de calendário pessoal](tutorials-and-info/COMO-CRIAR-SEU-CALENDARIO.md).
 
-Esse fluxo funciona localmente e não depende de Google Sheets, credenciais,
-GitHub Pages ou conexão com a internet. O CSV precisa manter as mesmas colunas
+Depois que as dependências estiverem instaladas, a geração funciona localmente
+e não depende de Google Sheets, credenciais ou GitHub Pages. O CSV precisa manter as mesmas colunas
 do arquivo oficial da categoria escolhida. Para utilizar outro formato de
 colunas, será necessário implementar um novo parser.
+
+## Como o projeto funciona
+
+```text
+Google Sheets
+    ↓ scripts/sync_sheets.py
+Arquivos CSV em data/
+    ↓ parsers de cada categoria
+Modelos Opportunity + Milestone
+    ↓ validação e build
+Calendários ICS + opportunities.json + calendars.json
+    ↓ GitHub Actions
+Frontend estático no GitHub Pages
+```
+
+O projeto mantém uma stack pequena de propósito:
+
+- **Python** sincroniza os CSVs, normaliza oportunidades, valida os dados e gera ICS/JSON.
+- **HTML, CSS e JavaScript** renderizam o frontend estático sem framework.
+- **GitHub Actions** executa testes, gera os artefatos e publica o GitHub Pages toda segunda-feira ou manualmente.
+- **GitHub Pages** é a origem canônica das URLs públicas de assinatura.
+
+Os JSONs normalizados também funcionam como um contrato público simples:
+
+- [`calendars.json`](https://lumiis2.github.io/opportunity-tracker/calendars.json) descreve os calendários e suas contagens.
+- [`opportunities.json`](https://lumiis2.github.io/opportunity-tracker/opportunities.json) contém oportunidades e milestones normalizadas.
+
+## Executar o projeto completo localmente
+
+Instale as dependências de desenvolvimento e gere os dados atuais:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+pytest -q
+python scripts/build.py
+```
+
+Para visualizar o site:
+
+```bash
+mkdir -p public/data
+cp output/*.ics output/*.json public/
+cp data/*.csv public/data/
+python -m http.server 8000 --directory public
+```
+
+Abra `http://localhost:8000`. Os botões de assinatura continuarão apontando
+para os calendários canônicos do GitHub Pages.
+
+## Criar seu próprio fork
+
+O repositório pode servir como base para um calendário pessoal, acadêmico ou comunitário:
+
+1. Faça um fork e clone o repositório.
+2. Troque no `config.yaml` o ID da planilha pública e os GIDs das abas.
+3. Mantenha um schema CSV existente ou adicione um parser pequeno para suas colunas.
+4. Atualize os nomes e as descrições dos calendários.
+5. Troque `CALENDAR_BASE_URL` em `public/app.js` pelo host permanente dos seus calendários.
+6. Ative o GitHub Pages via GitHub Actions nas configurações do fork.
+7. Execute o workflow manualmente e confira os arquivos `.ics` e JSON gerados.
+
+Para a configuração pessoal mais simples, siga o [tutorial de calendário pessoal](tutorials-and-info/COMO-CRIAR-SEU-CALENDARIO.md). Nunca versione credenciais privadas: a sincronização atual precisa apenas de planilhas com leitura pública.
 
 ## Adicionar ao Google Calendar por URL
 
@@ -147,6 +218,16 @@ sugestão, dúvida ou correção pontual, abra uma
 
 Ao editar um CSV, preserve seus cabeçalhos e o formato das colunas para que o
 calendário continue sendo gerado corretamente.
+
+Antes de abrir um pull request, execute:
+
+```bash
+pytest -q
+python scripts/build.py
+```
+
+Prefira mudanças pequenas e mensagens descritivas. Atualizações de CSV, ICS e
+JSON devem permanecer consistentes com os dados de origem e o resultado do build.
 
 ## Visão futura
 

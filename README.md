@@ -20,17 +20,23 @@ Incredible academic and professional opportunities exist by the thousands, but t
 
 The **Opportunity Tracker** gathers opportunities for undergraduate, master's, conferences, and industry in easy-to-follow calendars. The proposal is straightforward: choose a category, add the link to your calendar application, and have the deadlines available where you already organize your routine.
 
-This is an open and collaborative project. You can use the ready-made calendars, customize them, or help make them more complete and useful for others.
+This is both a public service and an open-source starter project. You can:
+
+- use the calendars already published;
+- fork the repository and publish calendars for your area or community;
+- contribute data, documentation, tests, parsers, or frontend improvements.
 
 ## Start here
 
 👉 **[Access the Opportunity Tracker page](https://lumiis2.github.io/opportunity-tracker/)**
 
-It gathers all available calendars, their subscription links, and the respective data in CSV format.
+The site displays live counts, upcoming opportunities, public subscription links, `.ics` downloads, and the source CSVs. Calendar cards are generated from the same normalized data used to build the calendar files.
 
 ## Available calendars
 
 Copy the calendar URL and paste it into the **From URL** option in your calendar app.
+
+> Clicking an `.ics` link may download the file. For a recurring subscription, copy the URL shown on the site and add it using your calendar application's **From URL** option.
 
 | Category | Calendar URL — copy and paste | Download `.ics` | Download CSV |
 | --- | --- | --- | --- |
@@ -88,9 +94,72 @@ Accepted values for `--track`: `graduation`, `masters`, `industry`,
 See the [personal calendar tutorial](tutorials-and-info/COMO-CRIAR-SEU-CALENDARIO.md)
 to create your own spreadsheet and optionally publish an updateable URL.
 
-This workflow works locally and does not depend on Google Sheets, credentials, GitHub Pages, or an internet connection.
+After the dependencies are installed, calendar generation works locally and does not depend on Google Sheets, credentials, or GitHub Pages.
 The CSV must maintain the same columns as the official file of the chosen category.
 To use a different column format, you will need to implement a new parser.
+
+## How the project works
+
+```text
+Google Sheets
+    ↓ scripts/sync_sheets.py
+CSV files in data/
+    ↓ dataset parsers
+Opportunity + Milestone models
+    ↓ validation and build
+ICS calendars + opportunities.json + calendars.json
+    ↓ GitHub Actions
+Static frontend on GitHub Pages
+```
+
+The repository intentionally uses a small stack:
+
+- **Python** synchronizes CSVs, normalizes opportunities, validates data, and generates ICS/JSON files.
+- **HTML, CSS, and JavaScript** render the static frontend without a framework.
+- **GitHub Actions** runs tests, builds the artifacts, and publishes GitHub Pages every Monday or on demand.
+- **GitHub Pages** is the canonical host for public calendar subscription URLs.
+
+The normalized JSON files also form a simple public data contract:
+
+- [`calendars.json`](https://lumiis2.github.io/opportunity-tracker/calendars.json) describes the published calendars and counts.
+- [`opportunities.json`](https://lumiis2.github.io/opportunity-tracker/opportunities.json) contains the normalized opportunities and milestones.
+
+## Run the complete project locally
+
+Install the development dependencies and build the current data:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+pytest -q
+python scripts/build.py
+```
+
+To preview the website:
+
+```bash
+mkdir -p public/data
+cp output/*.ics output/*.json public/
+cp data/*.csv public/data/
+python -m http.server 8000 --directory public
+```
+
+Then open `http://localhost:8000`. Public subscription buttons will still point to the canonical GitHub Pages calendars.
+
+## Create your own fork
+
+The repository can be reused as a base for a personal, academic, or community calendar:
+
+1. Fork and clone the repository.
+2. Replace the spreadsheet settings in `config.yaml` with your public Google Sheets ID and worksheet GIDs.
+3. Keep an existing CSV schema, or add a small parser for your own columns.
+4. Update calendar names and descriptions.
+5. Change `CALENDAR_BASE_URL` in `public/app.js` to your permanent public calendar host.
+6. Enable GitHub Pages through GitHub Actions in the fork settings.
+7. Run the workflow manually and verify the generated `.ics` and JSON files.
+
+For the simplest personal setup, follow the [personal calendar tutorial](tutorials-and-info/COMO-CRIAR-SEU-CALENDARIO.md). Never commit private credentials: the current synchronization only requires publicly readable worksheets.
 
 ## Add to Google Calendar via URL
 
@@ -122,6 +191,15 @@ You can contribute by:
 For a direct change, fork the project, create a branch, and open a [Pull Request](https://github.com/lumiis2/opportunity-tracker/pulls). For a suggestion, question, or specific correction, open an [Issue](https://github.com/lumiis2/opportunity-tracker/issues).
 
 When editing a CSV, preserve its headers and the column format so that the calendar continues to be generated correctly.
+
+Before opening a pull request, run:
+
+```bash
+pytest -q
+python scripts/build.py
+```
+
+Keep changes small and descriptive. Generated CSV, ICS, and JSON updates should remain consistent with the source data and build output.
 
 ## Future vision
 

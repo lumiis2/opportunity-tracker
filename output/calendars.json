@@ -44,15 +44,15 @@
     "name": "Personal Opportunities",
     "ics_url": "personal.ics",
     "csv_url": "data/personal.csv",
-    "opportunity_count": 2,
-    "event_count": 3
+    "opportunity_count": 54,
+    "event_count": 62
   },
   {
     "id": "all",
     "name": "All Opportunities",
     "ics_url": "all.ics",
     "csv_url": null,
-    "opportunity_count": 121,
-    "event_count": 233
+    "opportunity_count": 173,
+    "event_count": 292
   }
 ]

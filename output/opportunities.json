@@ -3297,5 +3297,1119 @@
         "estimated": true
       }
     ]
+  },
+  {
+    "id": "personal-cern-short-term-internship-cern",
+    "track": "personal",
+    "title": "CERN Short-Term Internship",
+    "description": "Programa: CERN Short-Term Internship\nCategoria: Internship\nNível: Undergrad\nInstituição / organização: CERN\nÁrea / foco: Software, IT, data science, engineering e outras áreas técnicas\nLocal: Genebra, Suíça\nFormato: Presencial\nDuração: 1–6 meses\nPeríodo / data do programa: Ao longo do ano\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estar matriculada em curso universitário/técnico; condições dependem da vaga\nFunding / benefícios: Allowance CERN\nSeleção / docs relevantes: CV e informações acadêmicas\nPrioridade: Média\nStatus / observações: Modalidade curta e flexível",
+    "url": "https://careers.cern/jobs/short-term-internship/",
+    "category": "Internship",
+    "tags": [
+      "Undergrad",
+      "Média"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — CERN Short-Term Internship",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-cern-technical-studentship-it-mathematics-robotics-cern",
+    "track": "personal",
+    "title": "CERN Technical Studentship – IT, Mathematics & Robotics",
+    "description": "Programa: CERN Technical Studentship – IT, Mathematics & Robotics\nCategoria: Studentship\nNível: Undergrad\nInstituição / organização: CERN\nÁrea / foco: Computer Science, Software, Data Science, Mathematics, Robotics\nLocal: Genebra, Suíça\nFormato: Presencial\nDuração: 4–12 meses\nPeríodo / data do programa: Início ideal 01/04/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estudante de CS/Math/Robotics/Engineering ou área relacionada; precisa continuar vinculada à universidade\nFunding / benefícios: CHF 3,486 líquidos/mês; 30 dias de leave/ano; health insurance\nSeleção / docs relevantes: CV e documentação acadêmica\nPrioridade: Muito alta\nStatus / observações: 2027-1 aberto; CERN mais alinhado a CS/ML",
+    "url": "https://careers.cern/jobs/tsc-co/",
+    "category": "Studentship",
+    "tags": [
+      "Undergrad",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — CERN Technical Studentship – IT, Mathematics & Robotics",
+        "start_date": "2026-10-16",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-cern-openlab-summer-student-programme-cern-openlab",
+    "track": "personal",
+    "title": "CERN Openlab Summer Student Programme",
+    "description": "Programa: CERN Openlab Summer Student Programme\nCategoria: Summer research\nNível: Undergrad / MSc\nInstituição / organização: CERN openlab\nÁrea / foco: Computing, software, HPC, data, ML\nLocal: Genebra, Suíça\nFormato: Presencial\nDuração: ~9 semanas\nPeríodo / data do programa: Summer 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Normalmente Bachelor/Master em CS, matemática, engineering ou área relacionada\nFunding / benefícios: Allowance + viagem/support; valores 2027 N/A\nSeleção / docs relevantes: CV, transcript, referências/motivation conforme call\nPrioridade: Alta\nStatus / observações: Aguardar call 2027",
+    "url": "https://openlab.cern/cern-openlab-summer-student-programme/",
+    "category": "Summer research",
+    "tags": [
+      "Undergrad / MSc",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — CERN Openlab Summer Student Programme",
+        "start_date": "2027-06-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-eth-student-summer-research-fellowship-ssrf-eth-zurich-d-infk",
+    "track": "personal",
+    "title": "ETH Student Summer Research Fellowship – SSRF",
+    "description": "Programa: ETH Student Summer Research Fellowship – SSRF\nCategoria: Summer research fellowship\nNível: Undergrad / MSc\nInstituição / organização: ETH Zürich – D-INFK\nÁrea / foco: ML, AI, security, systems, visual computing, theory etc.\nLocal: Zürich, Suíça\nFormato: Presencial\nDuração: 2 meses\nPeríodo / data do programa: Jul–Aug 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: CS ou área próxima; mínimo 2 anos completos; graduação no ano seguinte ao fellowship ou depois\nFunding / benefícios: Fellowship; valor 2027 N/A\nSeleção / docs relevantes: Application online; histórico acadêmico; inglês suficiente\nPrioridade: Muito alta\nStatus / observações: Applications abrem beginning of November 2026",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+    "category": "Summer research fellowship",
+    "tags": [
+      "Undergrad / MSc",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — ETH Student Summer Research Fellowship – SSRF",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-summer-epfl-epfl-school-of-computer-and-communication-sciences",
+    "track": "personal",
+    "title": "Summer@EPFL",
+    "description": "Programa: Summer@EPFL\nCategoria: Summer research fellowship\nNível: Undergrad / MSc\nInstituição / organização: EPFL – School of Computer and Communication Sciences\nÁrea / foco: AI/ML, NLP, CV, systems, security, theory, data etc.\nLocal: Lausanne, Suíça\nFormato: Presencial\nDuração: 2–3 meses\nPeríodo / data do programa: ~May–Sep 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Estar no mínimo no 2º ano do Bachelor; continuar matriculada durante o fellowship\nFunding / benefícios: Fellowship mensal + travel contribution; valor 2027 N/A\nSeleção / docs relevantes: CV, transcripts, motivation letter; até 3 research domains/professors\nPrioridade: Muito alta\nStatus / observações: Um dos melhores summer programs para AI/ML",
+    "url": "https://summer.epfl.ch/",
+    "category": "Summer research fellowship",
+    "tags": [
+      "Undergrad / MSc",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — Summer@EPFL",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — Summer@EPFL",
+        "start_date": "2026-12-01",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-epfl-e3-excellence-in-engineering-epfl-school-of-engineering",
+    "track": "personal",
+    "title": "EPFL E3 – Excellence in Engineering",
+    "description": "Programa: EPFL E3 – Excellence in Engineering\nCategoria: Research internship\nNível: Undergrad / MSc\nInstituição / organização: EPFL School of Engineering\nÁrea / foco: Engineering + Computer Science\nLocal: Lausanne / campuses EPFL\nFormato: Presencial\nDuração: ~8–12 semanas\nPeríodo / data do programa: Summer 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: International BSc/MSc em engineering/technology; Computer Science incluído\nFunding / benefícios: Stipend/support; valores dependem do placement\nSeleção / docs relevantes: CV, motivation, transcript, referências, escolha de labs\nPrioridade: Alta\nStatus / observações: Programa distinto de Summer@EPFL",
+    "url": "https://eee.epfl.ch/program-at-a-glance/",
+    "category": "Research internship",
+    "tags": [
+      "Undergrad / MSc",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — EPFL E3 – Excellence in Engineering",
+        "start_date": "2026-10-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — EPFL E3 – Excellence in Engineering",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — EPFL E3 – Excellence in Engineering",
+        "start_date": "2027-06-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-max-planck-cs-research-internship-summer-max-planck-mpi-sws-mpi-inf-ecosystem",
+    "track": "personal",
+    "title": "Max Planck CS Research Internship - summer",
+    "description": "Programa: Max Planck CS Research Internship - summer\nCategoria: Research internship\nNível: Undergrad / MSc\nInstituição / organização: Max Planck / MPI-SWS / MPI-INF ecosystem\nÁrea / foco: CS research: ML, systems, security, algorithms etc.\nLocal: Saarbrücken / Kaiserslautern, Alemanha\nFormato: Presencial\nDuração: ~12–14 semanas típico\nPeríodo / data do programa: Summer 2027 / off-season possível\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Strong undergraduate/master background; requisitos variam por lab/programa\nFunding / benefícios: Normalmente stipend + suporte\nSeleção / docs relevantes: CV, transcript, research interests, eventualmente referências\nPrioridade: Muito alta\nStatus / observações: Aguardar call 2027 oficial",
+    "url": "https://www.cis.mpg.de/internships/",
+    "category": "Research internship",
+    "tags": [
+      "Undergrad / MSc",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — Max Planck CS Research Internship - summer",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — Max Planck CS Research Internship - summer",
+        "start_date": "2027-06-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-max-planck-cs-research-internship-all-year-max-planck-mpi-sws-mpi-inf-ecosystem",
+    "track": "personal",
+    "title": "Max Planck CS Research Internship - all year",
+    "description": "Programa: Max Planck CS Research Internship - all year\nCategoria: Research internship\nNível: Undergrad / MSc\nInstituição / organização: Max Planck / MPI-SWS / MPI-INF ecosystem\nÁrea / foco: CS research: ML, systems, security, algorithms etc.\nLocal: Saarbrücken / Kaiserslautern, Alemanha\nFormato: Presencial\nDuração: ~12–14 semanas típico\nPeríodo / data do programa: Summer 2027 / off-season possível\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Strong undergraduate/master background; requisitos variam por lab/programa\nFunding / benefícios: Normalmente stipend + suporte\nSeleção / docs relevantes: CV, transcript, research interests, eventualmente referências\nPrioridade: Muito alta\nStatus / observações: Aguardar call 2027 oficial",
+    "url": "https://www.cis.mpg.de/internships/",
+    "category": "Research internship",
+    "tags": [
+      "Undergrad / MSc",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — Max Planck CS Research Internship - all year",
+        "start_date": "2027-06-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-asci-international-summer-research-programme-aalto-university-aalto-science-institute-asci",
+    "track": "personal",
+    "title": "AScI International Summer Research Programme",
+    "description": "Programa: AScI International Summer Research Programme\nCategoria: Research internship\nNível: Undergrad / MSc\nInstituição / organização: Aalto University – Aalto Science Institute (AScI)\nÁrea / foco: Pesquisa acadêmica em CS, AI/ML, engineering, applied physics e áreas relacionadas; projetos específicos por grupo\nLocal: Espoo / Helsinki, Finlândia\nFormato: Presencial\nDuração: 12 semanas\nPeríodo / data do programa: Junho–agosto 2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aberto a estudantes de bachelor e master worldwide; requisitos específicos dependem do projeto; inglês suficiente\nFunding / benefícios: Salário €2,000+/mês + travel bonus (€400 Europa / €800 fora da Europa) + férias pagas + auxílio para encontrar housing\nSeleção / docs relevantes: CV, transcript, motivation letter, carta de recomendação, comprovação de inglês; escolha de até 3 projetos; entrevistas\nPrioridade: Alta\nStatus / observações: Edição 2026 fechada; acompanhar Summer 2027",
+    "url": "https://www.aalto.fi/en/aalto-science-institute-asci/aalto-science-institute-international-summer-research-programme",
+    "category": "Research internship",
+    "tags": [
+      "Undergrad / MSc",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — AScI International Summer Research Programme",
+        "start_date": "2026-01-07",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — AScI International Summer Research Programme",
+        "start_date": "2026-01-31",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-cmmrs-mpi-sws-mpi-sws",
+    "track": "personal",
+    "title": "CMMRS / MPI-SWS",
+    "description": "Programa: CMMRS / MPI-SWS\nCategoria: Research school\nNível: Undergrad / grad\nInstituição / organização: MPI-SWS\nÁrea / foco: Computer Science research\nLocal: Saarbrücken, Alemanha\nFormato: Presencial\nDuração: ~1 semana\nPeríodo / data do programa: Próxima edição N/A\nElegível?: Sim / seleção competitiva\nRequisitos / elegibilidade relevantes: Muito seletivo; formato pode envolver invitation/application\nFunding / benefícios: Support depende da edição\nSeleção / docs relevantes: Application/nomination conforme edição\nPrioridade: Média\nStatus / observações: Aguardar call futura",
+    "url": "https://cmmrs.mpi-sws.org/",
+    "category": "Research school",
+    "tags": [
+      "Undergrad / grad",
+      "Média"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — CMMRS / MPI-SWS",
+        "start_date": "2027-02-14",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-eth-direct-doctorate-in-computer-science-eth-zurich-d-infk",
+    "track": "personal",
+    "title": "ETH Direct Doctorate in Computer Science",
+    "description": "Programa: ETH Direct Doctorate in Computer Science\nCategoria: Graduate program\nNível: Direct Doctorate\nInstituição / organização: ETH Zürich – D-INFK\nÁrea / foco: CS / ML / AI / systems / theory etc.\nLocal: Zürich, Suíça\nFormato: Presencial\nDuração: ~5–6 anos total\nPeríodo / data do programa: Fall 2027\nElegível?: Sim em princípio\nRequisitos / elegibilidade relevantes: Bachelor excelente; admissão extremamente seletiva\nFunding / benefícios: Funding na fase inicial + depois salário de PhD\nSeleção / docs relevantes: Transcript, CV, SoP, recommendations, requisitos ETH\nPrioridade: Muito alta\nStatus / observações: Confirmar deadline final quando portal Fall 2027 abrir",
+    "url": "https://inf.ethz.ch/doctorate/direct-doctorate-computer-science.html",
+    "category": "Graduate program",
+    "tags": [
+      "Direct Doctorate",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — ETH Direct Doctorate in Computer Science",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — ETH Direct Doctorate in Computer Science",
+        "start_date": "2026-11-30",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — ETH Direct Doctorate in Computer Science",
+        "start_date": "2027-09-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-epfl-edic-computer-communication-sciences-phd-epfl",
+    "track": "personal",
+    "title": "EPFL EDIC – Computer & Communication Sciences PhD",
+    "description": "Programa: EPFL EDIC – Computer & Communication Sciences PhD\nCategoria: Graduate program\nNível: PhD / possível entrada com Bachelor longo\nInstituição / organização: EPFL\nÁrea / foco: Computer Science, AI/ML, systems, theory, security etc.\nLocal: Lausanne, Suíça\nFormato: Presencial\nDuração: ~4–5 anos\nPeríodo / data do programa: 2027 intake\nElegível?: Provavelmente\nRequisitos / elegibilidade relevantes: Pode aceitar Bachelor equivalente forte; equivalência precisa ser avaliada\nFunding / benefícios: PhD salaried / funded\nSeleção / docs relevantes: Academic dossier, research interests, referees\nPrioridade: Muito alta\nStatus / observações: Não é formalmente chamado de Direct Doctorate",
+    "url": "https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/",
+    "category": "Graduate program",
+    "tags": [
+      "PhD / possível entrada com Bachelor longo",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — EPFL EDIC – Computer & Communication Sciences PhD",
+        "start_date": "2026-09-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — EPFL EDIC – Computer & Communication Sciences PhD",
+        "start_date": "2026-12-01",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-cs-max-planck-max-planck-computer-science",
+    "track": "personal",
+    "title": "CS@Max Planck",
+    "description": "Programa: CS@Max Planck\nCategoria: Graduate program\nNível: Direct PhD route\nInstituição / organização: Max Planck Computer Science\nÁrea / foco: CS amplo; vários Max Planck institutes/groups\nLocal: Alemanha\nFormato: Presencial\nDuração: Preparatory phase + PhD\nPeríodo / data do programa: 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor route possível para candidatos excelentes\nFunding / benefícios: Fully funded\nSeleção / docs relevantes: Academic record, CV, research statement, referências\nPrioridade: Muito alta\nStatus / observações: Manter separado de MPI genérico",
+    "url": "https://www.cis.mpg.de/csmaxplanck-overview/",
+    "category": "Graduate program",
+    "tags": [
+      "Direct PhD route",
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-saarbrucken-graduate-school-of-computer-science-saarland-university-mpi-cispa-ecosystem",
+    "track": "personal",
+    "title": "Saarbrücken Graduate School of Computer Science",
+    "description": "Programa: Saarbrücken Graduate School of Computer Science\nCategoria: Graduate program\nNível: Direct PhD\nInstituição / organização: Saarland University + MPI + CISPA ecosystem\nÁrea / foco: CS / ML / AI / security / systems / theory\nLocal: Saarbrücken, Alemanha\nFormato: Presencial\nDuração: Preparatory phase + PhD\nPeríodo / data do programa: 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Excellent Bachelor graduates aceitos; forte histórico acadêmico\nFunding / benefícios: Funded preparatory phase + funded PhD\nSeleção / docs relevantes: CV, transcripts, statement, recommendations\nPrioridade: Muito alta\nStatus / observações: Boa rota Bachelor → PhD",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "Direct PhD",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — Saarbrücken Graduate School of Computer Science",
+        "start_date": "2026-10-31",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-imprs-trust-max-planck-parceiros",
+    "track": "personal",
+    "title": "IMPRS-TRUST",
+    "description": "Programa: IMPRS-TRUST\nCategoria: Graduate program\nNível: PhD / Bachelor route possível\nInstituição / organização: Max Planck + parceiros\nÁrea / foco: Trustworthy Computing, security, privacy, systems, AI\nLocal: Saarbrücken / Kaiserslautern, Alemanha\nFormato: Presencial\nDuração: Preparatory/orientation + PhD\nPeríodo / data do programa: 2027\nElegível?: Sim em princípio\nRequisitos / elegibilidade relevantes: Aceita perfis Bachelor/Master conforme trajetória; forte academic/research background\nFunding / benefícios: Fully funded\nSeleção / docs relevantes: Dossier acadêmico, research fit, referências\nPrioridade: Muito alta\nStatus / observações: Muito alinhado a trustworthy AI / safety",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "PhD / Bachelor route possível",
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-mpi-sws-doctoral-program-max-planck-institute-for-software-systems",
+    "track": "personal",
+    "title": "MPI-SWS Doctoral Program",
+    "description": "Programa: MPI-SWS Doctoral Program\nCategoria: Graduate program\nNível: PhD\nInstituição / organização: Max Planck Institute for Software Systems\nÁrea / foco: Systems, ML, security, privacy, socio-technical computing\nLocal: Saarbrücken / Kaiserslautern\nFormato: Presencial\nDuração: PhD\nPeríodo / data do programa: 2027\nElegível?: Sim / depende da rota\nRequisitos / elegibilidade relevantes: Depende da degree equivalence e faculty fit\nFunding / benefícios: Fully funded\nSeleção / docs relevantes: Research fit com faculty é central\nPrioridade: Alta\nStatus / observações: Pode sobrepor com Saarland/CS@MaxPlanck",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "PhD",
+      "Alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-eth-msc-computer-science-eth-zurich",
+    "track": "personal",
+    "title": "ETH MSc Computer Science",
+    "description": "Programa: ETH MSc Computer Science\nCategoria: Graduate program\nNível: Master\nInstituição / organização: ETH Zürich\nÁrea / foco: CS; Machine Intelligence, Secure & Reliable Systems etc.\nLocal: Zürich, Suíça\nFormato: Presencial\nDuração: 2 anos / 120 ECTS\nPeríodo / data do programa: Fall 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relevante e excelente histórico; requisitos curriculares\nFunding / benefícios: Possível ESOP; caso contrário funding próprio\nSeleção / docs relevantes: CV, transcripts, motivation, references/requisitos específicos\nPrioridade: Alta\nStatus / observações: Boa alternativa ao Direct Doctorate",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "Master",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — ETH MSc Computer Science",
+        "start_date": "2026-11-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — ETH MSc Computer Science",
+        "start_date": "2026-11-30",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — ETH MSc Computer Science",
+        "start_date": "2027-09-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-epfl-msc-computer-science-epfl",
+    "track": "personal",
+    "title": "EPFL MSc Computer Science",
+    "description": "Programa: EPFL MSc Computer Science\nCategoria: Graduate program\nNível: Master\nInstituição / organização: EPFL\nÁrea / foco: Computer Science / AI / data / systems etc.\nLocal: Lausanne, Suíça\nFormato: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: Fall 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relacionado; seleção acadêmica competitiva\nFunding / benefícios: Excellence Fellowships possíveis\nSeleção / docs relevantes: CV, transcripts, SoP, 3 referees\nPrioridade: Alta\nStatus / observações: Segunda janela costuma existir até 31/03/2027",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "Master",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — EPFL MSc Computer Science",
+        "start_date": "2026-11-15",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — EPFL MSc Computer Science",
+        "start_date": "2026-12-15",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — EPFL MSc Computer Science",
+        "start_date": "2027-09-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-saarland-university-msc-computer-science-saarland-university-saarland-informatics-campus",
+    "track": "personal",
+    "title": "Saarland University MSc Computer Science",
+    "description": "Programa: Saarland University MSc Computer Science\nCategoria: Graduate program\nNível: Master\nInstituição / organização: Saarland University / Saarland Informatics Campus\nÁrea / foco: CS, AI/ML, security, systems etc.\nLocal: Saarbrücken, Alemanha\nFormato: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor CS ou equivalente\nFunding / benefícios: Tuition baixa/sem tuition tradicional; living funding separado\nSeleção / docs relevantes: Application acadêmica + language/degree requirements\nPrioridade: Alta\nStatus / observações: Melhor representação do antigo “MPI Master”",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "Master",
+      "Alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-rptu-msc-computer-science-rptu-kaiserslautern-landau",
+    "track": "personal",
+    "title": "RPTU MSc Computer Science",
+    "description": "Programa: RPTU MSc Computer Science\nCategoria: Graduate program\nNível: Master\nInstituição / organização: RPTU Kaiserslautern-Landau\nÁrea / foco: CS / conexão ao ecossistema MPI-SWS\nLocal: Kaiserslautern, Alemanha\nFormato: Presencial\nDuração: ~2 anos\nPeríodo / data do programa: 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Bachelor relevante; regras específicas para internacionais\nFunding / benefícios: Varia\nSeleção / docs relevantes: Academic application\nPrioridade: Média\nStatus / observações: Alternativa dentro do ecossistema MPI-SWS",
+    "url": null,
+    "category": "Graduate program",
+    "tags": [
+      "Master",
+      "Média"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-spar-fall-2026-spar",
+    "track": "personal",
+    "title": "SPAR – Fall 2026",
+    "description": "Programa: SPAR – Fall 2026\nCategoria: AI Safety research program\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: SPAR\nÁrea / foco: AI Safety, interpretability, alignment, governance, security, societal risks\nLocal: Remoto\nFormato: Remoto / part-time\nDuração: 3 meses\nPeríodo / data do programa: 14/09/2026–14/12/2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aberto a undergrad, grad/PhD e professionals; requisitos variam por projeto\nFunding / benefícios: Funding depende do projeto\nSeleção / docs relevantes: Application específica por projeto; possíveis entrevistas/assessments\nPrioridade: Muito alta\nStatus / observações: Deadline geral passou",
+    "url": null,
+    "category": "AI Safety research program",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — SPAR – Fall 2026",
+        "start_date": "2026-07-28",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — SPAR – Fall 2026",
+        "start_date": "2026-08-18",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "SPAR – Fall 2026",
+        "start_date": "2026-09-14",
+        "end_date": "2026-12-15",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-spar-spring-2027-spar",
+    "track": "personal",
+    "title": "SPAR – Spring 2027",
+    "description": "Programa: SPAR – Spring 2027\nCategoria: AI Safety research program\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: SPAR\nÁrea / foco: AI Safety, interpretability, policy etc.\nLocal: Remoto\nFormato: Remoto / part-time\nDuração: ~3 meses\nPeríodo / data do programa: Spring 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Projetos e requisitos mudam a cada rodada\nFunding / benefícios: Varia por projeto\nSeleção / docs relevantes: Project-specific application\nPrioridade: Muito alta\nStatus / observações: Applications devem abrir por volta de dezembro",
+    "url": null,
+    "category": "AI Safety research program",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — SPAR – Spring 2027",
+        "start_date": "2026-12-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — SPAR – Spring 2027",
+        "start_date": "2027-03-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-mats-winter-2027-neel-nanda-mats-neel-nanda-google-deepmind",
+    "track": "personal",
+    "title": "MATS Winter 2027 – Neel Nanda",
+    "description": "Programa: MATS Winter 2027 – Neel Nanda\nCategoria: AI Safety fellowship\nNível: Research fellowship\nInstituição / organização: MATS + Neel Nanda / Google DeepMind\nÁrea / foco: Empirical mechanistic interpretability / AI safety\nLocal: Berkeley, EUA + remoto\nFormato: Híbrido → presencial\nDuração: Exploration ~5 semanas + research ~12 semanas\nPeríodo / data do programa: Exploration 28/09/2026–30/10/2026; Berkeley 19/01/2027–10/04/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte capacidade técnica, research taste, mech interp / ML\nFunding / benefícios: Main phase: ~$19.2k stipend + compute + housing + food + travel + visa support\nSeleção / docs relevantes: Application + exploration phase + avaliações\nPrioridade: Muito alta\nStatus / observações: Um dos programas mais diretamente alinhados a mech interp",
+    "url": null,
+    "category": "AI Safety fellowship",
+    "tags": [
+      "Research fellowship",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — MATS Winter 2027 – Neel Nanda",
+        "start_date": "2026-09-04",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "MATS Winter 2027 – Neel Nanda",
+        "start_date": "2026-09-28",
+        "end_date": "2026-10-31",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-mats-winter-2027-general-mats",
+    "track": "personal",
+    "title": "MATS Winter 2027 – General",
+    "description": "Programa: MATS Winter 2027 – General\nCategoria: AI Safety fellowship\nNível: Research fellowship\nInstituição / organização: MATS\nÁrea / foco: AI alignment/safety: empirical, theory, strategy, policy, security etc.\nLocal: Berkeley / stream dependent\nFormato: Majoritariamente full-time\nDuração: 10–12 semanas\nPeríodo / data do programa: Winter 2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Background varia por track; seleção forte\nFunding / benefícios: ~$19.2k stipend + compute + housing + food + travel + visa support\nSeleção / docs relevantes: Stage 1, evaluations, mentor selection\nPrioridade: Muito alta\nStatus / observações: General applications",
+    "url": null,
+    "category": "AI Safety fellowship",
+    "tags": [
+      "Research fellowship",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — MATS Winter 2027 – General",
+        "start_date": "2026-08-01",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — MATS Winter 2027 – General",
+        "start_date": "2026-09-06",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — MATS Winter 2027 – General",
+        "start_date": "2027-01-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-mats-residency-mats",
+    "track": "personal",
+    "title": "MATS Residency",
+    "description": "Programa: MATS Residency\nCategoria: AI Safety advanced program\nNível: Researcher\nInstituição / organização: MATS\nÁrea / foco: Long-term frontier AI safety research/incubation\nLocal: Berkeley, EUA\nFormato: Presencial\nDuração: Long-term\nPeríodo / data do programa: 2027\nElegível?: Possivelmente\nRequisitos / elegibilidade relevantes: Voltado a pesquisadores mais avançados\nFunding / benefícios: Funded/support varies\nSeleção / docs relevantes: Research track / selection\nPrioridade: Média\nStatus / observações: Mais adequado como target posterior",
+    "url": null,
+    "category": "AI Safety advanced program",
+    "tags": [
+      "Researcher",
+      "Média"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-khipu-2027-khipu",
+    "track": "personal",
+    "title": "KHIPU 2027",
+    "description": "Programa: KHIPU 2027\nCategoria: ML school / research meeting\nNível: Undergrad+ / researchers\nInstituição / organização: KHIPU\nÁrea / foco: Artificial Intelligence / Machine Learning, lectures, posters, networking\nLocal: São Paulo, Brasil\nFormato: Presencial\nDuração: 5 dias\nPeríodo / data do programa: 05/04/2027–09/04/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Application obrigatória; seleção competitiva\nFunding / benefícios: Bolsas de hospedagem/transporte podem existir\nSeleção / docs relevantes: Application; oportunidades de poster conforme edição\nPrioridade: Alta\nStatus / observações: Deadline próximo",
+    "url": null,
+    "category": "ML school / research meeting",
+    "tags": [
+      "Undergrad+ / researchers",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — KHIPU 2027",
+        "start_date": "2026-07-20",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — KHIPU 2027",
+        "start_date": "2026-08-31",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "KHIPU 2027",
+        "start_date": "2027-04-05",
+        "end_date": "2027-04-10",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-khipux-202627-khipu",
+    "track": "personal",
+    "title": "KHIPUx 2026–27",
+    "description": "Programa: KHIPUx 2026–27\nCategoria: Community events\nNível: Vários\nInstituição / organização: KHIPU\nÁrea / foco: Eventos locais de AI/ML na América Latina\nLocal: América Latina\nFormato: Presencial / híbrido\nDuração: Varia\nPrioridade: Média\nStatus / observações: Networking; não é target acadêmico principal",
+    "url": null,
+    "category": "Community events",
+    "tags": [
+      "Vários",
+      "Média"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-lamir-2026-lamir-ufmg-ecosystem",
+    "track": "personal",
+    "title": "LAMIR 2026",
+    "description": "Programa: LAMIR 2026\nCategoria: Workshop / school\nInstituição / organização: LAMIR / UFMG ecosystem\nÁrea / foco: Music Information Retrieval, Music AI, ML, signal processing\nLocal: Belo Horizonte, Brasil\nFormato: Presencial\nPeríodo / data do programa: 15/12/2026–17/12/2026\nPrioridade: Média\nStatus / observações: Paper deadline; MIR School em 14/12/2026",
+    "url": null,
+    "category": "Workshop / school",
+    "tags": [
+      "Média"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — LAMIR 2026",
+        "start_date": "2026-08-28",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "LAMIR 2026",
+        "start_date": "2026-12-15",
+        "end_date": "2026-12-18",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-neurips-2026-main-conference-neurips",
+    "track": "personal",
+    "title": "NeurIPS 2026 – Main Conference",
+    "description": "Programa: NeurIPS 2026 – Main Conference\nCategoria: Conference\nInstituição / organização: NeurIPS\nÁrea / foco: Machine Learning geral; deep learning, representation learning, safety, interpretability\nLocal: Sydney, Austrália + satellites\nFormato: Presencial\nPeríodo / data do programa: 06/12/2026–12/12/2026\nPrioridade: Muito alta\nStatus / observações: Main paper deadline já passou",
+    "url": null,
+    "category": "Conference",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "program-period",
+        "title": "NeurIPS 2026 – Main Conference",
+        "start_date": "2026-12-06",
+        "end_date": "2026-12-13",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-neurips-2026-workshops-neurips",
+    "track": "personal",
+    "title": "NeurIPS 2026 Workshops",
+    "description": "Programa: NeurIPS 2026 Workshops\nCategoria: Conference / Workshop\nInstituição / organização: NeurIPS\nÁrea / foco: ML; workshops específicos em AI safety, interpretability, alignment etc.\nLocal: Sydney, Austrália\nFormato: Presencial\nPeríodo / data do programa: 11/12/2026–12/12/2026\nPrioridade: Muito alta\nStatus / observações: Cada workshop tem CFP independente",
+    "url": null,
+    "category": "Conference / Workshop",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "program-period",
+        "title": "NeurIPS 2026 Workshops",
+        "start_date": "2026-12-11",
+        "end_date": "2026-12-13",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-interpretability-for-discovery-neurips-2026-neurips",
+    "track": "personal",
+    "title": "Interpretability for Discovery @ NeurIPS 2026",
+    "description": "Programa: Interpretability for Discovery @ NeurIPS 2026\nCategoria: Workshop\nInstituição / organização: NeurIPS\nÁrea / foco: Interpretability / mechanistic interpretability for scientific discovery\nLocal: NeurIPS 2026\nFormato: Presencial\nPeríodo / data do programa: 12/2026\nPrioridade: Muito alta\nStatus / observações: Diretamente relacionado ao tema de mech interp / scientific discovery",
+    "url": null,
+    "category": "Workshop",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-iclr-2027-iclr",
+    "track": "personal",
+    "title": "ICLR 2027",
+    "description": "Programa: ICLR 2027\nCategoria: Conference\nInstituição / organização: ICLR\nÁrea / foco: Deep Learning, representation learning, LLMs, mechanistic interpretability, alignment\nLocal: EUA\nFormato: Presencial\nPeríodo / data do programa: 26/04/2027–30/04/2027\nPrioridade: Muito alta\nStatus / observações: Abstract 18/09/2026; paper 25/09/2026",
+    "url": null,
+    "category": "Conference",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — ICLR 2027",
+        "start_date": "2026-09-18",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "ICLR 2027",
+        "start_date": "2027-04-26",
+        "end_date": "2027-05-01",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-icml-2027-icml",
+    "track": "personal",
+    "title": "ICML 2027",
+    "description": "Programa: ICML 2027\nCategoria: Conference\nInstituição / organização: ICML\nÁrea / foco: Machine Learning geral; interpretability, robustness, theory, applications\nLocal: América do Sul\nFormato: Presencial\nPeríodo / data do programa: 2027\nPrioridade: Muito alta\nStatus / observações: Local e deadlines específicos ainda N/A",
+    "url": null,
+    "category": "Conference",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-acm-facct-2027-acm-facct",
+    "track": "personal",
+    "title": "ACM FAccT 2027",
+    "description": "Programa: ACM FAccT 2027\nCategoria: Conference\nInstituição / organização: ACM FAccT\nÁrea / foco: Responsible AI, fairness, accountability, transparency, bias, harms, sociotechnical AI\nLocal: N/A\nFormato: N/A\nPeríodo / data do programa: 21/06/2027–24/06/2027\nPrioridade: Muito alta\nStatus / observações: Abstract 27/10/2026; paper 03/11/2026",
+    "url": null,
+    "category": "Conference",
+    "tags": [
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — ACM FAccT 2027",
+        "start_date": "2026-10-27",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "ACM FAccT 2027",
+        "start_date": "2027-06-21",
+        "end_date": "2027-06-25",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-era-ai-fellowship-winter-2027-era-ai-cambridge-era",
+    "track": "personal",
+    "title": "ERA:AI Fellowship – Winter 2027",
+    "description": "Programa: ERA:AI Fellowship – Winter 2027\nCategoria: AI Safety research fellowship\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: ERA:AI / Cambridge ERA\nÁrea / foco: Technical AI safety: interpretability, model internals, AI control, robustness, alignment, evaluations\nLocal: Cambridge, Reino Unido\nFormato: Presencial / full-time\nDuração: 10 semanas\nPeríodo / data do programa: 18/01/2027–aprox. 28/03/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: 18+; sem exigência formal de degree; aceita undergrads com strong project work; research/coding background ajuda\nFunding / benefícios: £10.000 stipend + viagem + refeições + visa support; possibilidade de extensão financiada\nSeleção / docs relevantes: Application + avaliações/entrevistas; seleção por research potential e fit com stream\nPrioridade: Muito alta\nStatus / observações: Ótimo fit para technical AI safety e mech interp; candidatura realisticamente competitiva",
+    "url": "https://erafellowship.org/fellowship",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — ERA:AI Fellowship – Winter 2027",
+        "start_date": "2026-09-13",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-lasr-labs-winter-2027-lasr-labs",
+    "track": "personal",
+    "title": "LASR Labs – Winter 2027",
+    "description": "Programa: LASR Labs – Winter 2027\nCategoria: AI Safety research fellowship\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: LASR Labs\nÁrea / foco: Empirical AI safety: interpretability, SAEs, AI control, monitoring, scheming, evaluations, robustness\nLocal: Londres, Reino Unido\nFormato: Presencial / full-time\nDuração: 13 semanas\nPeríodo / data do programa: 11/01/2027–09/04/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte ML/coding/research ability; capacidade de executar experimentos rapidamente; PhD não é requisito formal\nFunding / benefícios: £15.000 stipend + workspace + refeições + viagem + suporte de visto\nSeleção / docs relevantes: Application + seleção técnica/research; projetos em equipes de 3–4 com supervisor\nPrioridade: Muito alta\nStatus / observações: Forte foco em produzir paper/preprint; histórico de trabalhos em NeurIPS/ICLR/ICML; realistic stretch",
+    "url": "https://www.lasrlabs.org/",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — LASR Labs – Winter 2027",
+        "start_date": "2026-09-20",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "LASR Labs – Winter 2027",
+        "start_date": "2027-01-11",
+        "end_date": "2027-04-10",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-astra-fellowship-empirical-ai-safety-constellation-astra-fellowship",
+    "track": "personal",
+    "title": "Astra Fellowship – Empirical AI Safety",
+    "description": "Programa: Astra Fellowship – Empirical AI Safety\nCategoria: AI Safety research fellowship\nNível: Research fellowship / early-career researcher\nInstituição / organização: Constellation / Astra Fellowship\nÁrea / foco: Empirical AI safety: alignment, AI control, interpretability/model internals, evaluations, scalable oversight\nLocal: Berkeley, EUA\nFormato: Presencial / full-time\nDuração: ~3 meses\nPeríodo / data do programa: 05/01/2027–31/03/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte capacidade técnica e de pesquisa; experiência específica em AI safety ajuda, mas backgrounds adjacentes são considerados\nFunding / benefícios: ~US$8.400/mês + ~US$15k/mês de compute para empirical fellows + visa/relocation support\nSeleção / docs relevantes: Application + avaliações/entrevistas + matching com research projects\nPrioridade: Muito alta\nStatus / observações: Muito competitivo; forte pipeline para Anthropic, Redwood, OpenAI, METR etc.; stretch mas vale aplicar",
+    "url": "https://www.constellation.org/programs/astra",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "Research fellowship / early-career researcher",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-open",
+        "title": "Applications Open — Astra Fellowship – Empirical AI Safety",
+        "start_date": "2026-08-28",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — Astra Fellowship – Empirical AI Safety",
+        "start_date": "2026-09-26",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Astra Fellowship – Empirical AI Safety",
+        "start_date": "2027-01-05",
+        "end_date": "2027-04-01",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-mars-dec-2026-cohort-cambridge-ai-safety-hub",
+    "track": "personal",
+    "title": "MARS – Dec 2026 Cohort",
+    "description": "Programa: MARS – Dec 2026 Cohort\nCategoria: AI Safety research mentorship\nNível: University student / early-career researcher\nInstituição / organização: Cambridge AI Safety Hub\nÁrea / foco: AI safety: interpretability, AI control, evaluations, robustness, scalable oversight\nLocal: Cambridge, Reino Unido + remoto\nFormato: 1 semana presencial + remoto / part-time\nDuração: ~9–11 semanas\nPeríodo / data do programa: Cohort a partir de dezembro de 2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Voltado explicitamente a university students e early-career researchers; coding/research background relevante\nFunding / benefícios: Sem stipend; viagem + acomodação + refeições no kickoff + US$2k+ compute + research support\nSeleção / docs relevantes: Application/EOI + matching com mentor/projeto\nPrioridade: Muito alta\nStatus / observações: Muito bom fit e bastante realista; objetivo costuma ser paper/preprint/workshop submission",
+    "url": "https://www.cambridgeaisafety.org/mars",
+    "category": "AI Safety research mentorship",
+    "tags": [
+      "University student / early-career researcher",
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-apart-research-ai-safety-sprints-apart-research",
+    "track": "personal",
+    "title": "Apart Research – AI Safety Sprints",
+    "description": "Programa: Apart Research – AI Safety Sprints\nCategoria: AI Safety research sprint / fellowship pipeline\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: Apart Research\nÁrea / foco: AI safety research; temas variam por sprint, incluindo technical safety, control, evaluations e governance\nLocal: Remoto / hubs internacionais\nFormato: Remoto ou híbrido\nDuração: Geralmente 2–3 dias por sprint; possível continuação\nPeríodo / data do programa: Próximo sprint anunciado: 11/09/2026–13/09/2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Baixa barreira formal; seleção/continuação fortemente baseada no que o participante consegue produzir\nFunding / benefícios: Varia por sprint/projeto; alguns projetos podem evoluir para research support/fellowship\nSeleção / docs relevantes: Registration/application específica para sprint; bons projetos podem continuar dentro da Apart\nPrioridade: Alta\nStatus / observações: Muito boa forma de produzir research artifact e entrar no ecossistema; já teve iniciativas específicas para Global South/América Latina",
+    "url": "https://apartresearch.com/sprints",
+    "category": "AI Safety research sprint / fellowship pipeline",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "program-period",
+        "title": "Apart Research – AI Safety Sprints",
+        "start_date": "2026-09-11",
+        "end_date": "2026-09-14",
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-pivotal-research-fellowship-pivotal-research",
+    "track": "personal",
+    "title": "Pivotal Research Fellowship",
+    "description": "Programa: Pivotal Research Fellowship\nCategoria: AI Safety research fellowship\nNível: 18+ / early-career researcher\nInstituição / organização: Pivotal Research\nÁrea / foco: Technical AI safety; projetos variam por mentor, incluindo interpretability, control, evaluations e alignment\nLocal: Londres, Reino Unido\nFormato: Presencial / full-time\nDuração: ~9 semanas\nPeríodo / data do programa: Próximo cohort N/A\nElegível?: Sim\nRequisitos / elegibilidade relevantes: 18+; requisitos dependem do projeto; forte coding/research background para projetos técnicos\nFunding / benefícios: Cohort recente: £6.000–£8.000 stipend + viagem + housing + refeições + compute\nSeleção / docs relevantes: Application por mentor/projeto + avaliações/entrevistas\nPrioridade: Muito alta\nStatus / observações: Próximo cohort ainda não anunciado; boa taxa de extensões financiadas após fellowship; realisticamente competitivo",
+    "url": "https://www.pivotal-research.org/fellowship",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "18+ / early-career researcher",
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-aiaf-fellowship-ai-alignment-foundation",
+    "track": "personal",
+    "title": "AIAF Fellowship",
+    "description": "Programa: AIAF Fellowship\nCategoria: Technical AI Alignment fellowship\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: AI Alignment Foundation\nÁrea / foco: Technical alignment, interpretability, representations, steering, model internals, safety research\nLocal: Remoto\nFormato: Remoto / full-time\nDuração: 8 semanas\nPeríodo / data do programa: Cohort 2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte ML, capacidade de implementar papers e executar pesquisa independente; aberto globalmente\nFunding / benefícios: US$12.000 stipend\nSeleção / docs relevantes: Application + technical/research selection + mentor/project matching\nPrioridade: Muito alta\nStatus / observações: Apenas ~6 vagas no cohort recente; competitivo, mas perfil plausível; acompanhar próxima edição",
+    "url": "https://www.aialignmentfoundation.org/fellowship",
+    "category": "Technical AI Alignment fellowship",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Muito alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — AIAF Fellowship",
+        "start_date": "2026-08-17",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-chai-research-internship-center-for-human-compatible-ai-uc-berkeley",
+    "track": "personal",
+    "title": "CHAI Research Internship",
+    "description": "Programa: CHAI Research Internship\nCategoria: AI Safety research internship\nNível: Undergrad / MSc / PhD / ML engineer\nInstituição / organização: Center for Human-Compatible AI – UC Berkeley\nÁrea / foco: AI alignment, interpretability, human-compatible AI, agent safety, robustness\nLocal: Berkeley, EUA / remoto\nFormato: Presencial ou remoto\nDuração: 12–16 semanas\nPeríodo / data do programa: Próxima edição N/A\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Aceita explicitamente undergraduates e international applicants; forte ML/research background\nFunding / benefícios: ~US$5.000/mês presencial; ~US$3.500/mês remoto\nSeleção / docs relevantes: Research application + mentor/project matching\nPrioridade: Muito alta\nStatus / observações: Usar Internship, não CHAI Research Fellowship, que é voltado a PhD/postdoc; boa oportunidade futura",
+    "url": "https://humancompatible.ai/jobs",
+    "category": "AI Safety research internship",
+    "tags": [
+      "Undergrad / MSc / PhD / ML engineer",
+      "Muito alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-arena-10-0-arena",
+    "track": "personal",
+    "title": "ARENA 10.0",
+    "description": "Programa: ARENA 10.0\nCategoria: Technical AI Safety training program\nNível: Undergrad / MSc / PhD / professional\nInstituição / organização: ARENA\nÁrea / foco: Transformers, mechanistic interpretability, TransformerLens, RL, alignment, evaluations, AI safety\nLocal: Londres, Reino Unido / cohort dependent\nFormato: Presencial intensivo\nDuração: ~5 semanas\nPeríodo / data do programa: ARENA 10.0 – datas N/A\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte Python e fundamentos de deep learning; processo seletivo técnico; interesse demonstrável em AI safety\nFunding / benefícios: Curso sem tuition; travel/support depende do cohort e situação do participante\nSeleção / docs relevantes: Application + coding/technical assessment\nPrioridade: Alta\nStatus / observações: Mais training que research fellowship, mas excelente preparação e sinal para MATS/LASR/Astra",
+    "url": "https://www.arena.education/applications",
+    "category": "Technical AI Safety training program",
+    "tags": [
+      "Undergrad / MSc / PhD / professional",
+      "Alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-iliad-intensive-oct-nov-2026-iliad",
+    "track": "personal",
+    "title": "Iliad Intensive – Oct/Nov 2026",
+    "description": "Programa: Iliad Intensive – Oct/Nov 2026\nCategoria: AI Safety / mathematical ML intensive\nNível: Undergrad avançado / MSc / PhD / professional\nInstituição / organização: Iliad\nÁrea / foco: Mechanistic interpretability, SAEs, natural latents, belief-state geometry, computational mechanics, deep learning theory\nLocal: Londres, Reino Unido / Berkeley, EUA\nFormato: Presencial / full-time\nDuração: 4 semanas\nPeríodo / data do programa: Outubro ou novembro de 2026\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Mathematical maturity forte; PhD não é obrigatório; indicado para pessoas confortáveis com matemática de nível avançado\nFunding / benefícios: Sem tuition + US$5.000 travel/housing allowance + refeições\nSeleção / docs relevantes: Application + avaliação de background/mathematical maturity\nPrioridade: Alta\nStatus / observações: Excelente para foundational interpretability; é curso intensivo, não fellowship de research",
+    "url": "https://www.iliad.ac/intensive",
+    "category": "AI Safety / mathematical ML intensive",
+    "tags": [
+      "Undergrad avançado / MSc / PhD / professional",
+      "Alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-iliad-fellowship-2026-cohorts-iliad",
+    "track": "personal",
+    "title": "Iliad Fellowship – 2026 cohorts",
+    "description": "Programa: Iliad Fellowship – 2026 cohorts\nCategoria: AI Safety research fellowship\nNível: Advanced researcher / PhD-level or equivalent\nInstituição / organização: Iliad\nÁrea / foco: Applied mathematics for AI safety; interpretability, deep learning theory, natural latents, agent foundations\nLocal: Londres, Reino Unido / SF Bay Area, EUA\nFormato: Presencial / full-time\nDuração: 3 meses\nPeríodo / data do programa: Oct 2026 / Nov 2026 / Dec 2026 cohorts\nElegível?: Formalmente sim, mas pouco provável\nRequisitos / elegibilidade relevantes: Não exige PhD formal, porém perfil competitivo típico é PhD/postdoc ou experiência matemática equivalente\nFunding / benefícios: US$6.000/mês\nSeleção / docs relevantes: Research application + avaliação técnica/matemática\nPrioridade: Média\nStatus / observações: Muito alinhado cientificamente, mas atualmente lottery ticket devido ao nível de senioridade esperado",
+    "url": "https://www.iliad.ac/fellowship",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "Advanced researcher / PhD-level or equivalent",
+      "Média"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-pibbss-fellowship-2026-27-pibbss-principles-of-intelligence",
+    "track": "personal",
+    "title": "PIBBSS Fellowship – 2026/27",
+    "description": "Programa: PIBBSS Fellowship – 2026/27\nCategoria: Fundamental AI Safety research fellowship\nNível: Researcher / MSc / PhD / strong research experience\nInstituição / organização: PIBBSS / Principles of Intelligence\nÁrea / foco: Fundamental AI safety, interpretability, learning theory, complex systems, interdisciplinary alignment research\nLocal: Cape Town, África do Sul\nFormato: Presencial / full-time\nDuração: ~3 meses\nPeríodo / data do programa: Nov/2026–Fev/2027\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Normalmente MSc/PhD/researcher-heavy, mas substantial research experience pode compensar credenciais\nFunding / benefícios: US$3.000/mês + acomodação + refeições + passagem + visa support\nSeleção / docs relevantes: Application + research fit + mentor matching\nPrioridade: Alta\nStatus / observações: Stretch para undergrad, mas aceita candidatos globais e busca diversidade geográfica; acompanhar próxima edição",
+    "url": "https://pibbss.ai/fellowship/",
+    "category": "Fundamental AI Safety research fellowship",
+    "tags": [
+      "Researcher / MSc / PhD / strong research experience",
+      "Alta"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — PIBBSS Fellowship – 2026/27",
+        "start_date": "2026-07-20",
+        "end_date": null,
+        "estimated": false
+      }
+    ]
+  },
+  {
+    "id": "personal-cbai-fall-research-fellowship-2026-cambridge-boston-alignment-initiative",
+    "track": "personal",
+    "title": "CBAI Fall Research Fellowship 2026",
+    "description": "Programa: CBAI Fall Research Fellowship 2026\nCategoria: AI Safety research fellowship\nNível: Principalmente undergrad / early-career\nInstituição / organização: Cambridge Boston Alignment Initiative\nÁrea / foco: AI alignment, interpretability, robustness, scalable oversight, formal verification\nLocal: Cambridge, Massachusetts, EUA\nFormato: Presencial / full-time\nDuração: 10 semanas\nPeríodo / data do programa: Fall 2026\nElegível?: Não, salvo se já tiver autorização de trabalho nos EUA\nRequisitos / elegibilidade relevantes: Dá forte prioridade a undergraduates, inclusive quotas de undergrad em alguns projetos; exige US work authorization; não oferece visa sponsorship\nFunding / benefícios: US$15.000 stipend + housing + refeições + ~US$1.500/semana de compute\nSeleção / docs relevantes: Application + mentor/project-specific selection\nPrioridade: Baixa na prática\nStatus / observações: Perfil acadêmico seria muito bom, mas sem CPT/OPT/work authorization nos EUA a elegibilidade prática é o problema",
+    "url": "https://www.cbai.ai/ais-research-fellowship",
+    "category": "AI Safety research fellowship",
+    "tags": [
+      "Principalmente undergrad / early-career",
+      "Baixa na prática"
+    ],
+    "milestones": [
+      {
+        "kind": "application-deadline",
+        "title": "Application Deadline — CBAI Fall Research Fellowship 2026",
+        "start_date": "2026-09-06",
+        "end_date": null,
+        "estimated": false
+      },
+      {
+        "kind": "program-period",
+        "title": "Expected Program Period — CBAI Fall Research Fellowship 2026",
+        "start_date": "2026-09-01",
+        "end_date": null,
+        "estimated": true
+      }
+    ]
+  },
+  {
+    "id": "personal-anthropic-fellows-program-jan-2027-anthropic",
+    "track": "personal",
+    "title": "Anthropic Fellows Program – Jan 2027",
+    "description": "Programa: Anthropic Fellows Program – Jan 2027\nCategoria: Frontier AI Safety research fellowship\nNível: Early-career / experienced researcher / engineer\nInstituição / organização: Anthropic\nÁrea / foco: Model internals / mechanistic interpretability, model organisms, AI control, scalable oversight, safety & security\nLocal: EUA / Reino Unido / Canadá\nFormato: Full-time\nDuração: 4 meses\nPeríodo / data do programa: Expected start Jan 2027\nElegível?: Não, salvo se já tiver work authorization em US/UK/Canada\nRequisitos / elegibilidade relevantes: Forte ML/research ability; não exige PhD formalmente; precisa autorização de trabalho pré-existente e Anthropic não patrocina visto para fellows\nFunding / benefícios: ~US$3.850/semana ou equivalente local + ~US$15k/mês compute\nSeleção / docs relevantes: Application + technical/research assessments + mentor matching\nPrioridade: Média na prática\nStatus / observações: Cientificamente uma das melhores oportunidades, mas work authorization torna difícil/impossível atualmente sem visto elegível",
+    "url": "https://alignment.anthropic.com/2024/anthropic-fellows-program/",
+    "category": "Frontier AI Safety research fellowship",
+    "tags": [
+      "Early-career / experienced researcher / engineer",
+      "Média na prática"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-effective-thesis-fellowship-effective-thesis",
+    "track": "personal",
+    "title": "Effective Thesis Fellowship",
+    "description": "Programa: Effective Thesis Fellowship\nCategoria: Research mentorship / thesis program\nNível: Bachelor / MSc students / early-career\nInstituição / organização: Effective Thesis\nÁrea / foco: Research projects em AI safety, AI governance e outras áreas de impacto; possibilidade de usar como thesis/TCC\nLocal: Remoto\nFormato: Remoto / part-time\nDuração: ~2–3 meses; ~8–10h/semana\nPeríodo / data do programa: Próximo cohort N/A\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Especialmente relevante para estudantes preparando thesis; requisitos variam conforme research project\nFunding / benefícios: Geralmente não remunerado; mentorship e research support\nSeleção / docs relevantes: Application + matching com research project/mentor\nPrioridade: Alta\nStatus / observações: Pode ser estratégico para transformar TCC em projeto de AI safety com mentor internacional",
+    "url": "https://www.effectivethesis.org/#programs",
+    "category": "Research mentorship / thesis program",
+    "tags": [
+      "Bachelor / MSc students / early-career",
+      "Alta"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-steadrise-steadrise",
+    "track": "personal",
+    "title": "SteadRise",
+    "description": "Programa: SteadRise\nCategoria: AI Safety career transition / research network\nNível: Experienced researcher / engineer / professional\nInstituição / organização: SteadRise\nÁrea / foco: AI safety career transitions, research, engineering, policy and field-building\nLocal: Remoto / network dependent\nFormato: Varia\nDuração: Varia\nPeríodo / data do programa: Rolling\nElegível?: Sim, mas perfil atual pode ser junior\nRequisitos / elegibilidade relevantes: Voltado principalmente a profissionais/pesquisadores já experientes fazendo transição para AI safety\nFunding / benefícios: Varia / oportunidades e support dependem do programa\nSeleção / docs relevantes: Expression of Interest\nPrioridade: Baixa\nStatus / observações: Mais útil posteriormente; não é fellowship estruturado comparável a MATS/LASR",
+    "url": "https://steadrise.org/",
+    "category": "AI Safety career transition / research network",
+    "tags": [
+      "Experienced researcher / engineer / professional",
+      "Baixa"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-constellation-visiting-fellows-constellation",
+    "track": "personal",
+    "title": "Constellation Visiting Fellows",
+    "description": "Programa: Constellation Visiting Fellows\nCategoria: AI Safety research residency / visiting program\nNível: Existing AI safety researcher\nInstituição / organização: Constellation\nÁrea / foco: AI safety research across empirical, theoretical and governance areas\nLocal: Berkeley, EUA\nFormato: Presencial\nDuração: ~3–6 meses\nPeríodo / data do programa: Rolling\nElegível?: Possivelmente\nRequisitos / elegibilidade relevantes: Normalmente destinado a pessoas já trabalhando full-time em AI safety e que precisam de workspace/community\nFunding / benefícios: Workspace/community support; funding depende do caso\nSeleção / docs relevantes: Application / invitation / research fit\nPrioridade: Média-baixa\nStatus / observações: Mais apropriado depois de já estar estabelecida em AI safety research",
+    "url": "https://www.constellation.org/programs",
+    "category": "AI Safety research residency / visiting program",
+    "tags": [
+      "Existing AI safety researcher",
+      "Média-baixa"
+    ],
+    "milestones": []
+  },
+  {
+    "id": "personal-miri-technical-governance-research-fellowship-miri-technical-governance-team",
+    "track": "personal",
+    "title": "MIRI Technical Governance Research Fellowship",
+    "description": "Programa: MIRI Technical Governance Research Fellowship\nCategoria: Technical AI governance fellowship\nNível: Technical researcher / engineer / policy researcher\nInstituição / organização: MIRI Technical Governance Team\nÁrea / foco: Technical governance, compute governance, verification, frontier AI regulation\nLocal: Remoto + Berkeley kickoff\nFormato: Remote-first / full-time\nDuração: ~8 semanas\nPeríodo / data do programa: Próximo cohort N/A\nElegível?: Sim\nRequisitos / elegibilidade relevantes: Forte technical/research background; programa recomenda MATS/SPAR/Pivotal/MARS/CBAI como caminhos para candidatos mais early-career\nFunding / benefícios: ~US$1.200/semana no cohort anterior\nSeleção / docs relevantes: Application + research/technical selection\nPrioridade: Baixa\nStatus / observações: Governance, não mech interp; mais relevante se interesse migrar para technical governance",
+    "url": "https://techgov.intelligence.org/blog/announcing-miri-technical-governance-team-research-fellowship",
+    "category": "Technical AI governance fellowship",
+    "tags": [
+      "Technical researcher / engineer / policy researcher",
+      "Baixa"
+    ],
+    "milestones": []
   }
 ]

@@ -1,12 +1,12 @@
-name: Sync, Build & Publish calendars to GitHub Pages
+name: Sync, build and publish calendars
 
 on:
   schedule:
-    - cron: '0 6 * * *' # daily at 06:00 UTC
+    - cron: '0 6 * * *'
   push:
     branches:
       - main
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,12 +14,11 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-publish:
+  publish:
     runs-on: ubuntu-latest
-    name: Build calendars and publish
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -30,81 +29,39 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        run: python -m pip install -r requirements.txt pytest
 
-      - name: Sync Google Sheets to data/
-        id: sync
-        run: |
-          python3 scripts/sync_sheets.py
+      - name: Sync Google Sheets
+        run: python scripts/sync_sheets.py
 
       - name: Run tests
-        run: |
-          python -m pip install pytest
-          python -m pytest -q
+        run: python -m pytest -q
 
-      - name: Build ICS calendars into output/
-        id: build
-        run: |
-          python3 scripts/build.py
+      - name: Build calendars
+        run: python scripts/build.py
 
-      - name: Prepare public/ for Pages
+      - name: Prepare Pages files
         run: |
-          # Garante que a estrutura interna de dados exista
           mkdir -p public/data
-          
-          # Copia os arquivos gerados (.ics) para dentro de public/
           cp -v output/*.ics public/
-
-          # Copia os dados normalizados usados pelo frontend
           cp -v output/*.json public/
-          
-          # Copia os arquivos gerados (.csv) para dentro de public/data/
           cp -v data/*.csv public/data/
-          
-          # Verifica se o index.html realmente está no lugar certo
-          if [ ! -f public/index.html ]; then
-            echo "ERROR: public/index.html not found! Verifique se o arquivo existe localmente na pasta public/."
-            exit 1
-          fi
 
-      - name: Diagnostics - public/ listing
-        if: always()
-        run: |
-          echo "=== public/ listing ==="
-          ls -la public || true
-          echo "=== sizes ==="
-          du -sh public || true
-          echo "=== head of public/graduation.ics (if present) ==="
-          if [ -f public/graduation.ics ]; then head -n 40 public/graduation.ics; else echo "NO graduation.ics"; fi
-
-      - name: Commit updated CSVs and ICS (if any)
-        # Evita travar ou rodar em loop quando o gatilho for um push na main
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      - name: Commit generated files
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git add data/*.csv output/*.ics || true
+          git add data/*.csv output/*.ics output/*.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: automated sync and calendar build [ci skip]" || true
+            git commit -m "chore: sync calendars [ci skip]"
             git push origin HEAD:main
-            echo "Committed and pushed changes."
-          else
-            echo "No content changes to commit."
           fi
 
-      - name: Upload pages artifact (official)
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
-      - name: Deploy to GitHub Pages (official)
-        id: deploy
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
-      - name: Deployment summary
-        if: always()
-        run: |
-          echo "Deployment finished; check Settings → Pages → Deployments and site URL."

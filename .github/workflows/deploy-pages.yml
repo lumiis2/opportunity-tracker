@@ -32,12 +32,15 @@ jobs:
         run: python -m pip install -r requirements.txt pytest
 
       - name: Sync Google Sheets
+        id: sync
         run: python scripts/sync_sheets.py
 
       - name: Run tests
+        id: tests
         run: python -m pytest -q
 
       - name: Build calendars
+        id: build
         run: python scripts/build.py
 
       - name: Prepare Pages files
@@ -64,4 +67,14 @@ jobs:
           path: public
 
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Publishing summary
+        if: always()
+        env:
+          SYNC_STATUS: ${{ steps.sync.outcome }}
+          TEST_STATUS: ${{ steps.tests.outcome }}
+          BUILD_STATUS: ${{ steps.build.outcome }}
+          DEPLOY_STATUS: ${{ steps.deploy.outcome }}
+        run: python scripts/publishing_summary.py >> "$GITHUB_STEP_SUMMARY"

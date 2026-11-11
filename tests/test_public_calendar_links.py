@@ -80,3 +80,5 @@ def test_pages_workflow_publishes_generated_files():
     assert "cp -v data/*.csv public/data/" in workflow
     assert "cron: '0 6 * * 1'" in workflow
     assert "workflow_dispatch:" in workflow
+    assert "if: always()" in workflow
+    assert "python scripts/publishing_summary.py" in workflow

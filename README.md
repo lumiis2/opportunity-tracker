@@ -7,7 +7,7 @@
   ·
   <a href="https://github.com/lumiis2/opportunity-tracker/issues">Suggest or correct</a>
   ·
-  <a href="tutorials-and-info/%22How%20to%20Contribuite%3F%22.md">Contribution guide</a>
+  <a href="tutorials-and-info/How-to-Contribute.md">Contribution guide</a>
   ·
   <a href="README-pt.md">Português</a>
 </p>

@@ -1,6 +1,6 @@
 # Contributing
 
-First of all, thank you for considering contributing to the Opportunity Tracker! 
+First of all, thank you for considering contributing to the Opportunity Tracker!
 
 This project started from a simple frustration: amazing academic and professional opportunities are spread across dozens of websites, and many students only discover them after the application deadline has already passed.
 

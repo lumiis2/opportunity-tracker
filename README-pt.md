@@ -16,7 +16,12 @@
 
 ---
 
-## O que é o Opportunity Tracker?
+## Integrantes
+
+- **Luisa Lopes Carvalhaes**
+- **Mateus Faria Zaparoli Monteiro**
+
+## Sobre o sistema
 
 Oportunidades acadêmicas e profissionais incríveis existem aos milhares, mas
 ficam espalhadas pela internet — e muita gente só as encontra depois que o
@@ -130,17 +135,31 @@ Calendários ICS + opportunities.json + calendars.json
 Frontend estático no GitHub Pages
 ```
 
+## Tecnologias
+
 O projeto mantém uma stack pequena de propósito:
 
 - **Python** sincroniza os CSVs, normaliza oportunidades, valida os dados e gera ICS/JSON.
 - **HTML, CSS e JavaScript** renderizam o frontend estático sem framework.
-- **GitHub Actions** executa testes, gera os artefatos e publica o GitHub Pages toda segunda-feira ou manualmente.
+- **GitHub Actions** executa testes em Linux, macOS e Windows nos pushes e pull requests. O workflow de publicação gera os artefatos e publica o site nos pushes para main, toda segunda-feira ou manualmente.
 - **GitHub Pages** é a origem canônica das URLs públicas de assinatura.
+- **PyYAML e Requests** leem a configuração dos conjuntos de dados e baixam as abas CSV públicas.
+- **pytest** executa os testes Python. **pytest-cov e Coverage.py** medem a cobertura dos módulos de `src` e `scripts`.
+- **Playwright com pytest-playwright** executa os testes e2e no navegador contra um site temporário montado com CSVs controlados.
+- **Codecov** recebe o relatório XML de cobertura enviado pelo GitHub Actions.
 
 Os JSONs normalizados também funcionam como um contrato público simples:
 
 - [`calendars.json`](https://lumiis2.github.io/opportunity-tracker/calendars.json) descreve os calendários e suas contagens.
 - [`opportunities.json`](https://lumiis2.github.io/opportunity-tracker/opportunities.json) contém oportunidades e milestones normalizadas.
+
+## Uso de IA
+
+O Codex (OpenAI) foi consultado para interpretar os requisitos do trabalho,
+planejar cenários, fornecer exemplos de código de testes unitários e e2e e
+investigar falhas de CI e publicação. Os integrantes revisaram os exemplos
+utilizados, executaram os testes e realizaram os commits. O grupo é responsável
+pelo código final e pelos resultados.
 
 ## Executar o projeto completo localmente
 
@@ -165,6 +184,101 @@ python -m http.server 8000 --directory public
 
 Abra `http://localhost:8000`. Os botões de assinatura continuarão apontando
 para os calendários canônicos do GitHub Pages.
+
+## Execução dos testes
+
+O CI utiliza **Python 3.11**. Execute os comandos a seguir na raiz do repositório.
+
+Crie o ambiente virtual:
+
+```bash
+python -m venv .venv
+```
+
+Ative-o no Linux ou macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Ou no PowerShell do Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Instale as dependências de desenvolvimento e execute os testes unitários:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest tests/unit -q
+```
+
+Para executar a suíte Python completa, incluindo os testes existentes de
+componentes e integração:
+
+```bash
+python -m pytest tests -q
+```
+
+Meça a cobertura de linhas Python e gere os relatórios de terminal, XML e HTML:
+
+```bash
+python -m pytest tests --cov --cov-report=term-missing --cov-report=xml --cov-report=html
+```
+
+A medição inclui os módulos Python de `src` e `scripts`. O mínimo configurado é
+**80%**; um resultado abaixo desse limite faz o comando de cobertura falhar.
+Os relatórios gerados ficam em `coverage.xml` e `htmlcov/index.html`. Essa
+medição não inclui o JavaScript executado no navegador.
+
+Instale as dependências dos testes de navegador e o Chromium e execute os e2e:
+
+```bash
+python -m pip install -r requirements-e2e.txt
+python -m playwright install chromium
+python -m pytest e2e -q --browser chromium
+```
+
+Se a instalação do navegador no Linux indicar bibliotecas do sistema ausentes:
+
+```bash
+python -m playwright install --with-deps chromium
+```
+
+Para acompanhar a execução no navegador:
+
+```bash
+python -m pytest e2e -v --browser chromium --headed
+```
+
+Para parar na primeira falha e salvar evidências:
+
+```bash
+python -m pytest e2e -x -v --browser chromium --tracing retain-on-failure --screenshot only-on-failure
+```
+
+Os fixtures e2e criam CSVs controlados em uma pasta temporária, executam o build
+real e iniciam e encerram o servidor HTTP local automaticamente. A data e o
+fuso do navegador são fixos para reproduzir os próximos prazos. As requisições
+ao host público dos calendários são redirecionadas, somente durante os testes,
+aos arquivos locais do build; a suíte e2e não verifica a disponibilidade do
+GitHub Pages.
+
+O diretório de unitários define atualmente **54 funções de teste**. A
+parametrização gera mais casos executados. O diretório e2e define **cinco testes
+de navegador**. O GitHub Actions executa as suítes em Linux, macOS e Windows. O
+workflow de cobertura envia o relatório XML ao Codecov pelo job Linux.
+
+Últimas execuções de CI verificadas, em 19 de novembro de 2026:
+[Tests and coverage](https://github.com/lumiis2/opportunity-tracker/actions/runs/44594320839)
+e [Browser end-to-end tests](https://github.com/lumiis2/opportunity-tracker/actions/runs/44594320642).
+
+Os dois workflows concluíram com sucesso em Linux, macOS e Windows. Na
+verificação de 19/11/2026, o commit `e7ce307` apresentou **129 casos Python
+aprovados** e **92,98% de cobertura de linhas** (729 de 784 linhas), acima dos
+80% exigidos. Esses números se referem a esse commit:
+[relatório de cobertura](https://app.codecov.io/gh/lumiis2/opportunity-tracker/commit/e7ce30792ca817f3cf5253207fa97267a112a3b2) e [projeto no Codecov](https://app.codecov.io/gh/lumiis2/opportunity-tracker).
 
 ## Criar seu próprio fork
 

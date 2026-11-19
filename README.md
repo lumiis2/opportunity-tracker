@@ -14,7 +14,12 @@
 
 ---
 
-## What is the Opportunity Tracker?
+## Team members (Integrantes)
+
+- **Luisa**
+- **Mateus Faria Zaparoli Monteiro**
+
+## About the system (Sobre o sistema)
 
 Incredible academic and professional opportunities exist by the thousands, but they are scattered across the internet — and many people only find them after the deadline has passed.
 
@@ -112,17 +117,31 @@ ICS calendars + opportunities.json + calendars.json
 Static frontend on GitHub Pages
 ```
 
+## Technologies (Tecnologias)
+
 The repository intentionally uses a small stack:
 
 - **Python** synchronizes CSVs, normalizes opportunities, validates data, and generates ICS/JSON files.
 - **HTML, CSS, and JavaScript** render the static frontend without a framework.
-- **GitHub Actions** runs tests, builds the artifacts, and publishes GitHub Pages every Monday or on demand.
+- **GitHub Actions** runs tests on Linux, macOS and Windows for pushes and pull requests. The publication workflow builds and deploys the site on pushes to main, every Monday, or on demand.
 - **GitHub Pages** is the canonical host for public calendar subscription URLs.
+- **PyYAML and Requests** read the dataset configuration and download public CSV worksheets.
+- **pytest** runs the Python tests. **pytest-cov and Coverage.py** measure coverage of the Python modules in `src` and `scripts`.
+- **Playwright with pytest-playwright** runs browser end-to-end tests against a temporary site built from controlled CSV data.
+- **Codecov** receives the XML coverage report from GitHub Actions.
 
 The normalized JSON files also form a simple public data contract:
 
 - [`calendars.json`](https://lumiis2.github.io/opportunity-tracker/calendars.json) describes the published calendars and counts.
 - [`opportunities.json`](https://lumiis2.github.io/opportunity-tracker/opportunities.json) contains the normalized opportunities and milestones.
+
+## AI use (Uso de IA)
+
+Codex (OpenAI) was consulted to interpret the assignment requirements, plan test
+scenarios, provide code examples for unit and end-to-end tests, and investigate
+CI and deployment failures. The members reviewed the selected examples, ran the
+tests, and made the commits. The group is responsible for the final code and
+results.
 
 ## Run the complete project locally
 
@@ -146,6 +165,100 @@ python -m http.server 8000 --directory public
 ```
 
 Then open `http://localhost:8000`. Public subscription buttons will still point to the canonical GitHub Pages calendars.
+
+## Running tests (Execução dos testes)
+
+The CI uses **Python 3.11**. Run the following commands from the repository root.
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it on Linux or macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Or in Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install the development dependencies and run the unit tests:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest tests/unit -q
+```
+
+To run the complete Python suite, including the existing component and
+integration tests:
+
+```bash
+python -m pytest tests -q
+```
+
+Measure Python line coverage and generate terminal, XML and HTML reports:
+
+```bash
+python -m pytest tests --cov --cov-report=term-missing --cov-report=xml --cov-report=html
+```
+
+Coverage includes the Python modules in `src` and `scripts`. The configured
+minimum is **80%**; a result below that threshold fails the coverage command.
+The generated reports are `coverage.xml` and `htmlcov/index.html`. This
+measurement does not include JavaScript executed in the browser.
+
+Install the browser test dependencies and Chromium, then run the e2e suite:
+
+```bash
+python -m pip install -r requirements-e2e.txt
+python -m playwright install chromium
+python -m pytest e2e -q --browser chromium
+```
+
+If the Linux browser installation reports missing system libraries:
+
+```bash
+python -m playwright install --with-deps chromium
+```
+
+To watch the browser:
+
+```bash
+python -m pytest e2e -v --browser chromium --headed
+```
+
+To stop on the first failure and save evidence:
+
+```bash
+python -m pytest e2e -x -v --browser chromium --tracing retain-on-failure --screenshot only-on-failure
+```
+
+The e2e fixtures create controlled CSV data in a temporary directory, run the
+real build, and start and stop a local HTTP server automatically. They fix the
+browser date and timezone for reproducible upcoming dates. Calendar-host
+requests are redirected only during tests to the local build outputs; the e2e
+suite does not check GitHub Pages availability.
+
+The current unit directory defines **54 test functions**. Parameterization
+produces additional executed cases. The e2e directory defines **five browser
+tests**. GitHub Actions runs the suites on Linux, macOS and Windows. The
+coverage workflow uploads its XML report to Codecov from the Linux job.
+
+Latest verified CI runs, on 19 November 2026:
+[Tests and coverage](https://github.com/lumiis2/opportunity-tracker/actions/runs/44594320839)
+and [Browser end-to-end tests](https://github.com/lumiis2/opportunity-tracker/actions/runs/44594320642).
+
+Both workflows completed successfully on Linux, macOS and Windows. On
+19 November 2026, verification of commit `e7ce307` found **129 passing Python
+cases** and **92.98% line coverage** (729 of 784 lines), above the required 80%.
+These figures refer to that commit:
+[coverage report](https://app.codecov.io/gh/lumiis2/opportunity-tracker/commit/e7ce30792ca817f3cf5253207fa97267a112a3b2) and [Codecov project](https://app.codecov.io/gh/lumiis2/opportunity-tracker).
 
 ## Create your own fork
 

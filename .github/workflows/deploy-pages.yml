@@ -14,8 +14,13 @@ permissions:
   id-token: write
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      sync_status: ${{ steps.sync.outcome }}
+      test_status: ${{ steps.tests.outcome }}
+      build_status: ${{ steps.build.outcome }}
+      report_artifact_id: ${{ steps.report_inputs.outputs.artifact-id }}
 
     steps:
       - name: Checkout
@@ -66,15 +71,73 @@ jobs:
         with:
           path: public
 
+      - name: Upload publishing report inputs
+        id: report_inputs
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v7
+        with:
+          name: publishing-report-inputs
+          path: |
+            data/*.csv
+            output/calendars.json
+          retention-days: 1
+          if-no-files-found: ignore
+
+  deploy:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deploy
+        if: needs.build.result == 'success'
         uses: actions/deploy-pages@v5
+
+      - name: Checkout publishing report script
+        id: report_checkout
+        if: always()
+        uses: actions/checkout@v4
+
+      - name: Set up Python for report
+        if: always()
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Restore publishing report inputs
+        id: restore_report
+        if: always() && needs.build.outputs.report_artifact_id != ''
+        uses: actions/download-artifact@v8
+        with:
+          name: publishing-report-inputs
+          path: .
 
       - name: Publishing summary
         if: always()
         env:
-          SYNC_STATUS: ${{ steps.sync.outcome }}
-          TEST_STATUS: ${{ steps.tests.outcome }}
-          BUILD_STATUS: ${{ steps.build.outcome }}
+          SYNC_STATUS: ${{ needs.build.outputs.sync_status }}
+          TEST_STATUS: ${{ needs.build.outputs.test_status }}
+          BUILD_STATUS: ${{ needs.build.outputs.build_status }}
           DEPLOY_STATUS: ${{ steps.deploy.outcome }}
-        run: python scripts/publishing_summary.py >> "$GITHUB_STEP_SUMMARY"
+          REPORT_STATUS: ${{ steps.restore_report.outcome }}
+          REPORT_CHECKOUT_STATUS: ${{ steps.report_checkout.outcome }}
+        run: |
+          if [ "$REPORT_STATUS" = "success" ] && [ "$REPORT_CHECKOUT_STATUS" = "success" ]; then
+            python scripts/publishing_summary.py >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo "## Calendar publishing report"
+              echo ""
+              echo "Counts unavailable: publishing report inputs could not be restored."
+              echo ""
+              echo "- Sync: **$SYNC_STATUS**"
+              echo "- Tests: **$TEST_STATUS**"
+              echo "- Build: **$BUILD_STATUS**"
+              echo "- Deploy: **$DEPLOY_STATUS**"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi

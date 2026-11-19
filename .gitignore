@@ -40,3 +40,6 @@ public/data/*.csv
 # Misc
 *.log
 *.sqlite3
+
+# Playwright evidence
+test-results/

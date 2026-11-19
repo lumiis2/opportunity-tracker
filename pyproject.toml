@@ -7,7 +7,7 @@ name = "opportunity-calendar"
 version = "0.1.0"
 description = "Convert academic opportunity CSV files into ICS calendar files."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
   "pyyaml>=6.0",
   "requests>=2.0",
